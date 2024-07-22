@@ -28,3 +28,6 @@ icon.png
 # We don't distribute mods directly, we use manifest files
 coremods/
 mods/
+
+# Config files for mods that won't be included in finished packs
+config/worldedit
