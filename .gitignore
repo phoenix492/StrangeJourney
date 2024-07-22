@@ -1,1 +1,30 @@
-config/openloader/resources/Twilight\ Jappa\ Pack\ 1.0.0.zip
+# ARR files I do not have rights to and may not distribute
+config/openloader/resources/Twilight JAPPA Pack 1.0.0.zip
+
+# Various local and/or unused directories/files
+local/
+aes/
+modernfix/
+backups/
+quests_structures/
+rhino.local.properties
+shaderpacks/
+texturepacks/
+XaeroWaypoints*/
+XaeroWorldMap/
+saves/
+screenshots/
+usercache.json
+usernamecache.json
+logs/
+crash-reports/
+
+# We don't distribute options.txt, we use default options!
+options.txt
+
+# This is a PrismLauncher file
+icon.png
+
+# We don't distribute mods directly, we use manifest files
+coremods/
+mods/
