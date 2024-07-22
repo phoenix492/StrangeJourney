@@ -1,0 +1,598 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "the_challenge"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:block/campfire_fire"
+		}
+	}
+	id: "4A2B4848523F5B12"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&aBonus Points&r: Create a way to play all of them on demand."
+				""
+				"&dDouble Bonus Points&r: Include toggleable shuffle and looping features."
+				""
+				"&cTriple Bonus Points&r: Include all of the above as well as customizable playlists."
+			]
+			disable_toast: true
+			id: "29A9D8815CE33CAE"
+			subtitle: "Yes, even the garbage ones."
+			tasks: [
+				{
+					id: "6B5026257167B86E"
+					item: "minecraft:music_disc_13"
+					type: "item"
+				}
+				{
+					id: "110C8EC609F63A84"
+					item: "minecraft:music_disc_cat"
+					type: "item"
+				}
+				{
+					id: "72245B8CD2983583"
+					item: "minecraft:music_disc_blocks"
+					type: "item"
+				}
+				{
+					id: "35550998428A0228"
+					item: "minecraft:music_disc_chirp"
+					type: "item"
+				}
+				{
+					id: "32E57A3250F33E16"
+					item: "minecraft:music_disc_far"
+					type: "item"
+				}
+				{
+					id: "4CF263494E20E229"
+					item: "minecraft:music_disc_mall"
+					type: "item"
+				}
+				{
+					id: "5B863BEAF4852EF6"
+					item: "minecraft:music_disc_mellohi"
+					type: "item"
+				}
+				{
+					id: "51ECDF6D76365C29"
+					item: "minecraft:music_disc_stal"
+					type: "item"
+				}
+				{
+					id: "1DAD887B397680FF"
+					item: "minecraft:music_disc_strad"
+					type: "item"
+				}
+				{
+					id: "31AD53BF8E758995"
+					item: "minecraft:music_disc_ward"
+					type: "item"
+				}
+				{
+					id: "253F3DF3AD4969AA"
+					item: "minecraft:music_disc_11"
+					type: "item"
+				}
+				{
+					id: "7F957C45A45D46F3"
+					item: "minecraft:music_disc_wait"
+					type: "item"
+				}
+				{
+					id: "612549FD0D372DC4"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					id: "0A86EDB313AB407D"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+				{
+					id: "65958FDB5ADDE1E3"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+				{
+					id: "03FC4A0B9092B3F3"
+					item: "minecraft:music_disc_relic"
+					type: "item"
+				}
+				{
+					id: "3B6E9B8D03BCFBAD"
+					item: "blue_skies:population"
+					type: "item"
+				}
+				{
+					id: "4A623A41E49F3554"
+					item: "blue_skies:blinding_rage"
+					type: "item"
+				}
+				{
+					id: "47FAF9CC8D5F36EF"
+					item: "blue_skies:defying_starlight"
+					type: "item"
+				}
+				{
+					id: "4C135DB20DEA084C"
+					item: "blue_skies:venomous_encounter"
+					type: "item"
+				}
+				{
+					id: "1D2522E1426E5C80"
+					item: "aether:music_disc_aether_tune"
+					type: "item"
+				}
+				{
+					id: "66B4D618AADA5A08"
+					item: "aether:music_disc_ascending_dawn"
+					type: "item"
+				}
+				{
+					id: "6183C43BEDCA7C7D"
+					item: "lost_aether_content:music_disc_legacy"
+					type: "item"
+				}
+				{
+					id: "45FB3A32459EE30B"
+					item: "lost_aether_content:music_disc_sovereign_of_the_skies"
+					type: "item"
+				}
+				{
+					id: "4469101DA327726A"
+					item: "twilightforest:music_disc_thread"
+					type: "item"
+				}
+				{
+					id: "3265B735E55FD8E2"
+					item: "twilightforest:music_disc_findings"
+					type: "item"
+				}
+				{
+					id: "69A53A2E484E1089"
+					item: "twilightforest:music_disc_radiance"
+					type: "item"
+				}
+				{
+					id: "0C21F3A6C5AEBCF9"
+					item: "twilightforest:music_disc_steps"
+					type: "item"
+				}
+				{
+					id: "3F7DC8A0415CA36F"
+					item: "twilightforest:music_disc_motion"
+					type: "item"
+				}
+				{
+					id: "23479153215E3BA1"
+					item: "twilightforest:music_disc_wayfarer"
+					type: "item"
+				}
+				{
+					id: "6BF85AE1EE158B2D"
+					item: "twilightforest:music_disc_home"
+					type: "item"
+				}
+				{
+					id: "32478D9A0B43B611"
+					item: "twilightforest:music_disc_maker"
+					type: "item"
+				}
+				{
+					id: "7B67B9A2CDAF70A9"
+					item: "twilightforest:music_disc_superstitious"
+					type: "item"
+				}
+				{
+					id: "7CBE051749B85D09"
+					item: "undergarden:music_disc_mammoth"
+					type: "item"
+				}
+				{
+					id: "787A08568AA77891"
+					item: "undergarden:music_disc_limax_maximus"
+					type: "item"
+				}
+				{
+					id: "4E2D99755ADC9BC6"
+					item: "undergarden:music_disc_relict"
+					type: "item"
+				}
+				{
+					id: "1F38D2791C709E3B"
+					item: "undergarden:music_disc_gloomper_anthem"
+					type: "item"
+				}
+				{
+					id: "6913655689A63415"
+					item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+					type: "item"
+				}
+				{
+					id: "5910DFA3544D82B5"
+					item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+					type: "item"
+				}
+				{
+					id: "648EBDFE88E56A70"
+					item: "the_bumblezone:music_disc_la_bee_da_loca"
+					type: "item"
+				}
+				{
+					id: "0A3F168015F1CED4"
+					item: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees"
+					type: "item"
+				}
+				{
+					id: "4F78601837E5B084"
+					item: "the_bumblezone:music_disc_bee_ware_of_the_temple"
+					type: "item"
+				}
+				{
+					id: "7D5C4D3F520B4F22"
+					item: "the_bumblezone:music_disc_knowing_renren"
+					type: "item"
+				}
+				{
+					id: "0E54883BA422504E"
+					item: "the_bumblezone:music_disc_radiance_renren"
+					type: "item"
+				}
+				{
+					id: "07AFA0E1D66A2B68"
+					item: "the_bumblezone:music_disc_life_renren"
+					type: "item"
+				}
+				{
+					id: "743E3F9D482AF278"
+					item: "the_bumblezone:music_disc_drowning_in_despair"
+					type: "item"
+				}
+				{
+					id: "51BFABA0B357ECF1"
+					item: "the_bumblezone:music_disc_a_last_first_last"
+					type: "item"
+				}
+				{
+					id: "52E74BCDFA75FABE"
+					item: "alexsmobs:music_disc_thime"
+					type: "item"
+				}
+				{
+					id: "4ECCFB43D5185F3E"
+					item: "alexsmobs:music_disc_daze"
+					type: "item"
+				}
+				{
+					id: "7A3E5A88264E558E"
+					item: "quark:music_disc_drips"
+					type: "item"
+				}
+				{
+					id: "6B98817265B64918"
+					item: "quark:music_disc_ocean"
+					type: "item"
+				}
+				{
+					id: "295923601F11E9BD"
+					item: "quark:music_disc_rain"
+					type: "item"
+				}
+				{
+					id: "76927456AF0A9E41"
+					item: "quark:music_disc_wind"
+					type: "item"
+				}
+				{
+					id: "4954B99DE0E72272"
+					item: "quark:music_disc_fire"
+					type: "item"
+				}
+				{
+					id: "5C434E7A07F0469C"
+					item: "quark:music_disc_clock"
+					type: "item"
+				}
+				{
+					id: "3402B6BFF1E08764"
+					item: "quark:music_disc_crickets"
+					type: "item"
+				}
+				{
+					id: "320C6D2B5F25A9C3"
+					item: "quark:music_disc_chatter"
+					type: "item"
+				}
+				{
+					id: "54AF241E5A7CC6E4"
+					item: "quark:music_disc_endermosh"
+					type: "item"
+				}
+				{
+					id: "649C37FC5E5E2D3A"
+					item: "mowziesmobs:music_disc_petiole"
+					type: "item"
+				}
+				{
+					id: "19EE679B7C40F1BA"
+					item: "alexscaves:music_disc_fusion"
+					type: "item"
+				}
+				{
+					id: "66EA50FF356FAB53"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					id: "68B5621D0F1B688D"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "2544F3D3F7E970E4"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					id: "25E43370C6F3BDE9"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					id: "0C58C48F53931970"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					id: "01C4BBFD3934D2D6"
+					item: "cataclysm:music_disc_ancient_remnant"
+					type: "item"
+				}
+			]
+			title: "The Toolbox: Disc Junkie"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&aBonus Points&r: Connect them all via teleportation (such as &9Stargates&r)."
+				""
+				"&dDouble Bonus Points&r: Connect them all via non-teleportation travel (such as by rail)."
+			]
+			id: "03475F5F8BF70AA7"
+			subtitle: "These have all been made larger and rarer."
+			tasks: [
+				{
+					biome: "alexscaves:forlorn_hollows"
+					id: "01F70D0336E4FC20"
+					title: "Explore the Forlorn Hollows"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:abyssal_chasm"
+					id: "29D8379C75CEF7E6"
+					title: "Explore the Abyssal Chasm"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:magnetic_caves"
+					id: "728DCFA5BE8158BE"
+					title: "Explore the Magnetic Caves"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:primordial_caves"
+					id: "12165082AEB7D02B"
+					title: "Explore the Primordial Caves"
+					type: "biome"
+				}
+				{
+					biome: "alexscaves:toxic_caves"
+					id: "094DF4658BE10AAC"
+					title: "Explore the Toxic Caves"
+					type: "biome"
+				}
+			]
+			title: "The Journey: Well-Traveled Spelunker"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50DD286236C6D5BE"]
+			id: "1A816CBB34B75E07"
+			subtitle: "The flame reignites, and a new kingdom is born."
+			tasks: [{
+				id: "447B34B99A31AC1A"
+				title: "Complete The Hunt"
+				type: "checkmark"
+			}]
+			title: "The Hunt: From the Ashes"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "1F45DC501F4C4DE5"
+			subtitle: "Un-bee-lievable!"
+			tasks: [
+				{
+					id: "4260B13C53F99FDB"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_raging"
+						tag: {
+							abilityUseRemaining: 28
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "193F12D073818F0B"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_knowing"
+						tag: {
+							abilityUseRemaining: 1200
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18EBF77359E7EE10"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_calming"
+						tag: {
+							abilityUseRemaining: 600
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "492BE43B8E93ABFB"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_life"
+						tag: {
+							abilityUseRemaining: 1000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D9F39F0EA77DC28"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_radiance"
+						tag: {
+							abilityUseRemaining: 4800
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07716385C15D1FCA"
+					item: {
+						Count: 1
+						id: "the_bumblezone:essence_continuity"
+						tag: {
+							abilityUseRemaining: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Toolbox: The Powers That Bee"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26C5DAF0A1AF2374"]
+			description: [""]
+			id: "7223CE51120342AE"
+			subtitle: "You've seen it all."
+			tasks: [{
+				id: "21FD2C75303BC207"
+				title: "Complete The Journey"
+				type: "checkmark"
+			}]
+			title: "The Journey: Journey's End"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7223CE51120342AE"
+				"1A816CBB34B75E07"
+				"3E9543A61212F05D"
+			]
+			description: ["Seriously, what's wrong with you? I mean, thanks for playing, but you better have not rushed through everything. And if you did, go build or something. Enjoy your time, relax and spend some time making this world great."]
+			id: "5CABE6B4226B0825"
+			subtitle: "Another begins."
+			tasks: [{
+				id: "2FC886A003E6912E"
+				title: "You can build now!"
+				type: "checkmark"
+			}]
+			title: "One Adventure Ends"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This is actually something challenging vanilla players do regularly. A horse inherrits three different stats from its parents with some random variation. &9Health&r, &9Speed&r, and &9Jump Height&r. "
+				""
+				"The best possible values are:"
+				"- &a30 Health&r &7(15 hearts)&r"
+				"- &a0.3375 Speed&r &7(14.23 blocks/second)&r"
+				"- &a1.0 Jump Strength&r &7(5.25 blocks)&r"
+				""
+				"My Suggestion: Automate the breeding, scanning of offspring's stats, and selection of parents using one of the many mods installed. "
+			]
+			id: "726CBE3735A440CD"
+			rewards: [{
+				id: "3E9A0677463D3F76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D6D3E4B4E092A08"
+				title: "Breed a horse with perfect stats"
+				type: "custom"
+			}]
+			title: "The Beastmaster: Equestrian Perfection"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"A lot of players don't know this but &9llamas&r have varying &astrength&r stats."
+				""
+				"For each point of strength, llamas get &a3 extr&ra storage slots up to a maximum of &a15 slots at 5 strength&r."
+				""
+				"Llama's strength is determined at birth to from 1 to the stronger parent's strength, then given a 3% chance to be further increased by 1 after this is rolled. "
+				""
+				"This means each successive point of strength is &charder&r to obtain, and breeding with a strength 4 Llama has a mere &c0.75%&r chance to procude a 5 strength Llama."
+				""
+				"I'd reccommend finding a way to automate this. Good luck!"
+			]
+			id: "09B941AE8CCBFE57"
+			rewards: [{
+				id: "6CB9D5BC397D2393"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "I'm sorry."
+			tasks: [{
+				id: "2A4483750CE965A2"
+				title: "Find or breed a Llama with maximum strength (15 inventory slots)"
+				type: "custom"
+			}]
+			title: "The Beastmaster: Caravanning Perfection"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "3E9543A61212F05D"
+			subtitle: "You've become the very best, like no one ever was."
+			tasks: [{
+				id: "3F53A6E482F724FA"
+				title: "Complete The Beastmaster"
+				type: "checkmark"
+			}]
+			title: "The Beastmaster: Caught Them All"
+			x: 5.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["For those looking for one."]
+	title: "The Challenge"
+}

@@ -1,0 +1,783 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "heart"
+	default_quest_size: 2.0d
+	disable_toast: true
+	filename: "the_hunt"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "50DD286236C6D5BE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "5EA8239A4EADE24C"
+			rewards: [{
+				id: "1DD36D737911E2BB"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: "twilightforest:naga_trophy"
+				id: "4B4FE10E1D8313C0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Naga"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EA8239A4EADE24C"]
+			disable_toast: true
+			icon: "twilightforest:lich_trophy"
+			id: "090AD7220EFCADCE"
+			rewards: [{
+				id: "21F34A59756255B7"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "34DAA5B1C4ECF370"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Twilight Lich"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4F4496944A203487"
+				"6C50D9D4BBDF867F"
+			]
+			dependency_requirement: "one_completed"
+			disable_toast: true
+			id: "6E8EB647D9CC21F7"
+			rewards: [{
+				id: "3DCF951CE9C87B9B"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "667CB9460BED97A7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Hydra"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["090AD7220EFCADCE"]
+			description: ["Each kill on a boss in this quest unlocks the quest for the next boss in progression. &aYou don't actually have to fight all 3 to complete the following quests&r."]
+			id: "6C50D9D4BBDF867F"
+			rewards: [{
+				id: "1BBFA629CF6D5838"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [
+				{
+					disable_toast: true
+					entity: "twilightforest:knight_phantom"
+					icon: "twilightforest:knight_phantom_trophy"
+					id: "39942DC7071DB972"
+					type: "kill"
+					value: 6L
+				}
+				{
+					entity: "twilightforest:minoshroom"
+					icon: "twilightforest:minoshroom_trophy"
+					id: "4F4496944A203487"
+					type: "kill"
+					value: 1L
+				}
+				{
+					disable_toast: true
+					entity: "twilightforest:alpha_yeti"
+					icon: "twilightforest:alpha_yeti_trophy"
+					id: "696D481EEAF3BC45"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "The Gatekeepers"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"39942DC7071DB972"
+				"6C50D9D4BBDF867F"
+			]
+			id: "1F768FA027A511C4"
+			rewards: [{
+				id: "5E36D3A7175D57E7"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "32F62A93EA52BB18"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ur-Ghast"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"696D481EEAF3BC45"
+				"6C50D9D4BBDF867F"
+			]
+			dependency_requirement: "one_completed"
+			id: "0F59DF369E0C92FF"
+			rewards: [{
+				id: "26678F683B4B3E6A"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				disable_toast: true
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "5D8BBFED4443A51E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Snow Queen"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["This modpack uses the &eTrue Ending&r datapack to make the Ender Dragon fight a little more special and climactic than usual. Have fun!"]
+			id: "5B838B6303DF54A6"
+			rewards: [{
+				id: "7DB4F564211D0921"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			subtitle: "It's cooler I promise."
+			tasks: [{
+				disable_toast: true
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "7E42DB18C24140A7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ender Dragon"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "0E87033959F1E0BF"
+			rewards: [{
+				id: "7B3415B7AA25A0E7"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "35A8AB1ED5801EB8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Wither"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon: "aether:sentry_stone"
+			id: "37B60260B81846FC"
+			rewards: [{
+				id: "5DF26EF4381F6354"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:slider"
+				icon: "aether:sentry_stone"
+				id: "415BAC51DFA7E1DC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Slider"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37B60260B81846FC"]
+			icon: "aether:light_angelic_stone"
+			id: "53875EE8EA04C033"
+			rewards: [{
+				id: "3D4515C520B20C86"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "4268173F6C383428"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Valkyrie Queen"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53875EE8EA04C033"]
+			icon: "aether:light_hellfire_stone"
+			id: "28620BFFE5849171"
+			rewards: [{
+				id: "71611ECB397A14E5"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "aether:light_hellfire_stone"
+				id: "528B5572DA7DF487"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Sun Spirit"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["28620BFFE5849171"]
+			icon: "lost_aether_content:light_gale_stone"
+			id: "74B6BB1D4592D797"
+			rewards: [{
+				id: "37B864758C80D89D"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "lost_aether_content:aerwhale_king"
+				icon: "lost_aether_content:light_gale_stone"
+				id: "2C93819E2F556B09"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Aerwhale King"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["660049BC73D3CFD3"]
+			icon: {
+				Count: 1
+				id: "blue_skies:arachnarch_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "gold"
+					}
+				}
+			}
+			id: "5BEE6057E7F6AFF3"
+			rewards: [{
+				id: "0C6118F5CE1E5D22"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				icon: {
+					Count: 1
+					id: "blue_skies:loot_bag_arachnarch"
+					tag: {
+						LootTable: "blue_skies:loot_bags/arachnarch/common"
+						Rarity: 0
+					}
+				}
+				id: "1AF063FB68EA7540"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Arachnarch"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "blue_skies:alchemist_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "gold"
+					}
+				}
+			}
+			id: "660049BC73D3CFD3"
+			rewards: [{
+				id: "6F464E6E4851993F"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				icon: {
+					Count: 1
+					id: "blue_skies:loot_bag_alchemist"
+					tag: {
+						LootTable: "blue_skies:loot_bags/alchemist/common"
+						Rarity: 0
+					}
+				}
+				id: "70994212D275E206"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Alchemist"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "blue_skies:summoner_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "gold"
+					}
+				}
+			}
+			id: "32960A1FD6847B55"
+			rewards: [{
+				id: "05386DCE6A9DE739"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: {
+					Count: 1
+					id: "blue_skies:loot_bag_summoner"
+					tag: {
+						LootTable: "blue_skies:loot_bags/summoner/common"
+						Rarity: 0
+					}
+				}
+				id: "21974679644319C4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Summoner"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["32960A1FD6847B55"]
+			icon: {
+				Count: 1
+				id: "blue_skies:starlit_crusher_trophy"
+				tag: {
+					BlockStateTag: {
+						tier: "gold"
+					}
+				}
+			}
+			id: "79759C85171BF3F5"
+			rewards: [{
+				id: "65B0AC451A1125FE"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1
+					id: "blue_skies:loot_bag_starlit_crusher"
+					tag: {
+						LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+						Rarity: 0
+					}
+				}
+				id: "63A5F70082026882"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Starlit Crusher"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"I've adjusted the Wither Storm fight to be a much shorter, more condensed experience since you'll be prepared ahead of time. &cEvolution speed is set to max, and the starter phases have been skipped&r."
+				""
+				"You'll find it ready to fight in &5DIMENSION HERE&r. No structure nessecary, just make sure you're absolutely ready before you head in."
+				""
+				"Good luck!"
+			]
+			icon: "minecraft:command_block"
+			id: "093E5B5E124B8A57"
+			rewards: [{
+				id: "06372E4DDB108985"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			subtitle: "Don't worry, it's been adjusted."
+			tasks: [{
+				entity: "witherstormmod:wither_storm"
+				icon: "witherstormmod:withered_nether_star"
+				id: "6298D0984CCAF241"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Wither Storm"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			icon: "the_bumblezone:luminescent_wax_node_white"
+			id: "5D869772A08FDB2B"
+			rewards: [{
+				id: "1C3BD37CCB4058A5"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "the_bumblezone:cosmic_crystal_entity"
+				icon: "the_bumblezone:luminescent_wax_node_white"
+				id: "3C7F7F794ECA9AAE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Cosmic Crystal Entity"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Tip: I highly suggest &conly attacking the head&r."
+				""
+				"If you mess up bad enough, you'll see why the objective is actually to pick up its eye (which it drops) rather than killing &oone&r."
+			]
+			id: "7416FA726544C2F4"
+			rewards: [{
+				id: "5062C7F04AF89F55"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DD50C338EF567A3"
+				item: "alexsmobs:void_worm_eye"
+				type: "item"
+			}]
+			title: "The Void Worm"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "18908731C4176090"
+			rewards: [
+				{
+					id: "2F1C65F95E1B5771"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "7E7C3E8DA25F1D93"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "53D638FBEAE6F497"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			tasks: [{
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/mob_effect/bad_omen.png"
+					}
+				}
+				id: "0D3BDDEC61103464"
+				stat: "minecraft:raid_win"
+				title: "Win: 1x Raid"
+				type: "stat"
+				value: 1
+			}]
+			title: "The Illager Raid"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "217F55B9B042716E"
+			rewards: [{
+				id: "177EAD893DF75D8F"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "3FA4B5A5CFC8D91E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Sunbird"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "479E77B0763564A2"
+			rewards: [{
+				id: "79F8F5265AC676E4"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "16B0D34FEA5DDB7E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ferrous Wroughtnaut"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			id: "4BC07D72775D285C"
+			rewards: [{
+				id: "784B579BF3C5F0CE"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "332C6838F2F544AC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Frostmaw"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "02235FDDEDDCB598"
+			rewards: [{
+				id: "70C780C6364EE248"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "235DD1C8B2510963"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Netherite Monstrosity"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			icon: "cataclysm:gauntlet_of_guard"
+			id: "56CD4DC44F511199"
+			rewards: [{
+				id: "75951342C3DADB9A"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "590810F6F93A85AD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ender Guardian"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "4ACD18C395C8C59D"
+			rewards: [{
+				id: "56CF983EBA603141"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:witherite_block"
+				id: "0FCC315CBC30877E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Harbinger"
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			id: "6824187290ECBE93"
+			rewards: [{
+				id: "41D1515EFC080896"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignitium_ingot"
+				id: "6618A5394D264EE7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Warrior of Flame"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "04D70BB9839899B5"
+			rewards: [{
+				id: "2DC6DCAE05DF7DA7"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:tidal_claws"
+				id: "53A8B8B0B27AEE2A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Leviathan"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			icon: "cataclysm:ancient_metal_block"
+			id: "24327736187EEC49"
+			rewards: [{
+				id: "3C6A0D3B7A0DA2DF"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:ancient_metal_block"
+				id: "12FE1C1B0C43A737"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ancient Remnant"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "1E8678B3DC8AC928"
+			rewards: [{
+				id: "5310C692FEA61416"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:tectonic_shard"
+				id: "229D99116D5D525E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Luxtructosaurus"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			id: "74D6C5A76012A3E7"
+			rewards: [{
+				id: "012FD6F2B916BE9F"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:necronomicon_spell_book"
+					tag: {
+						ISBEnhance: "irons_spellbooks:raise_dead"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blood_step"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 2
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "irons_spellbooks:blaze_storm"
+									index: 3
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				id: "1F70C08092AE6FC8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Dead King"
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Kill large monsters, get hearts."]
+	title: "The Hunt"
+}

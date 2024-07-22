@@ -1,0 +1,27 @@
+{
+	"replace": false,
+	"values":
+	[
+		"twilightforest:highlands",
+		"twilightforest:lake",
+		"twilightforest:swamp",
+		"twilightforest:dense_forest",
+		"twilightforest:stream",
+		"twilightforest:final_plateau",
+		"twilightforest:glacier",
+		"twilightforest:enchanted_forest",
+		"twilightforest:snowy_forest",
+		"twilightforest:spooky_forest",
+		"twilightforest:dark_forest",
+		"twilightforest:oak_savannah",
+		"twilightforest:thornlands",
+		"twilightforest:forest",
+		"twilightforest:clearing",
+		"twilightforest:mushroom_forest",
+		"twilightforest:underground",
+		"twilightforest:dark_forest_center",		
+		"twilightforest:dense_mushroom_forest",
+		"twilightforest:fire_swamp",
+		"twilightforest:firefly_forest"
+	]
+}

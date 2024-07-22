@@ -1,0 +1,29 @@
+{
+	id: "246C1469EE282A1B"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "domesticationinnovation:pet_bed_white" }
+		{ item: "domesticationinnovation:pet_bed_orange" }
+		{ item: "domesticationinnovation:pet_bed_magenta" }
+		{ item: "domesticationinnovation:pet_bed_light_blue" }
+		{ item: "domesticationinnovation:pet_bed_yellow" }
+		{ item: "domesticationinnovation:pet_bed_lime" }
+		{ item: "domesticationinnovation:pet_bed_pink" }
+		{ item: "domesticationinnovation:pet_bed_gray" }
+		{ item: "domesticationinnovation:pet_bed_light_gray" }
+		{ item: "domesticationinnovation:pet_bed_cyan" }
+		{ item: "domesticationinnovation:pet_bed_purple" }
+		{ item: "domesticationinnovation:pet_bed_blue" }
+		{ item: "domesticationinnovation:pet_bed_brown" }
+		{ item: "domesticationinnovation:pet_bed_green" }
+		{ item: "domesticationinnovation:pet_bed_red" }
+		{ item: "domesticationinnovation:pet_bed_black" }
+		{
+			icon: "minecraft:cobweb"
+			title: "Pass"
+			type: "custom"
+		}
+	]
+	title: "Optional Pet Bed"
+}

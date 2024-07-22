@@ -1,0 +1,17 @@
+{
+	"name": "solar_system.sgjourney.chulak",
+	"symbols": "sgjourney:chulak",
+	"symbol_prefix": 1,
+	"extragalactic_address": {"address": [1, 9, 14, 21, 17, 3, 29], "randomizable": true},
+	"addresses":
+	[
+		{"galaxy": "strangejourney:lepogearian", "address": {"address": [1, 1, 1, 1, 1, 1], "randomizable": true}}
+	],
+
+	"point_of_origin": "sgjourney:chulak",
+
+	"dimensions":
+	[
+		"sgjourney:chulak"
+	]
+}

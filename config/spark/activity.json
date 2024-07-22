@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Phoenix492",
+      "uniqueId": "9d5ff129-6741-4b23-8a70-8ab597078b7e"
+    },
+    "time": 1721581973614,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5AU4l0EHSH"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Phoenix492",
+      "uniqueId": "9d5ff129-6741-4b23-8a70-8ab597078b7e"
+    },
+    "time": 1720678709147,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/IgQbDm1rNg"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Phoenix492",
+      "uniqueId": "9d5ff129-6741-4b23-8a70-8ab597078b7e"
+    },
+    "time": 1720678035038,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5IwYZXmj3J"
+    }
+  }
+]

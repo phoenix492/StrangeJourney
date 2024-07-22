@@ -1,0 +1,76 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_factory"
+	group: ""
+	icon: "alexscaves:nuclear_furnace_component"
+	id: "22A1CCC9653B2093"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Unlike the name and your &9preconceptions&r may suggest, this chapter &cisn't&r just about power producing and consuming blocks (though there are plenty)."
+				""
+				"It's about all manner of weird and wonderful &amultiblocks, machines, strange contraptions&r and anything you might place to do something functional in the world."
+			]
+			id: "318CA4F7111CEAE6"
+			rewards: [{
+				id: "08A5B8E6BAB623AC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Rag-tag, transcendent, slapstick."
+			tasks: [{
+				id: "1CBCA8D31B4B587D"
+				title: "Intro"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Made using components from the &9Toxic Caves&r biome from &eAlex's Caves&r, the &9Nuclear Furnace&r is an &aextremely quick&r method of blast smelting items that requires &9Uranium Rods&r to operate. "
+				""
+				"As rods are spent, &9Nuclear Waste&r will &cbuild up&r in the furnace causing it to &cheat up&r. This will need to be removed using &9Metal Barrels&r which will turn into &9Waste Drums&r, which are difficult to dispose of due to their tendency to &cexplode&r into a &cradioactive cloud&r when destroyed."
+				""
+				"The furnace also gets &afaster&r with increased heat/waste-buildup, so it's a balancing act of the &crisk&r of increasing heat versus the &areward&r of faster smelting."
+				""
+				"Oh! And if it builds up too much heat, it &cexplodes&r in a giant, radioactive fireball. "
+			]
+			id: "0CD07F83ABA2881D"
+			rewards: [
+				{
+					count: 32
+					id: "2AF7AD2A59649A52"
+					item: "alexscaves:uranium"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6B3FE5A912AA302D"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "11E8CBA4E3613AC2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "How confident are you with logistics?"
+			tasks: [{
+				count: 8L
+				id: "5470D6E1C69EE882"
+				item: { Count: 8, id: "alexscaves:nuclear_furnace_component" }
+				type: "item"
+			}]
+			title: "The Nuclear Furnace"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Machinery, catharsis, technology."]
+	title: "The Factory"
+}

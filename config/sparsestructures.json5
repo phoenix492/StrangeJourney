@@ -1,0 +1,57 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+{
+  // this is the main spread factor (default is 2)
+  //
+  // tips : a spread factor can be a decimal number (such as 1.5)
+  //        a spread factor of 1 means all structure's placement are not modified (useful if you want to use only custom spread factors)
+  //        a spread factor above 1 means all structures are rarer
+  //        a spread factor below 1 means all structure are more common
+  "spreadFactor": 2,
+
+  // this is a list of custom spread factors
+  "customSpreadFactors": [
+    // example of the mansion being doubled in rarity (the mod's default)
+    // {
+    //    "structure": "minecraft:mansion",
+    //    "factor": 2
+    // },
+    // add the structures you want to modify in the format:
+    // {
+    //     "structure": "namespace:structure_name",
+    //     "factor": number
+    // },
+    // where "structure" is a structure_set or the name of a structure
+    // /!\ if you put the name of a structure, all structures in its set will be modified
+    // (example : "minecraft:village_plains" will modify all structures in the "villages" set)
+    // see https://minecraft.wiki/w/Tutorials/Custom_structures#Structure_Set for more info
+    //
+    // tip : the same spread factors rules apply here
+
+    // Paraglider Statues, I should REALLY disable these but lazy
+    { "structure": "paraglider:nether_horned_statue", "factor": 200 },
+    { "structure": "paraglider:tarrey_town_goddess_statue", "factor": 200 },
+    { "structure": "paraglider:underground_horned_statue", "factor": 200 },
+
+    // SGJourney stargate structures, otherwise the mod breaks them
+    { "structure": "sgjourney:stargate/milky_way/buried/buried_stargate", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/buried/buried_stargate_desert", "factor": 1 },
+    { "structure": "sgjourney:stargate/universe/pedestal/universe_stargate_pedestal_end", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_badlands", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_desert", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_jungle", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_mushroom", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_snow", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_nether", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_chulak", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_cavum_tenebrae", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/pedestal/stargate_pedestal_glacio", "factor": 1 },
+    { "structure": "strangejourney:stargate/pegasus/pedestal/stargate_pedestal_aether", "factor": 1 },
+    { "structure": "strangejourney:stargate/pegasus/pedestal/stargate_pedestal_undergarden", "factor": 1 },
+    { "structure": "strangejourney:stargate/milky_way/pedestal/stargate_pedestal_bumblezone", "factor": 1 },
+    { "structure": "sgjourney:stargate/milky_way/temple/abydos_pyramid", "factor": 1 },
+    { "structure": "sgjourney:stargate/pegasus/outpost/lantean_outpost_ocean", "factor": 1 },
+    { "structure": "sgjourney:stargate/pegasus/pegasus_stargate", "factor": 1 },
+    { "structure": "sgjourney:stargate/universe/destiny", "factor": 1 }
+  ]
+}

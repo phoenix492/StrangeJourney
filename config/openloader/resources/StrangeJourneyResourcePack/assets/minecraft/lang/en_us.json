@@ -1,0 +1,12 @@
+{
+	"galaxy.strangejourney.lepogearian": "Lepogearian",
+	"item.kubejs.wooden_panel": "Wooden Panel",
+	"item.kubejs.stone_panel": "Stone Panel",
+	"entity.minecraft.villager.stargazer": "Stargazer",
+	"entity.minecraft.villager.wrangler": "Wrangler",
+	"entity.minecraft.villager.shoveler": "Shoveler",
+	"entity.minecraft.villager.summoner": "Summoner",
+	"entity.minecraft.villager.alchemist": "Alchemist",
+	"entity.minecraft.villager.archeologist": "Archeologist",
+	"entity.minecraft.villager.animal_tamer": "Animal Tamer"
+}

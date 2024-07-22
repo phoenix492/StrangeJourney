@@ -1,0 +1,14 @@
+{
+	"name": "solar_system.sgjourney.othala",
+	"symbols": "sgjourney:othala",
+	"symbol_prefix": 10,
+	"extragalactic_address": {"address": [10, 26, 22, 15, 32, 2, 8], "randomizable": true},
+	"addresses":
+	[
+	],
+
+	"point_of_origin": "sgjourney:othala",
+
+	"dimensions":
+	[]
+}

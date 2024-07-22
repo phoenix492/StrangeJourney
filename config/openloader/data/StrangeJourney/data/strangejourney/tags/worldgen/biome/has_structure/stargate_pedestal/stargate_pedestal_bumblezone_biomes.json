@@ -1,0 +1,14 @@
+{
+	"replace": false,
+	"values":
+	[
+		{"id": "the_bumblezone:crystal_canyon", "required":false},
+		{"id": "the_bumblezone:floral_meadow", "required":false},
+		{"id": "the_bumblezone:hive_pillar", "required":false},
+		{"id": "the_bumblezone:hive_wall", "required":false},
+		{"id": "the_bumblezone:howling_constructs", "required":false},
+		{"id": "the_bumblezone:pollinated_fields", "required":false},
+		{"id": "the_bumblezone:pollinated_pillar", "required":false},
+		{"id": "the_bumblezone:sugar_water_floor", "required":false}
+	]
+}

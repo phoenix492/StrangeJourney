@@ -1,0 +1,16 @@
+
+["Shield mechanics settings"]
+	#List of shield items and their damage values. Start the game once to fill these entries with all modded shields automatically. Format: Shield name id;shield damage reduction on block; shield passive damage reduction when just held.E.g. default: ["minecraft:shield;65;15"] this give the minecraft shield 65% damage reduction on block, and 15% passive damage reduction when not blocking but held.To put multiple values seperate them by commas like this:  ["minecraft:shield;65;15", "minecraft:shield;65;15"] 
+	shields = ["lost_aether_content:gravitite_shield;66;23", "alexsmobs:shield_of_the_deep;64;15", "undergarden:cloggrum_shield;68;18", "blue_skies:spike_shield;72;17", "minecraft:shield;65;15", "lost_aether_content:shield_of_emile;70;21", "lost_aether_content:zanite_shield;66;18", "alexsmobs:skelewag_sword;70;12", "blue_skies:moonstone_shield;67;16", "twilightforest:knightmetal_shield;68;19", "the_bumblezone:honey_crystal_shield;53;10", "cataclysm:bulwark_of_the_flame;50;10", "alexscaves:resistor_shield;67;22"]
+	#Should the mechanic changes only affect players
+	playerOnly = false
+	#Should blocking with a shield set it on cooldown(players only), values are in ticks. 20 ticks = 1 sec
+	#Range: 0 ~ 100
+	blockCooldown = 5
+	#Maximum percent of damage allowed to be blocked. Default:85
+	#Range: 0 ~ 100
+	maxblockdamagereduction = 75
+	#Maximum percent of damage reduction while holding a shield(not blocking). Default:25
+	#Range: 0 ~ 100
+	maxpassivedamagereduction = 15
+

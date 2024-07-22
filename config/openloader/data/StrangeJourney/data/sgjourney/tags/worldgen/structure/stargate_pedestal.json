@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"strangejourney:stargate/pegasus/pedestal/stargate_pedestal_aether",
+		"strangejourney:stargate/pegasus/pedestal/stargate_pedestal_undergarden",
+		"strangejourney:stargate/milky_way/pedestal/stargate_pedestal_bumblezone"
+	]
+}

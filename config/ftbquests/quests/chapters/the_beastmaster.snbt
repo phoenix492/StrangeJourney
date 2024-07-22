@@ -1,0 +1,413 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beastmaster"
+	group: ""
+	icon: "domesticationinnovation:collar_tag"
+	id: "420CCD2C1F470196"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7AA87E12660416B6"]
+			id: "1F26B80AFC903D14"
+			rewards: [{
+				id: "3F32C1E21A267308"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "52F4C2FB06FFB2F8"
+				item: "domesticationinnovation:collar_tag"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AA87E12660416B6"]
+			description: [
+				"Place one of your tamed mobs onto a &9Pet Bed&r and should the worst come to pass, your departed friend will &arespawn the following dawn&r at its bed."
+				""
+				"Most of the following quests actually give you the option of grabbing a &afree&r pet bed once you tame a mob, just to save you a bit of time."
+			]
+			id: "46B5370341B9E71E"
+			rewards: [{
+				id: "33C8BB4812C2FAB6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "ΩK-Class \"End-of-Death\" Scenario"
+			tasks: [{
+				id: "5A6F0D593420A72C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "domesticationinnovation:pet_beds"
+					}
+				}
+				title: "Pet Bed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AA87E12660416B6"]
+			description: ["The &9Wayward Latern&r provides a place for pets currently following the player to &ateleport back to if they ever become unloaded&r. This way you never have to worry about losing pets while exploring too quickly!"]
+			id: "460285E1FCA6A342"
+			rewards: [{
+				id: "592CDE4FF8EA8579"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Oh come, ye wayward brothers🎵"
+			tasks: [{
+				id: "55039AFBB5935EDC"
+				item: "domesticationinnovation:wayward_lantern"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "7AA87E12660416B6"
+			rewards: [{
+				id: "10FDC403F1184442"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "A mod strong enough to carry an entire chapter."
+			tasks: [{
+				id: "7C07F87E6412A647"
+				type: "checkmark"
+			}]
+			title: "Important Info: Domestication Innovation"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"You'll need &9Bones&r from a Skeleton to tame these gruff dogs, who you'll find in &9lightly forested areas&r."
+				""
+				"I &creally&r hope you don't actually need me to tell you how to tame vanilla wolves, or that &athey'll fight for you&r."
+			]
+			id: "56D5BD51ABF0387A"
+			rewards: [
+				{
+					id: "3430C036BCED191B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61AD3618FC7721DF"
+					table_id: 2624495128049887771L
+					type: "choice"
+				}
+			]
+			subtitle: "Knock knock, open up the door, it's real."
+			tasks: [{
+				icon: "minecraft:bone"
+				id: "65886D41D0B29522"
+				title: "Tame a Wolf"
+				type: "custom"
+			}]
+			title: "Mankind's Best Friend"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"To tame a &9horse&r, simply walk up to one and attempt to ride it. It might &cthrow you off&r more than a few times, but eventually it will &agive in&r and allow you to ride it. "
+				""
+				"If you're feeling &cimpatient&r or &cprideful&r, you can feed them from a list of things like &9apples&r and &9wheat&r to &aincrease the chance of taming&r. "
+				""
+				"Simply equip it with a &9saddle&r afterwards and you're off to the races. You can also equip them with &9armor&r to protect them from. . . stuff?"
+			]
+			id: "3BC6F13EC27EC48F"
+			rewards: [
+				{
+					id: "71C4C2CF24E3E641"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "216B5EE172A294AC"
+					table_id: 2624495128049887771L
+					type: "choice"
+				}
+			]
+			subtitle: "Peter. . . The horse is here."
+			tasks: [{
+				icon: "minecraft:apple"
+				id: "2CA79DEC5DD3289D"
+				title: "Tame a Horse"
+				type: "custom"
+			}]
+			title: "How Hungry?"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"To tame one of god's most mischeivious creatures, you'll need either &9raw salmon&r or &9raw cod&r."
+				""
+				"You can find the little devils around &9villages&r, where they'll &csprint away from you&r unless you hold out the fish and refrain from turning too quickly, upon which they'll &aslowly approach you&r."
+				""
+				"Cats &cwon't fight&r for you but they &awill scare away&r &9creepers&r and &9phantoms&r in their vicinity."
+			]
+			id: "68224A2E734FFE87"
+			rewards: [
+				{
+					id: "3B26837BC632CD84"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C5A1C3B606DBB0C"
+					table_id: 2624495128049887771L
+					type: "choice"
+				}
+			]
+			subtitle: "Nyanyame Nyanyajuu Nyanyado no Nyarabide Nya-"
+			tasks: [{
+				icon: "minecraft:salmon"
+				id: "70785DE84EC74A4B"
+				title: "Tame a Cat"
+				type: "custom"
+			}]
+			title: "Cat Nonsense"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&9Donkeys&r are quite similar to horses, and tamed in identical ways. The only difference is that instead of armor, donkeys can be equipped with a &9chest&r to hold &a15 inventory slots of items&r. "
+				""
+				"Wild donkeys, however typically have &clower stats&r than their horse counterparts."
+			]
+			id: "59E294A7A697765F"
+			rewards: [
+				{
+					id: "127FB47FD5C03DC5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "177D0C0A46C11392"
+					table_id: 2624495128049887771L
+					type: "choice"
+				}
+			]
+			subtitle: "Hit you in the head with a big ol' donkey"
+			tasks: [{
+				icon: "minecraft:hay_block"
+				id: "48AD009FA55E986A"
+				title: "Tame a Donkey"
+				type: "custom"
+			}]
+			title: "Donkey Kong December"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"59E294A7A697765F"
+				"3BC6F13EC27EC48F"
+			]
+			description: [
+				"The last of the equine family, &9Mules&r are the &cinfertile&r offspring that results when crossbreeding a &9horse&r and a &9donkey&r. "
+				""
+				"Infertility may be their &aonly&r bad trait, however, as while wild donkeys are frequently &cslow and low jumpers&r, and horses are &cincapable of carrying chests&r, Mules will often inherrit &adecent stats&r from the horse and &athe ability to carry a chest&r from the donkey."
+				""
+				"While a &aperfectly bred&r (that is to say, &amax stats&r) horses, donkeys, and mules are &9identical&r, you will find it &amuch easier&r to get a decent Mule for the purposes of transport rather than a perfect donkey."
+			]
+			id: "5575D2E6F4338ACF"
+			rewards: [
+				{
+					id: "0EB78A12434D653A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10798BA27A2C6CF6"
+					table_id: 2624495128049887771L
+					type: "choice"
+				}
+			]
+			subtitle: "Art has here outdone nature."
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "538A47257DB562C9"
+				title: "Breed and Tame a Mule"
+				type: "custom"
+			}]
+			title: "Hybrid Vigor"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&9Parrots&r can be found in &9Jungle&r biomes and tamed with &9seeds&r."
+				""
+				"As with most animals, they can be set to stay, follow, wander (though be &cextra careful you don't lose track&r of your flying friend!)"
+				""
+				"They'll also occasionally &aperch themselves&r on your shoulder, though you're likely to knock them off just by moving around normally."
+				""
+				"&cDo not feed parrots cookies, this kills them instantly.&r"
+			]
+			id: "152032530E135821"
+			rewards: [
+				{
+					id: "51B805D63FC72C87"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40E8C63756DE3EBB"
+					table_id: 2624495128049887771L
+					type: "choice"
+				}
+			]
+			subtitle: "Don't forget DL-6!"
+			tasks: [{
+				icon: "minecraft:wheat_seeds"
+				id: "5F65FD80C274540B"
+				title: "Tame a Parrot"
+				type: "custom"
+			}]
+			title: "Cross-Examination"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BC6F13EC27EC48F"]
+			id: "622C2B9587984438"
+			rewards: [{
+				id: "3ED706F5DD620F31"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Frakenstein really was the monster, actually."
+			tasks: [{
+				icon: "domesticationinnovation:rotten_apple"
+				id: "1548A64A3E43585D"
+				title: "Create a Tamed Zombie Horse"
+				type: "custom"
+			}]
+			title: "With Strange Aeons"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["622C2B9587984438"]
+			id: "2967E3F8F762E964"
+			rewards: [{
+				id: "6DA11BFC77D97C96"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "An ashen horse; and he who sat on it had the name Death."
+			tasks: [{
+				icon: "domesticationinnovation:sinister_carrot"
+				id: "536F93176C52E4A5"
+				title: "Create a Tamed Skeleton Horse"
+				type: "custom"
+			}]
+			title: "Even Death May Die"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"&9Llamas&r are tamed similarly to the to the equine animals, by attempting to ride them until they accept you. Unlike their similar looking cousins, llamas &ccannot be controlled&r but &acan&r be given a chest to hold items. Llamas will also form a \"caravan\" and &afollow any llama that is leashed to a player&r."
+				""
+				"Note: &9Carpets&r are actually one of the few block variants I've left &acraftable&r (though they're still hidden in EMI to reduce clutter), due to their ability to be placed on llamas for decoration."
+			]
+			id: "21F953C3CEC26215"
+			rewards: [
+				{
+					id: "12DD64A6464BE907"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4089B9B8BFDD1277"
+					table_id: 7167799909693605067L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36DBE1A23DE012CD"
+					table_id: 2624495128049887771L
+					type: "choice"
+				}
+			]
+			subtitle: "Wrong lever!!!!"
+			tasks: [{
+				icon: "minecraft:lead"
+				id: "0ED82086165D967D"
+				title: "Tame a Llama"
+				type: "custom"
+			}]
+			title: "Pull the Lever, Kronk!"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7AA87E12660416B6"]
+			id: "7C3D30ED9A9C33C5"
+			rewards: [{
+				id: "72AE781333EDC29E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "54C281EC3D67EDDB"
+				item: {
+					Count: 1
+					id: "domesticationinnovation:feather_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Get Equipped With: Feather on a Stick"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&eQuark&r allows you to feed a baby animal a &9poisonous potato&r in order to &amaintain its baby form forever&r!"
+				""
+				"&4Please do not pay attention to the ethics of poisoning a baby animal to maintain its cute demeanor!&r"
+			]
+			id: "6E0E96389A3D6A1B"
+			rewards: [{
+				id: "03133B0916EDD1A5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Two yutes"
+			tasks: [{
+				icon: "minecraft:poisonous_potato"
+				id: "4878E5FC31F6FB9D"
+				title: "Eternal Youth"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+	subtitle: ["Tame cool creatures, get friends!"]
+	title: "The Beastmaster"
+}
