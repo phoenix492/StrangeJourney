@@ -1,3 +1,0 @@
-SeverEvents.recipe({ event => 
-    
-})

@@ -57,7 +57,21 @@ ServerEvents.recipes(event => {
 
 	//Once we've adjusted any recipes that use slabs that we need, we can just 
 	//blanket remove any that are left
-	event.remove({ input: '#minecraft:slabs', type: 'minecraft:crafting'})
+	event.remove({ input: '#minecraft:slabs' })
 
+	// Leftover "slab combo" recipes
+	event.remove({ id: 'mowziesmobs:painted_acacia_block_from_slab' })
+	event.remove({ id: 'minecraft:bamboo_mosaic' })
+	event.shaped(
+		Item.of('minecraft:bamboo_mosaic', 4),
+		[
+			' P ',
+			'P P',
+			' P '
+		],
+		{
+			P: 'minecraft:bamboo_planks'
+		}
+	)
 })
 
