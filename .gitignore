@@ -17,6 +17,7 @@ usercache.json
 usernamecache.json
 logs/
 crash-reports/
+knownkeys.txt
 
 # We don't distribute options.txt, we use default options!
 options.txt
