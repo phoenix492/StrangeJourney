@@ -55,5 +55,9 @@ ServerEvents.recipes(event => {
 	stoneSlabSwap('create:polished_cut_veridium_stairs')
 	stoneSlabSwap('create:polished_cut_asurine_stairs')
 
+	//Once we've adjusted any recipes that use slabs that we need, we can just 
+	//blanket remove any that are left
+	event.remove({ input: '#minecraft:slabs', type: 'minecraft:crafting'})
+
 })
 
