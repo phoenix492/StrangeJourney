@@ -1,2 +1,5 @@
 Credits:
 Vanilla Tweaks: https://vanillatweaks.net/
+
+This modpack uses the True Ending: Ender Dragon Overhaul Datapack and Resource Pack by limesplatus
+You can find it on Modrinth at https://modrinth.com/datapack/true-ending
