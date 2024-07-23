@@ -8,5 +8,6 @@
 	"entity.minecraft.villager.summoner": "Summoner",
 	"entity.minecraft.villager.alchemist": "Alchemist",
 	"entity.minecraft.villager.archeologist": "Archeologist",
-	"entity.minecraft.villager.animal_tamer": "Animal Tamer"
+	"entity.minecraft.villager.animal_tamer": "Animal Tamer",
+	"entity.minecraft.villager.nightwatcher": "Nightwatcher"
 }
