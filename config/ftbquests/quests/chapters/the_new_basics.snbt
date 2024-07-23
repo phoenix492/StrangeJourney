@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4B1CFA7D215BA21E"]
+			dependencies: ["29DDE841EDE126F2"]
 			description: [
 				"Almost every single method of dimensional travel has been &cdisabled&r."
 				""
@@ -41,9 +41,9 @@
 				title: "I'm not really sorry."
 				type: "checkmark"
 			}]
-			title: "Important Changes: No Portals!"
-			x: -2.0d
-			y: 0.0d
+			title: "No Portals!"
+			x: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5668C3E23510596C"]
@@ -70,11 +70,11 @@
 				type: "checkmark"
 			}]
 			title: "A Short Guide to Stargate Journeys"
-			x: -3.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["4B1CFA7D215BA21E"]
+			dependencies: ["20EB4B7EF07B2881"]
 			description: [
 				"As opposed to stock &eParaglider&r's progression of finding Spirit Orbs and trading them in for extra hearts and stamina, I've opted to intertwine it with the quest book."
 				""
@@ -98,17 +98,19 @@
 				type: "checkmark"
 			}]
 			title: "Mod Changes: Paragliders"
-			x: -1.5d
-			y: -1.5d
+			x: -1.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["4B1CFA7D215BA21E"]
+			dependencies: ["20EB4B7EF07B2881"]
 			description: [
 				"As much as I genuinely love &eSophisticated Backpacks&r \\& &eSophisticated Storage&r and find them to be the best versions of these mods we've ever gotten, I find the mod's defaults to be &covertuned&r."
 				""
 				"&aLuckily for me&r, part of them being the best means they're extremely configurable!"
 				""
-				"In place of leather, recipes from &eSophisticated Backpacks&r now use &9Ravager Hide&r from &eQuark&r. &9Slot count&r has been reduced overall as well."
+				"In place of leather, recipes from &eSophisticated Backpacks&r now use &9Ravager Hide&r from &eQuark&r. &9Inventory slot&r and &9Upgrade slot&r count has been significantly reduced overall as well. The amount of backpacks you can carry before getting a permanent &cslowness&r debuff while they're in your inventory is limited to &9two&r."
+				""
+				"&9Stack upgrades&r from &eSophisticated Storage&r have been disabled to &cdiscourage bulk hording&r and encorage building smarter &astorage, sorting, and voiding&r systems. Slot count of upgraded chests has also been reduced, and the ability for to form double chests with them has been disabled."
 			]
 			icon: {
 				Count: 1
@@ -131,11 +133,11 @@
 				type: "checkmark"
 			}]
 			title: "Mod Changes: Sophisticated Storage/Backpacks"
-			x: 0.0d
-			y: -2.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["4B1CFA7D215BA21E"]
+			dependencies: ["29DDE841EDE126F2"]
 			description: [
 				"The &9Matrix Enchanting&r option from &eQuark Oddities&r has been enabled. If you're unfamiliar with how it works, I suggest either experimenting or looking at the explanation on the Quark Website."
 				""
@@ -161,12 +163,12 @@
 				id: "5614C1927E043E5A"
 				type: "checkmark"
 			}]
-			title: "Important Changes: Matrix Enchanting"
-			x: 0.0d
-			y: 2.0d
+			title: "Matrix Enchanting"
+			x: 1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["4B1CFA7D215BA21E"]
+			dependencies: ["29DDE841EDE126F2"]
 			description: [
 				"I find the 1.11 gameplay loop of munching large quantites of food to instantly heal yourself up to full rather unsatisfying to balance around."
 				""
@@ -199,12 +201,12 @@
 				title: "Mod Changes: Combatify"
 				type: "checkmark"
 			}]
-			title: "Important Changes: Combat"
-			x: 1.5d
-			y: 1.5d
+			title: "The (Second) Combat Update"
+			x: 1.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["4B1CFA7D215BA21E"]
+			dependencies: ["29DDE841EDE126F2"]
 			description: [
 				"&cEvery single stair, slab, fence, wall, and other variant has been made uncraftable and its uses removed from recipes&r."
 				""
@@ -235,9 +237,9 @@
 				title: "This was such a pain in the ass to do."
 				type: "checkmark"
 			}]
-			title: "Important Changes: Variant Removal"
-			x: -1.5d
-			y: 1.5d
+			title: "Variant Removal"
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			id: "4B1CFA7D215BA21E"
@@ -248,10 +250,9 @@
 			}]
 			title: "Welcome!"
 			x: 0.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4B1CFA7D215BA21E"]
 			description: [
 				"I fundamentally &cdislike&r a lot of the ways rewards are handled in modern kitchen sink questbooks. "
 				""
@@ -276,7 +277,44 @@
 				type: "checkmark"
 			}]
 			title: "A Note on Rewards"
-			x: 2.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B1CFA7D215BA21E"]
+			description: [
+				"Most mods have been left &aintact&r and as the developer designed them, apart from things like disabled portals and adjusted spawn rates."
+				""
+				"&4Most.&r"
+				""
+				"Some mods (&eMekanism&r) just don't play nice (&eMekanism&r) and are far &ctoo powerful&r (&eMekanism&r) to the point of completely &cobsoleting other mods&r (&eMekanism&r), completely &ctrivialzing&r parts of the game (&eSophisticated Backpacks&r), or even just turning interesting problems to solve into a game of \"&cthrow resources at it until it goes away&r\" (&eSophisticated Storage&r)."
+				""
+				"As such, I've documented mods I've made &asignificant, sweeping changes&r to in case you're familiar with them and need to know what's changed."
+			]
+			id: "20EB4B7EF07B2881"
+			rewards: [{
+				id: "1BF320DC9A9BF32B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "It's for your own good."
+			tasks: [{
+				id: "0C77DC72DC907BB9"
+				title: "Mod Changes"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B1CFA7D215BA21E"]
+			id: "29DDE841EDE126F2"
+			tasks: [{
+				id: "735AFC86C4915297"
+				title: "Basic Gameplay Changes"
+				type: "checkmark"
+			}]
+			x: 0.0d
 			y: 0.0d
 		}
 	]
