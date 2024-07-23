@@ -1,0 +1,12 @@
+{
+  "placement": {
+    "type": "structure_gel:grid_placement",
+    "allowed_near_spawn": false,
+    "frequency": 0.75,
+    "offset": 17,
+    "salt": 708855294,
+    "spacing": 33,
+    "structure": "blue_skies:gatekeeper_house"
+  },
+  "structures": []
+}
