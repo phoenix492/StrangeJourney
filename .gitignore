@@ -20,6 +20,7 @@ crash-reports/
 knownkeys.txt
 kubejs/README.txt
 *.tmp
+config/spark/tmp/
 
 # We don't distribute options.txt, we use default options!
 options.txt
