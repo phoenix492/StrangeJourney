@@ -3,9 +3,10 @@ let disabledInstructions = "\u00a7cConvert this to its parent block by dropping 
 let enabledMessage = "\u00a7cCrafting of this variant has been left enabled to preserve functionality."
 let enabledWarning = "\u00a7cDropping it in the world will result in it being converted to its parent block!"
 let quarkOverlapMessage = "\u00a7cDisabled to avoid overlap with Quark."
+let chippedTableMessage = "\u00a7aVariant block display has been disabled in EMI, but the tables still work!"
 
 ItemEvents.tooltip(event => {
-	
+	event.add('#strangejourney:chipped_table', chippedTableMessage)	
 	event.add('#strangejourney:quark_overlap', quarkOverlapMessage)
 	event.add('#strangejourney:variant_crafting_disabled', disabledMessage)
 	event.add('#strangejourney:variant_crafting_disabled', disabledInstructions)
