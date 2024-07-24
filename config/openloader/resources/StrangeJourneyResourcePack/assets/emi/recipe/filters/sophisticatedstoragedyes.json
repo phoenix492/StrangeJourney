@@ -1,0 +1,6 @@
+{
+  "filters": [
+    { "id": "sophisticatedstorage:multiple_colors" },
+    { "id": "/^sophisticatedstorage:single_color_/" }
+  ]
+}

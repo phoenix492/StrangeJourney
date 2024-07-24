@@ -1,0 +1,16 @@
+{
+  "filters": [
+    { "id": "/^sophisticatedstorage:.*chest_from_quark_.*chest$/" },
+    { "id": "/^sophisticatedstorage:.*(?<!:oak)(?<!from_vanilla)_((chest)|(barrel))$/" },
+    { "id": "/^sophisticatedstorage:.*(?<!:oak)_limited_barrel_[1234]/" },
+    { "id": "/^sophisticatedstorage:tier_upgrade_.*((chest)|(barrel))_woodtype__.*(?<!__oak)__/" },
+    { "id": "/^sophisticatedstorage:tier_upgrade_.*((chest)|(barrel))_accentcolor_.*/" },
+    { "id": "/^sophisticatedstorage:tier_upgrade_limited_.*_barrel_[1234]?_accentcolor_.*/" },
+    { "id": "/sophisticatedstorage:tier_upgrade_copper_barrel_.*/" }, 
+    { "id": "/sophisticatedstorage:tier_upgrade_copper_chest_.*/" },
+    { "id": "/sophisticatedstorage:tier_upgrade_limited_copper_barrel_.*/" },
+    { "id": "/sophisticatedstorage:tier_upgrade_limited_.*_barrel_[1234]_woodtype__.*/" },
+    { "id": "/sophisticatedstorage:limited_iron_barrel_[1234]_from_limited_copper_barrel_[1234]/" },
+    { "id": "sophisticatedstorage:tier_upgrade_barrel_flattop_1b_woodtype__acacia__" }
+  ]
+}
