@@ -45,12 +45,59 @@ let disabled = [
 	'sophisticatedstorage:diamond_shulker_box',
 	'sophisticatedstorage:netherite_shulker_box'
 ]
+
+let storageUpgrades = [
+	'sophisticatedstorage:pickup_upgrade',
+	'sophisticatedstorage:advanced_pickup_upgrade',
+	'sophisticatedstorage:filter_upgrade',
+	'sophisticatedstorage:advanced_filter_upgrade',
+	'sophisticatedstorage:magnet_upgrade',
+	'sophisticatedstorage:advanced_magnet_upgrade',
+	'sophisticatedstorage:feeding_upgrade',
+	'sophisticatedstorage:advanced_feeding_upgrade',
+	'sophisticatedstorage:compacting_upgrade',
+	'sophisticatedstorage:advanced_compacting_upgrade',
+	'sophisticatedstorage:void_upgrade',
+	'sophisticatedstorage:advanced_void_upgrade',
+	'sophisticatedstorage:smelting_upgrade',
+	'sophisticatedstorage:auto_smelting_upgrade',
+	'sophisticatedstorage:smoking_upgrade',
+	'sophisticatedstorage:auto_smoking_upgrade',
+	'sophisticatedstorage:blasting_upgrade',
+	'sophisticatedstorage:auto_blasting_upgrade',
+	'sophisticatedstorage:crafting_upgrade',
+	'sophisticatedstorage:stonecutter_upgrade',
+	'sophisticatedstorage:stack_upgrade_tier_1',
+	'sophisticatedstorage:stack_upgrade_tier_1_plus',
+	'sophisticatedstorage:stack_upgrade_tier_2',
+	'sophisticatedstorage:stack_upgrade_tier_3',
+	'sophisticatedstorage:stack_upgrade_tier_4',
+	'sophisticatedstorage:stack_upgrade_tier_5',
+	'sophisticatedstorage:jukebox_upgrade',
+	'sophisticatedstorage:pump_upgrade',
+	'sophisticatedstorage:advanced_pump_upgrade',
+	'sophisticatedstorage:xp_pump_upgrade',
+	'sophisticatedstorage:compression_upgrade',
+	'sophisticatedstorage:hopper_upgrade',
+	'sophisticatedstorage:advanced_hopper_upgrade',
+	'sophisticatedstorage:chipped/botanist_workbench_upgrade',
+	'sophisticatedstorage:chipped/glassblower_upgrade',
+	'sophisticatedstorage:chipped/carpenters_table_upgrade',
+	'sophisticatedstorage:chipped/loom_table_upgrade',
+	'sophisticatedstorage:chipped/mason_table_upgrade',
+	'sophisticatedstorage:chipped/alchemy_bench_upgrade',
+	'sophisticatedstorage:chipped/tinkering_table_upgrade'
+]
 ServerEvents.tags('item', event => {
 	needsInfo.forEach( id => {
 		event.add('strangejourney:sophisticatedstorage_wood_dye', id)
 	})
 	disabled.forEach( id => {
 		event.add('strangejourney:sophisticatedstorage_balance_disabled', id)
+	})
+	storageUpgrades.forEach( id => {
+		event.add('strangejourney:sophisticatedstorage_balance_disabled', id)
+		event.add('strangejourney:sophisticatedstorage_upgrade', id)
 	})
 })
 ServerEvents.recipes(event => {
@@ -61,6 +108,7 @@ ServerEvents.recipes(event => {
 	)
 	event.remove({ output: 'sophisticatedbackpacks:backpack'})
 	event.remove({ output: '#strangejourney:sophisticatedstorage_balance_disabled'})
+	event.remove({ input: '#strangejourney:sophisticatedstorage_upgrade'})
 	
 	event.custom({
 		type: 'sophisticatedbackpacks:basic_backpack',
