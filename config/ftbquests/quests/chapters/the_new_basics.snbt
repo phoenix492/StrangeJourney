@@ -110,7 +110,7 @@
 				""
 				"In place of leather, recipes from &eSophisticated Backpacks&r now use &9Ravager Hide&r from &eQuark&r. &9Inventory slot&r and &9Upgrade slot&r count has been significantly reduced overall as well. The amount of backpacks you can carry before getting a permanent &cslowness&r debuff while they're in your inventory is limited to &9two&r."
 				""
-				"&9Stack upgrades&r from &eSophisticated Storage&r have been disabled to &cdiscourage bulk hording&r and encorage building smarter &astorage, sorting, and voiding&r systems. Slot count of upgraded chests has also been reduced, and the ability for to form double chests with them has been disabled."
+				"&eSophisticated Storage&r has been significantly dialed back in complexity. &9Upgrades&r have been &cdisabled&r to discourage &cbulk hording&r and &csimple do-everything chests&r and encorage building smarter &astorage, sorting, and voiding&r systems. Slot count of upgraded chests has also been reduced, and the ability to &9form double chests&r with them has been &cdisabled&r. "
 			]
 			icon: {
 				Count: 1
@@ -289,7 +289,7 @@
 				""
 				"Some mods (&eMekanism&r) just don't play nice (&eMekanism&r) and are far &ctoo powerful&r (&eMekanism&r) to the point of completely &cobsoleting other mods&r (&eMekanism&r), completely &ctrivialzing&r parts of the game (&eSophisticated Backpacks&r), or even just turning interesting problems to solve into a game of \"&cthrow resources at it until it goes away&r\" (&eSophisticated Storage&r)."
 				""
-				"As such, I've documented mods I've made &asignificant, sweeping changes&r to in case you're familiar with them and need to know what's changed."
+				"As such, I've documented mods I've made &asignificant changes&r to in case you're familiar with them and need to know what's changed."
 			]
 			id: "20EB4B7EF07B2881"
 			rewards: [{
@@ -316,6 +316,54 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["20EB4B7EF07B2881"]
+			description: ["The &9Blue Journal&r is now obtained with a book and 4 &9Cobblestones&r from a &eBlue Skies&r dimension. The &9Gatekeeper&r structures have been disabled."]
+			icon: "blue_skies:blue_journal"
+			id: "2C583F3167A52C36"
+			rewards: [{
+				id: "64B43D7B0719FFA0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "You blue it!"
+			tasks: [{
+				id: "0027ED92BFF78335"
+				title: "Not that big of a deal honestly."
+				type: "checkmark"
+			}]
+			title: "Mod Changes: Blue Skies"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29DDE841EDE126F2"]
+			description: [
+				"&eSpice of Life: Apple Pie Edition&r requires you to eat a &adiverse&r diet of &alarge (typically modded)&r meals, as well as &amaintain&r this diversity over time in order to recieve &abenefits&r such as stat boosts. You &cwon't&r be able to just &ccheese it by eating random tiny foods&r or by &ccrafting large meals a single time&r."
+				""
+				"There are &ano detriments&r for ignoring it&d*&r, but I've custom selected a host of benefits such as a &abase speed increase&r, &aup to 20 extra health&r, &acrit damage&r, &areach&r, and more."
+				""
+				"It's my hope this is enough to convince you to go through the effort of &aautomating large production chains&r of &9different foods&r."
+				""
+				"&d*&r&7There's a -5% crit chance, but that's just to undo a default stat change from Apothic Attributes.&r "
+			]
+			icon: "farmersdelight:apple_pie"
+			id: "652C68BC5DC85557"
+			rewards: [{
+				id: "1EC8B0661E25C361"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Yes, another fork."
+			tasks: [{
+				id: "7CCEBE4BACEAD54C"
+				title: "Good luck."
+				type: "checkmark"
+			}]
+			title: "Spice of Life: Apple Pie Edition"
+			x: 0.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["The way it works."]
