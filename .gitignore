@@ -21,6 +21,7 @@ knownkeys.txt
 kubejs/README.txt
 *.tmp
 config/spark/tmp/
+patchouli_data.json
 
 # We don't distribute options.txt, we use default options!
 options.txt
