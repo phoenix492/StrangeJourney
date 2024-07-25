@@ -777,6 +777,55 @@
 			x: 14.0d
 			y: 0.0d
 		}
+		{
+			id: "6ED7ED731F71598F"
+			rewards: [{
+				id: "120CE0BACF1EE008"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: "ars_nouveau:wilden_tribute"
+				id: "24FE34A1A465F4CC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Wilden Chimera"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			id: "7CA52B3744726243"
+			rewards: [{
+				id: "553CE529A4DA373C"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:life_essence"
+				id: "38951E2A2FCB50FF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Doppelganger"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			id: "3AB046A5674F70C0"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:purple_bone_staff"
+				id: "28BD993B274B3F41"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Corrupted Champion"
+			x: 14.0d
+			y: 6.0d
+		}
 	]
 	subtitle: ["Kill large monsters, get hearts."]
 	title: "The Hunt"

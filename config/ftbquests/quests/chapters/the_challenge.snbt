@@ -357,10 +357,55 @@
 					item: "cataclysm:music_disc_ancient_remnant"
 					type: "item"
 				}
+				{
+					id: "50CDB42FCD90882B"
+					item: "ars_nouveau:music_disc_aria_biblio"
+					type: "item"
+				}
+				{
+					id: "36B84472F2E1C20B"
+					item: "ars_nouveau:music_disc_thistle_the_sound_of_glass"
+					type: "item"
+				}
+				{
+					id: "50B9207DA8305623"
+					item: "ars_nouveau:music_disc_firel_the_wild_hunt"
+					type: "item"
+				}
+				{
+					id: "1D3F3815D1C82144"
+					item: "bloodmagic:bleedingedge"
+					type: "item"
+				}
+				{
+					id: "34675078503C10E4"
+					item: "botania:record_gaia_1"
+					type: "item"
+				}
+				{
+					id: "28B597C04ED3AE31"
+					item: "botania:record_gaia_2"
+					type: "item"
+				}
+				{
+					id: "64A050157F5C5803"
+					item: "integrated_stronghold:music_disc_sight"
+					type: "item"
+				}
+				{
+					id: "64C8A906390C5B98"
+					item: "integrated_stronghold:music_disc_forlorn"
+					type: "item"
+				}
+				{
+					id: "44FF2BD3448297BF"
+					item: "graveyard:incarnated_evil_music_disc"
+					type: "item"
+				}
 			]
 			title: "The Toolbox: Disc Junkie"
 			x: 0.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -404,7 +449,7 @@
 			]
 			title: "The Journey: Well-Traveled Spelunker"
 			x: -0.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["50DD286236C6D5BE"]
@@ -492,7 +537,7 @@
 			]
 			title: "The Toolbox: The Powers That Bee"
 			x: -0.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["26C5DAF0A1AF2374"]
@@ -550,7 +595,7 @@
 			}]
 			title: "The Beastmaster: Equestrian Perfection"
 			x: -0.5d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -577,10 +622,11 @@
 				type: "custom"
 			}]
 			title: "The Beastmaster: Caravanning Perfection"
-			x: -0.5d
-			y: 2.0d
+			x: 0.5d
+			y: -1.0d
 		}
 		{
+			dependencies: ["420CCD2C1F470196"]
 			id: "3E9543A61212F05D"
 			subtitle: "You've become the very best, like no one ever was."
 			tasks: [{
@@ -591,6 +637,58 @@
 			title: "The Beastmaster: Caught Them All"
 			x: 5.5d
 			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "botania:life_essence"
+				tag: {
+					Enchantments: [{
+						id: "ars_elemental:soulbound"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					"quark:RuneColor": "cyan"
+				}
+			}
+			id: "2824FD12D0393D80"
+			tasks: [{
+				checkItem: false
+				entity: "botania:doppleganger"
+				icon: {
+					Count: 1
+					id: "botania:life_essence"
+					tag: {
+						Enchantments: [{
+							id: "ars_elemental:soulbound"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						"quark:RuneColor": "cyan"
+					}
+				}
+				id: "36E0D9BBDDC28DD4"
+				nbt: {
+					hardMode: 1b
+				}
+				title: "Kill: 1x Guardian of Gaia II"
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "The Hunt: Guardian of Gaia II"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "30C8BEE290C8B889"
+			subtitle: "Waow"
+			tasks: [{
+				id: "21E3F1A05F788C0B"
+				title: "The Hunt: Our End"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["For those looking for one."]
