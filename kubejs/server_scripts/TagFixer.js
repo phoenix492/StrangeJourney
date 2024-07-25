@@ -109,6 +109,10 @@ let foliageCarpetIds = [
 	'quark:bamboo_mat_carpet'
 ]
 
+let carpetIds = [
+	'alexsmobs:bison_carpet'
+]
+
 let paneIds = [
 	'witherstormmod:tainted_glass_pane',
 	'quark:red_corundum_pane',
@@ -119,7 +123,9 @@ let paneIds = [
 	'quark:indigo_corundum_pane',
 	'quark:violet_corundum_pane',
 	'quark:white_corundum_pane',
-	'quark:black_corundum_pane'
+	'quark:black_corundum_pane',
+	'hexerei:stone_window_pane',
+	'hexerei:waxed_stone_window_pane'
 ]
 
 ServerEvents.tags('item', event => {
@@ -143,6 +149,10 @@ ServerEvents.tags('item', event => {
 	function tagPanes(id) {
 		event.add('forge:glass_panes', id)
 	}
+
+	function tagCarpets(id) {
+		event.add('minecraft:wool_carpets', id)
+	}
 	
 
 	// New tags
@@ -154,6 +164,7 @@ ServerEvents.tags('item', event => {
 	stairIds.forEach( id => {tagStairs(id) })
 	slabIds.forEach( id => {tagSlabs(id) })
 	paneIds.forEach( id => {tagPanes(id) })
+	carpetIds.forEach( id => {tagCarpets(id) })
 
 	// Tag unifiers
 	event.add('minecraft:stairs', Block.getTaggedIds('minecraft:stairs').toArray())
@@ -161,10 +172,10 @@ ServerEvents.tags('item', event => {
 	event.add('minecraft:fences', Block.getTaggedIds('minecraft:fences').toArray())
 	event.add('minecraft:walls', Block.getTaggedIds('minecraft:walls').toArray())
 	event.add('minecraft:fence_gates', Block.getTaggedIds('minecraft:fence_gates').toArray())
+	event.add('minecraft:wool_carpets', Block.getTaggedIds('minecraft:wool_carpets').toArray())
 	event.add('twilightforest:hollow_logs', Block.getTaggedIds('twilightforest:hollow_logs').toArray())
 
 	// Single entries
-	event.add('minecraft:wool_carpets', 'alexsmobs:bison_carpet')
 
 })
 
@@ -190,6 +201,10 @@ ServerEvents.tags('block', event=> {
 	function tagPanes(id) {
 		event.add('forge:glass_panes', id)
 	}
+
+	function tagCarpets(id) {
+		event.add('minecraft:wool_carpets', id)
+	}
 	
 
 	// New tags
@@ -201,5 +216,6 @@ ServerEvents.tags('block', event=> {
 	stairIds.forEach( id => {tagStairs(id) })
 	slabIds.forEach( id => {tagSlabs(id) })
 	paneIds.forEach( id => {tagPanes(id) })
+	carpetIds.forEach( id => {tagCarpets(id) })
 
 })

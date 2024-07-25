@@ -1,5 +1,9 @@
 let disableRecipeIds = [	
 	'alexsmobs:bison_carpet',
+	'hexerei:infused_fabric_carpet_ornate',
+	'hexerei:waxed_infused_fabric_carpet_ornate',
+	'hexerei:infused_fabric_carpet',
+	'hexerei:waxed_infused_fabric_carpet'
 ]
 let disableRecipeTags = [
 	'#minecraft:stairs',
