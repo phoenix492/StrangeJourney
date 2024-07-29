@@ -57,6 +57,28 @@
     "crystal": true,
     "generator_part": true
   },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "collectorsreap": {
+    "crop_progress": true
+  },
+  "jade": {
+    "coordinates.rel": true,
+    "distance": true,
+    "block_face": false,
+    "coordinates": true,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
+  "mcjtylib": {
+    "jadeaddons": true
+  },
   "ars_nouveau": {
     "mob_jar": true
   },
@@ -74,14 +96,6 @@
   "supplementaries": {
     "hat_stand": true
   },
-  "jade": {
-    "coordinates.rel": true,
-    "distance": true,
-    "block_face": false,
-    "coordinates": true,
-    "registry_name": "OFF",
-    "mod_name": true
-  },
   "create": {
     "filter": true,
     "backtank_capacity": true,
@@ -93,7 +107,11 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "mcjtylib": {
-    "jadeaddons": true
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "milk_jar": true,
+    "toaster": true
   }
 }
