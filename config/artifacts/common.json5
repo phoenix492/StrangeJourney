@@ -1,8 +1,8 @@
 {
 	// The chance everlasting beef drops when a cow or mooshroom is killed by a player
-	"everlastingBeefChance": 0,
+	"everlastingBeefChance": 0.0,
 	// The chance that a skeleton, zombie or piglin spawns with an artifact equipped
-	"entityEquipmentChance": 0,
+	"entityEquipmentChance": 0.0,
 	// The chance that an artifact generates in suspicious sand or gravel
 	"archaeologyChance": 0.01,
 	// Whether the Kitty Slippers and Bunny Hoppers change the player's hurt sounds
