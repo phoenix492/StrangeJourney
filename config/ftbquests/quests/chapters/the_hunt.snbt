@@ -32,7 +32,7 @@
 				value: 1L
 			}]
 			title: "The Naga"
-			x: -2.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -53,7 +53,7 @@
 				value: 1L
 			}]
 			title: "The Twilight Lich"
-			x: -2.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -78,7 +78,7 @@
 				value: 1L
 			}]
 			title: "The Hydra"
-			x: -2.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -115,8 +115,8 @@
 					value: 1L
 				}
 			]
-			title: "The Gatekeepers"
-			x: -2.0d
+			title: "Twilight Miniboss Mayhem"
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -139,7 +139,7 @@
 				value: 1L
 			}]
 			title: "The Ur-Ghast"
-			x: -4.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -163,7 +163,7 @@
 				value: 1L
 			}]
 			title: "The Snow Queen"
-			x: 0.0d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
@@ -184,7 +184,7 @@
 				value: 1L
 			}]
 			title: "The Ender Dragon"
-			x: 6.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -202,7 +202,7 @@
 				value: 1L
 			}]
 			title: "The Wither"
-			x: 6.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -221,7 +221,7 @@
 				value: 1L
 			}]
 			title: "The Slider"
-			x: 2.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -240,7 +240,7 @@
 				value: 1L
 			}]
 			title: "The Valkyrie Queen"
-			x: 2.0d
+			x: 18.0d
 			y: 2.0d
 		}
 		{
@@ -260,7 +260,7 @@
 				value: 1L
 			}]
 			title: "The Sun Spirit"
-			x: 2.0d
+			x: 18.0d
 			y: 4.0d
 		}
 		{
@@ -280,7 +280,7 @@
 				value: 1L
 			}]
 			title: "The Aerwhale King"
-			x: 2.0d
+			x: 18.0d
 			y: 6.0d
 		}
 		{
@@ -315,7 +315,7 @@
 				value: 1L
 			}]
 			title: "The Arachnarch"
-			x: 4.0d
+			x: 22.0d
 			y: 2.0d
 		}
 		{
@@ -349,7 +349,7 @@
 				value: 1L
 			}]
 			title: "The Alchemist"
-			x: 4.0d
+			x: 22.0d
 			y: 0.0d
 		}
 		{
@@ -383,7 +383,7 @@
 				value: 1L
 			}]
 			title: "The Summoner"
-			x: 4.0d
+			x: 22.0d
 			y: 4.0d
 		}
 		{
@@ -418,17 +418,11 @@
 				value: 1L
 			}]
 			title: "The Starlit Crusher"
-			x: 4.0d
+			x: 22.0d
 			y: 6.0d
 		}
 		{
-			description: [
-				"I've adjusted the Wither Storm fight to be a much shorter, more condensed experience since you'll be prepared ahead of time. &cEvolution speed is set to max, and the starter phases have been skipped&r."
-				""
-				"You'll find it ready to fight in &5DIMENSION HERE&r. No structure nessecary, just make sure you're absolutely ready before you head in."
-				""
-				"Good luck!"
-			]
+			description: ["Or at least, it WILL be adjusted when i can bother"]
 			icon: "minecraft:command_block"
 			id: "093E5B5E124B8A57"
 			rewards: [{
@@ -445,8 +439,8 @@
 				value: 1L
 			}]
 			title: "The Wither Storm"
-			x: 6.0d
-			y: 4.0d
+			x: 18.0d
+			y: -5.0d
 		}
 		{
 			icon: "the_bumblezone:luminescent_wax_node_white"
@@ -464,11 +458,13 @@
 				value: 1L
 			}]
 			title: "The Cosmic Crystal Entity"
-			x: 6.0d
-			y: 6.0d
+			x: 20.0d
+			y: -5.0d
 		}
 		{
 			description: [
+				"To spawn a &9Void Worm&r, you'll need a &9Mysterious Worm&r which you then need to chuck into the void in &9The End&r."
+				""
 				"Tip: I highly suggest &conly attacking the head&r."
 				""
 				"If you mess up bad enough, you'll see why the objective is actually to pick up its eye (which it drops) rather than killing &oone&r."
@@ -485,8 +481,8 @@
 				type: "item"
 			}]
 			title: "The Void Worm"
-			x: 8.0d
-			y: 0.0d
+			x: 34.0d
+			y: 4.0d
 		}
 		{
 			description: [""]
@@ -525,8 +521,8 @@
 				value: 1
 			}]
 			title: "The Illager Raid"
-			x: 8.0d
-			y: 2.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			id: "217F55B9B042716E"
@@ -543,7 +539,7 @@
 				value: 1L
 			}]
 			title: "The Sunbird"
-			x: 8.0d
+			x: 30.0d
 			y: 4.0d
 		}
 		{
@@ -561,8 +557,8 @@
 				value: 1L
 			}]
 			title: "The Ferrous Wroughtnaut"
-			x: 8.0d
-			y: 6.0d
+			x: 30.0d
+			y: 0.0d
 		}
 		{
 			id: "4BC07D72775D285C"
@@ -585,8 +581,8 @@
 				value: 1L
 			}]
 			title: "The Frostmaw"
-			x: 10.0d
-			y: 0.0d
+			x: 30.0d
+			y: 2.0d
 		}
 		{
 			id: "02235FDDEDDCB598"
@@ -609,7 +605,7 @@
 				value: 1L
 			}]
 			title: "The Netherite Monstrosity"
-			x: 10.0d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
@@ -628,7 +624,7 @@
 				value: 1L
 			}]
 			title: "The Ender Guardian"
-			x: 10.0d
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -646,8 +642,8 @@
 				value: 1L
 			}]
 			title: "The Harbinger"
-			x: 10.0d
-			y: 6.0d
+			x: 14.0d
+			y: 2.0d
 		}
 		{
 			id: "6824187290ECBE93"
@@ -664,8 +660,8 @@
 				value: 1L
 			}]
 			title: "The Warrior of Flame"
-			x: 12.0d
-			y: 0.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			id: "04D70BB9839899B5"
@@ -682,8 +678,8 @@
 				value: 1L
 			}]
 			title: "The Leviathan"
-			x: 12.0d
-			y: 2.0d
+			x: 14.0d
+			y: 4.0d
 		}
 		{
 			icon: "cataclysm:ancient_metal_block"
@@ -702,9 +698,10 @@
 			}]
 			title: "The Ancient Remnant"
 			x: 12.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
+			description: ["You'll find the &9Luxtructosaurus&r in the &9Primordial Caves&r from &eAlex's Caves&r. You'll need to aquire an &9Ominous Cataclyst&r and chuck it into the big volcano you'll find there."]
 			id: "1E8678B3DC8AC928"
 			rewards: [{
 				id: "5310C692FEA61416"
@@ -719,16 +716,18 @@
 				value: 1L
 			}]
 			title: "The Luxtructosaurus"
-			x: 12.0d
-			y: 6.0d
+			x: 34.0d
+			y: 2.0d
 		}
 		{
+			description: ["The &9Dead King&r can be found in the Catacombs, which can be located by way of a &9Wayward Compass&r."]
 			id: "74D6C5A76012A3E7"
 			rewards: [{
 				id: "012FD6F2B916BE9F"
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
+			subtitle: "The Not-So-Dead King, really."
 			tasks: [{
 				entity: "irons_spellbooks:dead_king"
 				icon: {
@@ -774,7 +773,7 @@
 				value: 1L
 			}]
 			title: "The Dead King"
-			x: 14.0d
+			x: 26.0d
 			y: 0.0d
 		}
 		{
@@ -792,8 +791,8 @@
 				value: 1L
 			}]
 			title: "The Wilden Chimera"
-			x: 14.0d
-			y: 2.0d
+			x: 26.0d
+			y: 4.0d
 		}
 		{
 			id: "7CA52B3744726243"
@@ -810,10 +809,17 @@
 				value: 1L
 			}]
 			title: "The Doppelganger"
-			x: 14.0d
-			y: 4.0d
+			x: 26.0d
+			y: 2.0d
 		}
 		{
+			description: [
+				"To fight the &9Corrupted Champion&r, also known as the Lich, you'll need to explore structres added by &eGraveyard&r. In these structures you'll find 3 different &9Ominous Bonestaff Fragments&r; a head, a body, and a tail piece. You'll also need to &cmurder 8 villagers&r with a &9Bone Knife&r and collect their blood in a &9bottle in your offhand&r."
+				""
+				"You'll take these to a &9Lich Prison&r (it looks like a floating island in the sky) and place the staff pieces in front of the &9altar&r on the three &9Corrupted Deepslate Center&r blocks, &atop piece to bottom piece, left to right&r. "
+				""
+				"Then, you'll use the bottle of blood on the altar, and the fight will begin. Good luck! Bring &9blocks&r and &9healing potions&r, the combat changes it make VERY tough to eat during the fight."
+			]
 			id: "3AB046A5674F70C0"
 			tasks: [{
 				entity: "graveyard:lich"
@@ -823,8 +829,78 @@
 				value: 1L
 			}]
 			title: "The Corrupted Champion"
-			x: 14.0d
-			y: 6.0d
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			id: "761A11D170D6112D"
+			rewards: [{
+				id: "33456A3B547AA028"
+				item: "paraglider:heart_container"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "cataclysm:ender_golem"
+					icon: "cataclysm:void_core"
+					id: "1971047DC30D50D4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "ars_nouveau:amethyst_golem"
+					icon: "cataclysm:amethyst_crab_shell"
+					id: "1B6506CDE9A766A4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:kobolediator"
+					icon: "cataclysm:kobolediator_skull"
+					id: "30ED486B622153DD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:wadjet"
+					icon: "cataclysm:ancient_metal_ingot"
+					id: "5E6E733A85D84549"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_prowler"
+					icon: "cataclysm:witherite_ingot"
+					id: "652812D871DFAE4E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Cataclysmic Miniboss Mayhem"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "5A343994861465B9"
+			tasks: [
+				{
+					entity: "alexsmobs:warped_mosco"
+					icon: "alexsmobs:hemolymph_sac"
+					id: "653D9B2419D35BE6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexscaves:hullbreaker"
+					icon: "alexscaves:immortal_embryo"
+					id: "1790A3AA5FBC2B8F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Alex's Miniboss Mayhem"
+			x: 34.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Kill large monsters, get hearts."]

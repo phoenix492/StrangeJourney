@@ -402,6 +402,16 @@
 					item: "graveyard:incarnated_evil_music_disc"
 					type: "item"
 				}
+				{
+					id: "727C25DEBDD077DF"
+					item: "idas:music_disc_slither"
+					type: "item"
+				}
+				{
+					id: "6F4954E51F5E7909"
+					item: "idas:music_disc_calidum"
+					type: "item"
+				}
 			]
 			title: "The Toolbox: Disc Junkie"
 			x: 0.5d
@@ -680,6 +690,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["This is a placeholder for what is hopefully a cool multi-wave epic final battle."]
 			id: "30C8BEE290C8B889"
 			subtitle: "Waow"
 			tasks: [{
