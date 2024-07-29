@@ -5,9 +5,7 @@
     }
   ],
   "lookup_history": [
-<<<<<<< Updated upstream
     "item:pneumaticcraft:amadron_tablet",
-=======
     "item:create:crushed_raw_gold",
     "item:kubejs:stone_panel",
     "item:create:ochrum",
@@ -105,7 +103,6 @@
     "item:minecraft:bamboo_block",
     "item:minecraft:stripped_bamboo_block",
     "item:minecraft:bamboo_planks",
->>>>>>> Stashed changes
     {
       "type": "fluid",
       "id": "pneumaticcraft:oil",
@@ -136,8 +133,6 @@
       "type": "jemi",
       "uid": "createoreexcavation:ore_vein_type/zinc"
     },
-<<<<<<< Updated upstream
-=======
     "item:minecraft:chicken",
     "item:farmersdelight:chicken_sandwich",
     "item:createbigcannons:incomplete_bronze_autocannon_recoil_spring",
@@ -258,7 +253,6 @@
     "item:create:netherite_backtank_placeable",
     "item:create:copper_diving_boots{Damage:0}",
     "item:create:copper_diving_helmet{Damage:0}",
->>>>>>> Stashed changes
     {
       "type": "jemi",
       "uid": "createoreexcavation:ore_vein_type/copper"
@@ -267,10 +261,8 @@
       "type": "jemi",
       "uid": "createoreexcavation:ore_vein_type/hardened_diamond"
     },
-<<<<<<< Updated upstream
     "item:pneumaticcraft:gun_ammo_freezing{Damage:0}",
     "item:pneumaticcraft:gun_ammo_weighted{Damage:0}",
-=======
     "item:createoreexcavation:raw_emerald",
     "item:minecraft:oak_slab",
     "item:twilightforest:ore_magnet{Damage:0}",
@@ -313,7 +305,6 @@
     "item:quark:crafter",
     "item:create:crafter_slot_cover",
     "fluid:create:honey",
->>>>>>> Stashed changes
     {
       "type": "fluid",
       "id": "pneumaticcraft:plastic",
@@ -618,8 +609,6 @@
     {
       "type": "fluid",
       "id": "createbigcannons:molten_steel",
-<<<<<<< Updated upstream
-=======
       "amount": 360
     },
     "item:create:brass_ingot",
@@ -737,7 +726,6 @@
     {
       "type": "fluid",
       "id": "createbigcannons:molten_bronze",
->>>>>>> Stashed changes
       "amount": 0
     },
     "item:createbigcannons:steel_scrap",
@@ -820,14 +808,12 @@
     "item:thermal:oil_sand",
     {
       "type": "item",
-<<<<<<< Updated upstream
       "id": "farmersdelight:milk_bottle",
       "remainder": "item:minecraft:glass_bottle"
     },
     {
       "type": "item",
       "id": "minecraft:milk_bucket",
-=======
       "id": "alexscaves:tectonic_shard",
       "amount": 11
     },
@@ -1100,7 +1086,6 @@
     {
       "type": "item",
       "id": "alexscaves:acid_bucket",
->>>>>>> Stashed changes
       "remainder": "item:minecraft:bucket"
     },
     "item:enderio:cake_base",
@@ -1619,7 +1604,6 @@
     "item:hexerei:stripped_mahogany_wood",
     {
       "type": "item",
-<<<<<<< Updated upstream
       "id": "hexerei:polished_mahogany_layered",
       "amount": 9
     },
@@ -1841,7 +1825,6 @@
     "item:bloodmagic:dungeon_brick_gate",
     "item:bloodmagic:dungeon_pillar_cap",
     "item:bloodmagic:rawdemoniteblock"
-=======
       "id": "alexscaves:energized_galena_scarlet",
       "amount": 8
     },
@@ -1984,7 +1967,6 @@
     },
     "item:twilightforest:snow_queen_banner_pattern",
     "item:quark:stripped_azalea_post"
->>>>>>> Stashed changes
   ],
   "craft_history": [
     "alexscaves:pearl_from_block",
@@ -5161,7 +5143,6 @@
     "item:irons_spellbooks:scroll{ISB_Spells:{data:[{id:\"irons_spellbooks:magma_bomb\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:farmersdelight:carrot_crate",
     "item:farmersdelight:potato_crate",
-<<<<<<< Updated upstream
     "item:farmersdelight:beetroot_crate",
     "item:valkyrienskies:ship_creator_smaller",
     "item:valkyrienskies:physics_entity_creator",
@@ -9230,8 +9211,7 @@
       "id": "enderio:cloud_seed_concentrated",
       "amount": 0
     }
-=======
     "item:farmersdelight:beetroot_crate"
->>>>>>> Stashed changes
+    "item:farmersdelight:beetroot_crate"
   ]
 }
