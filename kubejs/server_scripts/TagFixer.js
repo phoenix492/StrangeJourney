@@ -93,7 +93,7 @@ let slabIds = [
 	'integrateddynamics:crystalized_menril_block_slab',
 	'integrateddynamics:crystalized_menril_brick_slab',
 	'integrateddynamics:crystalized_chorus_block_slab',
-	'integrateddynamics:crystalized_chorus_brick_slab
+	'integrateddynamics:crystalized_chorus_brick_slab'
 ]
 
 let foliageCarpetIds = [
