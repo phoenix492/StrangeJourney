@@ -55,7 +55,9 @@ let stairIds = [
 	'create:waxed_copper_tile_stairs',
 	'create:waxed_exposed_copper_tile_stairs',
 	'create:waxed_weathered_copper_tile_stairs',
-	'create:waxed_oxidized_copper_tile_stairs'
+	'create:waxed_oxidized_copper_tile_stairs',
+	'betterarcheology:rotten_stairs',
+	'betterarcheology:cracked_mud_brick_stairs'
 ]
 
 let slabIds = [
@@ -84,7 +86,14 @@ let slabIds = [
 	'create:waxed_copper_tile_slab',
 	'create:waxed_exposed_copper_tile_slab',
 	'create:waxed_weathered_copper_tile_slab',
-	'create:waxed_oxidized_copper_tile_slab'
+	'create:waxed_oxidized_copper_tile_slab',
+	'betterarcheology:cracked_mud_brick_slab',
+	'bloodmagic:dungeon_brick_slab',
+	'bloodmagic:dungeon_tile_slab',
+	'integrateddynamics:crystalized_menril_block_slab',
+	'integrateddynamics:crystalized_menril_brick_slab',
+	'integrateddynamics:crystalized_chorus_block_slab',
+	'integrateddynamics:crystalized_chorus_brick_slab
 ]
 
 let foliageCarpetIds = [
