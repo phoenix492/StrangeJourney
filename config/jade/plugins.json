@@ -53,11 +53,20 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "deepresonance": {
+    "crystal": true,
+    "generator_part": true
+  },
   "ars_nouveau": {
     "mob_jar": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
   },
   "twilightforest": {
     "quest_ram_wool": true
@@ -83,5 +92,8 @@
     "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "mcjtylib": {
+    "jadeaddons": true
   }
 }
