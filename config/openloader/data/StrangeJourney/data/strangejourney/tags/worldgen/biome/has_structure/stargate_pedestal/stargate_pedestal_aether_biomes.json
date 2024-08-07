@@ -5,6 +5,21 @@
 		{"id": "aether:skyroot_forest", "required":false},
 		{"id": "aether:skyroot_grove", "required":false},
 		{"id": "aether:skyroot_meadow", "required":false},
-		{"id": "aether:skyroot_woodland", "required":false}
+		{"id": "aether:skyroot_woodland", "required":false},
+		{"id": "deep_aether:aerglow_forest", "required":false},
+		{"id": "deep_aether:aerlavender_fields", "required":false},
+		{"id": "deep_aether:blue_aerglow_forest", "required":false},
+		{"id": "aether_redux:cloudcaps", "required":false},
+		{"id": "aether_redux:frosted_forests", "required":false},
+		{"id": "aether_redux:gilded_grasslands", "required":false},
+		{"id": "aether_redux:gilded_groves", "required":false},
+		{"id": "aether_redux:glacial_tundra", "required":false},
+		{"id": "deep_aether:golden_grove", "required":false},
+		{"id": "deep_aether:golden_heights", "required":false},
+		{"id": "deep_aether:mystic_aerglow_forest", "required":false},
+		{"id": "aether_redux:skyfields", "required":false},
+		{"id": "aether_redux:skyroot_shrublands", "required":false},
+		{"id": "aether_redux:the_blight", "required":false},
+		{"id": "deep_aether:yagroot_swamp", "required":false}
 	]
 }
