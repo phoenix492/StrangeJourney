@@ -172,7 +172,7 @@
 		#Chance for an urn to spawn a critter from the urn_spawn tag
 		#Range: 0.0 ~ 1.0
 		critter_spawn_chance = 0.009999999776482582
-		cave_urns = true
+		cave_urns = false
 
 	[functional.soap]
 		enabled = true
