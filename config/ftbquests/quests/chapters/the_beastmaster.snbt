@@ -91,7 +91,7 @@
 			description: [
 				"You'll need &9Bones&r from a Skeleton to tame these gruff dogs, who you'll find in &9lightly forested areas&r."
 				""
-				"I &creally&r hope you don't actually need me to tell you how to tame vanilla wolves, or that &athey'll fight for you&r."
+				"I &creally&r hope you didn't actually need me to tell you how to tame vanilla wolves, or that &athey'll fight for you&r."
 			]
 			id: "56D5BD51ABF0387A"
 			rewards: [
@@ -157,7 +157,7 @@
 				""
 				"You can find the little devils around &9villages&r, where they'll &csprint away from you&r unless you hold out the fish and refrain from turning too quickly, upon which they'll &aslowly approach you&r."
 				""
-				"Cats &cwon't fight&r for you but they &awill scare away&r &9creepers&r and &9phantoms&r in their vicinity."
+				"Cats &cwon't fight&r for you but they will &ascare away&r &9creepers&r and &9phantoms&r in their vicinity."
 			]
 			id: "68224A2E734FFE87"
 			rewards: [

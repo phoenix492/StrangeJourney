@@ -412,6 +412,45 @@
 					item: "idas:music_disc_calidum"
 					type: "item"
 				}
+				{
+					id: "204780ECB48C7D2B"
+					item: "create_connected:music_disc_elevator"
+					type: "item"
+				}
+				{
+					id: "5EEC633D248CC7B9"
+					item: "create_connected:music_disc_interlude"
+					type: "item"
+				}
+				{
+					id: "2488895F37667226"
+					item: "create_dd:music_disc_waltz_of_the_flowers"
+					type: "item"
+				}
+				{
+					id: "77968F4D8CF0678A"
+					item: {
+						Count: 1
+						id: "destroy:music_disc_spectrum"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "77099E0020A2FC70"
+					item: "aether_redux:slider_music_disc"
+					type: "item"
+				}
+				{
+					id: "14F2A316FA77D77B"
+					item: "deep_aether:music_disc_a_morning_wish"
+					type: "item"
+				}
+				{
+					id: "4D96305A5D6686B2"
+					item: "deep_aether:music_disc_nabooru"
+					type: "item"
+				}
 			]
 			title: "The Toolbox: Disc Junkie"
 			x: 0.5d
@@ -617,7 +656,7 @@
 				""
 				"This means each successive point of strength is &charder&r to obtain, and breeding with a strength 4 Llama has a mere &c0.75%&r chance to procude a 5 strength Llama."
 				""
-				"I'd reccommend finding a way to automate this. Good luck!"
+				"I'd recommend finding a way to automate this. Good luck!"
 			]
 			id: "09B941AE8CCBFE57"
 			rewards: [{

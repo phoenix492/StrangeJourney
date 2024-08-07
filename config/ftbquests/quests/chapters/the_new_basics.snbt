@@ -71,7 +71,7 @@
 			}]
 			title: "A Short Guide to Stargate Journeys"
 			x: -2.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["20EB4B7EF07B2881"]
@@ -363,6 +363,24 @@
 			}]
 			title: "Spice of Life: Apple Pie Edition"
 			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0763AC42ADABCB4D"]
+			id: "5A156F7852699758"
+			rewards: [{
+				id: "006CC72346AC95C8"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Now you're crafting with panels!"
+			tasks: [{
+				id: "07E3FDE6D5E69F5C"
+				item: "kubejs:wooden_panel"
+				type: "item"
+			}]
+			title: "Crafting Replacements"
+			x: -2.0d
 			y: 1.0d
 		}
 	]
