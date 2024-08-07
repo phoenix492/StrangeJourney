@@ -45,5 +45,8 @@
 	"block.sophisticatedstorage.iron_chest": "Iron Chest",
 	"block.sophisticatedstorage.gold_chest": "Gold Chest",
 	"block.sophisticatedstorage.diamond_chest": "Diamond Chest",
-	"block.sophisticatedstorage.netherite_chest": "Netherite Chest"
+	"block.sophisticatedstorage.netherite_chest": "Netherite Chest",
+	"entity.minecraft.villager.fluix_researcher": "Fluix Researcher",
+	"entity.minecraft.villager.innkeeper": "Innkeeper",
+	"entity.minecraft.villager.mechanic": "Mechanic"
 }
