@@ -26,6 +26,10 @@ patchouli_data.json
 # We don't distribute options.txt, we use default options!
 options.txt
 
+# These are updated too often to include in VCS
+config/oculus.properties
+config/jeiintegration-client.toml
+
 # This is a PrismLauncher file
 icon.png
 
