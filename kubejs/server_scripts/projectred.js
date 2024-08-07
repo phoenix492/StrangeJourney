@@ -1,0 +1,18 @@
+ServerEvents.recipes(event => {
+	event.remove({ output: 'projectred_core:electrotine_ingot'})
+	event.remove({ output: 'projectred_core:draw_plate' })
+	event.remove({ output: 'projectred_core:copper_coil' })
+	event.remove({ output: 'projectred_core:iron_coil' })
+	event.remove({ output: 'projectred_core:gold_coil' })
+	event.remove({ output: 'projectred_core:motor' })
+	event.remove({ output: 'projectred_core:electrotine_silicon' })
+	event.remove({ id: 'projectred_core:silicon' })
+	event.remove({ id: 'projectred_core:silicon_boule' })
+	event.remove({ mod: 'cb_microblock' })
+	event.remove({ input: 'projectred_core:electrotine_ingot'})
+	event.remove({ input: 'projectred_core:electrotine_dust'})
+	event.remove({ output: 'projectred_core:woven_cloth' })
+	event.remove({ output: 'projectred_core:sail' })
+	event.smelting('8x projectred_core:silicon', 'projectred_core:sand_coal_comp')
+
+})
