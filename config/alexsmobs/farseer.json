@@ -10,6 +10,51 @@
         "type": "REGISTRY_NAME",
         "negate": true,
         "value": "minecraft:mushroom_fields"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "voidscape:aether"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "voidscape:antispires"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "voidscape:end"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "voidscape:nether"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "voidscape:null"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "voidscape:overworld"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "voidscape:thunder_forest"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "voidscape:thunderspires"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": true,
+        "value": "voidscape:void"
       }
     ]
   ]
