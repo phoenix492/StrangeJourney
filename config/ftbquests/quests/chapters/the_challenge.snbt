@@ -451,6 +451,36 @@
 					item: "deep_aether:music_disc_nabooru"
 					type: "item"
 				}
+				{
+					id: "4C8078F8DC317FFB"
+					item: "tropicraft:music_disc_buried_treasure"
+					type: "item"
+				}
+				{
+					id: "5CBA05FAF815C51C"
+					item: "tropicraft:music_disc_eastern_isles"
+					type: "item"
+				}
+				{
+					id: "68FB8BA1A223B885"
+					item: "tropicraft:music_disc_the_tribe"
+					type: "item"
+				}
+				{
+					id: "2B34A05774C54598"
+					item: "tropicraft:music_disc_low_tide"
+					type: "item"
+				}
+				{
+					id: "3B65FF3C20E1C7AA"
+					item: "tropicraft:music_disc_trade_winds"
+					type: "item"
+				}
+				{
+					id: "7994768251CA0B24"
+					item: "tropicraft:music_disc_summering"
+					type: "item"
+				}
 			]
 			title: "The Toolbox: Disc Junkie"
 			x: 0.5d
@@ -688,6 +718,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["&aBonus Points&r: Automatically or semi-automatically find a way to farm the Guardian of Gaia II"]
 			icon: {
 				Count: 1
 				id: "botania:life_essence"
