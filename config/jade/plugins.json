@@ -57,6 +57,10 @@
     "crystal": true,
     "generator_part": true
   },
+  "midnight": {
+    "traditional_age": true,
+    "nightstag": true
+  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
@@ -64,9 +68,6 @@
     "redstone": true,
     "camo": true,
     "semiblock": true
-  },
-  "immersiveengineering": {
-    "multiblock_icon": true
   },
   "collectorsreap": {
     "crop_progress": true
