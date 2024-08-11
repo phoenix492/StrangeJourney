@@ -84,7 +84,9 @@ ServerEvents.tags('item', event => {
 		var taggedBlocks = Block.getTaggedIds(tag).toArray().filter(item => {
 			if( Item.of(item).getMod().equals('framedblocks') ||
 					item.toString().includes('mogmoss_rug') ||
-					item.toString().includes('mesh_fence')
+					item.toString().includes('mesh_fence') ||
+					item.toString().includes('immersiveengineering:steel_fence') ||
+					item.toString().includes('immersiveengineering:alu_fence') 
 			) {
 				return false
 			}
