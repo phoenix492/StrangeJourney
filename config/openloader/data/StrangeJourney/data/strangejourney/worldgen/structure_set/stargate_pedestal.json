@@ -11,6 +11,10 @@
     {
 	   "structure": "strangejourney:stargate/milky_way/pedestal/stargate_pedestal_bumblezone",
 	   "weight": 1
+    },
+    {
+	   "structure": "strangejourney:stargate/pegasus/pedestal/stargate_pedestal_otherside",
+	   "weight": 1
     }
 
     ],
