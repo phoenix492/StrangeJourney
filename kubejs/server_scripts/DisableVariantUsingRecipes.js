@@ -6,6 +6,13 @@ ServerEvents.recipes(event => {
 			'kubejs:stone_panel'
 		)
 	}
+	// IE gets special treatment before the blanket wood replacement
+	// for balance preservation
+	event.replaceInput(
+		{input: '#forge:treated_wood_slab' },
+		'#forge:treated_wood_slab',
+		'#forge:treated_wood'
+	)
 	event.replaceInput(
 		{ input: '#minecraft:wooden_slabs' },
 		'#minecraft:wooden_slabs',
