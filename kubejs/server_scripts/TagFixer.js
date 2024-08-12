@@ -288,7 +288,8 @@ let slabIds = [
 	'deep_aether:raw_clorite_slab',
 	'deep_aether:clorite_slab',
 	'deep_aether:polished_clorite_slab',
-	'deep_aether:aether_mud_bricks_slab'
+	'deep_aether:aether_mud_bricks_slab',
+	'occultism:otherstone_slab'
 ]
 
 let foliageCarpetIds = [
