@@ -57,16 +57,16 @@ ServerEvents.recipes(event => {
 	stoneSlabSwap('create:polished_cut_veridium_stairs')
 	stoneSlabSwap('create:polished_cut_asurine_stairs')
 
-	//Once we've adjusted any recipes that use slabs that we need, we can just 
-	//blanket remove any that are left
-	event.remove({ input: '#minecraft:slabs' })
-
 	// Blanket wood replacement
 	event.replaceInput(
 		{ input: '#minecraft:wooden_slabs' },
 		'#minecraft:wooden_slabs',
 		'kubejs:wooden_panel'
 	)
+
+	//Once we've adjusted any recipes that use slabs that we need, we can just 
+	//blanket remove any that are left
+	event.remove({ input: '#minecraft:slabs' })
 
 	// Leftover "slab combo" recipes
 	event.remove({ id: 'mowziesmobs:painted_acacia_block_from_slab' })

@@ -391,7 +391,10 @@ ServerEvents.tags('item', event => {
 	event.add('minecraft:wool_carpets', Block.getTaggedIds('minecraft:wool_carpets').toArray())
 	event.add('twilightforest:hollow_logs', Block.getTaggedIds('twilightforest:hollow_logs').toArray())
 
-	// Single entries
+	// Single entries and removals
+	event.remove('minecraft:wooden_slabs', 'immersiveengineering:slab_treated_wood_horizontal')
+	event.remove('minecraft:wooden_slabs', 'immersiveengineering:slab_treated_wood_vertical')
+	event.remove('minecraft:wooden_slabs', 'immersiveengineering:slab_treated_wood_packaged')
 
 })
 
