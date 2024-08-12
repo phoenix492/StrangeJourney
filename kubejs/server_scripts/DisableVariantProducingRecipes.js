@@ -59,7 +59,8 @@ let disableRecipeTags = [
 	'#forge:glass_panes',
 	'#twilightforest:banisters',
 	'#strangejourney:foliage_carpets',
-	'#quark:posts'
+	'#quark:posts',
+	'#immersiveengineering:chutes',
 ]
 
 let enabledRecipeTags = [

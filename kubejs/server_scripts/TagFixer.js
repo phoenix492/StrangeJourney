@@ -22,6 +22,13 @@ let banisterIds = [
 	'twilightforest:cherry_banister'
 ]
 
+let chuteIds = [
+	'immersiveengineering:chute_iron',
+	'immersiveengineering:chute_steel',
+	'immersiveengineering:chute_aluminum',
+	'immersiveengineering:chute_copper'
+]
+
 let fenceGateIds = [
 	'#forge:fence_gates',	
 	'witherstormmod:tainted_fence_gate'
@@ -326,6 +333,9 @@ ServerEvents.tags('item', event => {
 	function tagBanisters(id) {
 		event.add('twilightforest:banisters', id)
 	}
+	function tagChutes(id) {
+		event.add('immersiveengineering:chutes', id)
+	}
 	function tagFenceGates(id) {
 		event.add('minecraft:fence_gates', id)
 	}	
@@ -351,6 +361,7 @@ ServerEvents.tags('item', event => {
 	// New tags
 	banisterIds.forEach( id => { tagBanisters(id) })
 	foliageCarpetIds.forEach(id => { tagFoliageCarpets(id) })
+	chuteIds.forEach( id => { tagChutes(id) })
 
 	// Corrections not handled by unifiers
 	fenceGateIds.forEach( id => { tagFenceGates(id) })
@@ -378,6 +389,9 @@ ServerEvents.tags('block', event=> {
 	function tagBanisters(id) {
 		event.add('twilightforest:banisters', id)
 	}
+	function tagChutes(id) {
+		event.add('immersiveengineering:chutes', id)
+	}
 	function tagFenceGates(id) {
 		event.add('minecraft:fence_gates', id)
 	}	
@@ -403,6 +417,7 @@ ServerEvents.tags('block', event=> {
 	// New tags
 	banisterIds.forEach( id => { tagBanisters(id) })
 	foliageCarpetIds.forEach(id => { tagFoliageCarpets(id) })
+	chuteIds.forEach( id => { tagChutes(id) })
 
 	// Corrections not handled by unifiers
 	fenceGateIds.forEach( id => { tagFenceGates(id) })
