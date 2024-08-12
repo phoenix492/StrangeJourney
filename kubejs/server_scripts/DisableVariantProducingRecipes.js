@@ -61,6 +61,7 @@ let disableRecipeTags = [
 	'#strangejourney:foliage_carpets',
 	'#quark:posts',
 	'#immersiveengineering:chutes',
+	'#tropicraft:boardwalks'
 ]
 
 let enabledRecipeTags = [

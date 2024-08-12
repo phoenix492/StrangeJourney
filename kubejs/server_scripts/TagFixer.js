@@ -29,6 +29,13 @@ let chuteIds = [
 	'immersiveengineering:chute_copper'
 ]
 
+let boardwalkIds = [
+	'tropicraft:bamboo_boardwalk',
+	'tropicraft:palm_boardwalk',
+	'tropicraft:mahogany_boardwalk',
+	'tropicraft:mangrove_boardwalk'
+]
+
 let fenceGateIds = [
 	'#forge:fence_gates',	
 	'witherstormmod:tainted_fence_gate'
@@ -336,6 +343,9 @@ ServerEvents.tags('item', event => {
 	function tagChutes(id) {
 		event.add('immersiveengineering:chutes', id)
 	}
+	function tagBoardwalks(id) {
+		event.add('tropicraft:boardwalks', id)
+	}
 	function tagFenceGates(id) {
 		event.add('minecraft:fence_gates', id)
 	}	
@@ -362,6 +372,7 @@ ServerEvents.tags('item', event => {
 	banisterIds.forEach( id => { tagBanisters(id) })
 	foliageCarpetIds.forEach(id => { tagFoliageCarpets(id) })
 	chuteIds.forEach( id => { tagChutes(id) })
+	boardwalkIds.forEach ( id => { tagBoardwalks(id) })
 
 	// Corrections not handled by unifiers
 	fenceGateIds.forEach( id => { tagFenceGates(id) })
@@ -392,6 +403,9 @@ ServerEvents.tags('block', event=> {
 	function tagChutes(id) {
 		event.add('immersiveengineering:chutes', id)
 	}
+	function tagBoardwalks(id) {
+		event.add('tropicraft:boardwalks', id)
+	}
 	function tagFenceGates(id) {
 		event.add('minecraft:fence_gates', id)
 	}	
@@ -418,6 +432,7 @@ ServerEvents.tags('block', event=> {
 	banisterIds.forEach( id => { tagBanisters(id) })
 	foliageCarpetIds.forEach(id => { tagFoliageCarpets(id) })
 	chuteIds.forEach( id => { tagChutes(id) })
+	boardwalkIds.forEach ( id => { tagBoardwalks(id) })
 
 	// Corrections not handled by unifiers
 	fenceGateIds.forEach( id => { tagFenceGates(id) })
