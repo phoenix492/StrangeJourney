@@ -1,0 +1,7 @@
+{
+	"include_generated_addresses": false,
+	"dimensions":
+	[
+		{"dimension": "minecraft:the_nether", "weight": 1}
+	]
+}
