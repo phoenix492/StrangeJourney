@@ -1,5 +1,6 @@
 #List of names the merchant can have.
-merchantNames = ["Phoenix492", "davey", "Uni"]
+#If you see this and you're active in the MPD discord, ask in my channel to be included >:3
+merchantNames = ["Phoenix492", "davey", "Uni", "Frog the Seed Swapper"]
 #The range within animals can be fed by the feeding trough.
 #Range: > -2147483648
 feedingTroughRange = 8
