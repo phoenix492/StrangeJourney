@@ -1,0 +1,62 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Seed Exchange",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:pumpkin_seeds"
+    },
+    {
+      "output": "minecraft:melon_seeds"
+    },
+    {
+      "output": "minecraft:beetroot_seeds"
+    },
+    {
+      "output": "occultism:datura_seeds"
+    },
+    {
+      "output": "immersiveengineering:seed"
+    },
+    {
+      "output": "hexerei:sage_seed"
+    },
+    {
+      "output": "supplementaries:flax_seeds"
+    },
+    {
+      "output": "farmersdelight:rice",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
+      "output": "farmersdelight:cabbage_seeds"
+    },
+    {
+      "output": "farmersdelight:tomato_seeds"
+    },
+    {
+      "output": "delightful:salmonberry_pips"
+    },
+    {
+      "output": "delightful:cantaloupe_seeds"
+    },
+    {
+      "output": "collectorsreap:lime_seeds"
+    },
+    {
+      "output": "corn_delight:corn_seeds"
+    },
+    {
+      "output": "farmersrespite:tea_seeds"
+    }
+  ]
+}

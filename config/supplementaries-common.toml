@@ -192,7 +192,7 @@
 
 	[functional.flax]
 		enabled = true
-		wild_flax = true
+		wild_flax = false
 
 [building]
 	lapis_bricks = true

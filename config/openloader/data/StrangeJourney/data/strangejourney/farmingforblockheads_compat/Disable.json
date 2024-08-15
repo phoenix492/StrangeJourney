@@ -1,0 +1,31 @@
+{
+  "groupOverrides": {
+    "Vanilla Seeds": {
+      "enabled": false
+    },
+		"Vanilla Saplings": {
+			"enabled": false
+		},
+		"Bone Meal": {
+			"enabled": false
+		},
+		"Create Fertilizer": {
+			"enabled": false
+		},
+		"Farmers Delight Seeds": {
+			"enabled": false
+		},
+		"Quark Saplings": {
+			"enabled": false
+		},
+		"Supplementaries Seeds": {
+			"enabled": false
+		},
+		"Tropicraft Fertilizer": {
+			"enabled": false
+		},
+		"Tropicraft Saplings": {
+			"enabled": false
+		}
+	}
+}
