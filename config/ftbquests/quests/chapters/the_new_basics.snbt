@@ -322,7 +322,7 @@
 			description: [
 				"The &9Blue Journal&r is now obtained with a book and 4 &9Cobblestones&r from a &eBlue Skies&r dimension. The &9Gatekeeper&r structures have been disabled."
 				""
-				"Also the &4second that I find one&r, I'll be adding a mixin mod to &adisable mandatory tool progression&r."
+				"Further more, the stupid &ctool \\& armor nerf&r for non-&eBlue Skies&r equippment has been &acompletely removed&r."
 			]
 			icon: "blue_skies:blue_journal"
 			id: "2C583F3167A52C36"
