@@ -57,10 +57,6 @@
     "crystal": true,
     "generator_part": true
   },
-  "midnight": {
-    "traditional_age": true,
-    "nightstag": true
-  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
@@ -125,6 +121,9 @@
     "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "corpse": {
+    "corpse": true
   },
   "cookingforblockheads": {
     "fridge": true,
