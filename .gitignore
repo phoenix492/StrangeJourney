@@ -23,6 +23,7 @@ kubejs/README.txt
 config/spark/tmp/
 patchouli_data.json
 fancymenu_data/last_world.fmdata
+config/spark/activity.json
 
 # We don't distribute options.txt, we use default options!
 options.txt
