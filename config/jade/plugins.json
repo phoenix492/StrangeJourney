@@ -122,8 +122,8 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "corpse": {
-    "corpse": true
+  "gravestone": {
+    "grave": true
   },
   "cookingforblockheads": {
     "fridge": true,
