@@ -46,3 +46,7 @@ mods/
 
 # Config files for mods that won't be included in finished packs
 config/worldedit
+
+# I finally realized there's no reason to ship this. Once it's time to finalize
+# the list of hidden items, I can just make it a resource pack.
+emi.json
