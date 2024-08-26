@@ -28,6 +28,7 @@ config/spark/activity.json
 .mixin.out/
 exposures/
 otyacraftengine/
+iammusicplayer/
 
 # We don't distribute options.txt, we use default options!
 options.txt
