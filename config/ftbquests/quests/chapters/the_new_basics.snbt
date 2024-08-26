@@ -42,8 +42,8 @@
 				type: "checkmark"
 			}]
 			title: "No Portals!"
-			x: -1.0d
-			y: -0.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5668C3E23510596C"]
@@ -70,8 +70,8 @@
 				type: "checkmark"
 			}]
 			title: "A Short Guide to Stargate Journeys"
-			x: -2.0d
-			y: -1.0d
+			x: 2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["20EB4B7EF07B2881"]
@@ -99,7 +99,7 @@
 			}]
 			title: "Mod Changes: Paragliders"
 			x: -1.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["20EB4B7EF07B2881"]
@@ -134,7 +134,7 @@
 			}]
 			title: "Mod Changes: Sophisticated Storage/Backpacks"
 			x: 1.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["29DDE841EDE126F2"]
@@ -164,8 +164,8 @@
 				type: "checkmark"
 			}]
 			title: "Matrix Enchanting"
-			x: 1.0d
-			y: 0.5d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["29DDE841EDE126F2"]
@@ -203,7 +203,7 @@
 			}]
 			title: "The (Second) Combat Update"
 			x: 1.0d
-			y: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["29DDE841EDE126F2"]
@@ -238,11 +238,19 @@
 				type: "checkmark"
 			}]
 			title: "Variant Removal"
-			x: -1.0d
-			y: 0.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
+			description: [
+				"Welcome to &2Strange Journey&r, the culimation of everything I want from a kitchen sink pack that hopefully is played through over the course of months going on years rather than a month and done. It tries to stay out of your way, clean up chaos despite the large quantity of mods, and generally be a plesant experience to play slowly and casually with many things to do."
+				""
+				"On the top branch, you'll find documentation of sweeping changes to individual mods I found nessecary to maintain balance or fun, and on the bottom branch you'll find general pack design philosophies that will effect your moment to moment gameplay of the modpack."
+				""
+				"&2Have fun!&r"
+			]
 			id: "4B1CFA7D215BA21E"
+			subtitle: "Start Here!"
 			tasks: [{
 				id: "180BF03556884AA6"
 				title: "Enjoy your stay."
@@ -250,35 +258,7 @@
 			}]
 			title: "Welcome!"
 			x: 0.0d
-			y: -1.5d
-		}
-		{
-			description: [
-				"I fundamentally &cdislike&r a lot of the ways rewards are handled in modern kitchen sink questbooks. "
-				""
-				"No lootcrates, I think they're &ctacky&r and &cunfufilling&r. Instead I've opted to &ahandpick&r the rewards for every quest."
-				""
-				"Generally, quest rewards will try to avoid giving you &cuseless junk&r. You should always &alike&r what you get out of a quest. This might be in the form of &araw resources&r, useful items &arelevant to your situation&r, or exclusive &aplayer upgrades&r like the &9Heart Containers &rand &9Stamina Vessels&r from &eParaglider&r."
-				""
-				"Also, The pack won't &cbreak progression&r or &ccheapen your experience&r by showering you in wealth. Most raw resources will be a reasonable amount that will just &asave time&r, or &arefund&r a little bit for a particularly expensive but important tool/machine."
-				""
-				"You'll notice there are a lot of &aXP&r rewards, they're there just so you can get something nice for small things."
-			]
-			id: "3D0DAF2180CBF8C1"
-			rewards: [{
-				id: "3DD4C5F81F3C76C9"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "This is mostly design philosphy, you can skip it."
-			tasks: [{
-				id: "3A4904D0D833C67A"
-				title: "You're welcome"
-				type: "checkmark"
-			}]
-			title: "A Note on Rewards"
-			x: 3.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B1CFA7D215BA21E"]
@@ -304,7 +284,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4B1CFA7D215BA21E"]
@@ -315,7 +295,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["20EB4B7EF07B2881"]
@@ -338,8 +318,8 @@
 				type: "checkmark"
 			}]
 			title: "Mod Changes: Blue Skies"
-			x: -1.0d
-			y: -3.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["29DDE841EDE126F2"]
@@ -366,11 +346,16 @@
 				type: "checkmark"
 			}]
 			title: "Spice of Life: Apple Pie Edition"
-			x: 0.0d
-			y: 1.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0763AC42ADABCB4D"]
+			description: [
+				"In order to replace variant blocks in crafting recipes, I've introduced a few items to take their place, the &9Stone Panel&r for stone variants and the &9Wooden Panel&r for their wooden counterparts. "
+				""
+				"Despite immeaditely reintroducing microcrafting, this should still &areduce clutter&r in your storage systems by removing leftover items from crafts, now instead of &c5 different types of wood slabs&r it's all &9Wooden Panels&r that can be &areused&r."
+			]
 			id: "5A156F7852699758"
 			rewards: [{
 				id: "006CC72346AC95C8"
@@ -384,8 +369,59 @@
 				type: "item"
 			}]
 			title: "Crafting Replacements"
-			x: -2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["29DDE841EDE126F2"]
+			description: [
+				"Several &cclutter items&r, redundant, and useless components such as extraneous &eThermal Expansion&r gears and &eNuclearcraft Neoteric&r plates have had their crafting recipes removed and have been hidden in &eEMI&r. "
+				""
+				"You're not missing out on anything of course, these were &4unused&r even in their base mod."
+				""
+				"Which begs the question, &cwhy were they even included in the first place&r?"
+			]
+			icon: "minecraft:barrier"
+			id: "3AE17B93FB2872D8"
+			rewards: [{
+				id: "1D997BC7CF93AC64"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Clutter be gone."
+			tasks: [{
+				id: "732883C406F8D074"
+				title: "OUT. OUT. GET OUT!"
+				type: "checkmark"
+			}]
+			title: "Item Culling"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29DDE841EDE126F2"]
+			description: [
+				"I see you. I know you're actually sick and tired of &cseeds filling your inventory&r every time you start a new modpack."
+				""
+				"Don't worry, I've got you. Now, vanilla grass &aonly drops vanilla wheat seeds&r. To aquire modded seeds, you can freely exchange &aone wheat seed for any other vanilla or modded seed&r."
+				""
+				"&cExcept for rice, carrots, and potatoes&r, as these are food items as well as their own seed each one requires an emerald instead. "
+			]
+			icon: "farmingforblockheads:market"
+			id: "7A312D89C0DE74D4"
+			rewards: [{
+				id: "6598D9F59C70494C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Solved, once and for all"
+			tasks: [{
+				id: "16D1207D5359E5BA"
+				title: "The Seed Problem"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.5d
 		}
 	]
 	subtitle: ["The way it works."]

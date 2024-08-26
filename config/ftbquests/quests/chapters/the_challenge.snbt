@@ -481,6 +481,36 @@
 					item: "tropicraft:music_disc_summering"
 					type: "item"
 				}
+				{
+					id: "1C4D42695A97007D"
+					item: "nuclearcraft:hyperspace"
+					type: "item"
+				}
+				{
+					id: "183848830AB78A7A"
+					item: "nuclearcraft:wanderer"
+					type: "item"
+				}
+				{
+					id: "62BD7D5C78056875"
+					item: "nuclearcraft:money_for_nothing"
+					type: "item"
+				}
+				{
+					id: "6D2EE9B9EDB0624A"
+					item: "nuclearcraft:end_of_the_world"
+					type: "item"
+				}
+				{
+					id: "15F4BA0D02389B77"
+					item: "eidolon:music_disc_parousia"
+					type: "item"
+				}
+				{
+					id: "0178C0C5D96ACB79"
+					item: "embers:music_disc_7f_patterns"
+					type: "item"
+				}
 			]
 			title: "The Toolbox: Disc Junkie"
 			x: 0.5d
