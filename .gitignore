@@ -26,6 +26,7 @@ patchouli_data.json
 fancymenu_data/last_world.fmdata
 config/spark/activity.json
 .mixin.out/
+exposures/
 
 # We don't distribute options.txt, we use default options!
 options.txt
