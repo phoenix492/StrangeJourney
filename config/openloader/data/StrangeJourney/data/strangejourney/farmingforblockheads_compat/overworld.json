@@ -38,6 +38,20 @@
       }
     },
     {
+      "output": "minecraft:potato",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
+      "output": "minecraft:carrot",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
       "output": "farmersdelight:cabbage_seeds"
     },
     {
@@ -57,6 +71,18 @@
     },
     {
       "output": "farmersrespite:tea_seeds"
+    },
+    {
+      "output": "actuallyadditions:canola_seeds"
+    },
+    {
+      "output": "actuallyadditions:flax_seeds"
+    },
+    {
+      "output": "actuallyadditions:rice_seeds"
+    },
+    {
+      "output": "actuallyadditions:coffee_beans"
     }
   ]
 }
