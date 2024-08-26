@@ -7,6 +7,7 @@ let chippedTableMessage = "\u00a7aVariant block display has been disabled in EMI
 let balanceDisabledMessage = "\u00a7cCrafting disabled for balance purposes."
 let sophisticatedStorageWoodMessage = "\u00a7aWood used affects resulting color."
 let sophisticatedStorageDyeMessage = "\u00a7aCan be dyed!"
+let portalDisabledMessage = "\u00a7cDisabled as part of disabling non-stargate travel."
 
 ItemEvents.tooltip(event => {
 	event.add('#strangejourney:chipped_table', chippedTableMessage)	
@@ -18,5 +19,7 @@ ItemEvents.tooltip(event => {
 	event.add('#strangejourney:sophisticatedstorage_balance_disabled', balanceDisabledMessage)
 	event.add('#strangejourney:sophisticatedstorage_wood_dye', sophisticatedStorageWoodMessage)
 	event.add('#strangejourney:sophisticatedstorage_wood_dye', sophisticatedStorageDyeMessage)
+	event.add('tropicraft:pina_colada', portalDisabledMessage) 
+	event.add('undergarden:catalyst', portalDisabledMessage)
 
 })

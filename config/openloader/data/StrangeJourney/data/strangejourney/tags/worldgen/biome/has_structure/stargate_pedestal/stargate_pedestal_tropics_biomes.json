@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values":
+	[
+		{"id": "tropicraft:bamboo_rainforest", "required":false},
+		{"id": "tropicraft:beach", "required":false},
+		{"id": "tropicraft:kelp_forest", "required":false},
+		{"id": "tropicraft:mangroves", "required":false},
+		{"id": "tropicraft:ocean", "required":false},
+		{"id": "tropicraft:osa_rainforest", "required":false},
+		{"id": "tropicraft:overgrown_mangroves", "required":false},
+		{"id": "tropicraft:rainforest", "required":false},
+		{"id": "tropicraft:river", "required":false},
+		{"id": "tropicraft:tropical_peaks", "required":false},
+		{"id": "tropicraft:tropics", "required":false}
+	]
+}
