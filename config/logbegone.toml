@@ -1,5 +1,5 @@
 
 [logbegone]
 	regex = ["Disconnecting VANILLA connection attempt", "Channels "]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels "]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "OpenGL debug message: id=2, source=API, type=ERROR, severity=HIGH, message='GL_INVALID_OPERATION in glBlitFramebuffer(depth attachment format mismatch)'", "recipes loaded with the same id: "]
 
