@@ -167,7 +167,20 @@ let stairIds = [
 	'deep_aether:raw_clorite_stairs',
 	'deep_aether:clorite_stairs',
 	'deep_aether:polished_clorite_stairs',
-	'deep_aether:aether_mud_bricks_stairs'
+	'deep_aether:aether_mud_bricks_stairs',
+	'eidolon:smooth_stone_bricks_stairs',
+	'eidolon:smooth_stone_tiles_stairs',
+	'eidolon:smooth_stone_masonry_stairs',
+	'eidolon:elder_bricks_stairs',
+	'eidolon:elder_masonry_stairs',
+	'eidolon:bone_pile_stairs',
+	'actuallyadditions:ethetic_green_stairs',
+	'actuallyadditions:ethetic_white_stairs',
+	'actuallyadditions:black_quartz_stair',
+	'actuallyadditions:chiseled_black_quartz_stair',
+	'actuallyadditions:black_quartz_pillar_stair',
+	'actuallyadditions:smooth_black_quartz_stair',
+	'actuallyadditions:black_quartz_brick_stair'
 ]
 
 let slabIds = [
@@ -289,7 +302,20 @@ let slabIds = [
 	'deep_aether:clorite_slab',
 	'deep_aether:polished_clorite_slab',
 	'deep_aether:aether_mud_bricks_slab',
-	'occultism:otherstone_slab'
+	'occultism:otherstone_slab',
+	'eidolon:smooth_stone_bricks_slab',
+	'eidolon:smooth_stone_tiles_slab',
+	'eidolon:smooth_stone_masonry_slab',
+	'eidolon:elder_bricks_slab',
+	'eidolon:elder_masonry_slab',
+	'eidolon:bone_pile_slab',
+	'actuallyadditions:ethetic_green_slab',
+	'actuallyadditions:ethetic_white_slab',
+	'actuallyadditions:black_quartz_slab',
+	'actuallyadditions:chiseled_black_quartz_slab',
+	'actuallyadditions:black_quartz_pillar_slab',
+	'actuallyadditions:smooth_black_quartz_slab',
+	'actuallyadditions:black_quartz_brick_slab'
 ]
 
 let foliageCarpetIds = [
