@@ -9,21 +9,21 @@
 [platinum]
 	register = true
 	dimensions = [0, -4848]
-	vein_size = 7
+	vein_size = 0
 	min_height = -60
 	max_height = 0
 
 [thorium]
 	register = true
 	dimensions = [0, -4848]
-	vein_size = 7
+	vein_size = 0
 	min_height = -60
 	max_height = 60
 
 [tin]
 	register = true
 	dimensions = [0, -4848]
-	vein_size = 7
+	vein_size = 0
 	min_height = 4
 	max_height = 60
 
@@ -37,7 +37,7 @@
 [silver]
 	register = true
 	dimensions = [0, -4848]
-	vein_size = 7
+	vein_size = 0
 	min_height = -60
 	max_height = 60
 
@@ -51,14 +51,14 @@
 [uranium]
 	register = true
 	dimensions = [0, -4848]
-	vein_size = 7
+	vein_size = 0
 	min_height = -60
 	max_height = 60
 
 [zinc]
 	register = true
 	dimensions = [0, -4848]
-	vein_size = 7
+	vein_size = 0
 	min_height = 4
 	max_height = 60
 
@@ -72,7 +72,7 @@
 [lead]
 	register = true
 	dimensions = [0, -4848]
-	vein_size = 7
+	vein_size = 0
 	min_height = 4
 	max_height = 60
 
@@ -85,68 +85,68 @@
 
 [raw_chunks]
 	lithium = true
-	platinum = true
-	thorium = true
-	tin = true
+	platinum = false
+	thorium = false
+	tin = false
 	magnesium = true
-	silver = true
+	silver = false
 	cobalt = true
-	uranium = true
-	zinc = true
+	uranium = false
+	zinc = false
 	boron = true
-	lead = true
+	lead = false
 
 [ingots]
 	manganese_oxide = true
 	niobium_tin = true
 	graphite = true
 	lithium = true
-	platinum = true
-	tungsten = true
+	platinum = false
+	tungsten = false
 	zircaloy = true
 	yttrium = true
 	thermoconducting = true
-	thorium = true
+	thorium = false
 	zirconium_molybdenum = true
-	tin = true
+	tin = false
 	palladium = true
 	beryllium = true
 	silicon_carbide = true
-	zinc = true
+	zinc = false
 	carbon_manganese = true
 	extreme = true
 	shibuichi = true
 	tungsten_carbide = true
 	stainless_steel = true
 	magnesium = true
-	bronze = true
+	bronze = false
 	sodium = true
 	tin_silver = true
 	pyrolitic_carbon = true
 	manganese_dioxide = true
-	silver = true
-	uranium = true
+	silver = false
+	uranium = false
 	niobium_titanium = true
 	tough_alloy = true
-	steel = true
+	steel = false
 	potassium = true
 	ferroboron = true
 	titanium = true
 	super_alloy = true
 	cobalt = true
-	aluminum = true
+	aluminum = false
 	manganese = true
 	sic_sic_cmc = true
 	hard_carbon = true
 	niobium = true
 	zirconium = true
-	electrum = true
+	electrum = false
 	chromium = true
 	calcium = true
 	strontium = true
-	osmium = true
+	osmium = false
 	lithium_manganese_dioxide = true
-	lead = true
+	lead = false
 	osmiridium = true
 	lead_platinum = true
 	hsla_steel = true
@@ -156,69 +156,69 @@
 	hafnium = true
 
 [nuggets]
-	steel = true
-	electrum = true
+	steel = false
+	electrum = false
 	magnesium = true
 	cobalt = true
-	aluminum = true
-	lead = true
-	bronze = true
+	aluminum = false
+	lead = false
+	bronze = false
 	lithium = true
-	platinum = true
-	thorium = true
-	tin = true
+	platinum = false
+	thorium = false
+	tin = false
 	beryllium = true
-	silver = true
-	uranium = true
+	silver = false
+	uranium = false
 	zirconium = true
-	zinc = true
+	zinc = false
 	boron = true
 
 [plates]
 	tough_alloy = true
-	steel = true
+	steel = false
 	ferroboron = true
 	cobalt = true
-	aluminum = true
+	aluminum = false
 	graphite = true
 	manganese = true
 	sic_sic_cmc = true
 	netherite = true
 	lithium = true
-	platinum = true
+	platinum = false
 	thermoconducting = true
 	thorium = true
 	hard_carbon = true
-	tin = true
+	tin = false
 	palladium = true
-	copper = true
+	copper = false
 	beryllium = true
 	zirconium = true
-	zinc = true
+	zinc = false
 	extreme = true
-	electrum = true
+	electrum = false
 	magnesium = true
 	lithium_manganese_dioxide = true
-	lead = true
-	bronze = true
-	iron = true
-	silver = true
+	lead = false
+	bronze = false
+	iron = false
+	silver = false
 	hsla_steel = true
-	uranium = true
+	uranium = false
 	boron = true
 
 [dusts]
 	barium = true
 	germanium = true
-	tungsten = true
+	tungsten = false
 	zircaloy = true
 	yttrium = true
 	thermoconducting = true
 	thorium = true
 	zirconium_molybdenum = true
 	palladium = true
-	sulfur = true
-	fluorite = true
+	sulfur = false
+	fluorite = false
 	lapis = true
 	silicon_carbide = true
 	zinc = true
@@ -227,41 +227,41 @@
 	purpur = true
 	borax = true
 	magnesium = true
-	bronze = true
+	bronze = false
 	manganese_dioxide = true
-	silver = true
+	silver = false
 	boron_nitride = true
 	gadolinium = true
 	tough_alloy = true
-	steel = true
+	steel = false
 	ferroboron = true
 	cobalt = true
 	strontium_90 = true
 	potassium_hydroxide = true
 	alugentum = true
-	aluminum = true
+	aluminum = false
 	manganese = true
 	sic_sic_cmc = true
 	protactinium_233 = true
-	gold = true
+	gold = false
 	europium_155 = true
 	hard_carbon = true
 	end_stone = true
 	niobium = true
 	yellowcake = true
-	copper = true
+	copper = false
 	iodine = true
 	zirconium = true
-	electrum = true
+	electrum = false
 	caesium_137 = true
 	strontium = true
 	rhodochrosite = true
-	lead = true
+	lead = false
 	boron_arsenide = true
 	neodymium = true
 	lead_platinum = true
 	crystal_binder = true
-	charcoal = true
+	charcoal = false
 	hafnium = true
 	sodium_hydroxide = true
 	manganese_oxide = true
@@ -272,14 +272,14 @@
 	graphite = true
 	netherite = true
 	lithium = true
-	platinum = true
+	platinum = false
 	carobbiite = true
-	tin = true
+	tin = false
 	beryllium = true
 	ruthenium_106 = true
 	extreme = true
 	shibuichi = true
-	obsidian = true
+	obsidian = false
 	polonium = true
 	arsenic = true
 	energetic_blend = true
@@ -287,9 +287,9 @@
 	tin_silver = true
 	pyrolitic_carbon = true
 	potassium_fluoride = true
-	coal = true
-	uranium = true
-	emerald = true
+	coal = false
+	uranium = false
+	emerald = false
 	c_mn_blend = true
 	potassium = true
 	tbp = true
@@ -307,11 +307,11 @@
 	calcium = true
 	potassium_iodide = true
 	villiaumite = true
-	osmium = true
+	osmium = false
 	lithium_manganese_dioxide = true
-	quartz = true
-	diamond = true
-	iron = true
+	quartz = false
+	diamond = false
+	iron = false
 	hsla_steel = true
 	boron = true
 	bismuth = true
@@ -353,5 +353,5 @@
 #Forge Tag priority
 [forge_tag_priority]
 	#Priority of mods to resolve forge tags to itemstack and fluidstack.
-	mods_priority = ["minecraft", "nuclearcraft", "mekanism", "immersiveengineering", "tconstruct"]
+	mods_priority = ["minecraft", "unify", "mekanism", "immersiveengineering", "tconstruct", "nuclearcraft"]
 
