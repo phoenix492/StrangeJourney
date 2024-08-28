@@ -106,7 +106,7 @@
 	zircaloy = true
 	yttrium = true
 	thermoconducting = true
-	thorium = false
+	thorium = true
 	zirconium_molybdenum = true
 	tin = false
 	palladium = true
