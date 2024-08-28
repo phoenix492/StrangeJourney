@@ -76,6 +76,9 @@
 		#Specifies if a Wither Storm head should immediately kill the player upon biting them. Does not apply to heads inside the bowels.
 		#Default: false
 		instantChomp = false
+		#Specifies if the Wither Storm should heal whenever it eats a mob (determined by half the mob's max health).
+		#Default: false
+		healFromChomp = false
 
 	#Ultimate Target Logic
 	[server.ultimate_target_logic]
@@ -299,6 +302,16 @@
 		#Specifies if block clusters can have a chance to spiral counter clockwise when being consumed by the Wither Storm.
 		#Default: false
 		canClustersSpiralCounterClockwise = false
+		#Makes it so the Wither Storm will remove fluids above Y 63 with its tractor beams.
+		#Default: true
+		tractorBeamsRemoveFluids = true
+		#Specifies if the Wither Storm should convert falling blocks into clusters (NOTE: This can be very laggy and cause the Wither Storm to evolve fast!).
+		#Default: false
+		convertFallingBlocks = false
+		#Specifies the height of which tractor beams should remove water. The default of 63 is ocean height and upwards.
+		#Default: 63
+		#Range: -64 ~ 320
+		tractorBeamFluidRemovalHeight = 63
 
 	#Caves
 	[server.caves]
