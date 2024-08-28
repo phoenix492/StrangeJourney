@@ -12,3 +12,8 @@ ServerEvents.recipes( event => {
         }
     )
 })
+
+ServerEvents.tags( 'item', event => {
+    event.add('forge:ores/thorium', 'create_new_age:thorium_ore')
+    event.add('forge:raw_materials/thorium', 'create_new_age:thorium')
+})
