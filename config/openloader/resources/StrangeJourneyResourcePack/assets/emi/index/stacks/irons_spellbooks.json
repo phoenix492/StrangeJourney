@@ -2,7 +2,6 @@
 	"removed": [
 		"item:irons_spellbooks:scroll{ISB_Spells:{data:[{id:\"irons_spellbooks:acupuncture\",index:0,level:9,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:irons_spellbooks:scroll{ISB_Spells:{data:[{id:\"irons_spellbooks:magma_bomb\",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
-    "ite:irons_spellbooks:scroll{ISB_Spells:{data:[{id:\"irons_spellbooks:fire_breath\",index:0,level:10,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:irons_spellbooks:scroll{ISB_Spells:{data:[{id:\"irons_spellbooks:magma_bomb\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:irons_spellbooks:scroll{ISB_Spells:{data:[{id:\"irons_spellbooks:acupuncture\",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:irons_spellbooks:scroll{ISB_Spells:{data:[{id:\"irons_spellbooks:acupuncture\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
