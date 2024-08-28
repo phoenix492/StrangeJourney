@@ -7,21 +7,21 @@
 	max_height = 60
 
 [platinum]
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	vein_size = 0
 	min_height = -60
 	max_height = 0
 
 [thorium]
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	vein_size = 0
 	min_height = -60
 	max_height = 60
 
 [tin]
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	vein_size = 0
 	min_height = 4
@@ -35,7 +35,7 @@
 	max_height = 60
 
 [silver]
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	vein_size = 0
 	min_height = -60
@@ -49,14 +49,14 @@
 	max_height = 60
 
 [uranium]
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	vein_size = 0
 	min_height = -60
 	max_height = 60
 
 [zinc]
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	vein_size = 0
 	min_height = 4
@@ -70,7 +70,7 @@
 	max_height = 60
 
 [lead]
-	register = true
+	register = false
 	dimensions = [0, -4848]
 	vein_size = 0
 	min_height = 4
