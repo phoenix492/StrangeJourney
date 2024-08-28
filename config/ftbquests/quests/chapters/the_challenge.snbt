@@ -710,7 +710,7 @@
 			description: [
 				"A lot of players don't know this but &9llamas&r have varying &astrength&r stats."
 				""
-				"For each point of strength, llamas get &a3 extr&ra storage slots up to a maximum of &a15 slots at 5 strength&r."
+				"For each point of strength, llamas get &a3 extra&r storage slots up to a maximum of &a15 slots at 5 strength&r."
 				""
 				"Llama's strength is determined at birth to from 1 to the stronger parent's strength, then given a 3% chance to be further increased by 1 after this is rolled. "
 				""
