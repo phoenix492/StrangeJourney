@@ -1,0 +1,9 @@
+{	
+	"block.alexscaves.radrock_uranium_ore": "Radium Chloride Ore",
+	"block.alexscaves.uranium_rod": "Radioactive Fuel Rod",
+	"block.alexscaves.block_of_uranium": "Block of Radium Chloride",
+	"item.alexscaves.uranium": "Radium Chloride",
+	"item.alexscaves.uranium_shard": "Radium Chloride Shard",
+	"advancements.alexscaves.uranium.desc": "Mine Radium Chloride Ore",
+	"advancements.alexscaves.uranium_rod.desc": "Craft a Radioactive Fuel Rod"
+}
