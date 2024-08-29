@@ -801,6 +801,34 @@
 			x: 0.5d
 			y: 0.0d
 		}
+		{
+			description: [
+				"&9Cachalot Whales&r from &eAlex's Mobs&r have a rare chance of being &aAlbino&r, as a nod to Moby Dick. "
+				""
+				"Keep an eye out for them on your travels!"
+			]
+			id: "6265589D2FD9A497"
+			rewards: [
+				{
+					id: "2138188B0D0653C8"
+					item: "alexsmobs:ambergris"
+					type: "item"
+				}
+				{
+					id: "6D9255C604DAD92B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The watery part of the world."
+			tasks: [{
+				id: "5763333EEFB553B1"
+				title: "The White Whale"
+				type: "custom"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
 	]
 	subtitle: ["For those looking for one."]
 	title: "The Challenge"
