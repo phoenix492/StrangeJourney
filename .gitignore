@@ -39,6 +39,12 @@ config/jeiintegration-client.toml
 config/attributefix.json
 config/xaerominimap_entities.json
 
+# Spark Stuff
+config/spark/*.threads
+config/spark/*.index
+config/spark/*.zip
+config/spark/*.hprof
+
 # This is unused, it will be generated but may as well not clutter VCS
 config/custom-micromaterials.cfg
 
