@@ -38,6 +38,7 @@ config/oculus.properties
 config/jeiintegration-client.toml
 config/attributefix.json
 config/xaerominimap_entities.json
+config/fabric/
 
 # Spark Stuff
 config/spark/*.threads
