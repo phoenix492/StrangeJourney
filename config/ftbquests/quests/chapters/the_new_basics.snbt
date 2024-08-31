@@ -423,6 +423,39 @@
 			x: -3.0d
 			y: 4.5d
 		}
+		{
+			dependencies: ["29DDE841EDE126F2"]
+			description: [
+				"Common ores are handled with &eCreate: Unify&r, whic lacks built in ore spawning. As such, spawn are completely customized for this pack. All ores not listed here spawn according to the original mod, but may be &aadjusted for balacing purposes&r."
+				""
+				"&9Lead&r: Common. Spawns from 64 to -64, most common from 10 to -10. More common in the lower levels of the world than the upper levels."
+				""
+				"&9Silver&r: Identical to Lead."
+				""
+				"&9Tin&r: Semi-common. Spawns from 112 to -16, being most common at 48. This is an identical distribution to copper, but Tin remains less common comparatively."
+				""
+				"&9Uranium&r: Uncommon. Spawns starting at 0 and becomes increasingly common the further down you go."
+				""
+				"&9Bauxite&r: Semi-common. Spawns exclusively above 0 at a uniform rate."
+				""
+				"&9Nickel&r: Semi-common. Spawns below 100 at a uniform rate."
+			]
+			icon: "unify:uranium_ore"
+			id: "5443C5B0B2DC576A"
+			rewards: [{
+				id: "636BB6F095FB3714"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Different yet familiar."
+			tasks: [{
+				id: "4ECB96E1467AF141"
+				title: "Ore Spawning"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
 	]
 	subtitle: ["The way it works."]
 	title: "The New Basics"
