@@ -1,0 +1,16 @@
+{
+  "removed": [
+		"item:create_central_kitchen:creative_tab_icon",
+		"item:create_central_kitchen:incomplete_apple_pie",
+		"item:create_central_kitchen:incomplete_bacon_sandwich",
+		"item:create_central_kitchen:incomplete_cherry_pie",
+		"item:create_central_kitchen:incomplete_chicken_sandwich",
+		"item:create_central_kitchen:incomplete_egg_sandwich",
+		"item:create_central_kitchen:incomplete_hamburger",
+		"item:create_central_kitchen:incomplete_mulberry_pie",
+		"item:create_central_kitchen:incomplete_mutton_wrap",
+		"item:create_central_kitchen:incomplete_pumpkin_pie",
+		"item:create_central_kitchen:incomplete_sweet_berry_cheesecake",
+		"item:create_central_kitchen:incomplete_truffle_pie"
+  ]
+}

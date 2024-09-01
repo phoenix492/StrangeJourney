@@ -1,0 +1,10 @@
+{
+  "removed": [
+		"item:betterarcheology:cracked_mud_brick_slab",
+		"item:betterarcheology:cracked_mud_brick_stairs",
+		"item:betterarcheology:rotten_fence",
+		"item:betterarcheology:rotten_fence_gate",
+		"item:betterarcheology:rotten_slab",
+		"item:betterarcheology:rotten_stairs"
+  ]
+}

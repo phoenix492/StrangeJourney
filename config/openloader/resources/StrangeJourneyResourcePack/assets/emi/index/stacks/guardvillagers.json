@@ -1,0 +1,6 @@
+{
+  "removed": [
+		"item:guardvillagers:guard_spawn_egg",
+		"item:guardvillagers:illusioner_spawn_egg"
+  ]
+}

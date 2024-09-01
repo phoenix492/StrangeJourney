@@ -1,0 +1,31 @@
+{
+  "removed": [
+		"item:thermal:apple_block",
+		"item:thermal:basalz_spawn_egg",
+		"item:thermal:beetroot_block",
+		"item:thermal:blitz_spawn_egg",
+		"item:thermal:blizz_spawn_egg",
+		"item:thermal:carrot_block",
+		"item:thermal:deepslate_ruby_ore",
+		"item:thermal:deepslate_sapphire_ore",
+		"item:thermal:fluid_tank_creative_augment",
+		"item:thermal:machine_catalyst_creative_augment",
+		"item:thermal:machine_efficiency_creative_augment",
+		"item:thermal:potato_block",
+		"item:thermal:rf_coil_creative_augment",
+		"item:thermal:rubberwood_fence",
+		"item:thermal:rubberwood_fence_gate",
+		"item:thermal:rubberwood_slab",
+		"item:thermal:rubberwood_stairs",
+		"item:thermal:ruby",
+		"item:thermal:ruby_block",
+		"item:thermal:ruby_dust",
+		"item:thermal:ruby_gear",
+		"item:thermal:ruby_ore",
+		"item:thermal:sapphire",
+		"item:thermal:sapphire_block",
+		"item:thermal:sapphire_dust",
+		"item:thermal:sapphire_gear",
+		"item:thermal:sapphire_ore"
+  ]
+}

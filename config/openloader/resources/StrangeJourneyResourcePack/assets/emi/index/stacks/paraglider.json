@@ -1,0 +1,12 @@
+{
+  "removed": [
+		"item:paraglider:anti_vessel",
+		"item:paraglider:essence",
+		"item:paraglider:goddess_statue",
+		"item:paraglider:goron_goddess_statue",
+		"item:paraglider:horned_statue",
+		"item:paraglider:kakariko_goddess_statue",
+		"item:paraglider:rito_goddess_statue",
+		"item:paraglider:spirit_orb"
+  ]
+}

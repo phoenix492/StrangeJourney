@@ -1,0 +1,15 @@
+{
+  "removed": [
+		"item:pneumaticcraft:compressed_brick_slab",
+		"item:pneumaticcraft:compressed_brick_stairs",
+		"item:pneumaticcraft:compressed_brick_wall",
+		"item:pneumaticcraft:compressed_stone_slab",
+		"item:pneumaticcraft:creative_compressed_iron_block",
+		"item:pneumaticcraft:creative_compressor",
+		"item:pneumaticcraft:creative_upgrade",
+		"item:pneumaticcraft:reinforced_brick_slab",
+		"item:pneumaticcraft:reinforced_brick_stairs",
+		"item:pneumaticcraft:reinforced_brick_wall",
+		"item:pneumaticcraft:reinforced_stone_slab"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "removed": [
+		"item:collectorsreap:chieftain_crab_spawn_egg",
+		"item:collectorsreap:clam_spawn_egg",
+		"item:collectorsreap:platinum_bass_spawn_egg",
+		"item:collectorsreap:tiger_prawn_spawn_egg",
+		"item:collectorsreap:urchin_spawn_egg",
+		"item:collectorsreap:urchin_test_brick_slab",
+		"item:collectorsreap:urchin_test_brick_stairs",
+		"item:collectorsreap:urchin_test_brick_wall",
+		"item:collectorsreap:urchin_test_tile_slab",
+		"item:collectorsreap:urchin_test_tile_stairs",
+		"item:collectorsreap:urchin_test_tile_wall"
+  ]
+}

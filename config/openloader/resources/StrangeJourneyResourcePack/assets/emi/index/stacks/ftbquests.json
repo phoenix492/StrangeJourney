@@ -1,0 +1,14 @@
+{
+	"removed": [
+    "item:ftbquests:barrier",
+    "item:ftbquests:stage_barrier",
+    "item:ftbquests:detector",
+    "item:ftbquests:loot_crate_opener",
+    "item:ftbquests:book",
+    "item:ftbquests:screen_1",
+    "item:ftbquests:screen_3",
+    "item:ftbquests:screen_5",
+    "item:ftbquests:screen_7",
+    "item:ftbquests:task_screen_configurator"
+	]
+}

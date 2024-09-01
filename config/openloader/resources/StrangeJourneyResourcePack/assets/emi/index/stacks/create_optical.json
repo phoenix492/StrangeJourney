@@ -1,0 +1,8 @@
+{
+	"removed": [
+		"item:create_optical:incomplete_golden_coil",
+		"item:create_optical:incomplete_laser",
+		"item:create_optical:incomplete_mirror",
+		"item:create_optical:incomplete_polarizing_filter"
+	]
+}

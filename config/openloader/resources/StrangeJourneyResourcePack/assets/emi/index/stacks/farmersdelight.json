@@ -1,0 +1,7 @@
+{
+  "removed": [
+		"item:farmersdelight:beetroot_crate",
+		"item:farmersdelight:carrot_crate",
+		"item:farmersdelight:potato_crate"
+  ]
+}

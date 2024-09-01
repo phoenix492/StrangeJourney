@@ -1,0 +1,8 @@
+{
+  "removed": [
+		"item:createdieselgenerators:asphalt_slab",
+		"item:createdieselgenerators:asphalt_stairs",
+		"item:createdieselgenerators:chip_wood_slab",
+		"item:createdieselgenerators:chip_wood_stairs"
+  ]
+}

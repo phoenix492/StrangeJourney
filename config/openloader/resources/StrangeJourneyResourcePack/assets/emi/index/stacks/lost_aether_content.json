@@ -1,0 +1,15 @@
+{
+  "removed": [
+		"item:lost_aether_content:boss_doorway_gale_stone",
+		"item:lost_aether_content:boss_doorway_light_gale_stone",
+		"item:lost_aether_content:gale_slab",
+		"item:lost_aether_content:gale_stairs",
+		"item:lost_aether_content:gale_wall",
+		"item:lost_aether_content:locked_gale_stone",
+		"item:lost_aether_content:locked_light_gale_stone",
+		"item:lost_aether_content:trapped_gale_stone",
+		"item:lost_aether_content:trapped_light_gale_stone",
+		"item:lost_aether_content:treasure_doorway_gale_stone",
+		"item:lost_aether_content:treasure_doorway_light_gale_stone"
+  ]
+}

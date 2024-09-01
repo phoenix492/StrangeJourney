@@ -1,0 +1,25 @@
+{
+	"removed": [
+		"item:actuallyadditions:black_quartz_brick_slab",
+		"item:actuallyadditions:black_quartz_brick_stair",
+		"item:actuallyadditions:black_quartz_brick_wall",
+		"item:actuallyadditions:black_quartz_pillar_slab",
+		"item:actuallyadditions:black_quartz_pillar_stair",
+		"item:actuallyadditions:black_quartz_pillar_wall",
+		"item:actuallyadditions:black_quartz_slab",
+		"item:actuallyadditions:black_quartz_stair",
+		"item:actuallyadditions:black_quartz_wall",
+		"item:actuallyadditions:chiseled_black_quartz_slab",
+		"item:actuallyadditions:chiseled_black_quartz_stair",
+		"item:actuallyadditions:chiseled_black_quartz_wall",
+		"item:actuallyadditions:ethetic_green_slab",
+		"item:actuallyadditions:ethetic_green_stairs",
+		"item:actuallyadditions:ethetic_green_wall",
+		"item:actuallyadditions:ethetic_white_slab",
+		"item:actuallyadditions:ethetic_white_stairs",
+		"item:actuallyadditions:ethetic_white_wall",
+		"item:actuallyadditions:smooth_black_quartz_slab",
+		"item:actuallyadditions:smooth_black_quartz_stair",
+		"item:actuallyadditions:smooth_black_quartz_wall"
+	]
+}
