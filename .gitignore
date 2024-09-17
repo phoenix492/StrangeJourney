@@ -2,34 +2,34 @@
 config/openloader/resources/TwilightJappaPack.zip
 
 # Various local and/or unused directories/files
-local/
-aes/
-modernfix/
-backups/
-quests_structures/
+/local/
+/aes/
+/modernfix/
+/backups/
+/quests_structures/
 rhino.local.properties
-shaderpacks/
-texturepacks/
-Xaero*/
-xaero/
-saves/
-screenshots/
+/shaderpacks/
+/texturepacks/
+/Xaero*/
+/xaero/
+/saves/
+/screenshots/
 usercache.json
 usernamecache.json
-logs/
-crash-reports/
+/logs/
+/crash-reports/
 knownkeys.txt
 kubejs/README.txt
 *.tmp
 config/spark/tmp/
-patchouli_data.json
+/patchouli_data.json
 fancymenu_data/last_world.fmdata
 config/spark/activity.json
-.mixin.out/
-exposures/
-otyacraftengine/
-iammusicplayer/
-data/
+/.mixin.out/
+/exposures/
+/otyacraftengine/
+/iammusicplayer/
+/data/
 
 # We don't distribute options.txt, we use default options!
 options.txt
@@ -55,8 +55,8 @@ config/custom-micromaterials.cfg
 icon.png
 
 # We don't distribute mods directly, we use manifest files
-coremods/
-mods/
+/coremods/
+/mods/
 
 # Config files for mods that won't be included in finished packs
 config/worldedit
