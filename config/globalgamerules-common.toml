@@ -27,6 +27,8 @@
 		mob_explosion_drop_decay = true
 		#Whether block loot is dropped by all blocks (false) or randomly (true) depending on how far the block is from the center of a TNT explosion.
 		tnt_explosion_drop_decay = false
+		#Non Vanilla gamerule: 'doPokemonLoot'
+		do_pokemon_loot = true
 
 	[gamerules.misc]
 		#Controls the maximum number of blocks changed when using /clone, /fill, or /fillbiome.
@@ -39,6 +41,8 @@
 		max_command_chain_length = 65536
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 		reduced_debug_info = false
+		#Non Vanilla gamerule: 'doShinyStarters'
+		do_shiny_starters = false
 
 	[gamerules.player]
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.
@@ -114,6 +118,8 @@
 		do_trader_spawning = false
 		#Whether wardens can spawn.
 		do_warden_spawning = true
+		#Non Vanilla gamerule: 'doPokemonSpawning'
+		do_pokemon_spawning = true
 
 #Configs related to difficult changes
 [difficulty]

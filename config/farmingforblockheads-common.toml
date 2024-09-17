@@ -1,5 +1,5 @@
 #List of names the merchant can have.
-merchantNames = ["Phoenix492", "Davey", "Uni", "Frog the Seed Swapper", "Verbina", "Will Sell Seeds for Seeds", "Qwerty"]
+merchantNames = ["Phoenix492", "Davey", "Uni", "Frog the Seed Swapper", "Verbina", "Will Sell Seeds for Seeds", "Qwerty", "Residential_area", "Smileycorp", "Bo", "Parb", "Cookie", "Buqetian", "Ember", "Adele", "ThatAnimeGuy", "Cozie", "Jakobuo", "Kayla", "Virunas"]
 #The range within animals can be fed by the feeding trough.
 #Range: > -2147483648
 feedingTroughRange = 8
