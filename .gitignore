@@ -40,6 +40,7 @@ config/jeiintegration-client.toml
 config/attributefix.json
 config/xaerominimap_entities.json
 config/fabric/
+fabricloader.log
 
 # Spark Stuff
 config/spark/*.threads
