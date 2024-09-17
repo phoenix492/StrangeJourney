@@ -1,0 +1,6 @@
+{
+    "name": "Inaccessible",
+    "description": "This category is best ignored as a technical category to hold entries that should be inaccessible unless linked to, for organizational purposes.",
+    "icon": "minecraft:air",
+    "parent": "patchouli:strangeguide/gameplaychanges"
+}

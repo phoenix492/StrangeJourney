@@ -1,0 +1,25 @@
+{
+    "name": "Radium Chloride Ore",
+    "icon": "alexscaves:radrock_uranium_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Extremely Common $(li)Max Height: 256$(li)Min Height: 0$(li)Most Common: Renamed from Uranium, no longer equivalent. Only spawns in the Toxic Caves."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "alexscaves:radrock_uranium_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

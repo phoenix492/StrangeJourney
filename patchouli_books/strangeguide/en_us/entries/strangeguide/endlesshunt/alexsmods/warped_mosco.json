@@ -1,0 +1,21 @@
+{
+    "name": "The Warped Mosco",
+    "icon": "alexsmobs:hemolymph_sac",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:alexsmods/warped_mosco",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Warped Mosco",
+            "text": "To spawn this insect with a crippling case of roid-rage, a Crimson Mosquito will need to drink the blood of a Mungus coated in Warped Fungus, and I assure you all of those are real words. Good luck, it's a strong asshole.$(br)To obtain the Heart Container, you'll need to slay all of:$(li)The Warped Mosco$(li)The Hullbreaker",
+            "trigger":"strangejourney:alexsmods/warped_mosco"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "alexsmobs:warped_mosco",
+            "scale": 1,
+            "offset": 0.5
+        }
+    ]
+}

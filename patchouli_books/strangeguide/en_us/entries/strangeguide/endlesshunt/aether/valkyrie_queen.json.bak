@@ -1,0 +1,21 @@
+{
+    "name": "The Valkyrie Queen",
+    "icon": "aether:light_angelic_stone",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:aether/valkyrie_queen",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Valkyrie Queen",
+            "text": "She waits atop her throne in the clouds, deeming you unworthy to challenge her immeaditely. Consider demonstrating your valor by besting her subordinates first.",
+            "trigger":"strangejourney:aether/valkyrie_queen"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "aether:valkyrie_queen",
+            "scale": 0.8,
+            "offset": 0
+        }
+    ]
+}

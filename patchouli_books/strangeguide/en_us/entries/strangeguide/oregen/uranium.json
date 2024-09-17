@@ -1,0 +1,25 @@
+{
+    "name": "Uranium Ore",
+    "icon": "unify:uranium_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Uncommon$(li)Max Height: 30$(li)Min Height: -64$(li)Most Common: Below -49"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "unify:uranium_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

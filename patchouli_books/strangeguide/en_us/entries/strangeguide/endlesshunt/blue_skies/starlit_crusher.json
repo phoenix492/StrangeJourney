@@ -1,0 +1,21 @@
+{
+    "name": "The Starlit Crusher",
+    "icon": "blue_skies:starlit_crusher_trophy{BlockStateTag:{tier:\"gold\"}}",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:blue_skies/starlit_crusher",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Starlit Crusher",
+            "text": "Found in the Everbright.",
+            "trigger":"strangejourney:blue_skies/alchemist"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "blue_skies:starlit_crusher",
+            "scale": 0.8,
+            "offset": 0.7
+        }
+    ]
+}

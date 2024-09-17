@@ -1,0 +1,25 @@
+{
+    "name": "Lead Ore",
+    "icon": "unify:lead_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Common$(li)Max Height: 64$(li)Min Height: -64$(li)Most Common: 10 to -10$(li)Special Note: More common below 0 than above."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "unify:lead_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

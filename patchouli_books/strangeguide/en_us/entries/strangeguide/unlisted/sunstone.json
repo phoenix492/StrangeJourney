@@ -1,0 +1,25 @@
+{
+    "name": "Sun Stone Ore",
+    "icon": "cobblemon:sun_stone_ore",
+    "category": "patchouli:strangeguide/inaccessible",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Common:$(li)Badlands$(li)Dripstone$(li)Grassland$(br)Rare:$(li)Desert$(li)Tropical"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "cobblemon:sun_stone_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

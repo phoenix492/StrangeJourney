@@ -1,0 +1,25 @@
+{
+    "name": "Leaf Stone Ore",
+    "icon": "cobblemon:leaf_stone_ore",
+    "category": "patchouli:strangeguide/inaccessible",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Common:$(li)Forest$(li)Jungle$(li)Lush$(br)Rare:$(li)Swamp$(li)Tropical"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "cobblemon:leaf_stone_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

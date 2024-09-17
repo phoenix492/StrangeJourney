@@ -1,0 +1,26 @@
+{
+    "name": "The Leviathan",
+    "icon": "cataclysm:tidal_claws",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/the_leviathan",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Leviathan",
+            "text": "I have no flowery language here. This thing's model scares the hell out of me. It's in a sunken city deep in the ocean.",
+            "trigger":"strangejourney:cataclysm/the_leviathan"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:the_leviathan",
+            "scale": 0.3,
+            "offset": -0.1
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:abyss_eye",
+            "text": "The Abyss Eye will lead you directly to the Sunken City where the Leviathan resides."
+        }
+    ]
+}

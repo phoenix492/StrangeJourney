@@ -1,0 +1,21 @@
+{
+    "name": "My Personal Friends",
+    "icon": "minecraft:diamond",
+    "category": "patchouli:strangeguide/credits",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Everything I make is dedicated to the people who made it happen, and that includes my reasons for continuing to live."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "David",
+            "text": "We've been friends for so long I'm starting to lose track of the years. As much as I yell at you for spamming me with stuff I don't understand until I remind you to explain it, it makes me happy. Your genuine talent is an inspiration and pulls me to your hobbies because of how much joy it brings you. Also he makes good music and don't let him tell you otherwise, check out his $(l:https://soundcloud.com/buqetianary)Soundcloud$(/l) and $(l:https://www.youtube.com/@Buckets616)Youtube$(/l)"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "\"Cookie\"",
+            "text": "Your name is too unique, I have to put the name of one of your characters x3. You have stuck with me through the worst periods of my life, and have been my guiding beacon of stability. Your passion and skill for writing and roleplaying makes me feel inspired to keep thinking and creating every day. You are my closest friend, I can only hope your life is perfect from here on, and I love you with all of my heart <3."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Alex's Caves",
+    "icon": "alexscaves:cave_codex",
+    "category": "patchouli:strangeguide/modchanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Alex's Caves biomes have been made both larger and rarer, both reduce the chance of you finding a poorly sized one in case you're interested in them aesthetically, and to reduce their overall 'impact' on the overworld."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Formerly Uranium",
+            "item": "alexscaves:radrock_uranium_ore",
+            "text": "While this may at first seem arbitrary, Alex's Caves Uranium has instead been re-branded to 'Radium Chloride,' and removed from all related Uranium tags. This is actually to preserve the intended progression of finding and exploring the Toxic Caves before getting access to its cool toys."
+        }
+    ]
+}

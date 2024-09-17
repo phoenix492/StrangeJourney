@@ -1,0 +1,23 @@
+{
+    "name": "The Wadjet",
+    "icon": "cataclysm:ancient_metal_ingot",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/wadjet",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Wadjet",
+            "text": "You'll find the Wadjet right next to the Kobolediator and the Ancient Remnant. Before getting the heart container, you'll need to slay all of:$(li)The Amethyst Crab$(li)The Wadjet$(li)The Kobolediator$(li)The Prowler$(li)The Ender Golem",
+            "trigger":"strangejourney:cataclysm/wadjet"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:wadjet",
+            "scale": 1,
+            "offset": 0,
+            "rotate": false,
+            "default_rotation": -35
+        }
+    ]
+}

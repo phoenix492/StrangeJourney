@@ -1,0 +1,25 @@
+{
+    "name": "Zinc Ore",
+    "icon": "create:zinc_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Uncommon$(li)Max Height: 70$(li)Min Height: -63$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "create:zinc_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

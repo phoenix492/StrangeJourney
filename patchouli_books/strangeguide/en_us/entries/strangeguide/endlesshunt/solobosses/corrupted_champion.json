@@ -1,0 +1,73 @@
+{
+    "name": "The Corrupted Champion",
+    "icon": "graveyard:white_bone_staff",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:solobosses/corrupted_champion",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Corrupted Champion",
+            "text": "Fighting this ancient, sealed evil is the culmination of a very long process of exploring the world, collecting fragments, and commiting heinous acts, all for a chance to rid the world of this menace. The following pages explain the process in detail. Bring healing potions and blocks, the combat changes make it very difficult to eat in this fight.",
+            "trigger":"strangejourney:solobosses/corrupted_champion"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "graveyard:lich",
+            "offset": 0
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "The Bone Staff",
+            "item": "graveyard:upper_bone_staff,graveyard:middle_bone_staff,graveyard:lower_bone_staff",
+            "text": "Throughout the overworld are several spooky crypts, dungeons, and other assorted places of the dead contaning 3 different Ominous Bonestaff Fragments; A head, a body, and a tail piece. You'll need all three of these."
+        },
+        {
+            "type": "patchouli:crafting",
+            "title": "The Bone Dagger",
+            "recipe": "graveyard:bone_dagger",
+            "text": "You'll also need to craft a bone dagger and steel your mind, for this next step is grizzly."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "The Vial of Blood",
+            "item": "graveyard:vial_of_blood{Blood:0.8f}",
+            "text": "With a bottle in your offhand, use your Bone Knife to slay 8 innocent villagers and collect their blood. You'll need it to undo the seal, and it's a sacrifice you must be willing to make to save the world."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "The Ritual",
+            "text": "Once you've obtained all of these items, locate a Lich Prison (it appears as a giant floating island in the sky), place the staff pieces in front of the center altar on the three Corrupted Deepslate Center blocks (pictured, left). Top piece to bottom piece, left to right. Once done, pour the vial of blood on the main altar (pictured, right) and the fight will begin."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Primary Altar",
+            "multiblock": {
+                "mapping": {
+                    "0": "graveyard:altar"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Bone Staff Altar",
+            "multiblock": {
+                "mapping": {
+                    "0": "graveyard:altar_center"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

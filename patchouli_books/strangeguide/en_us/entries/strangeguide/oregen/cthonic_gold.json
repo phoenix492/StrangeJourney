@@ -1,0 +1,25 @@
+{
+    "name": "Cthonic Gold Ore",
+    "icon": "malum:cthonic_gold_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Unfindably Rare$(li)Max Height: 0$(li)Min Height: -48$(li)Most Common: -24$(li)Special Note: Spawns in larger than average veins of gold."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "malum:cthonic_gold_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

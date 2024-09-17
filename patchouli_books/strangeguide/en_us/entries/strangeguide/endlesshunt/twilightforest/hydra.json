@@ -1,0 +1,20 @@
+{
+    "name": "The Hydra",
+    "icon": "twilightforest:hydra_trophy",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:twilightforest/hydra",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Hydra",
+            "text": "You'll need to slay the Minotaur in the Labyrinth and consume the Meef Stroganoff it drops to enter the Fire Swamp. Bring Fire Resistance, trust me!",
+            "trigger":"strangejourney:twilightforest/hydra"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "twilightforest:hydra",
+            "offset": 0
+        }
+    ]
+}

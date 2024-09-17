@@ -1,0 +1,29 @@
+{
+    "name": "The Seed Problem",
+    "icon": "farmingforblockheads:market",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "As a blessing and a gift from me to you, grass now only drops wheat seeds instead of an assortment of seeds from various mods, and most 'wild' crops in the world that drop seeds have been disabled. This should prevent your inventory being completely full to the brim with seeds."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "farmingforblockheads:market",
+            "text": "To aquire seeds, you can instead use the Farming for Blockheads market to trade for them for a rate of 1 Wheat Seed per 1 any other seed."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Exception: Foods",
+            "item": "minecraft:carrot,minecraft:potato,farmersdelight:rice",
+            "text": "Carrots, potatoes, and rice are each their own food item and seed, and as such have a cost of one emerald."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Exception: Restricted",
+            "item": "forbidden_arcanus:golden_orchid_seeds,mowziesmobs:foliaath_seed,ars_nouveau:magebloom_crop,undergarden:gloomgourd_seeds",
+            "text": "Various seeds that happen to be important to mods' progression, locked behind various dimensions, or otherwise require special action are unavaliable in the Market to preserve developer visions."
+        }
+
+    ]
+}

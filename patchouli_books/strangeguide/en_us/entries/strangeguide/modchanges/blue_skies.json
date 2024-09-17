@@ -1,0 +1,16 @@
+{
+    "name": "Blue Skies",
+    "icon": "blue_skies:blue_journal",
+    "category": "patchouli:strangeguide/modchanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Owing to its new method of access via the Stargate Network, the Gatekeeper NPC and associated structure have been disabled.$(br2)As well, Blue Skies awful tool+armor nerf nonsense has been disabled courtesy of the mod Lue Kie, from Roxxane019 (Thank you <3)"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:kjs/blue_skies_blue_journal",
+            "text": "The Blue Journal can now be obtained via crafting 4 pieces of Blue Skies cobblestone surrounding a book."
+        }
+    ]
+}

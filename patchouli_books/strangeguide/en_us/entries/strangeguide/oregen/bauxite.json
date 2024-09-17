@@ -1,0 +1,25 @@
+{
+    "name": "Bauxite Ore",
+    "icon": "unify:aluminum_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Semi-Common$(li)Max Height: 320$(li)Min Height: 0$(li)Most Common: Above 70$(li)Special Note: Twice as abundant above 70 as it is below."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "unify:aluminum_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

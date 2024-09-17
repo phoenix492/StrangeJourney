@@ -1,0 +1,21 @@
+{
+    "name": "The Ender Golem",
+    "icon": "cataclysm:void_core",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/ender_golem",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Ender Golem",
+            "text": "The Ender Golem resides in its own little room in the dungeon containing The Ender Guardian. Before getting the heart container, you'll need to slay all of:$(li)The Amethyst Crab$(li)The Wadjet$(li)The Kobolediator$(li)The Prowler$(li)The Ender Golem",
+            "trigger":"strangejourney:cataclysm/ender_golem"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:ender_golem",
+            "scale": 0.8,
+            "offset": 0
+        }
+    ]
+}

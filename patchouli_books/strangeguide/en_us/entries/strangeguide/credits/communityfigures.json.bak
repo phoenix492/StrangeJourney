@@ -1,0 +1,32 @@
+{
+    "name": "Community Figures",
+    "icon": "minecraft:player_head",
+    "category": "patchouli:strangeguide/credits",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "It's the leaders and creators in the community that really provide a beacon of light and an inspiration to all of us, the reasons we're here, the reason we know it's possible to create, because they blazed the trail."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Direwolf20",
+            "text": "All of my love for modded minecraft, all of my depth of knowledge that I have accumulated over time without playing as much as I should, all of the countless nights I binged watched his videos into the wee hours of the morning, is thanks to him. He is effectively the singlehanded reason I got into modded Minecraft and the reason it has such a stranglehold on me, and I wouldn't have it any other way."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Luna",
+            "text": "Developer of Create: Dreams and Desires, Create: Unify (which this pack uses as its primary ore mod), many others, and a talented artist who has her art everywhere as it rightfully should be. Every interaction with her and in her community server was extremely pleasant and kind, even going to far as to accept my silly little oregen datapack as an offical inclusion."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Vazkii",
+            "text": "No introduction really needed. Creator of Botania, Quark, Psi, Patchouli, some of my all time favorite mods and the reason you get to read this documentation so comfortably. I have referenced their 'How I Design Modpacks' post countless times and disregarded its sage advice as many times as I have followed it to the letter :3"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Feed the Beast",
+            "text": "Also no introduction needed, the FtB team were and to some extent still are defacto rulers of the community. For every time I've disagreed with or downright hated the choices they've made, much of what I love doesn't exist without their foundation. Hell, this pack is to an extent inspired by how I felt playing Infinity Evolved Normal!"
+        }
+
+    ]
+}

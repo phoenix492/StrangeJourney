@@ -1,0 +1,25 @@
+{
+    "name": "Sulfur Ore",
+    "icon": "thermal:sulfur_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Extremely Rare$(li)Max Height: 32$(li)Min Height: -16$(li)Most Common: 8"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "thermal:sulfur_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

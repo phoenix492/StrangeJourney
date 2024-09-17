@@ -1,0 +1,25 @@
+{
+    "name": "Gilded Darkstone",
+    "icon": "forbidden_arcanus:gilded_darkstone",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Rare$(li)Max Height: -64$(li)Min Height: -51$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range. Only spawns inside of Darkstone."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "forbidden_arcanus:gilded_darkstone"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

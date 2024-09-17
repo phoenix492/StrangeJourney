@@ -1,0 +1,11 @@
+{
+    "name": "The Mending Nerf",
+    "icon": "minecraft:enchanted_book",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Quark's Mending Nerf has been enabled. In short:$(li)Mending no longer exists as an enchantment.$(li)Instead, mending applied with a book resets the repair cost of equipment.$(li)Items now display if they've been previously repaired."
+        }
+    ]
+}

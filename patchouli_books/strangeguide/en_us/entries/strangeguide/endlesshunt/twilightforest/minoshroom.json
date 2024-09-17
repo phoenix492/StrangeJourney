@@ -1,0 +1,20 @@
+{
+    "name": "The Minoshroom",
+    "icon": "twilightforest:minoshroom_trophy",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:twilightforest/minoshroom",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Minoshroom",
+            "text": "You can find the Minoshroom deep in a labyrinth in the swamp.$(br2)You'll need to kill all three of:$(li)The Minoshroom$(li)The Alpha Yeti$(li)Knight Phantoms$(br)before you're awarded the Heart Container.",
+            "trigger":"strangejourney:twilightforest/alphayeti"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "twilightforest:minoshroom",
+            "scale": 0.9
+        }
+    ]
+}

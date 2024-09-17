@@ -1,0 +1,26 @@
+{
+    "name": "The Dead King",
+    "icon": "irons_spellbooks:necronomicon_spell_book",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:solobosses/dead_king",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Dead King",
+            "text": "He slumbers, deep in the Catacombs in the overworld. The Wayward Compass will show you the way.",
+            "trigger":"strangejourney:solobosses/dead_king"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "irons_spellbooks:dead_king",
+            "scale": 1,
+            "offset": 0.2
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "irons_spellbooks:wayward_compass",
+            "text": "The Wayward Compass will point you in the direction of the nearest Catacombs, where you'll find large amounts of Iron's Spells and Spellbooks loot as well as the big, dead guy himself."
+        }
+    ]
+}

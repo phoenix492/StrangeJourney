@@ -1,0 +1,25 @@
+{
+    "name": "Osmium Ore",
+    "icon": "mekanism:osmium_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Common $(li)Max Height: 296$(li)Min Height: -64$(li)None: 64 to 72$(li)Most Common: 12, 172 to 192$(li)Special Note: 4.5x as abundant above Y72 as compared to below."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "mekanism:osmium_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

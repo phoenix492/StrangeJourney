@@ -1,0 +1,25 @@
+{
+    "name": "Nickel Ore",
+    "icon": "unify:nickel_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Semi-Common$(li)Max Height: 70$(li)Min Height: -64$(li)Most Common: N/A$(li)Special Note: Equally common in entire hight range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "unify:nickel_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

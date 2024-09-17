@@ -1,0 +1,25 @@
+{
+    "name": "Magnesium Ore",
+    "icon": "nuclearcraft:magnesium_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Rare$(li)Max Height: 60$(li)Min Height: -60$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "nuclearcraft:magnesium_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

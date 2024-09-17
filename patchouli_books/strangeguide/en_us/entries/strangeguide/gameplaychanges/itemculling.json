@@ -1,0 +1,11 @@
+{
+    "name": "Item Culling",
+    "icon": "minecraft:barrier",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Clutter, redundant items, and useless components such as extraneous Thermal Expansion gears and Nuclearcraft Neoteric plates have had their crafting recipes removed and hidden in recipe viewers. If something is missing, it was unused, even in the base mod. This of course begs the question of $(o)why it was even included in the first place$()?"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Stella Arcanum",
+    "icon": "forbidden_arcanus:stella_arcanum",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Extremely Rare$(li)Max Height: 42$(li)Min Height: -44$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "forbidden_arcanus:stella_arcanum"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

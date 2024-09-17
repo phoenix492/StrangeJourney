@@ -1,0 +1,25 @@
+{
+    "name": "Lithium Ore",
+    "icon": "tfmg:lithium_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Extremely Rare$(li)Max Height: 0$(li)Min Height: -63$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "tfmg:lithium_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

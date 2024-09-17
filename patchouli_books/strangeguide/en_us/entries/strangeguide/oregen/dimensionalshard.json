@@ -1,0 +1,64 @@
+{
+    "name": "Dimensional Shard Ore",
+    "icon": "rftoolsbase:dimensionalshard_overworld",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Overworld",
+            "text": "$(li)Rarity: Extremely Rare$(li)Max Height: 40$(li)Min Height: -15$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "rftoolsbase:dimensionalshard_overworld"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Variant: Nether",
+            "text": "$(li)Rarity: Uncommon$(li)Max Height: 40$(li)Min Height: 2$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "rftoolsbase:dimensionalshard_nether"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Variant: End",
+            "text": "$(li)Rarity: Uncommon$(li)Max Height: 80$(li)Min Height: 2$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "rftoolsbase:dimensionalshard_end"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

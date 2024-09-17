@@ -1,0 +1,20 @@
+{
+    "name": "The Illager Raid",
+    "icon": "minecraft:totem_of_undying",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:vanilla/illagerraid",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Illager Raid",
+            "text": "A crucial step, being the only way to obtain Ravager Hides for your first backpack!",
+            "trigger":"strangejourney:vanilla/illagerraid"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "minecraft:ravager",
+            "scale": 0.7
+        }
+    ]
+}

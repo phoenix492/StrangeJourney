@@ -1,0 +1,25 @@
+{
+    "name": "Niter Ore",
+    "icon": "thermal:niter_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Extremely Rare$(li)Max Height: 64$(li)Min Height: -16$(li)Most Common: 24"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "thermal:niter_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

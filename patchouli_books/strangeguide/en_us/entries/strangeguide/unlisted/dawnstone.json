@@ -1,0 +1,25 @@
+{
+    "name": "Dawn Stone Ore",
+    "icon": "cobblemon:dawn_stone_ore",
+    "category": "patchouli:strangeguide/inaccessible",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Common:$(li)Peak$(li)Sky$(br)Rare:$(li)Floral$(li)Glacial$(li)Hills"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "cobblemon:dawn_stone_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

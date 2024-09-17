@@ -1,0 +1,21 @@
+{
+    "name": "The Arachnarch",
+    "icon": "blue_skies:arachnarch_trophy{BlockStateTag:{tier:\"gold\"}}",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:blue_skies/arachnarch",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Arachnarch",
+            "text": "Found in the Everdawn. Bring poison cures. Lots of them.",
+            "trigger":"strangejourney:blue_skies/arachnarch"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "blue_skies:arachnarch",
+            "scale": 0.6,
+            "offset": 0
+        }
+    ]
+}

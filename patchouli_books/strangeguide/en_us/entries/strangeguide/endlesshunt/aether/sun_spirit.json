@@ -1,0 +1,21 @@
+{
+    "name": "The Sun Spirit",
+    "icon": "aether:light_hellfire_stone",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:aether/sun_spirit",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Sun Spirit",
+            "text": "Eternal day, the burning sun, an eternal false paradise. Strike down the Sun Spirit, who lies in his sky-borne abode topped with golden oaks hovering in the air, and bring night back to the Aether.",
+            "trigger":"strangejourney:aether/sun_spirit"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "aether:sun_spirit",
+            "scale": 1,
+            "offset": 0
+        }
+    ]
+}

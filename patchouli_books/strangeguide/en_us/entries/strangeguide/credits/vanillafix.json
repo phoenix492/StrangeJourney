@@ -1,0 +1,11 @@
+{
+    "name": "Vanilla Fix",
+    "icon": "minecraft:shield",
+    "category": "patchouli:strangeguide/credits",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

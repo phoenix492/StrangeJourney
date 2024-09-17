@@ -1,0 +1,20 @@
+{
+    "name": "The Knight Phantoms",
+    "icon": "twilightforest:knight_phantom_trophy",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:twilightforest/knightphantom",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Knight Phantoms",
+            "text": "You can find the Knight Phantoms in a fortrees beneath the Dark Forest.$(br2)You'll need to kill all three of:$(li)The Minoshroom$(li)The Alpha Yeti$(li)Knight Phantoms$(br)before you're awarded the Heart Container.",
+            "trigger":"strangejourney:twilightforest/alphayeti"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "twilightforest:knight_phantom{ArmorItems: [{}, {}, {id:\"twilightforest:phantom_chestplate\", tag: {Damage: 0}, Count: 1b}, {id:\"twilightforest:phantom_helmet\", tag: {Damage: 0}, Count: 1b}], HandItems: [{id: \"twilightforest:knightmetal_sword\", tag: {Damage:0}, Count: 1b}, {}]}",
+            "offset": 0.4
+        }
+    ]
+}

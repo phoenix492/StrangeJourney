@@ -1,0 +1,25 @@
+{
+    "name": "Moon Stone Ore",
+    "icon": "cobblemon:moon_stone_ore",
+    "category": "patchouli:strangeguide/inaccessible",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Common:$(li)Dripstone$(br)Rare:$(li)Taiga$(br2)Special Note: Moonstone is unique in that it is actually 80.0x as abundant in Common biomes as compared to Rare biomes, instead of 2.0x as abundant." 
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "cobblemon:moon_stone_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

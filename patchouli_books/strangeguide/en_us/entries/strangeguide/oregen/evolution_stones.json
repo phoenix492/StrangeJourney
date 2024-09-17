@@ -1,0 +1,28 @@
+{
+    "name": "Evolution Stones",
+    "icon": "cobblemon:dawn_stone_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "flag": "mod:cobblemon",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Cobblemon's Evolution Stone Ores all spawn identically save for their biomes:$(li)Rarity: Biome Tag Dependent$(li)Max Height: 320$(li)Min Height: -64$(li)Most Common: 64, 192$(br)The range from 64 to 192 is typically a good place to find evolution stones in general. Stones are 1/2 as abundant in 'Rare' biome tags as they are in 'Common' biome tags."
+        },
+        {
+            "type":"patchouli:relations",
+            "title":"Evolution Stone Ores",
+            "entries": [
+                "patchouli:strangeguide/unlisted/dawnstone",
+                "patchouli:strangeguide/unlisted/duskstone",
+                "patchouli:strangeguide/unlisted/firestone",
+                "patchouli:strangeguide/unlisted/icestone",
+                "patchouli:strangeguide/unlisted/leafstone",
+                "patchouli:strangeguide/unlisted/moonstone",
+                "patchouli:strangeguide/unlisted/shinystone",
+                "patchouli:strangeguide/unlisted/sunstone",
+                "patchouli:strangeguide/unlisted/thunderstone",
+                "patchouli:strangeguide/unlisted/waterstone"
+            ]
+        }
+    ]
+}

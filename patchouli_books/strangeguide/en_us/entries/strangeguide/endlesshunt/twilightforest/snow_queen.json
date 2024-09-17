@@ -1,0 +1,20 @@
+{
+    "name": "The Snow Queen",
+    "icon": "twilightforest:snow_queen_trophy",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:twilightforest/snow_queen",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Snow Queen",
+            "text": "Dethrone the Alpha Yeti and you'll be able to ascend the Glacier and confront the Snow Queen atop her Aurora Castle.",
+            "trigger":"strangejourney:twilightforest/snow_queen"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "twilightforest:snow_queen",
+            "offset": 0.2
+        }
+    ]
+}

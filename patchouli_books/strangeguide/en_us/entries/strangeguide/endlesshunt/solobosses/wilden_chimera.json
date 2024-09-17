@@ -1,0 +1,21 @@
+{
+    "name": "The Wilden Chimera",
+    "icon": "ars_nouveau:wilden_tribute",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:solobosses/wilden_chimera",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Wilden Chimera",
+            "text": "To summon the Wilden Chimera, conduct a Summon Wilden ritual with Ars Nouveau and augment it with a Wilden Spike, Wilden Horn, and Wilden Wing.",
+            "trigger":"strangejourney:solobosses/wilden_chimera"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "ars_nouveau:wilden_boss",
+            "scale": 0.5,
+            "offset": 0
+        }
+    ]
+}

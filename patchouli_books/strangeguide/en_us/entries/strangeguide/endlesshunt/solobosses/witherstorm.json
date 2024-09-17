@@ -1,0 +1,21 @@
+{
+    "name": "The Wither Storm",
+    "icon": "witherstormmod:withered_nether_star",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:solobosses/witherstorm",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "Wither Storm",
+            "text": "This one is currently unavalible, I'm still deciding how I wanna approach this. ",
+            "trigger":"strangejourney:solobosses/witherstorm"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "witherstormmod:wither_storm",
+            "scale": 1,
+            "offset": 0.3
+        }
+    ]
+}

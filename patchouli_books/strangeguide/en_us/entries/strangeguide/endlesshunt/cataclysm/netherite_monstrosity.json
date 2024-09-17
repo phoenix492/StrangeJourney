@@ -1,0 +1,26 @@
+{
+    "name": "The Netherite Monstrosity",
+    "icon": "cataclysm:infernal_forge",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/netherite_monstrosity",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Netherite Monstrosity",
+            "text": "The Netherite Monstrosity anticipates your challenge in the Nether, tinkering away at his soul blacksmith.",
+            "trigger":"strangejourney:cataclysm/ignis"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:netherite_monstrosity",
+            "scale": 0.8,
+            "offset": 0.4
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:monstrous_eye",
+            "text": "The Monstrous Eye will lead you directly to the Soul Blacksmith where the Netherite Monstrosity resides."
+        }
+    ]
+}

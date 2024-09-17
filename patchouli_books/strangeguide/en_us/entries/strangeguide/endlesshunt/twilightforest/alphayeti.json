@@ -1,0 +1,21 @@
+{
+    "name": "The Alpha Yeti",
+    "icon": "twilightforest:alpha_yeti_trophy",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:twilightforest/alphayeti",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Alpha Yeti",
+            "text": "You can find the Alpha Yeti in its lair in the Snowy Forest.$(br2)You'll need to kill all three of:$(li)The Minoshroom$(li)The Alpha Yeti$(li)Knight Phantoms$(br)before you're awarded the Heart Container.",
+            "trigger":"strangejourney:twilightforest/alphayeti"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "twilightforest:alpha_yeti",
+            "scale": 0.7,
+            "offset": 0.5
+        }
+    ]
+}

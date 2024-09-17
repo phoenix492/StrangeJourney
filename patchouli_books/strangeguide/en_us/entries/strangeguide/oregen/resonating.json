@@ -1,0 +1,64 @@
+{
+    "name": "Resonating Ore",
+    "icon": "deepresonance:resonating_ore_stone",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title": "Overworld",
+            "text": "$(li)Rarity: Uncommon$(li)Max Height: 32$(li)Min Height: -60$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "deepresonance:resonating_ore_stone"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Variant: Nether",
+            "text": "$(li)Rarity: Common$(li)Max Height: 32$(li)Min Height: 2$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "deepresonance:resonating_ore_nether"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Variant: End",
+            "text": "$(li)Rarity: Uncommon$(li)Max Height: 32$(li)Min Height: 2$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "deepresonance:resonating_ore_end"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

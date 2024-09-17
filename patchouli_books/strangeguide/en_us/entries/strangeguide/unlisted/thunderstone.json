@@ -1,0 +1,25 @@
+{
+    "name": "Thunder Stone Ore",
+    "icon": "cobblemon:thunder_stone_ore",
+    "category": "patchouli:strangeguide/inaccessible",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Common:$(li)Highlands$(li)Hills$(br)Rare:$(li)Jungle$(li)Plains$(li)Tropical"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "cobblemon:thunder_stone_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

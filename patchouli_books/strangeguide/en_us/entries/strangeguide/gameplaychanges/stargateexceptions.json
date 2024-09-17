@@ -1,0 +1,29 @@
+{
+    "name": "Stargate Exceptions",
+    "icon": "sgjourney:classic_stargate",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "While most dimensions have had their ordinary means of travel disabled, there are a few that are more 'technical' dimensions that haven't. Those exceptions are listed here."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Spatial Storage",
+            "item": "ae2:spatial_storage_cell_128",
+            "text": "Applied Energistics 2's Spatial Storage dimension, a place where pockets of space are stored so that entities and players can be taken along with them, wouldn't make sense as part of the network. It's supposed to be inside the disk and only handled as a dimension for technical reasons."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "The Past",
+            "item": "graveyard:corruption",
+            "text": "This is an unfinished, inaccessible dimension from The Graveyard left in the mod. It was never accessible in the first place, and many of the blocks making it up don't even have item forms yet, but I've listed it here in case you see it in the dimension registry or your logs."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "The Bowels",
+            "item": "witherstormmod:withered_nether_star",
+            "text": "This dimension is visited as part of a boss fight, it's supposed to be the insides of an enemy."
+        }
+    ]
+}

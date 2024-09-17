@@ -1,0 +1,25 @@
+{
+    "name": "Arcane Crystal Ore",
+    "icon": "forbidden_arcanus:arcane_crystal_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Rare$(li)Max Height: 14$(li)Min Height: -40$(li)Most Common: -13"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "forbidden_arcanus:arcane_crystal_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

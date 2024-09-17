@@ -1,0 +1,25 @@
+{
+    "name": "Brilliant Stone",
+    "icon": "malum:brilliant_stone",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Rare$(li)Max Height: 40$(li)Min Height: -64$(li)Most Common: -12"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "malum:brilliant_stone"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

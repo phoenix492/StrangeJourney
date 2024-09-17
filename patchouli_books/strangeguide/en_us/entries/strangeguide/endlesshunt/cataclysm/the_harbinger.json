@@ -1,0 +1,26 @@
+{
+    "name": "The Harbinger",
+    "icon": "cataclysm:witherite_block",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/the_harbinger",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Harbinger",
+            "text": "Dormant, unassuming, lost to time. This mechanical construct with familiar form will require a Nether Star to awaken deep inside an ancient factory.",
+            "trigger":"strangejourney:cataclysm/the_harbinger"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:the_harbinger",
+            "scale": 0.8,
+            "offset": 0.3 
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:mech_eye",
+            "text": "The Mech Eye will lead you directly to the Ancient Factory where the The Harbinger resides."
+        }
+    ]
+}

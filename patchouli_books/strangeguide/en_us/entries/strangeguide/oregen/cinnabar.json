@@ -1,0 +1,25 @@
+{
+    "name": "Cinnabar Ore",
+    "icon": "thermal:cinnabar_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Extremely Rare$(li)Max Height: 48$(li)Min Height: -16$(li)Most Common: 16"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "thermal:cinnabar_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

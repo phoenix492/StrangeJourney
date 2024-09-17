@@ -1,0 +1,23 @@
+{
+    "name": "The Ferrous Wroughtnaut",
+    "icon": "mowziesmobs:wrought_helmet",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:mowziesmobs/ferrous_wroughtnaut",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Alchemist",
+            "text": "Deep underground, this statute awaits your challenge. His armor is impenetrable, save for....",
+            "trigger":"strangejourney:mowziesmobs/ferrous_wroughtnaut"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "mowziesmobs:ferrous_wroughtnaut",
+            "scale": 0.9,
+            "offset": 0.4,
+            "rotate": false,
+            "default_rotation": 0
+        }
+    ]
+}

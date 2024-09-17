@@ -1,0 +1,16 @@
+{
+    "name": "Skybox Shenanigans",
+    "icon": "botania:grass_seeds",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You may have noticed the sky looks rather... flavorful. Ordinarily this skybox is reserved for Botania's 'Garden of Glass' skyblock challenge. I've decided to turn on the config option to enable it by default, because it's $(o)my$() modpack and $(o)I$() think it looks extremely pretty."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "If for some ungodly strange reason you prefer the vanilla skybox, or you want to use shaders with which it lightly breaks, the config option is under Botania -> Client -> Rendering -> Fancy Skybox -> Normal Worlds (True/False).",
+            "title": "How Turn Off?"
+        }
+    ]
+}

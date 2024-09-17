@@ -1,0 +1,20 @@
+{
+    "name": "The Twilight Lich",
+    "icon": "twilightforest:lich_trophy",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:twilightforest/lich",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Twilight Lich",
+            "text": "Required to enter the Swamp, the Snowy Forest, and the Dark Forest.",
+            "trigger":"strangejourney:twilightforest/lich"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "twilightforest:lich",
+            "offset": 0
+        }
+    ]
+}

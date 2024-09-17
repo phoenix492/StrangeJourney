@@ -1,0 +1,21 @@
+{
+    "name": "The Void Worm",
+    "icon": "alexsmobs:void_worm_eye",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:alexsmods/void_worm",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Void Worm",
+            "text": "The Void Worm can be called forth by throwing a Mysterious Worm into the void of the Outer End. I strongly reccomend against attacking anything that isn't the head, unless you want your problems to increase dramatically.",
+            "trigger":"strangejourney:alexsmods/void_worm"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "alexsmobs:void_worm",
+            "scale": 0.6,
+            "offset": -0.5
+        }
+    ]
+}

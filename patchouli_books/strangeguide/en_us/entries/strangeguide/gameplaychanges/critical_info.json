@@ -1,0 +1,20 @@
+{
+    "name": "!! START HERE !!",
+    "icon": "botania:cosmetic_questgiver_mark",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Strange Journey has a lot of changes and a lot of chapters. This one is a quick 'Crucial information I need to know to get started' page to give you the most important things to read so you can play."
+        },
+        {
+            "type": "patchouli:relations",
+            "entries": [
+                "patchouli:strangeguide/gameplaychanges/portals",
+                "patchouli:strangeguide/gameplaychanges/combatnouveau",
+                "patchouli:strangeguide/gameplaychanges/variantremoval"
+            ],
+            "title": "Quick Start"
+        }
+    ]
+}

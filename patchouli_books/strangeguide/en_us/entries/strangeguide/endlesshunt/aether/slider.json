@@ -1,0 +1,21 @@
+{
+    "name": "The Slider",
+    "icon": "aether:sentry_stone",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:aether/slider",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Slider",
+            "text": "The Slider can be found in the Bronze Dungeon, embedded into many of the mountains in the Aether. Swords won't work, but what would you ordinarily use to break a stone block?",
+            "trigger":"strangejourney:aether/slider"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "aether:slider",
+            "scale": 0.8,
+            "offset": 0
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Slice of Life: Apple Pie",
+    "icon": "farmersdelight:apple_pie",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Strange Journey has a lot of food mods, and thus I'd naturally like to encourage you to make and eat these foods. Apple Pie Edition requires you to eat a diverse diet of large (typically modded) meals and maintain this diversity in order to recieve varried benefits. You won't be able simply eat random small foods or eat large meals a single time."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Benefits Only",
+            "recipe": "farmingforblockheads:market",
+            "text": "It's not fair to punish you for not engaging with the large and honnestly overwhelming amount of food in the modpack, so there are no detriments* for ignoring it entirely. Instead, you'll be treated to a dazzling array of benefits like extra base speed, crit damage, reach, up to 20 extra health, and more.$(br)$(o)*There is a -5% random crit chance, but is just to undo a default stat change from Apothic Attributes."
+        }
+    ]
+}

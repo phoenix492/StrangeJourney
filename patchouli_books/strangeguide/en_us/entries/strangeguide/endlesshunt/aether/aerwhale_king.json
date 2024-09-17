@@ -1,0 +1,23 @@
+{
+    "name": "The Aerwhale King",
+    "icon": "lost_aether_content:light_gale_stone",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:aether/aerwhale_king",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Aerwhale King",
+            "text": "The Aether is free, night has returned. Now it's time for a fun battle in your victory lap against the Aerwhale King!",
+            "trigger":"strangejourney:aether/aerwhale_king"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "lost_aether_content:aerwhale_king",
+            "scale": 0.6,
+            "offset": 0,
+            "rotate": false,
+            "default_rotation": -15
+        }
+    ]
+}

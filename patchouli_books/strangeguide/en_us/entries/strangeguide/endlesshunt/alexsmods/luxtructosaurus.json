@@ -1,0 +1,26 @@
+{
+    "name": "The Luxtructosaurus",
+    "icon": "alexscaves:tectonic_shard",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:alexsmods/luxtructosaurus",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Luxtructosaurus",
+            "text": "This magnificantly named creature is the tyrant of the Primordial Caves, and can be challenged by throwing an Ominous Catalyst into a volcano. Liberate the Primordial Caves once and for all!",
+            "trigger":"strangejourney:alexsmods/luxtructosaurus"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "alexscaves:luxtructosaurus",
+            "scale": 0.5,
+            "offset": 0
+        },
+        {
+            "type":"patchouli:crafting",
+            "recipe": "alexscaves:ominous_catalyst",
+            "text": "All materials are from the Primordial Caves. This goes in the big volcano you'll find there! (It won't burn)"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "The Prowler",
+    "icon": "cataclysm:witherite_ingot",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/the_prowler",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Prowler",
+            "text": "The Prowler will stand between you and The Harbinger. Knock him out of the way! Before getting the heart container, you'll need to slay all of:$(li)The Amethyst Crab$(li)The Wadjet$(li)The Kobolediator$(li)The Prowler$(li)The Ender Golem",
+            "trigger":"strangejourney:cataclysm/the_prowler"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:the_prowler",
+            "scale": 0.8,
+            "offset": 0.3
+        }
+    ]
+}

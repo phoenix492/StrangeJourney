@@ -1,0 +1,36 @@
+{
+    "name": "Stargate Journey",
+    "icon": "sgjourney:milky_way_stargate",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Almost every single method of dimensional travel has been entirely $(o)disabled$().$(br2)While you're welcome to try, I would reccomend against it, as many are a costly and ultimately futile waste of time. Some, like leaving The Bumblezone from the bottom, will just kill you."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe":"minecraft:kjs/sgjourney_archeology_table",
+            "text": "Instead, you'll need to make use of the Stargate Journey mod to hop between dimensions. To get started, use the Archeology Table as a workstation for a villager and level them up to level 5, and they'll trade you a map to a burried Stargate."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "sgjourney:milky_way_stargate",
+            "text": "Once you've located the burried stargate, you'll need to execavate said burried stargate. Within the ruins you'll find a gate, a mysterious device known as a 'DHD', and a monolith containing the adress pointing towards the Nether.",
+            "title": "Finding the Gate"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"Dialing the Gate",
+            "item": "sgjourney:milky_way_dhd",
+            "text": "Once all the of the above have been excavated and the space above the gate has been cleared, right click on the DHD and dial the address that was listed on the monolith. Stand clear, the gate will 'kawoosh' and open a path to the Nether."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Welcome to Hell",
+            "item": "minecraft:netherrack",
+            "text": "Prepare for an adventure. Once inside you can find an address taking you back to the Overworld right outside the room you spawn in. Addresses to other dimensions can be found within dungeons around the Nether, bring some good gear, you won't be able to cheese them via breaking blocks."
+
+        }
+    ]
+        
+}

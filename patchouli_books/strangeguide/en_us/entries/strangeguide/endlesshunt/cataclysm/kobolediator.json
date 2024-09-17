@@ -1,0 +1,21 @@
+{
+    "name": "The Kobolediator",
+    "icon": "cataclysm:kobolediator_skull",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/kobolediator",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Kobolediator",
+            "text": "You'll find the Kobolediator right next to the Wadjet and the Ancient Remnant. Before getting the heart container, you'll need to slay all of:$(li)The Amethyst Crab$(li)The Wadjet$(li)The Kobolediator$(li)The Prowler$(li)The Ender Golem",
+            "trigger":"strangejourney:cataclysm/kobolediator"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:kobolediator",
+            "scale": 0.8,
+            "offset": 0.3
+        }
+    ]
+}

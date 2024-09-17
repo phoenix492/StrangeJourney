@@ -1,0 +1,26 @@
+{
+    "name": "The Warrior of Flame",
+    "icon": "cataclysm:ignitium_ingot",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/ignis",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Warrior of Flame",
+            "text": "Ignis awaits you in the Nether, in his burning arena.",
+            "trigger":"strangejourney:cataclysm/ignis"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:ignis",
+            "scale": 0.7,
+            "offset": 0
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:flame_eye",
+            "text": "The Flame Eye will lead you directly to the Burning Arena where Ignis resides."
+        }
+    ]
+}

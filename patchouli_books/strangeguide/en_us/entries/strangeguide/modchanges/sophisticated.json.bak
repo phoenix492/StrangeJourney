@@ -1,0 +1,32 @@
+{
+    "name": "Sophisticated Mods",
+    "icon": "sophisticatedbackpacks:backpack",
+    "category": "patchouli:strangeguide/modchanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+             "text": "I have genuine love for these two mods and believe them to be the best version of barrels, iron chests, and backpacks we've ever gotten.$(br2)Unfortunately, both mods suffer from the issue of being far too powerful out of the box, completely trivializing storage problems into 'throw resources at it until the problem goes away.'"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "strangejourney:sophisticatedstorage_backpack",
+            "text": "First and foremost, backpacks now require Ravager Hide dropped from Ravagers, meaning you'll need to participate in a Raid first."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": {
+                "item": "sophisticatedbackpacks:backpack"
+            },
+            "text": "Backpack slots have been nerfed across the board (QUANTITY SUBJECT TO CHANGE).$(br2)The quantity of backpacks in the inventory has also been limited to 2 before a stacking slowness debuff is applied.",
+            "title": "Sophisticated Backpacks"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": {
+                "tag": "strangejourney:sophisticatedstorage_upgrade"
+            },
+            "text": "Upgrades from Sophisticated Storage have been disabled to discorage bulk hoarding and overly simple logistics and to encourage smarter storage, voiding, and sorting systems. Similar to backpacks, their slot count has also been reduced.",
+            "title": "Sophisticated Storage"
+        }
+    ]
+}

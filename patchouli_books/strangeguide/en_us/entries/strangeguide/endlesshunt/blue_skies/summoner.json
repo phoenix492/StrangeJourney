@@ -1,0 +1,21 @@
+{
+    "name": "The Summoner",
+    "icon": "blue_skies:summoner_trophy{BlockStateTag:{tier:\"gold\"}}",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:blue_skies/summoner",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Summoner",
+            "text": "Found in the Everbright. You'll need to topple him to take on the Starlit Crusher.",
+            "trigger":"strangejourney:blue_skies/alchemist"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "blue_skies:summoner",
+            "scale": 1,
+            "offset": 0
+        }
+    ]
+}

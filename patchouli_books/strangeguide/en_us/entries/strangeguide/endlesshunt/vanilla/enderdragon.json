@@ -1,0 +1,20 @@
+{
+    "name": "The Ender Dragon",
+    "icon": "minecraft:dragon_head",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:vanilla/enderdragon",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Ender Dragon",
+            "text": "The Ender Dragon has been given a nice overhaul courtesy of the True Ending datapack. You're in for a treat!",
+            "trigger":"strangejourney:vanilla/enderdragon"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "minecraft:ender_dragon",
+            "offset": -6
+        }
+    ]
+}

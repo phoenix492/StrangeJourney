@@ -1,0 +1,25 @@
+{
+    "name": "Blazing Quartz Ore",
+    "icon": "malum:blazing_quartz_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Very Common$(li)Max Height: 112$(li)Min Height: -16$(li)Most Common: 48$(li)Special Note: Only spawns in the Nether."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "malum:blazing_quartz_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

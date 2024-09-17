@@ -1,0 +1,21 @@
+{
+    "name": "The Frostmaw",
+    "icon": "mowziesmobs:ice_crystal",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:mowziesmobs/frostmaw",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Frostmaw",
+            "text": "Rarely found dozing away in the cold. You might need to figure out how to do something about his powerful ice crystal without him seeing you though.",
+            "trigger":"strangejourney:mowziesmobs/frostmaw"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "mowziesmobs:frostmaw",
+            "scale": 0.6,
+            "offset": 1
+        }
+    ]
+}

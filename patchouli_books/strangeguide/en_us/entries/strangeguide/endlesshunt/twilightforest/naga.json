@@ -1,0 +1,20 @@
+{
+    "name": "The Naga",
+    "icon": "twilightforest:naga_trophy",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:twilightforest/naga",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Naga",
+            "text": "The first boss of the Twilight Forest! Required to take on the Lich.",
+            "trigger":"strangejourney:twilightforest/naga"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "twilightforest:naga",
+            "offset": 0
+        }
+    ]
+}

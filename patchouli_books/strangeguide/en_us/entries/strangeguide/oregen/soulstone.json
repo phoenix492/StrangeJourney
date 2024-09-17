@@ -1,0 +1,25 @@
+{
+    "name": "Soulstone Ore",
+    "icon": "malum:soulstone_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Rare$(li)Max Height: 100$(li)Min Height: -64$(li)Most Common: -18"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "malum:soulstone_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

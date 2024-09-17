@@ -1,0 +1,25 @@
+{
+    "name": "Water Stone Ore",
+    "icon": "cobblemon:water_stone_ore",
+    "category": "patchouli:strangeguide/inaccessible",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Common:$(li)Ocean$(li)River$(li)Swamp$(br)Rare:$(li)Jungle$(li)Thermal$(li)Tropical"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "cobblemon:water_stone_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

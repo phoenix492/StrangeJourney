@@ -1,0 +1,21 @@
+{
+    "name": "The Doppleganger",
+    "icon": "botania:life_essence",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:solobosses/doppleganger",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Doppleganger",
+            "text": "More officially known as the 'Guardian of Gaia' (Doppleganger being its internal name and also a VERY cool name for a chapter.) Instructions for this mid-to-late-game botania fight can be found in your Lexica Botania.",
+            "trigger":"strangejourney:solobosses/doppleganger"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "botania:doppleganger",
+            "scale": 1,
+            "offset": 0.1
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "The Ancient Remnant",
+    "icon": "cataclysm:ancient_metal_block",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/ancient_remnant",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Ancient Remnant",
+            "text": "It sits at the bottom of a grand pyramid, infested with traps and kobolds. Awaken it using a pendant excavated with archeology elsewhere in the pyramid.",
+            "trigger":"strangejourney:cataclysm/ancient_remnant"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:ancient_remnant",
+            "scale": 0.5,
+            "offset": 0.3
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:desert_eye",
+            "text": "The Desert Eye will lead you directly to the Cursed Pyramid where the Ancient Remnant resides."
+        }
+    ]
+}

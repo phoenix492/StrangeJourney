@@ -1,0 +1,21 @@
+{
+    "name": "The Alchemist",
+    "icon": "blue_skies:alchemist_trophy{BlockStateTag:{tier:\"gold\"}}",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:blue_skies/alchemist",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Alchemist",
+            "text": "Found in the Everdawn. You'll need to topple him to take on the Arachnarch.",
+            "trigger":"strangejourney:blue_skies/alchemist"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "blue_skies:alchemist",
+            "scale": 1,
+            "offset": 0
+        }
+    ]
+}

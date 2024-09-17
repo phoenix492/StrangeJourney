@@ -1,0 +1,21 @@
+{
+    "name": "The Sunbird",
+    "icon": "mowziesmobs:grant_suns_blessing",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:mowziesmobs/sunbird",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Sunbird",
+            "text": "High on high he sits, ruling the Savannah with the golden fist of tyrrany. No tricks here, just you versus a living god and his loyal followers. His power dies with him though, if only there were a way to bargin and obtain the umatched power of the Sun for yourself...",
+            "trigger":"strangejourney:mowziesmobs/sunbird"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "mowziesmobs:umvuthi",
+            "scale": 0.8,
+            "offset": 0.3
+        }
+    ]
+}

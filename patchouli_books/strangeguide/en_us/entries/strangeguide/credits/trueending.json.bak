@@ -1,0 +1,11 @@
+{
+    "name": "True Ending",
+    "icon": "minecraft:dragon_head",
+    "category": "patchouli:strangeguide/credits",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The True Ending: Ender Dragon Overhaul datapack and resourcepack are downloaded from Modrinth and redistributed with permission from Limesplatus. Thank you for making an Ender Dragon overhaul that is neither agressively non-vanilla nor extremely janky."
+        }
+    ]
+}

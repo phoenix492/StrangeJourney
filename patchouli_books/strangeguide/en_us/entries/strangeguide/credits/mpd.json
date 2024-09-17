@@ -1,0 +1,11 @@
+{
+    "name": "Minecraft Pack Development",
+    "icon": "immersiveengineering:hammer",
+    "category": "patchouli:strangeguide/credits",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": ""
+        }
+    ]
+}

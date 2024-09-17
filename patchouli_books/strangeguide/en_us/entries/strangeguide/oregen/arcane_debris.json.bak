@@ -1,0 +1,25 @@
+{
+    "name": "Arcane Debris",
+    "icon": "irons_spellbooks:arcane_debris",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Unfindably Rare$(li)Max Height: -38$(li)Min Height: -63$(li)Most Common: N/A$(li)Special Note: Equally common in entire height range. Decent spawn chance but $(l)never$() spawns if it would be exposed to air."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "irons_spellbooks:arcane_debris"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

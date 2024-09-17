@@ -1,0 +1,25 @@
+{
+    "name": "Black Quartz Ore",
+    "icon": "actuallyadditions:black_quartz_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Semi-Common$(li)Max Height: 45$(li)Min Height: -25$(li)Most Common: 10"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "actuallyadditions:black_quartz_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

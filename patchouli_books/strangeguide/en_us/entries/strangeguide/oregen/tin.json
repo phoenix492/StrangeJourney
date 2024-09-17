@@ -1,0 +1,25 @@
+{
+    "name": "Tin Ore",
+    "icon": "unify:tin_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Semi-Common$(li)Max Height: 112$(li)Min Height: -16$(li)Most Common: 48$(li)Special Note: Roughly 1/2 as common as Copper."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "unify:tin_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

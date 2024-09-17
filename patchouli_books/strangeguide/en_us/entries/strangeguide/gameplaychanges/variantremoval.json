@@ -1,0 +1,21 @@
+{
+    "name": "Variant Removal",
+    "icon": "minecraft:oak_stairs",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Every single stair, slab, fence, wall, and similar 'variant blocks' have been made uncraftable, and its uses removed from recipes. Instead, to build with them use Quark's Variant Selector.$(br2)Simply hold the block you with to place a variant of, hold $(k:quark.keybind.variant_selector), hover over your choice, and release to select."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:kjs/wooden_panel",
+            "text": "Wide, sweeping changes have been made to fix recipes in light of this change. Recipes where wood type matters now use their base block, fences are now sticks, and all others use these wooden panels."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "minecraft:kjs/stone_panel",
+            "text": "Similar to wood variants, those that use stone have been changed to either use their base block or these stone panels."
+        }
+    ]
+}

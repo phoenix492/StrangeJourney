@@ -1,0 +1,35 @@
+{
+    "name": "Combat Nouveau",
+    "icon": "minecraft:netherite_sword",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Way way back in the days of Minecraft 1.16, Jeb_ himself released a series of 8 'Combat Test Snapshots' intended to rework and adress crippling design problems with post 1.8 PvP and PvE. These were widely beloved by many then immeaditely shelved and remain unadressed in development limbo to this day. Combat Nouveau implents changes from these snapshots in Modern Versions."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Food Nerfs", 
+            "item": "minecraft:cooked_beef",
+            "text": "Healing will no longer use your saturation at all. Instead, hunger is consumed directly from your hunger bar as it used to when saturation is empty, and instead of stopping at 18 (8 1/2 meat shanks) it now stops at 6 (3 meat shanks). If you're attempting to eat and take damage, it will interrupt the eating animation."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Potion Buffs",
+            "item": "minecraft:potion",
+            "text": "All non-throwable potions now stack all the way up to 16. Instant Health and Instant Damage are more potent. Strength is now a percentage increase instead of a flat increase."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Swing Timing",
+            "item": "minecraft:wooden_sword,minecraft:stone_sword,minecraft:golden_sword,minecraft:diamond_sword,minecraft:iron_sword,minecraft:netherite_sword",
+            "text": "You are no longer able to spam click your swings, you must instead wait the entire charge time to be able to swing your weapon again. In exchange, you can actually hold down the button to swing, but it's a few ticks slower than optimially timing your clicks."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Shield Mechs & Parrying" ,
+            "item": "minecraft:shield",
+            "text": "Rather than blocking all damage when right clicked and differing only in durability, shields now block a percentage of damage when equipped and an additional large percentage of damage when used. Precise timing also allows you to parry projectiles!"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "The Cosmic Crystal Entity",
+    "icon": "the_bumblezone:luminescent_wax_node_white",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:solobosses/cosmic_crystal_entity",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Cosmic Crystal Entity",
+            "text": "$(k)Hello you nosy bastard:3$()$(br)[DATA CORRUPT]$(br)$(k)This section was intetionally$()$(br)[PLEASE SEEK OUT]$(br){White Sempiternal Sanctum}$(br)$(k)left vague to preserve$()$(br)[IN]$(br){The Bumblezone!}$(br)$(k)the mystery of this boss$()$(br)[FOR INFORMATION]$(br)$(k)I haven't fought it as of writing this, but it looks fun!$()",
+            "trigger":"strangejourney:solobosses/cosmic_crystal_entity"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "???",
+            "entity": "the_bumblezone:cosmic_crystal_entity",
+            "scale": 1,
+            "offset": 0 
+        }
+    ]
+}

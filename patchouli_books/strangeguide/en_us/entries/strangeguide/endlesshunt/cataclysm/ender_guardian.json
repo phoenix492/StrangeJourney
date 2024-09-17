@@ -1,0 +1,26 @@
+{
+    "name": "The Ender Guardian",
+    "icon": "cataclysm:gauntlet_of_guard",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/ender_guardian",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Ender Guardian",
+            "text": "Hides underneath a ruined citadel in the outer end.",
+            "trigger":"strangejourney:cataclysm/ender_guardian"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:ender_guardian",
+            "scale": 0.9,
+            "offset": 0.3
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:void_eye",
+            "text": "The Void Eye will lead you directly to the Ruined Citadel where the Ender Guardian resides."
+        }
+    ]
+}

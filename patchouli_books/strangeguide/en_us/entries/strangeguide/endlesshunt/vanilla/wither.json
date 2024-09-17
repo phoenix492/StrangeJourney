@@ -1,0 +1,20 @@
+{
+    "name": "The Wither",
+    "icon": "minecraft:wither_skeleton_skull",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:vanilla/wither",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Wither",
+            "text": "Standard Wither fight, nothing too crazy. Go get him!",
+            "trigger":"strangejourney:vanilla/wither"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "minecraft:wither",
+            "offset": 0.4
+        }
+    ]
+}

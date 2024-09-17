@@ -1,0 +1,25 @@
+{
+    "name": "Fluorite Ore",
+    "icon": "mekanism:fluorite_ore",
+    "category": "patchouli:strangeguide/oregen",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "$(li)Rarity: Semi-Common$(li)Max Height: 23$(li)Min Height: -64$(li)Most Common: -30$(li)Special Note: Much larger veins are spawned completely buried and unexposed to air."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "mapping": {
+                    "0": "mekanism:fluorite_ore"
+                },
+                "pattern": [
+                    ["0"],
+                    [" "]
+                ],
+                "symmetrical": true
+            },
+            "enable_visualize": false
+        }
+    ]
+}

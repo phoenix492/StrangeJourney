@@ -1,0 +1,21 @@
+{
+    "name": "The Ur-Ghast",
+    "icon": "twilightforest:ur_ghast_trophy",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:twilightforest/urghast",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Ur-Ghast",
+            "text": "Once you've taken care of the Knight Phantoms, you'll find this fear inducing specemin at the top of the tower in the center of the Dark Forest.",
+            "trigger":"strangejourney:twilightforest/urghast"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "twilightforest:ur_ghast",
+            "offset": 0,
+            "scale": 0.8
+        }
+    ]
+}

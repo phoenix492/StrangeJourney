@@ -1,0 +1,25 @@
+{
+    "name": "Paraglider",
+    "icon": "paraglider:paraglider",
+    "category": "patchouli:strangeguide/modchanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Rather than the stock progression of looting Spirit Orbs from spawners and dungeon chests, both Heart Containers and Stamina Vessels are earned from various objectives throughout the modpack.$(br2)Also, to make them a much more enticing reward, the Stamina cap has been significantly raised and the Paraglider's speed has been buffed."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": {
+                "item": "paraglider:heart_container"
+            },
+            "text": "Heart Containers can be obtained by slaying any of the myriad bosses in Strange Journey for the first time, with some being given for slaying a collection of related minibosses. These can be tracked in the section titled 'The Endless Hunt'"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": {
+                "item": "paraglider:stamina_vessel"
+            },
+            "text": "Stamina Vessels can be obtained by exploring various dimensions, structures, and important biomes. These can be tracked in a section titled 'The Unending Journey'"
+        }
+    ]
+}

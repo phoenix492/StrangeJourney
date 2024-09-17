@@ -1,0 +1,36 @@
+{
+    "name": "Matrix Enchanting",
+    "icon": "minecraft:enchanting_table",
+    "category": "patchouli:strangeguide/gameplaychanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The Matrix Enchanting option from Quark Oddities has been enabled. Both the Quark website or basic experimentation will let you know how it works, but I'll provide you a simple explanation."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Quality of Life",
+            "item": "minecraft:netherite_sword,minecraft:lapis_lazuli,minecraft:enchanted_book",
+            "text": "First and foremost, lapis lazuli, equipment, and books will remain inside of the enchanting table's inventory even when its GUI is closed. As well, they'll actually hover above the enchanting table with a rather pretty effect."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Enchantment Tetris",
+            "text": "Instead of randomly applying enchantments based on bookshelves quantity surrounding the table, you'll apply enchantments by placing randomly generated puzzle pieces on a grid, spending one level per generated puzzle piece. Multiple of the same piece can be combined together to increase the level of the enchantment, with more bookshelves allowing you to generate more pieces."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": {
+                "tag": "minecraft:candles"
+            },
+            "title": "Control 101",
+            "text": "While randomly generated pieces can be a crapshot, you can actually influence the probability of certain enchantments by placing lit candles around the enchanting table, each color boosting a different enchantment or set of similar enchantments (Check your recipe viewer!)"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:soul_sand",
+            "title": "Control 102",
+            "text": "If, instead, you'd like to $(o)decrease$() the odds of specific enchantments, you can light the candles with soulfire, by placing them on any block that also lights will soul fire."
+        }
+    ]
+}
