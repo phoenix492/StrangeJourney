@@ -1,0 +1,15 @@
+{
+  "parent": "strangejourney:hidden",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:hero_of_the_village"
+    }
+  },
+  "rewards": {
+    "loot": [
+      "strangejourney:heartcontainer"
+    ]
+  },
+  "sends_telemetry_event": false
+}
+

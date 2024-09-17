@@ -1,0 +1,12 @@
+{
+  "parent": "strangejourney:hidden",
+  "criteria": {
+    "requirement": {
+      "trigger": "twilightforest:kill_all_phantoms",
+      "conditions": {}
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}
+

@@ -1,0 +1,16 @@
+{
+  "parent": "strangejourney:hidden",
+  "criteria": {
+    "requirement": {
+      "trigger": "alexsmobs:void_worm_kill",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "loot": [
+      "strangejourney:heartcontainer"
+    ]
+  },
+  "sends_telemetry_event": false
+}
+

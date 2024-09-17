@@ -1,0 +1,15 @@
+{
+  "parent": "strangejourney:hidden",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "alexsmobs:warped_mosco"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}
+

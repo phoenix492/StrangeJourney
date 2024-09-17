@@ -1,0 +1,35 @@
+{
+  "parent": "strangejourney:hidden",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "strangejourney:cataclysm/ender_golem": true,
+                  "strangejourney:cataclysm/wadjet": true,
+                  "strangejourney:cataclysm/kobolediator": true,
+                  "strangejourney:cataclysm/the_prowler": true,
+                  "strangejourney:cataclysm/amethyst_crab": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "strangejourney:heartcontainer"
+    ]
+  },
+  "sends_telemetry_event": false
+}
+

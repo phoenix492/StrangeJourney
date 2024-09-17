@@ -1,0 +1,32 @@
+{
+  "parent": "strangejourney:hidden",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "strangejourney:alexsmods/hullbreaker": true,
+                  "strangejourney:alexsmods/warped_mosco": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "strangejourney:heartcontainer"
+    ]
+  },
+  "sends_telemetry_event": false
+}
+
