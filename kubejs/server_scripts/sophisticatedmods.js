@@ -101,14 +101,9 @@ ServerEvents.tags('item', event => {
 	})
 })
 ServerEvents.recipes(event => {
-	event.replaceInput(
-		{ mod: 'sophisticatedbackpacks' },
-		'minecraft:leather',
-		'quark:ravager_hide'
-	)
 	event.remove({ output: 'sophisticatedbackpacks:backpack'})
 	event.remove({ output: '#strangejourney:sophisticatedstorage_balance_disabled'})
-	event.remove({ input: '#strangejourney:sophisticatedstorage_upgrade'})
+	event.remove({ id: 'sophisticatedbackpacks:iron_backpack_from_copper' })
 	
 	event.custom({
 		type: 'sophisticatedbackpacks:basic_backpack',
@@ -124,5 +119,5 @@ ServerEvents.recipes(event => {
 			"L": { "tag": "forge:leather" }
 		},
 		result: { "item": "sophisticatedbackpacks:backpack" }
-	})
+	}).id("strangejourney:sophisticatedstorage_backpack")
 })
