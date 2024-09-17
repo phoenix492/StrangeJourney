@@ -27,9 +27,10 @@ fancymenu_data/last_world.fmdata
 config/spark/activity.json
 /.mixin.out/
 /exposures/
-/config/otyacraftengine/
+otyacraftengine/
 /iammusicplayer/
 /data/
+/showdown/
 
 # We don't distribute options.txt, we use default options!
 options.txt
