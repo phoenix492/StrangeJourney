@@ -1,0 +1,17 @@
+{
+	"name": "solar_system.sgjourney.the_void",
+	"symbols": "sgjourney:terra",
+	"symbol_prefix": 1,
+	"extragalactic_address": {"address": [1, 1, 1, 1, 1, 1, 1], "randomizable": true},
+	"addresses":
+	[
+		{"galaxy": "strangejourney:lepogearian", "address": {"address": [1, 1, 1, 1, 1, 1], "randomizable": true}}
+	],
+
+	"point_of_origin": "sgjourney:dark_star",
+
+	"dimensions":
+	[
+		"voidscape:void"
+	]
+}

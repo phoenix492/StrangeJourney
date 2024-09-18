@@ -1,5 +1,5 @@
 {
 	"filters": [
-		"cb_microblock:microblock"
+		"^cb_microblock:microblock"
 	]
 }	
