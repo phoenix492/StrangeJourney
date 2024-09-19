@@ -42,7 +42,7 @@
 	#Allows minimap to follow player movement instead of only displaying current map
 	follow_player = true
 	#When enabled the map will align itself with the player
-	rotate_with_player = true
+	rotate_with_player = false
 	#Draw cardinal directions on minimap
 	cardinal_directions = true
 	#Scale of cardinal directions on minimap
