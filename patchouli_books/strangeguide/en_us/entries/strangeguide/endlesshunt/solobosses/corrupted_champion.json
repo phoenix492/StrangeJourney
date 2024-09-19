@@ -41,10 +41,10 @@
         },
         {
             "type": "patchouli:multiblock",
-            "name": "Primary Altar",
+            "name": "Bone Staff Altar",
             "multiblock": {
                 "mapping": {
-                    "0": "graveyard:altar"
+                    "0": "graveyard:altar_center"
                 },
                 "pattern": [
                     ["0"],
@@ -56,10 +56,10 @@
         },
         {
             "type": "patchouli:multiblock",
-            "name": "Bone Staff Altar",
+            "name": "Primary Altar",
             "multiblock": {
                 "mapping": {
-                    "0": "graveyard:altar_center"
+                    "0": "graveyard:altar"
                 },
                 "pattern": [
                     ["0"],

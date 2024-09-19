@@ -9,6 +9,12 @@
         },
         {
             "type": "patchouli:spotlight",
+            "title": "The Demon Realm",
+            "item": "bloodmagic:ritualdiviner",
+            "text": "As much as I would legitmately love to have this accessible via stargate, it's just not possible! The dungeon is dynamically and procedurally generated when using the portal spawned by the Ritual."
+        },
+        {
+            "type": "patchouli:spotlight",
             "title": "Spatial Storage",
             "item": "ae2:spatial_storage_cell_128",
             "text": "Applied Energistics 2's Spatial Storage dimension, a place where pockets of space are stored so that entities and players can be taken along with them, wouldn't make sense as part of the network. It's supposed to be inside the disk and only handled as a dimension for technical reasons."

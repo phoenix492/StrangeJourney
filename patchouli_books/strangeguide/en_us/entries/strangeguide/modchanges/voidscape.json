@@ -1,0 +1,29 @@
+{
+    "name": "Voidscape",
+    "icon": "voidscape:voidic_crystal",
+    "category": "patchouli:strangeguide/modchanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "While a cool mod, Voidscape comes out of the box extremely overtuned with $(o)five$() different tiers of increasingly better than netherite gear. I've gone through and tamped down all the numbers significantly such that it doesn't easily outshine every other mod."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "voidscape:voidic_crystal_sword,voidscape:astral_axe,voidscape:titanite_pickaxe",
+            "title": "Tools & Weapons",
+            "text": "All void tools have been clamped to the level of Netherite, save for durability. In exchange, instead of voidic damage being added ontop of an already massive base damage, some of the weapon's base damage is turned into voidic damage, which has the curious property of bypassing armor." 
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "voidscape:corrupt_helmet,voidscape:corrupt_chest,voidscape:corrupt_legs,voidscape:corrupt_boots",
+            "title": "Armor",
+            "text": "Similarly, all armor has been clamped to Netherite level, save for Astral which is now very slightly better. Each set, of course, keeps its unique void related effects." 
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "voidscape:voidic_crystal_shield",
+            "title": "The Shield",
+            "text": "Finally, the Voidic Crystal Shield has been changed to block a low amount of regular damage, in comparison to other shields. It does, however, now add 3 points of voidic damage resistance when in the offhand."
+        }
+    ]
+}

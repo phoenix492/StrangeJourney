@@ -14,7 +14,8 @@
             "type": "patchouli:entity",
             "name": "Target",
             "entity": "twilightforest:minoshroom",
-            "scale": 0.9
+            "scale": 0.9,
+            "offset": 0.3
         }
     ]
 }
