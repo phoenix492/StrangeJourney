@@ -359,7 +359,9 @@ let paneIds = [
 	'quark:black_corundum_pane',
 	'hexerei:stone_window_pane',
 	'hexerei:waxed_stone_window_pane',
-	'forbidden_arcanus:deorum_glass_pane'
+	'forbidden_arcanus:deorum_glass_pane',
+	'rubinated_nether:ruby_glass_pane',
+	'rubinated_nether:molten_ruby_glass_pane'
 ]
 
 ServerEvents.tags('item', event => {
