@@ -1,0 +1,21 @@
+{
+    "name": "The Obsidilith",
+    "icon": "bosses_of_mass_destruction:obsidian_heart",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:bomd/obsidilith",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Obsidilith",
+            "text": "Found within rare strucutres in the End Islands.",
+            "trigger":"strangejourney:bomd/lich"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "bosses_of_mass_destruction:obsidilith",
+            "scale": 1,
+            "offset": -4
+        }
+    ]
+}

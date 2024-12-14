@@ -1,0 +1,21 @@
+{
+    "name": "The Nether Gauntlet",
+    "icon": "bosses_of_mass_destruction:blazing_eye",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:bomd/gauntlet",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Nether Gauntlet",
+            "text": "Found rarely in an arena within the Nether.",
+            "trigger":"strangejourney:bomd/gauntlet"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "bosses_of_mass_destruction:gauntlet",
+            "scale": 1,
+            "offset": 0
+        }
+    ]
+}

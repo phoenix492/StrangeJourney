@@ -1,0 +1,21 @@
+{
+    "name": "The Night Lich",
+    "icon": "bosses_of_mass_destruction:ancient_anima",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:bomd/lich",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Night Lich",
+            "text": "Found in a solitary tower, located in Cold Biomes. Follow the Soul Stars, but be warned day will never come while the Night Lich walks this world.",
+            "trigger":"strangejourney:bomd/lich"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "bosses_of_mass_destruction:lich",
+            "scale": 0.7,
+            "offset": 0
+        }
+    ]
+}

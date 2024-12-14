@@ -1,0 +1,21 @@
+{
+    "name": "The Void Blossom",
+    "icon": "bosses_of_mass_destruction:crystal_fruit",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:bomd/void_blossom",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Void Blossom",
+            "text": "Deep underground, near the bedrock in rare caves. Follow the void lilies.",
+            "trigger":"strangejourney:bomd/void_blossom"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "bosses_of_mass_destruction:void_blossom",
+            "scale": 1,
+            "offset": -7
+        }
+    ]
+}
