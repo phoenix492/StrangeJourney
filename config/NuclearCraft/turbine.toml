@@ -10,8 +10,8 @@
 	#Steam flow per blade mB/t
 	#Range: 100 ~ 1000000
 	blade_flow = 2000
-	#Energy gen per mB of steam
-	#Range: 1 ~ 1000000
+	#Energy gen multiplier
+	#Range: 1.0 ~ 1000000.0
 	energy_gen = 1
 	#Efficiency %: gold, aluminium, copper, magnesium, beryllium, silver
 	efficiency = [104.0, 98.0, 110.0, 86.0, 90.0, 112.0]

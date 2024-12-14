@@ -2,6 +2,11 @@
   "framedblocks": {
     "framed_item_frame": true
   },
+  "wizards_reborn": {
+    "numerical": true,
+    "crystal_growth": true,
+    "salt_campfire": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -58,6 +63,10 @@
     "crystal": true,
     "generator_part": true
   },
+  "midnight": {
+    "traditional_age": true,
+    "nightstag": true
+  },
   "pneumaticcraft": {
     "pneumatic": true,
     "tube_module": true,
@@ -83,6 +92,14 @@
   "mcjtylib": {
     "jadeaddons": true
   },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -94,6 +111,9 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "modularrouters": {
+    "router": true
   },
   "ars_nouveau": {
     "mob_jar": true

@@ -1,0 +1,32 @@
+{
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 692,
+                "top": 311
+            },
+            "SETTINGS": {
+                "horizontalOffset": 680,
+                "top": 296
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 677,
+                "top": 326
+            },
+            "SETTINGS": {
+                "horizontalOffset": 689,
+                "top": 311
+            },
+            "CONTINUOUS_CRAFTING": {
+                "horizontalOffset": 1
+            },
+            "PROFILE_SELECTOR": {
+                "bottom": -190
+            }
+        }
+    }
+}
