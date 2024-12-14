@@ -31,6 +31,7 @@ otyacraftengine/
 /iammusicplayer/
 /data/
 /showdown/
+/ESM/
 
 # We don't distribute options.txt, we use default options!
 options.txt
