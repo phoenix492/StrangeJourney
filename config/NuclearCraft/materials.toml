@@ -71,6 +71,7 @@
 	magnesium_diboride = true
 	hafnium = true
 	iridium = true
+	neutronium = true
 
 [nuggets]
 	steel = false

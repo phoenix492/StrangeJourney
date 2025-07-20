@@ -1,7 +1,4 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true
-  },
   "wizards_reborn": {
     "numerical": true,
     "crystal_growth": true,
@@ -59,21 +56,18 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "deepresonance": {
-    "crystal": true,
-    "generator_part": true
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
   },
-  "midnight": {
-    "traditional_age": true,
-    "nightstag": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
   },
   "immersiveengineering": {
     "multiblock_icon": true
@@ -89,17 +83,6 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "mcjtylib": {
-    "jadeaddons": true
-  },
-  "integrateddynamicscompat": {
-    "proxy": true,
-    "mechanical_squeezer": true,
-    "mechanical_drying_basin": true,
-    "drying_basin": true,
-    "part": true,
-    "squeezer": true
-  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -111,6 +94,56 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true
+  },
+  "midnight": {
+    "traditional_age": true,
+    "nightstag": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
   },
   "modularrouters": {
     "router": true
@@ -125,15 +158,8 @@
     "lightroom": true,
     "photograph_frame": true
   },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "remove_builtin": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
+  "aether_redux": {
+    "logicator": true
   },
   "delightful": {
     "crop_progress": true,
@@ -143,31 +169,14 @@
   "twilightforest": {
     "quest_ram_wool": true
   },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
   "supplementaries": {
     "hat_stand": true
   },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
+  "petrolpark": {
+    "contamination": true
   },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "milk_jar": true,
-    "toaster": true
+  "jadeaddons.deepresonance": {
+    "crystal": true,
+    "generator_part": true
   }
 }

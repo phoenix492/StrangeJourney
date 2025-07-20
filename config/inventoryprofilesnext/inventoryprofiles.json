@@ -2,6 +2,9 @@
     "ModSettings": {
         "first_run": false
     },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false
+    },
     "Tweaks": {
         "prevent_close_gui_drop_item": {
             "value": true

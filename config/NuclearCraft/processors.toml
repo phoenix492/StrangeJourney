@@ -164,3 +164,8 @@
 	base_power = 50
 	base_time = 200
 
+[subatomic_liquifier]
+	register = true
+	base_power = 50
+	base_time = 200
+

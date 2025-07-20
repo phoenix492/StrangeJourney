@@ -18,6 +18,9 @@ TempramentalItemDescriptions = true
 	#.
 	#Display additional technical details in some tooltips
 	nerdMode = false
+	#.
+	#Display molecules as their 3D representation in JEI
+	fancyJEIRendering = false
 
 #.
 #The buttons to open Destroy's configurations which appear on the main menu and pause menu

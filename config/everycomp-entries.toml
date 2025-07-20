@@ -113,9 +113,6 @@
 			wigglewood = true
 			grongle = true
 
-		[types.leaves_type.cobblemon]
-			apricorn = true
-
 		[types.leaves_type.thermal]
 			rubberwood = true
 
@@ -177,6 +174,7 @@
 			purple_glacia = true
 			gilded_oak = true
 			blighted_skyroot = true
+			fieldsproot = true
 
 		[types.leaves_type.witherstormmod]
 			tainted = true
@@ -199,12 +197,6 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.malum]
-			runewood = true
-			azure_runewood = true
-			soulwood = true
-			budding_soulwood = true
-
 		[types.leaves_type.wizards_reborn]
 			arcane_wood = true
 			innocent_wood = true
@@ -220,9 +212,6 @@
 		[types.leaves_type.dimdoors]
 			driftwood = true
 
-		[types.leaves_type.edenring]
-			auritis = true
-
 		[types.leaves_type.midnight]
 			shadowroot = true
 			dark_willow = true
@@ -232,6 +221,15 @@
 			amethyst_edified = true
 			aventurine_edified = true
 			citrine_edified = true
+
+		[types.leaves_type.cobblemon]
+			apricorn = true
+
+		[types.leaves_type.malum]
+			runewood = true
+			azure_runewood = true
+			soulwood = true
+			budding_soulwood = true
 
 	[types.wood_type]
 
@@ -276,9 +274,6 @@
 
 		[types.wood_type.betterarcheology]
 			rotten = true
-
-		[types.wood_type.cobblemon]
-			apricorn = true
 
 		[types.wood_type.thermal]
 			rubberwood = true
@@ -332,6 +327,7 @@
 
 		[types.wood_type.deeperdarker]
 			echo = true
+			bloom = true
 
 		[types.wood_type.alexscaves]
 			pewen = true
@@ -341,10 +337,6 @@
 			fungyss = true
 			aurum = true
 			edelwood = true
-
-		[types.wood_type.malum]
-			runewood = true
-			soulwood = true
 
 		[types.wood_type.wizards_reborn]
 			arcane_wood = true
@@ -356,12 +348,6 @@
 
 		[types.wood_type.dimdoors]
 			driftwood = true
-
-		[types.wood_type.edenring]
-			auritis = true
-			balloon_mushroom = true
-			pulse_tree = true
-			brain_tree = true
 
 		[types.wood_type.midnight]
 			shadowroot = true
@@ -379,6 +365,13 @@
 
 		[types.wood_type.hexcasting]
 			edified = true
+
+		[types.wood_type.cobblemon]
+			apricorn = true
+
+		[types.wood_type.malum]
+			runewood = true
+			soulwood = true
 
 	[types.cut_block_type]
 
@@ -580,6 +573,11 @@
 			chorus = true
 			frosted_stone_brick = true
 			stone_tile = true
+			azure_seastone = true
+			azure_seastone_brick = true
+			polished_azure_seastone = true
+			purpur_tile = true
+			polished_obsidian = true
 
 		[types.cut_block_type.voidscape]
 			thunder = true
@@ -666,9 +664,6 @@
 			nephrite = true
 			polished_nephrite = true
 			polished_nephrite_brick = true
-
-		[types.cut_block_type.cobblemon]
-			apricorn = true
 
 		[types.cut_block_type.mowziesmobs]
 			painted_acacia = true
@@ -892,6 +887,7 @@
 			jellyshroom = true
 			crystal = true
 			glacia = true
+			polished_sentrite = true
 
 		[types.cut_block_type.twilightforest]
 			twilight_oak = true
@@ -1008,64 +1004,6 @@
 			cut_veridium_brick = true
 			small_veridium_brick = true
 
-		[types.cut_block_type.create_dd]
-			dark_metal_block = true
-			dark_metal_brick = true
-			padded_rubber = true
-			raw_padded_rubber = true
-			black_padded_rubber = true
-			white_padded_rubber = true
-			blue_padded_rubber = true
-			light_blue_padded_rubber = true
-			red_padded_rubber = true
-			green_padded_rubber = true
-			lime_padded_rubber = true
-			pink_padded_rubber = true
-			magenta_padded_rubber = true
-			yellow_padded_rubber = true
-			gray_padded_rubber = true
-			light_gray_padded_rubber = true
-			brown_padded_rubber = true
-			cyan_padded_rubber = true
-			purple_padded_rubber = true
-			orange_padded_rubber = true
-			cut_stone = true
-			polished_cut_stone = true
-			cut_stone_brick = true
-			small_stone_brick = true
-			cut_packed_mud = true
-			polished_cut_packed_mud = true
-			cut_packed_mud_brick = true
-			small_packed_mud_brick = true
-			cut_amethyst_block = true
-			polished_cut_amethyst_block = true
-			cut_amethyst_block_brick = true
-			small_amethyst_block_brick = true
-			cut_netherrack = true
-			polished_cut_netherrack = true
-			cut_netherrack_brick = true
-			small_netherrack_brick = true
-			cut_basalt = true
-			polished_cut_basalt = true
-			cut_basalt_brick = true
-			small_basalt_brick = true
-			cut_blackstone = true
-			polished_cut_blackstone = true
-			cut_blackstone_brick = true
-			small_blackstone_brick = true
-			cut_weathered_limestone = true
-			polished_cut_weathered_limestone = true
-			cut_weathered_limestone_brick = true
-			small_weathered_limestone_brick = true
-			cut_gabbro = true
-			polished_cut_gabbro = true
-			cut_gabbro_brick = true
-			small_gabbro_brick = true
-			cut_dolomite = true
-			polished_cut_dolomite = true
-			cut_dolomite_brick = true
-			small_dolomite_brick = true
-
 		[types.cut_block_type.bloodmagic]
 			dungeon_tile = true
 
@@ -1098,6 +1036,24 @@
 			polished_cut_galena = true
 			cut_galena_brick = true
 			small_galena_brick = true
+			slag_bricks = true
+			white_rebar_concrete = true
+			blue_rebar_concrete = true
+			light_blue_rebar_concrete = true
+			red_rebar_concrete = true
+			green_rebar_concrete = true
+			lime_rebar_concrete = true
+			pink_rebar_concrete = true
+			magenta_rebar_concrete = true
+			yellow_rebar_concrete = true
+			gray_rebar_concrete = true
+			light_gray_rebar_concrete = true
+			brown_rebar_concrete = true
+			cyan_rebar_concrete = true
+			purple_rebar_concrete = true
+			orange_rebar_concrete = true
+			black_rebar_concrete = true
+			asphalt = true
 
 		[types.cut_block_type.alexscaves]
 			galena = true
@@ -1213,6 +1169,79 @@
 			blackstone_tile = true
 			fine_wood = true
 
+		[types.cut_block_type.wizards_reborn]
+			arcane_wood = true
+			innocent_wood = true
+			wisestone = true
+			polished_wisestone = true
+			wisestone_bricks = true
+			wisestone_tile = true
+			chiseled_wisestone = true
+			cork_bamboo = true
+			cork_bamboo_chiseled = true
+
+		[types.cut_block_type.ancient_aether]
+			highsproot = true
+			sakura = true
+			carved_tile = true
+			valkyrie_brick = true
+			valkyrie_tile = true
+
+		[types.cut_block_type.dimdoors]
+			driftwood = true
+			gravel = true
+			dark_sand = true
+			clay = true
+			mud = true
+			deepslate = true
+			red_sand = true
+			sand = true
+			end_stone = true
+			netherrack = true
+
+		[types.cut_block_type.tetra]
+			forged_platform = true
+
+		[types.cut_block_type.yungscavebiomes]
+			smooth_ancient_sandstone = true
+			cut_ancient_sandstone = true
+			ancient_sandstone = true
+
+		[types.cut_block_type.midnight]
+			nightstone = true
+			polished_nightstone = true
+			nightstone_brick = true
+			nightstone_tile = true
+			trenchstone = true
+			trenchstone_brick = true
+			shadowroot = true
+			dark_willow = true
+			decayed_wood = true
+			manglewood = true
+			nightshroom = true
+			dewshroom = true
+			viridshroom = true
+			moonshroom = true
+			bogshroom = true
+			rockshroom_brick = true
+			polished_rouxe = true
+			rouxe_brick = true
+			polished_bloomcrystal = true
+			bloomcrystal_brick = true
+
+		[types.cut_block_type.iceandfire]
+			dread_stone = true
+
+		[types.cut_block_type.hexcasting]
+			edified = true
+
+		[types.cut_block_type.delightful]
+			glow_jam_cookie_tile = true
+			source_berry_cookie_tile = true
+
+		[types.cut_block_type.cobblemon]
+			apricorn = true
+
 		[types.cut_block_type.malum]
 			tainted_rock = true
 			smooth_tainted_rock = true
@@ -1248,78 +1277,6 @@
 			vertical_rustic_soulwood_planks = true
 			soulwood_tiles = true
 			rustic_soulwood_tiles = true
-
-		[types.cut_block_type.wizards_reborn]
-			arcane_wood = true
-			innocent_wood = true
-			wisestone = true
-			polished_wisestone = true
-			wisestone_bricks = true
-			wisestone_tile = true
-			chiseled_wisestone = true
-			cork_bamboo = true
-			cork_bamboo_chiseled = true
-
-		[types.cut_block_type.ancient_aether]
-			highsproot = true
-			sakura = true
-			carved_tile = true
-			valkyrie_brick = true
-			valkyrie_tile = true
-
-		[types.cut_block_type.dimdoors]
-			driftwood = true
-			gravel = true
-			dark_sand = true
-			clay = true
-			mud = true
-			deepslate = true
-			red_sand = true
-			sand = true
-			end_stone = true
-			netherrack = true
-
-		[types.cut_block_type.tetra]
-			forged_platform = true
-
-		[types.cut_block_type.edenring]
-			auritis = true
-			balloon_mushroom = true
-			pulse_tree = true
-			brain_tree = true
-
-		[types.cut_block_type.yungscavebiomes]
-			smooth_ancient_sandstone = true
-			cut_ancient_sandstone = true
-			ancient_sandstone = true
-
-		[types.cut_block_type.midnight]
-			nightstone = true
-			polished_nightstone = true
-			nightstone_brick = true
-			nightstone_tile = true
-			trenchstone = true
-			trenchstone_brick = true
-			shadowroot = true
-			dark_willow = true
-			decayed_wood = true
-			manglewood = true
-			nightshroom = true
-			dewshroom = true
-			viridshroom = true
-			moonshroom = true
-			bogshroom = true
-			rockshroom_brick = true
-			polished_rouxe = true
-			rouxe_brick = true
-			polished_bloomcrystal = true
-			bloomcrystal_brick = true
-
-		[types.cut_block_type.iceandfire]
-			dread_stone = true
-
-		[types.cut_block_type.hexcasting]
-			edified = true
 
 #Disables specific entries
 [entries]
@@ -1452,6 +1409,22 @@
 			damaged_log = true
 			golden_barred_trapdoor = true
 			nailed_log = true
+			edged_stripped_log = true
+			f_sign_stripped_log = true
+			wise_stripped_log = true
+			layered_stripped_log = true
+			lumpy_stripped_log = true
+			chipped_stripped_log = true
+			patient_stripped_log = true
+			k_sign_stripped_log = true
+			sign_stripped_log = true
+			knotted_stripped_log = true
+			l_sign_stripped_log = true
+			reinforced_stripped_log = true
+			stern_stripped_log = true
+			carved_stripped_log = true
+			i_sign_stripped_log = true
+			d_sign_stripped_log = true
 
 		[entries.wood_type.absentbydesign]
 			wall_stripped_log = true
