@@ -192,7 +192,13 @@ let stairIds = [
 	'dimdoors:red_sand_stairs',
 	'dimdoors:sand_stairs',
 	'dimdoors:end_stone_stairs',
-	'dimdoors:netherrack_stairs'
+	'dimdoors:netherrack_stairs',
+	'spelunkery:rock_salt_stairs',
+	'spelunkery:polished_rock_salt_stairs',
+	'spelunkery:rock_salt_brick_stairs',
+	'spelunkery:nephrite_stairs',
+	'spelunkery:polished_nephrite_stairs',
+	'spelunkery:polished_nephrite_brick_stairs'
 ]
 
 let slabIds = [
@@ -340,6 +346,12 @@ let slabIds = [
 	'dimdoors:sand_slab',
 	'dimdoors:end_stone_slab',
 	'dimdoors:netherrack_slab'
+	'spelunkery:rock_salt_slab',
+	'spelunkery:polished_rock_salt_slab',
+	'spelunkery:rock_salt_brick_slab',
+	'spelunkery:nephrite_slab',
+	'spelunkery:polished_nephrite_slab',
+	'spelunkery:polished_nephrite_brick_slab'
 ]
 
 let foliageCarpetIds = [
