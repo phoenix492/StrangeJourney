@@ -7,7 +7,7 @@
         {
             "type": "patchouli:quest",
             "title": "The Warped Mosco",
-            "text": "Though blind to anything not emitting light, the Hullbreaker has earned its violent name and equally violent appearance. You'll find it in the Abyssal Chasm, and I suggest not trying its might unless you're ready, perhaps with a few unlikely friends?",
+            "text": "Though blind to anything not emitting light, the Hullbreaker has earned its violent name and equally violent appearance. You'll find it in the Abyssal Chasm. I suggest not trying its might unless you're ready.$(br)To obtain the Heart Container, you'll need to slay all of:$(li)The Warped Mosco$(li)The Hullbreaker",
             "trigger":"strangejourney:alexsmods/hullbreaker"
         },
         {
