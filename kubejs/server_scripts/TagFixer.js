@@ -180,7 +180,19 @@ let stairIds = [
 	'actuallyadditions:chiseled_black_quartz_stair',
 	'actuallyadditions:black_quartz_pillar_stair',
 	'actuallyadditions:smooth_black_quartz_stair',
-	'actuallyadditions:black_quartz_brick_stair'
+	'actuallyadditions:black_quartz_brick_stair',
+	'dimdoors:driftwood_stairs',
+	'dimdoors:amalgam_stairs',
+	'dimdoors:gravel_stairs',
+	'dimdoors:dark_sand_stairs',
+	'dimdoors:clay_stairs',
+	'dimdoors:mud_stairs',
+	'dimdoors:unraveled_stairs',
+	'dimdoors:deepslate_stairs',
+	'dimdoors:red_sand_stairs',
+	'dimdoors:sand_stairs',
+	'dimdoors:end_stone_stairs',
+	'dimdoors:netherrack_stairs'
 ]
 
 let slabIds = [
@@ -315,7 +327,19 @@ let slabIds = [
 	'actuallyadditions:chiseled_black_quartz_slab',
 	'actuallyadditions:black_quartz_pillar_slab',
 	'actuallyadditions:smooth_black_quartz_slab',
-	'actuallyadditions:black_quartz_brick_slab'
+	'actuallyadditions:black_quartz_brick_slab',
+	'dimdoors:driftwood_slab',
+	'dimdoors:amalgam_slab',
+	'dimdoors:gravel_slab',
+	'dimdoors:dark_sand_slab',
+	'dimdoors:clay_slab',
+	'dimdoors:mud_slab',
+	'dimdoors:unraveled_slab',
+	'dimdoors:deepslate_slab',
+	'dimdoors:red_sand_slab',
+	'dimdoors:sand_slab',
+	'dimdoors:end_stone_slab',
+	'dimdoors:netherrack_slab'
 ]
 
 let foliageCarpetIds = [
