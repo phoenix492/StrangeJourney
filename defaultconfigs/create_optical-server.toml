@@ -1,0 +1,45 @@
+
+#.
+#Packmakers' control panel for internal optical recipe compat
+[optical-recipes]
+	#.
+	#.
+	#Regulate the probability of getting charcoal as a failed output in smoking focusing recipes.
+	#Range: 0.0 ~ 1.0
+	focusingSmokingFailedOutputProbability = 0.0
+	#.
+	#Regulate the probability of getting charcoal as a failed output in coloring focusing recipes.
+	#Range: 0.0 ~ 1.0
+	focusingColoringFailedOutputProbability = 0.10000000149011612
+	#.
+	#Regulate the probability of getting charcoal as a failed output in sanding focusing recipes.
+	#Range: 0.0 ~ 1.0
+	focusingSandingFailedOutputProbability = 0.0
+
+	#.
+	#Parameters and abilities of Optical's kinetic components
+	[optical-recipes."optical kinetics"]
+
+		[optical-recipes."optical kinetics".stressValues]
+
+			#.
+			#.
+			#Fine tune the kinetic stats of individual components
+			[optical-recipes."optical kinetics".stressValues.v2]
+
+				#.
+				#.
+				#[in Stress Units]
+				#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+				[optical-recipes."optical kinetics".stressValues.v2.impact]
+					optical_source = 8.0
+					thermal_optical_source = 16.0
+					beam_focuser = 4.0
+
+				#.
+				#[in Stress Units]
+				#Configure how much stress a source can accommodate for.
+				[optical-recipes."optical kinetics".stressValues.v2.capacity]
+					heavy_optical_receptor = 24.0
+					optical_receptor = 8.0
+

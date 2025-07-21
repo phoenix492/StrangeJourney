@@ -42,6 +42,8 @@
 	"Invisibility Cloak visibility timer" = 50
 	#Makes it so that only whitelisted users or anyone with permission level 4 can use the Sun Altar on a server
 	"Only whitelisted users access Sun Altars" = false
+	#Configures what dimensions are able to have their time changed by the Sun Altar
+	"Configure Sun Altar dimensions" = ["aether:the_aether"]
 
 [Modpack]
 	#Spawns the player in the Aether dimension; this is best enabled alongside other modpack configuration to avoid issues
@@ -51,7 +53,7 @@
 	#Prevents the player from falling back to the Overworld when they fall out of the Aether
 	"Disables falling into the Overworld" = false
 	#Removes eternal day so that the Aether has a normal daylight cycle even before defeating the Sun Spirit
-	"Disables eternal day" = false
+	"Disables eternal day" = true
 	#Sets the ID of the dimension that the Aether Portal will send the player to
 	"Sets portal destination dimension" = "aether:the_aether"
 	#Sets the ID of the dimension that the Aether Portal will return the player to
