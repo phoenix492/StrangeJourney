@@ -1,0 +1,26 @@
+{
+    "name": "The Storm Queen",
+    "icon": "cataclysm:witherite_ingot",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/scylla",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "Scylla",
+            "text": "Scylla resides at the top of the floating arcopolis.",
+            "trigger":"strangejourney:cataclysm/scylla"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:scylla",
+            "scale": 0.7,
+            "offset": 0.5
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:storm_eye",
+            "text": "The Storm Eye will lead you directly to the Arcopolis, where Scylla resides."
+        }
+    ]
+}
