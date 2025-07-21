@@ -345,7 +345,7 @@ let slabIds = [
 	'dimdoors:red_sand_slab',
 	'dimdoors:sand_slab',
 	'dimdoors:end_stone_slab',
-	'dimdoors:netherrack_slab'
+	'dimdoors:netherrack_slab',
 	'spelunkery:rock_salt_slab',
 	'spelunkery:polished_rock_salt_slab',
 	'spelunkery:rock_salt_brick_slab',
