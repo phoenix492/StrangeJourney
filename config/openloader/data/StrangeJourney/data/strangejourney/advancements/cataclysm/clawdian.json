@@ -1,0 +1,15 @@
+{
+  "parent": "strangejourney:hidden",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cataclysm:clawdian"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}
+

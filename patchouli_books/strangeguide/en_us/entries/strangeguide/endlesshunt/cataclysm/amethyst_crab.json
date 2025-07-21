@@ -7,7 +7,7 @@
         {
             "type": "patchouli:quest",
             "title": "The Amethyst Crab",
-            "text": "Hang around a lush cave long enough and you'll be met with this cantankerous crustacean. You'll want its meat to bless later for The Leviathan. Before getting the heart container, you'll need to slay all of:$(li)The Amethyst Crab$(li)The Wadjet$(li)The Kobolediator$(li)The Prowler$(li)The Ender Golem",
+            "text": "Hang around a lush cave long enough and you'll be met with this cantankerous crustacean. Before getting the heart container, you'll need to slay all of:$(li)The Amethyst Crab$(li)The Wadjet$(li)The Kobolediator$(li)The Prowler$(li)The Ender Golem$(li)The Aptrgangr$(li)The Clawdian",
             "trigger":"strangejourney:cataclysm/amethyst_crab"
         },
         {

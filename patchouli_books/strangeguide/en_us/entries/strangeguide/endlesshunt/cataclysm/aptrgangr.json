@@ -1,0 +1,21 @@
+{
+    "name": "The Aptrgangr",
+    "icon": "cataclysm:strange_key",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/aptrgangr",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Aptrgangr",
+            "text": "You'll find the Aptrgangr in the Frosted Prison. Before getting the heart container, you'll need to slay all of:$(li)The Amethyst Crab$(li)The Wadjet$(li)The Kobolediator$(li)The Prowler$(li)The Ender Golem$(li)The Aptrgangr$(li)The Clawdian",
+            "trigger":"strangejourney:cataclysm/aptrgangr"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:aptrgangr",
+            "scale": 0.9,
+            "offset": 0.2
+        }
+    ]
+}

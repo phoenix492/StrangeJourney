@@ -1,0 +1,26 @@
+{
+    "name": "The Cursed Prisoner",
+    "icon": "cataclysm:cursium_ingot",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/maledictus",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Cursed Prisoner",
+            "text": "Maledictus awaits in the Frosted Prison.",
+            "trigger":"strangejourney:cataclysm/maledictus"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:maledictus",
+            "scale": 0.5,
+            "offset": 0
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "cataclysm:cursed_eye",
+            "text": "The Cursed Eye will lead you directly to the Frosted Prison where Maledictus resides."
+        }
+    ]
+}

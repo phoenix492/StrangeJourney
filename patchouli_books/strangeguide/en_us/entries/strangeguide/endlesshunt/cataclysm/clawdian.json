@@ -1,0 +1,21 @@
+{
+    "name": "The Clawdian",
+    "icon": "cataclysm:chitin_claw",
+    "category": "patchouli:strangeguide/endlesshunt",
+    "turnin":"strangejourney:cataclysm/clawdian",
+    "pages": [
+        {
+            "type": "patchouli:quest",
+            "title": "The Clawdian",
+            "text": "You'll find the Clawdian in the Acropolois. Before getting the heart container, you'll need to slay all of:$(li)The Amethyst Crab$(li)The Wadjet$(li)The Kobolediator$(li)The Prowler$(li)The Ender Golem$(li)The Aptrgangr$(li)The Clawdian",
+            "trigger":"strangejourney:cataclysm/clawdian"
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Target",
+            "entity": "cataclysm:clawdian",
+            "scale": 0.9,
+            "offset": 0.2
+        }
+    ]
+}
