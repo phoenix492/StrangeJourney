@@ -32,6 +32,7 @@ otyacraftengine/
 /data/
 /showdown/
 /ESM/
+/config/inventoryprofilesnext
 
 # We don't distribute options.txt, we use default options!
 options.txt
