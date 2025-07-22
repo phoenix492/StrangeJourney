@@ -1,0 +1,27 @@
+{
+    "name": "Ice & Fire",
+    "icon": "iceandfire:bestiary",
+    "category": "patchouli:strangeguide/modchanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Look, I know most people are traumitized from playing a poorly configured Ice and Fire. I hope to not add to the mental damage count."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Exclusion Zone",
+            "text": "Dangerous structures from Ice & Fire will not spawn within 7500 blocks of spawn. If you'd like to explore and conquer them, you're going to have to head out into the untamed wilds in order to find them. Dragons in particular have also been made less common all around even once you reach the edge of the exclusion zone, to avoid them overrunning the world."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Rarer Monsters",
+            "text": "Most monsters and creatures from Ice & Fire are significantly rarer, most notably the Hippocampus (which otherwise crowds the sea) and the Sea Serpent (who is now roughly as rare as Sirens) to reduce the likelyhood they'll frequently get in your way."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "iceandfire:dragonsteel_fire_sword,iceandfire:dragonsteel_fire_helmet,iceandfire:dragonsteel_fire_chestplate,iceandfire:dragonsteel_fire_leggings,iceandfire:dragonsteel_fire_boots",
+            "title": "Weapon & Armor Nerf",
+            "text": "25 damage and 12 armor is far too much for anything else in this modpack. As such, Dragonsteel has been clamped down to be on the level of roughly Netherite + 1"
+        }
+    ]
+}

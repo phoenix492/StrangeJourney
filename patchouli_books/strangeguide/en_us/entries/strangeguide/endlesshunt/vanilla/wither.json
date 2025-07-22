@@ -7,14 +7,14 @@
         {
             "type": "patchouli:quest",
             "title": "The Wither",
-            "text": "Standard Wither fight, nothing too crazy. Go get him!",
+            "text": "The Wither has recieved a complete overhaul. Upon summoning, it will lock the world into a perpetual night and focus on destroying the world during its first phase instead of focusing you. More than ever, spawn it far from anything you care about. Good luck.",
             "trigger":"strangejourney:vanilla/wither"
         },
         {
             "type": "patchouli:entity",
             "name": "Target",
             "entity": "minecraft:wither",
-            "offset": 0.4
+            "scale": 0.5
         }
     ]
 }
