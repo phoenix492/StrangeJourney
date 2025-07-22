@@ -33,6 +33,7 @@ otyacraftengine/
 /showdown/
 /ESM/
 /config/inventoryprofilesnext
+/config/jei/recipe-category-sort-order.ini
 
 # We don't distribute options.txt, we use default options!
 options.txt
