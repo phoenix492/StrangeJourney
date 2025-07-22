@@ -43,6 +43,7 @@ config/attributefix.json
 config/xaerominimap_entities.json
 config/fabric/
 fabricloader.log
+config/everycomp-hazardous.properties 
 
 # Spark Stuff
 config/spark/*.threads
