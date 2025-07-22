@@ -357,7 +357,7 @@ let slabIds = [
 	'spelunkery:rock_salt_brick_slab',
 	'spelunkery:nephrite_slab',
 	'spelunkery:polished_nephrite_slab',
-	'spelunkery:polished_nephrite_brick_slab'
+	'spelunkery:polished_nephrite_brick_slab',
 	'alexscaves:wafer_cookie_slab',
 	'alexscaves:gingerbread_slab',
 	'alexscaves:frosted_gingerbread_slab',
