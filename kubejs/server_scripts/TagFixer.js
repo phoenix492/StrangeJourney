@@ -198,7 +198,13 @@ let stairIds = [
 	'spelunkery:rock_salt_brick_stairs',
 	'spelunkery:nephrite_stairs',
 	'spelunkery:polished_nephrite_stairs',
-	'spelunkery:polished_nephrite_brick_stairs'
+	'spelunkery:polished_nephrite_brick_stairs',
+	'iceandfire:dread_stone_stairs',
+	'alexscaves:wafer_cookie_stairs',
+	'alexscaves:gingerbread_stairs',
+	'alexscaves:frosted_gingerbread_stairs',
+	'alexscaves:gingerbread_brick_stairs',
+	'alexscaves:frosted_gingerbread_brick_stairs'
 ]
 
 let slabIds = [
@@ -352,6 +358,11 @@ let slabIds = [
 	'spelunkery:nephrite_slab',
 	'spelunkery:polished_nephrite_slab',
 	'spelunkery:polished_nephrite_brick_slab'
+	'alexscaves:wafer_cookie_slab',
+	'alexscaves:gingerbread_slab',
+	'alexscaves:frosted_gingerbread_slab',
+	'alexscaves:gingerbread_brick_slab',
+	'alexscaves:frosted_gingerbread_brick_slab'
 ]
 
 let foliageCarpetIds = [
