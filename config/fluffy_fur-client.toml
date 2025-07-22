@@ -21,7 +21,7 @@
 	#Shaders
 	[graphics.shaders]
 		#Enable Rain Fog effect post process shader.
-		rainFogShader = true
+		rainFogShader = false
 		#Intensity of Rain Fog effect post process shader.
 		#Range: 0.0 ~ 2.0
 		rainFogShaderIntensity = 0.3
@@ -37,7 +37,7 @@
 	#Fluffy Fur Panorama.
 	panorama = "minecraft:vanilla"
 	#Enable Fluffy Fur menu button.
-	menuButton = true
+	menuButton = false
 	#Fluffy Fur menu button row.
 	#Range: 0 ~ 4
 	menuButtonRow = 3
