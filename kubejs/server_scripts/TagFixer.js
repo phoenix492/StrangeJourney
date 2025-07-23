@@ -387,7 +387,8 @@ let foliageCarpetIds = [
 	'quark:bamboo_mat_carpet',
 	'aether_redux:blightmoss_carpet',
 	'deep_aether:aether_moss_carpet',
-	'aether_redux:fungal_carpet'
+	'aether_redux:fungal_carpet',
+	'species:alphacene_moss_carpet'
 ]
 
 let carpetIds = [
