@@ -1788,7 +1788,7 @@
 			"Variant Types" = ["slab", "stairs", "wall", "fence", "vertical_slab", "unique", "unique2"]
 			#By default, only a mod's namespace is scanned for variants for its items (e.g. if coolmod adds coolmod:fun_block, it'll search only for coolmod:fun_block_stairs).
 			# Mods in this list are also scanned for variants if none are found in itself (e.g. if quark is in the list and coolmod:fun_block_stairs doesn't exist, it'll try to look for quark:fun_block_stairs next)
-			"Tested Mods" = ["quark", "twilightforest", "v_slab_compat"]
+			"Tested Mods" = ["quark", "twilightforest", "v_slab_compat", "everycomp"]
 			"Print Variant Map To Log" = false
 			#Format is 'alias=original' in each value (e.g. 'wall=fence' means that a failed search for, minecraft:cobblestone_fence will try cobblestone_wall next)
 			Aliases = ["stair=stairs", "carpet=unique", "pane=unique", "fence_gate=unique", "sheet=unique", "banister=unique2", "boardwalk=unique2"]
