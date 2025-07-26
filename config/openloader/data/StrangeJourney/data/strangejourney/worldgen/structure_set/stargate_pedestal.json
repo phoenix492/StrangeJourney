@@ -21,6 +21,10 @@
          "weight": 1
         },
         {
+         "structure": "strangejourney:stargate/milky_way/pedestal/stargate_pedestal_midnight",
+         "weight": 1
+        },
+        {
          "structure": "strangejourney:stargate/milky_way/pedestal/stargate_pedestal_void",
          "weight": 1
         }

@@ -1,0 +1,17 @@
+{
+	"name": "strange_journey:stargate/milky_way/pedestal/stargate_pedestal_midnight",
+	"fallback": "minecraft:empty",
+	"elements":
+	[
+		{
+			"weight": 1,
+			"element":
+			{
+				"location": "strangejourney:stargate/milky_way/pedestal/stargate_pedestal_midnight_1",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+}

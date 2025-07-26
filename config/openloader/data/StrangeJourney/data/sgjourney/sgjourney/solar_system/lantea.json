@@ -10,7 +10,6 @@
 
 	"point_of_origin": "sgjourney:subido",
 	
-	"//":"The first dimension in the list is prioritized when using the address",
 	"dimensions":
 	[
 		"aether:the_aether",

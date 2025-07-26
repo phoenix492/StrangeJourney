@@ -1,0 +1,30 @@
+{
+	"replace": false,
+	"values":
+	[
+		{"id": "midnight:black_ridge", "required":false},
+		{"id": "midnight:caverns", "required":false},
+		{"id": "midnight:crystal_spires", "required":false},
+		{"id": "midnight:dark_ocean", "required":false},
+		{"id": "midnight:dark_river", "required":false},
+		{"id": "midnight:dead_forest", "required":false},
+		{"id": "midnight:deceitful_marsh", "required":false},
+		{"id": "midnight:deceitful_swamp", "required":false},
+		{"id": "midnight:fungal_caverns", "required":false},
+		{"id": "midnight:fungi_forest", "required":false},
+		{"id": "midnight:greater_caverns", "required":false},
+		{"id": "midnight:malevolent_forest", "required":false},
+		{"id": "midnight:malignant_grassland", "required":false},
+		{"id": "midnight:night_plains", "required":false},
+		{"id": "midnight:obscured_peaks", "required":false},
+		{"id": "midnight:obscured_plateau", "required":false},
+		{"id": "midnight:phantasmal_valley", "required":false},
+		{"id": "midnight:rocky_shore", "required":false},
+		{"id": "midnight:rouxe_caverns", "required":false},
+		{"id": "midnight:runebrush_grove", "required":false},
+		{"id": "midnight:towering_vigilant_forest", "required":false},
+		{"id": "midnight:vigilant_forest", "required":false},
+		{"id": "midnight:vigilant_glade", "required":false},
+		{"id": "midnight:warped_fields", "required":false}
+	]
+}
