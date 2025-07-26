@@ -2,14 +2,16 @@
 	"name": "solar_system.sgjourney.athos",
 	"symbols": "sgjourney:athos",
 	"symbol_prefix": 18,
-	"extragalactic_address": {"address": [18, 21, 14, 24, 1, 26, 28], "randomizable": true},
+	"extragalactic_address": {"address": [1, 1, 1, 1, 1, 1, 1], "randomizable": true},
 	"addresses":
 	[
+		{"galaxy": "sgjourney:lepogearian", "address": {"address": [1, 1, 1, 1, 1, 1], "randomizable": true}}
 	],
 
 	"point_of_origin": "sgjourney:athos",
 
 	"dimensions":
 	[
+		"sgjourney:athos"
 	]
 }
