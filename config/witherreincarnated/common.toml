@@ -4,4 +4,6 @@
 "Wither Attacks Produce Fire (default: true)" = true
 "Disable Wither Charge Attack (default: false)" = false
 "Disable Wither Laser Attack (default: false)" = false
+"Wither Fire Ignores Mob Griefing (default: false)" = false
+"Vanilla Wither Phases (default: false)" = false
 

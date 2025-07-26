@@ -7,4 +7,9 @@
 "Distant Fire Opacity (default: 0.1)" = 0.1
 "Wither Shine Opacity (default: 0.1)" = 0.1
 "Remove Wither Wings (default: false)" = false
+"Distant Fire Colour (default: 0xFF552A)" = 16733482
+"Only Play One Music Track (default: false)" = false
+"Distant Fire Colour (default: 0xFFFFFF)" = 16777215
+"Distant Fire Colour (default: 0x5be3e8)" = 6022120
+"Wither Ribcage Item (default: \"minecraft:nether_star\")" = "minecraft:nether_star"
 

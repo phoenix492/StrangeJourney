@@ -234,6 +234,7 @@
 	boron = true
 	bismuth = true
 	iridium = true
+	protactinium_231 = true
 
 [blocks]
 	steel = true
