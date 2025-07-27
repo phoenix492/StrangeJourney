@@ -39,6 +39,9 @@ otyacraftengine/
 # We don't distribute options.txt, we use default options!
 options.txt
 
+# Personal item lists that are here for my convenience
+/ItemLists/
+
 # These are updated too often to include in VCS
 config/oculus.properties
 config/jeiintegration-client.toml
