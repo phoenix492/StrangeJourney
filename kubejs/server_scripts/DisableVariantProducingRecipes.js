@@ -47,6 +47,7 @@ let disableRecipeIds = [
 	'deep_aether:polished_clorite_slab',
 	'deep_aether:aether_mud_bricks_slab'
 ]
+
 let disableRecipeTags = [
 	'#minecraft:stairs',
 	'#minecraft:slabs',
@@ -61,7 +62,9 @@ let disableRecipeTags = [
 	'#strangejourney:foliage_carpets',
 	'#quark:posts',
 	'#immersiveengineering:chutes',
-	'#tropicraft:boardwalks'
+	'#tropicraft:boardwalks',
+	'quark:hedges',
+	'quark:posts'
 ]
 
 let enabledRecipeTags = [
