@@ -1,5 +1,11 @@
 const $CuriosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi');
 const $TargetingConditions = Java.loadClass('net.minecraft.world.entity.ai.targeting.TargetingConditions')
+/*
+Targeting condition that always returns true. We only care that there's a 
+player nearby, which is handled by calling getNearbyPlayers, we couldn't
+care less if they're in creative or invulnerable or the game is in peaceful.
+*/
+const $PlayerCondition = $TargetingConditions.forNonCombat().selector(entity => {return true})
 
 function hasCurios(entity, itemStack) {
     let curiosInventory = $CuriosApi.getCuriosInventory(entity).resolve().get();
@@ -10,22 +16,12 @@ EntityEvents.spawned(event => {
 	if(event.entity.type == "cobblemon:pokemon") {
 		let area = event.entity.getBoundingBox().inflate(64)
 		let spawnPokemon = false
-		event.level.getEntitiesWithin(area).forEach(e => {
-			if (e.isPlayer()) {
-				if (hasCurios(e, Item.of("kubejs:silph_scope"))) {
-					spawnPokemon = true
-				}
-			}
-		})
-		/*
-		let players = event.level.getNearbyPlayers($TargetingConditions.DEFAULT, null, area);
-		console.log("Nearby players: " + players.length);
+		let players = event.level.getNearbyPlayers($PlayerCondition, null, area);
 		players.forEach(p => {
 			if (hasCurios(p, Item.of("kubejs:silph_scope"))) {
 				spawnPokemon = true
 			}
 		})
-		*/
 		
 		if (!spawnPokemon) {
 			event.cancel()
