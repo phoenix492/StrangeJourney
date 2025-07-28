@@ -12,6 +12,6 @@ What makes a good loot item to populate shops and loot tables is that it's 1) a 
 - Diamonds are the quintessential example of something that violates 4. Early game diamonds are hard to come by and extremely valuble (violating 3, cheapening how good it feels to find your first) but extremely abundant as the game progresses, even without automation methods. 
 ### Examples of Good Loot (That Will Likely be Utilized)
 - Cobblemon: CobGyms keys, Relic Coins, XP Candy
-- Gacha Rolls: Plushies, Hats, IE Shader Grab-bags, Trading Card boosters
+- Gacha Rolls for Collectibles: Plushies, Hats, IE Shader Grab-Bags, Trading Card Booster Packs
 ## Loot Addendum: Paraglider Heart Containers and Stamina
 Paraglider's player upgrades are special in that they directly violate 1 by being turned into NOT a commodity. In essence, though they're all technically the same item, each Heart Container is given once for a specific event (the first time killing a boss). Stamina vessels are unimplemented but they'll likely be given out for visitng important structures, biomes, and dimensions (an exploration reward).
