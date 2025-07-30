@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP"
+    ],
+    "key": {
+        "P": "#minecraft:planks"
+    },
+    "result": {
+			"id": "kubejs:wooden_panel",
+			"count": 6
+		}
+}

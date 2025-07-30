@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
 			'kubejs:stone_panel'
 		)
 	}
+
 	// IE gets special treatment before the blanket wood replacement
 	// for balance preservation
 	event.replaceInput(
@@ -18,24 +19,7 @@ ServerEvents.recipes(event => {
 		'#minecraft:fences',
 		'#forge:rods/wooden'
 	)
-	event.shaped(
-		Item.of('kubejs:wooden_panel', 6),
-		[
-			'PPP'
-		],
-		{
-			P: '#minecraft:planks'
-		}
-	)
-	event.shaped(
-		Item.of('kubejs:stone_panel', 6),
-		[
-			'CCC'
-		],
-		{
-			C: '#minecraft:stone_crafting_materials'
-		}
-	)
+
 	stoneSlabSwap('minecraft:stone_slab')
 	stoneSlabSwap('minecraft:smooth_stone_slab')
 	stoneSlabSwap('minecraft:polished_andesite_stairs')

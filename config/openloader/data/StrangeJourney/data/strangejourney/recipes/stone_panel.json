@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC"
+    ],
+    "key": {
+        "C": "#quark:stone_tool_materials"
+    },
+    "result": {
+			"id": "kubejs:stone_panel",
+			"count": 6
+		}
+}
