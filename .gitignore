@@ -46,7 +46,7 @@ options.txt
 /VariantusDeletus/QuarkConfigBackup.toml
 
 # Literally just a list of items in the game
-/VariantusDeletus/ItemMasterList.txt
+/VariantusDeletus/ItemMasterlist.txt
 
 # These are updated too often to include in VCS
 config/oculus.properties
