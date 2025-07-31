@@ -4,7 +4,7 @@
 - Unique2: Banisters, Concrete Quarter, Hedge, Hollow Logs
 - Unique3: Boardwalks, Concrete Chunk
 ## Loot Options
-What makes a good loot item to populate shops and loot tables is that it's 1) a commodity that you always want and that hording feels good 2) not a farmable resource 3) not something the player has to work hard for 4) something the player will eventually have far to much of (1 can be ignored if it's been made exclusively obtainable through said loot methods, like Plushies will be through gacha rolls)
+What makes a good loot item to populate shops and loot tables is that it's 1) a commodity that you always want and that hording feels good 2) not a farmable resource 3) not something the player has to work hard for 4) not something the player will eventually have far to much of (1 can be ignored if it's been made exclusively obtainable through said loot methods, like Plushies will be through gacha rolls)
 ### Examples of Bad Loot
 - EnderIO's old capacitors are all unique (not commodities) which CAN work as a reward, but hoarding them feels really bad (rarely useful) which violates 1. 
 - Things like Berries and Apricorns from Cobblemon are farmable, once you have one you can easily get more, thus violating 2. Giving one could jumpstart the player and they'd never want it as a reward again (because they can now farm it) or even worse act as a way for them to just buy it en masse without setting up a farm (directly removing gameplay)
