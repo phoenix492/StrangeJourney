@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		"#minecraft:stairs",
+		"#minecraft:slabs",
+		"#minecraft:slab",
+		"#quark:vertical_slabs",
+		"#minecraft:fence_gates",
+		"#minecraft:fences",
+		"#minecraft:walls",
+		"#quark:hollow_logs",
+		"#forge:glass_panes",
+		"#twilightforest:banisters",
+		"#strangejourney:foliage_carpets",
+		"#quark:posts",
+		"#immersiveengineering:chutes",
+		"#tropicraft:boardwalks",
+		"#quark:hedges",
+		"#quark:posts"
+	]
+}
