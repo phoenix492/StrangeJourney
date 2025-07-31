@@ -45,6 +45,9 @@ options.txt
 # Backup of quark-common.toml from testing
 /VariantusDeletus/QuarkConfigBackup.toml
 
+# Literally just a list of items in the game
+/VariantusDeletus/ItemMasterList.txt
+
 # These are updated too often to include in VCS
 config/oculus.properties
 config/jeiintegration-client.toml
