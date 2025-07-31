@@ -42,6 +42,9 @@ options.txt
 # Personal item lists that are here for my convenience
 /ItemLists/
 
+# Backup of quark-common.toml from testing
+/VariantusDeletus/QuarkConfigBackup.toml
+
 # These are updated too often to include in VCS
 config/oculus.properties
 config/jeiintegration-client.toml

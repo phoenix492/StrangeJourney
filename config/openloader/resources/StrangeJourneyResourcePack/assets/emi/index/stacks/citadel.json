@@ -1,9 +1,0 @@
-{
-  "removed": [
-		"item:citadel:citadel_book",
-		"item:citadel:debug",
-		"item:citadel:effect_item",
-		"item:citadel:fancy_item",
-		"item:citadel:icon_item"
-  ]
-}
