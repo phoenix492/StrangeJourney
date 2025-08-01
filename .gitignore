@@ -56,6 +56,7 @@ config/xaerominimap_entities.json
 config/fabric/
 fabricloader.log
 config/everycomp-hazardous.properties 
+config/crash_assistant/modlist.json
 
 # Spark Stuff
 config/spark/*.threads
