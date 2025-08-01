@@ -6,6 +6,7 @@
     "unify",
     "create",
     "rubinated_nether",
+    "destroy",
     "thermal",
     "immersiveengineering",
     "mekanism",
@@ -84,7 +85,8 @@
     "tin",
     "tungsten",
     "uranium",
-    "zinc"
+    "zinc",
+    "chromium"
   ],
   "priorityOverrides": {},
   "customTags": {},
