@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"cb_microblock:microblock"
+		"cb_microblock:microblock",
+		"ae2:facade"
 	]
 }
