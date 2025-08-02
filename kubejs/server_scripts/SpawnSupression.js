@@ -13,6 +13,8 @@ function hasCurios(entity, itemStack) {
 }
 
 EntityEvents.spawned(event => {
+
+	// Cobblemon contingent upon a nearby playing wearing a silph scope
 	if(event.entity.type == "cobblemon:pokemon") {
 		let area = event.entity.getBoundingBox().inflate(64)
 		let spawnPokemon = false
@@ -27,5 +29,11 @@ EntityEvents.spawned(event => {
 			event.cancel()
 		}
 	}
+	
+	// Midnight rifts are disabled, stargates only.
+	if(event.entity.type == "midnight:rift") {
+		event.cancel()
+	}
+
 })
 
