@@ -41,6 +41,11 @@ EntityEvents.spawned(event => {
 			event.cancel()
 		}
 	}
+	if (event.entity.type.split(':')[0] == "species") {
+		if (event.entity.block.biomeId.namespace == "alexscaves") {
+			event.cancel()
+		}
+	}
 
 })
 
