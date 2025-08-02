@@ -35,5 +35,12 @@ EntityEvents.spawned(event => {
 		event.cancel()
 	}
 
+	// Midnight enderman things shouldn't spawn in the overworld
+	if (event.entity.type == "midnight:nightshade") {
+		if (event.entity.level.isOverworld()) {
+			event.cancel()
+		}
+	}
+
 })
 
