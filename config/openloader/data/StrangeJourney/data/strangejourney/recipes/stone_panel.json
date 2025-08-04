@@ -4,10 +4,12 @@
         "CCC"
     ],
     "key": {
-        "C": "#quark:stone_tool_materials"
+        "C": {
+            "tag": "quark:stone_tool_materials"
+        }
     },
     "result": {
-			"id": "kubejs:stone_panel",
-			"count": 6
-		}
+      "item": "kubejs:stone_panel",
+      "count": 6
+    }
 }

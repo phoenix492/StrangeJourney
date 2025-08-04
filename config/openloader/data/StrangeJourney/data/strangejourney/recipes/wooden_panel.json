@@ -4,10 +4,12 @@
         "PPP"
     ],
     "key": {
-        "P": "#minecraft:planks"
+        "P": {
+            "tag": "minecraft:planks"
+        }
     },
     "result": {
-			"id": "kubejs:wooden_panel",
-			"count": 6
-		}
+      "item": "kubejs:wooden_panel",
+      "count": 6
+    }
 }
