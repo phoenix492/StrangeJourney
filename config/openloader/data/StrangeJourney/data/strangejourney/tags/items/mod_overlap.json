@@ -1,0 +1,8 @@
+{
+	"replace": false,
+	"values": [
+		"quark:potato_crate",
+		"quark:beetroot_crate",
+		"quark:carrot_crate"
+	]
+}

@@ -2,7 +2,7 @@ let disabledMessage = "\u00a7cCrafting disabled! Please use Quark's Variant Sele
 let disabledInstructions = "\u00a7cConvert this to its parent block by dropping it in the world."
 let enabledMessage = "\u00a7cCrafting of this variant has been left \u00a7aenabled \u00a7cto preserve functionality."
 let enabledWarning = "\u00a7cDropping it in the world will result in it being converted to its parent block!"
-let quarkOverlapMessage = "\u00a7cDisabled to avoid overlap with Quark."
+let overlapMessage = "\u00a7cDisabled to avoid cross-mod overlap."
 let chippedTableMessage = "\u00a7aChipped blocks have been hidden in EMI, but the tables still work!"
 let balanceDisabledMessage = "\u00a7cCrafting disabled for balance purposes."
 let sophisticatedStorageWoodMessage = "\u00a7aWood used affects resulting color."
@@ -11,7 +11,7 @@ let portalDisabledMessage = "\u00a7cDisabled as part of disabling non-stargate t
 
 ItemEvents.tooltip(event => {
 	event.add('#strangejourney:chipped_table', chippedTableMessage)	
-	event.add('#strangejourney:quark_overlap', quarkOverlapMessage)
+	event.add('#strangejourney:mod_overlap', overlapMessage)
 	event.add('#strangejourney:variant_crafting_disabled', disabledMessage)
 	event.add('#strangejourney:variant_crafting_disabled', disabledInstructions)
 	event.add('#strangejourney:variant_crafting_enabled', enabledMessage)
