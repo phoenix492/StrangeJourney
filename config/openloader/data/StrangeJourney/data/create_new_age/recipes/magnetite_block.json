@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ISI",
+        "SIS",
+        "ISI"
+    ],
+    "key": {
+        "I": {
+            "tag": "minecraft:iron_nugget"
+        },
+        "S": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+      "item": "blue_skies:blue_journal"
+    }
+}

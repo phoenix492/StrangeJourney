@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "A B",
+        "CCC",
+        "D D"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:cartography_table"
+        },
+        "B": {
+            "item": "minecraft:brush"
+        },
+        "C": {
+            "item": "kubejs:wooden_panel"
+        },
+        "D": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+      "item": "sgjourney:archeology_table"
+    }
+}

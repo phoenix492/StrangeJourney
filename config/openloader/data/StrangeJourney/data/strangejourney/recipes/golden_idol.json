@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+        "BBB",
+        " B "
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:gold_block"
+        },
+        "B": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+      "item": "sgjourney:golden_idol"
+    }
+}
