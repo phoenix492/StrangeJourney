@@ -4,13 +4,14 @@
 	"Movement Speed (default: 0.0675)" = 0.0675
 	"Wither Skull Damage (default: 16.0)" = 16.0
 	"Wither Skull Explosion Damage (default: 12.0)" = 12.0
-	"Wither Skull Explosion Size (default: 1.5)" = 1.5
 	"Dangerous Wither Skull Damage (default: 22.0)" = 22.0
 	"Dangerous Wither Skull Explosion Damage (default: 18.0)" = 18.0
 	"Dangerous Wither Skull Explosion Size (default: 5.0)" = 5.0
 	"Dangerous Wither Skull Deflected Damage (default: 30.0)" = 30.0
 	"Laser Damage (default: 3.0)" = 3.0
 	"Charge Damage (default: 30.0)" = 30.0
+	"Wither Skull Explosion Size (default: 2.0)" = 2.0
+	"Charge Disable Shield Time (in ticks, default: 400)" = 400
 
 ["WITHER: AI"]
 	"Disable Charge Attack (default: false)" = false
