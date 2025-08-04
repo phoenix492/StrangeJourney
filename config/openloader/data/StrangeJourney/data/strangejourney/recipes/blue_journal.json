@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "CBC",
+        " C "
+    ],
+    "key": {
+        "C": {
+            "tag": "blue_skies:cobblestone"
+        },
+        "B": {
+            "item": "minecraft:book"
+        }
+    },
+    "result": {
+      "item": "blue_skies:blue_journal"
+    }
+}
