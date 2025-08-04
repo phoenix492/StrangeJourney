@@ -17,6 +17,10 @@
 		"#tropicraft:boardwalks",
 		"#quark:hedges",
 		"#quark:posts",
+		"#minecraft:wool_carpets",
 		"alexscaves:hollow_bone_block"
+	],
+	"remove": [
+		"#mekanism:colorable/carpets"
 	]
 }
