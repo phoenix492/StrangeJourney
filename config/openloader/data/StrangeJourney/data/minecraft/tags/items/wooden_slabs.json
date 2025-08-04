@@ -1,5 +1,6 @@
 {
-  replace: "false",
+  "replace": "false",
+  "values": [],
   "remove": [
     "immersiveengineering:slab_treated_wood_horizontal",
     "immersiveengineering:slab_treated_wood_vertical",
