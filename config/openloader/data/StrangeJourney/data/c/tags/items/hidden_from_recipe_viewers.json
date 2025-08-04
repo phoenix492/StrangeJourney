@@ -1,7 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"cb_microblock:microblock",
 		"ae2:facade",
 		"#strangejourney:mod_overlap"
 	]
