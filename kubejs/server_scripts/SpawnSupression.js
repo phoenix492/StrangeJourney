@@ -41,6 +41,8 @@ EntityEvents.spawned(event => {
 			event.cancel()
 		}
 	}
+
+	//Species mobs tend to overwhelm and dilute Alexs Caves
 	if (event.entity.type.split(':')[0] == "species") {
 		if (event.entity.block.biomeId.namespace == "alexscaves") {
 			event.cancel()
