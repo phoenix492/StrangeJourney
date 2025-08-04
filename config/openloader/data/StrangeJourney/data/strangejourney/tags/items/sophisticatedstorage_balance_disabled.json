@@ -1,0 +1,19 @@
+{
+	"replace": false,
+	"values": [
+		"#strangejourney:sophisticatedstorage_upgrade",
+		"sophisticatedbackpacks:copper_backpack",
+		"sophisticatedstorage:copper_barrel",
+		"sophisticatedstorage:copper_chest",
+		"sophisticatedstorage:limited_copper_barrel_1",
+		"sophisticatedstorage:limited_copper_barrel_2",
+		"sophisticatedstorage:limited_copper_barrel_3",
+		"sophisticatedstorage:limited_copper_barrel_4",
+		"sophisticatedstorage:shulker_box",
+		"sophisticatedstorage:iron_shulker_box",
+		"sophisticatedstorage:copper_shulker_box",
+		"sophisticatedstorage:gold_shulker_box",
+		"sophisticatedstorage:diamond_shulker_box",
+		"sophisticatedstorage:netherite_shulker_box"
+	]
+}

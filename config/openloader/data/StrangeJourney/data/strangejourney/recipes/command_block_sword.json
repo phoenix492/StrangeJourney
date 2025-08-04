@@ -1,0 +1,6 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": "witherstormmod:command_block_book",
+    "base": "minecraft:diamond_sword",
+    "result": "witherstormmod:command_block_sword"
+}
