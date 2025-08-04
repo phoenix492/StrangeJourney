@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Almost every single method of dimensional travel has been entirely $(o)disabled$().$(br2)While you're welcome to try, I would recommend against it, as many are a costly and ultimately futile waste of time. Some, like leaving The Bumblezone from the bottom, will just kill you."
+            "text": "Almost every single method of dimensional travel has been entirely $(o)disabled$().$(br2)While you're welcome to try, I would recommend against it, as many are a costly and ultimately futile waste of time. Some, like leaving The Bumblezone from the bottom, will just $(k)shunt you into limbo$()."
         },
         {
             "type": "patchouli:crafting",
