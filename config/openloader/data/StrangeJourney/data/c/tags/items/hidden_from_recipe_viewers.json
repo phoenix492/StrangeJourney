@@ -2,6 +2,8 @@
 	"replace": false,
 	"values": [
 		"ae2:facade",
-		"#strangejourney:mod_overlap"
+		"#strangejourney:mod_overlap",
+		"#strangejourney:variant_crafting_disabled",
+		"jumbofurnace:jumbo_furnace"
 	]
 }
