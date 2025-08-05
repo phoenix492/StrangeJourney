@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RRR",
+        "RIR",
+        "RRR"
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "I": {
+            "tag": "morered:red_alloyable_ingots"
+        }
+    },
+    "result": {
+      "item": "morered:red_alloy_ingot"
+    }
+}
