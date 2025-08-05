@@ -1,0 +1,11 @@
+{
+  "type": "forge:remove_features", 
+  "biomes": "#alexscaves:alexs_caves_biomes", 
+  "features": [
+    "iceandfire:cyclops_cave",
+    "iceandfire:fire_dragon_cave",
+    "iceandfire:hydra_cave",
+    "iceandfire:ice_dragon_cave",
+    "iceandfire:lightning_dragon_cave"
+  ]
+}
