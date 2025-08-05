@@ -1,0 +1,16 @@
+{
+    "name": "Cobblemon",
+    "icon": "kubejs:silph_scope",
+    "category": "patchouli:strangeguide/modchanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Lets say, hypothetically, you don't actually like Cobblemon. Or even just temporarily don't feel like engaging with them at the moment. Their presence in the world is more of an annoyance rather than a plus. As such, Cobblemon spawns are surpressed unless a nearby player is wearing a Silph Scope!"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "strangejourney:silph_scope",
+            "text": "Just craft & Equip in your Curios slot and Cobblemon will start spawning around you."
+        }
+    ]
+}

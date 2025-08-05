@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "GIG"
+    ],
+    "key": {
+        "S": {
+            "tag": "blue_skies:cobblestone"
+        },
+        "G": {
+            "item": "minecraft:glass"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+      "item": "kubejs:silph_scope"
+    }
+}
