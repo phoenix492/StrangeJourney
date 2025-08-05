@@ -5,6 +5,7 @@
 		"#strangejourney:mod_overlap",
 		"#strangejourney:variant_crafting_disabled",
 		"jumbofurnace:jumbo_furnace",
-		"#strangejourney:chipped_blocks"
+		"#strangejourney:chipped_blocks",
+		"#strangejourney:sequenced_assembly_intermediaries"
 	]
 }
