@@ -18,7 +18,7 @@
 		"#quark:hedges",
 		"#quark:posts",
 		"#minecraft:wool_carpets",
-		"alexscaves:hollow_bone_block"
+		"alexscaves:hollow_bone"
 	],
 	"remove": [
 		"#mekanism:colorable/carpets"
