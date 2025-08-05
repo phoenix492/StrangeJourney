@@ -35,6 +35,7 @@ otyacraftengine/
 /ESM/
 /config/inventoryprofilesnext
 /config/jei/recipe-category-sort-order.ini
+/config/structurify/
 
 # We don't distribute options.txt, we use default options!
 options.txt

@@ -1,12 +1,197 @@
 {
   "config_version": "1.0.20",
-  "config_datetime": "2025-08-03_19-21-31",
+  "config_datetime": "2025-08-05_17-08-09",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
     "enable_global_spacing_and_separation_modifier": false,
-    "global_spacing_and_separation_modifier": 1.0
+    "global_spacing_and_separation_modifier": 1.7
   },
-  "structures": [],
-  "structure_sets": []
+  "structures": [
+    {
+      "name": "graveyard:crypt",
+      "is_disabled": false,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 80,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 80,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": [
+        "alexscaves:forlorn_hollows",
+        "alexscaves:magnetic_caves",
+        "alexscaves:primordial_caves",
+        "alexscaves:toxic_caves",
+        "alexscaves:candy_cavity"
+      ]
+    }
+  ],
+  "structure_sets": [
+    {
+      "name": "minecraft:buried_treasures",
+      "salt": 1,
+      "frequency": 0.01,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 1,
+      "separation": 0
+    },
+    {
+      "name": "minecraft:mineshafts",
+      "salt": 1,
+      "frequency": 0.004,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 1,
+      "separation": 0
+    },
+    {
+      "name": "minecraft:strongholds",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:aurora_palace",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:dark_tower",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:final_castle",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:hedge_maze",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:hydra_lair",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:knight_stronghold",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:labyrinth",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:large_hollow_hill",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:lich_tower",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:medium_hollow_hill",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:mushroom_tower",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:naga_courtyard",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:quest_grove",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:small_hollow_hill",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:troll_cave",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "twilightforest:yeti_cave",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 0,
+      "separation": 0
+    },
+    {
+      "name": "witherstormmod:bowels",
+      "salt": 1,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": false,
+      "spacing": 20,
+      "separation": 19
+    }
+  ]
 }
