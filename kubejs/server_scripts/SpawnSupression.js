@@ -14,8 +14,12 @@ function hasCurios(entity, itemStack) {
 
 EntityEvents.spawned(event => {
 
-	// Cobblemon contingent upon a nearby playing wearing a silph scope
-	if(event.entity.type == "cobblemon:pokemon") {
+	// Cobblemon contingent upon a nearby playing wearing a Silph Scope.
+	// Second check only surpresses Wild pokemon spawns, leaving Pasture Blocks
+	// and player pokemon in-tact.
+	if(
+			(event.entity.type == "cobblemon:pokemon" && event.entity.getNbt().Pokemon.PokemonOriginalTrainerType == "NONE")
+		) {
 		let area = event.entity.getBoundingBox().inflate(64)
 		let spawnPokemon = false
 		let players = event.level.getNearbyPlayers($PlayerCondition, null, area);
