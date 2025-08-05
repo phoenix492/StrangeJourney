@@ -6,7 +6,7 @@
     ],
     "key": {
         "S": {
-            "tag": "blue_skies:cobblestone"
+            "tag": "forge:string"
         },
         "G": {
             "item": "minecraft:glass"
