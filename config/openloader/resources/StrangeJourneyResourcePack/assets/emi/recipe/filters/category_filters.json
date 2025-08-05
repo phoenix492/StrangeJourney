@@ -1,20 +1,17 @@
 {
   "filters": [
-    {
-      "category": "aether:repairing",
-      "category": "emi:anvil_repairing",
-      "category": "create:automatic_brewing",
-      "category": "create:automatic_shaped",
-      "category": "create:automatic_packing",
-      "category": "create:automatic_shapeless",
-      "category": "create:block_cutting",
-      "category": "create:fan_blasting",
-      "category": "create:fan_smoking",
-      "category": "create:automatic_brewing",
-      "category": "jeresources:enchantment",
-      "category": "ftbquests:quest",
-      "category": "emi:grinding",
-      "category": "jumbofurnace:jumbo_smelting"
-    }
+      { "category": "aether:repairing" },
+      { "category": "emi:anvil_repairing" },
+      { "category": "create:automatic_brewing" },
+      { "category": "create:automatic_shaped" },
+      { "category": "create:automatic_packing" },
+      { "category": "create:automatic_shapeless" },
+      { "category": "create:block_cutting" },
+      { "category": "create:fan_blasting" },
+      { "category": "create:fan_smoking" },
+      { "category": "create:automatic_brewing" },
+      { "category": "jeresources:enchantment" },
+      { "category": "emi:grinding" },
+      { "category": "jumbofurnace:jumbo_smelting" }
   ]
 }
