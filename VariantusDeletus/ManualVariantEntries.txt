@@ -256,7 +256,7 @@ stairs,minecraft:yellow_stained_glass,absentbydesign:stairs_glass_yellow
 stairs,minecraft:yellow_terracotta,absentbydesign:stairs_terracotta_yellow
 stairs,minecraft:yellow_wool,absentbydesign:stairs_wool_yellow
 unique2,tropicraft:thatch_bundle,tropicraft:thatch_stairs_fuzzy
-unique2,minecraft:bone_block,alexscaves:hollow_bone_block
+unique2,minecraft:bone_block,alexscaves:hollow_bone
 unique,aether:angelic_stone,aether:light_angelic_stone
 unique,aether:carved_stone,aether:sentry_stone
 unique,aether:hellfire_stone,aether:light_hellfire_stone
