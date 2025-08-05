@@ -1,0 +1,13 @@
+{
+	"feature": "strangejourney:nether_address_cache",
+	"placement": [
+		{
+			"type": "count_on_every_layer",
+			"count": 1
+		},
+		{
+			"type": "rarity_filter",
+			"chance": 200
+		}
+	]
+}

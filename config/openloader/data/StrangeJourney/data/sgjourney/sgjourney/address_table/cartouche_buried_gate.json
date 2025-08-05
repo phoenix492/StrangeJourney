@@ -1,7 +1,7 @@
 {
 	"include_generated_addresses": false,
-	"dimensions":
+	"addresses":
 	[
-		{"dimension": "minecraft:the_nether", "weight": 1, "galaxy": "strangejourney:lepogearian"}
+		{"address": "minecraft:the_nether", "weight": 1, "galaxy": "strangejourney:lepogearian"}
 	]
 }

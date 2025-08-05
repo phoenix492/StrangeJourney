@@ -1,0 +1,13 @@
+{
+	"include_generated_addresses": false,
+	"addresses":
+	[
+		{"address": "voidscape:void", "weight": 1, "galaxy": "strangejourney:lepogearian"},
+		{"address": "midnight:the_midnight", "weight": 1, "galaxy": "strangejourney:lepogearian"},
+		{"address": "deeperdarker:otherside", "weight": 1, "galaxy": "strangejourney:lepogearian"},
+		{"address": "the_bumblezone:the_bumblezone", "weight": 1, "galaxy": "strangejourney:lepogearian"},
+		{"address": "tropicraft:tropics", "weight": 1, "galaxy": "strangejourney:lepogearian"},
+		{"address": "minecraft:the_end", "weight": 1, "galaxy": "strangejourney:lepogearian"},
+		{"address": "undergarden:undergarden", "weight": 1, "galaxy": "strangejourney:lepogearian"}
+	]
+}

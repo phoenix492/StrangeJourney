@@ -29,7 +29,12 @@
             "title": "Welcome to Hell",
             "item": "minecraft:netherrack",
             "text": "Prepare for an adventure. Once inside you can find an address taking you back to the Overworld right outside the room you spawn in. Addresses to other dimensions can be found within dungeons around the Nether, bring some good gear, you won't be able to cheese them via breaking blocks."
-
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Well...",
+            "item": "sgjourney:sandstone_cartouche",
+            "text": "At least, that's what I would say if the dungeons were ready. Instead, while they're in development, be on the lookout in the Nether for boxes made of quartz and red stained glass. These 'caches' can be broken open to find a cartouche containing an address pointing to a dimension instead."
         }
     ]
         
