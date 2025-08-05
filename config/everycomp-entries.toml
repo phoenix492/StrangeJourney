@@ -240,7 +240,7 @@
 			chip_wood = true
 
 		[types.wood_type.ars_nouveau]
-			archwood = true
+			blue_archwood = true
 
 		[types.wood_type.blue_skies]
 			crystallized = true
@@ -289,7 +289,6 @@
 		[types.wood_type.tropicraft]
 			mahogany = true
 			palm = true
-			mangrove = true
 
 		[types.wood_type.eidolon]
 			illwood = true
