@@ -4,6 +4,7 @@
 		"ae2:facade",
 		"#strangejourney:mod_overlap",
 		"#strangejourney:variant_crafting_disabled",
-		"jumbofurnace:jumbo_furnace"
+		"jumbofurnace:jumbo_furnace",
+		"#strangejourney:chipped_blocks"
 	]
 }

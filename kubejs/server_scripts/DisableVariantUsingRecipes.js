@@ -7,6 +7,13 @@ ServerEvents.recipes(event => {
 		)
 	}
 
+	// Glass PAAAAANES
+	event.replaceInput(
+		{ input: '#forge:glass_panes' },
+		'#forge:glass_panes',
+		'#forge:glass'
+	)
+
 	// IE gets special treatment before the blanket wood replacement
 	// for balance preservation
 	event.replaceInput(
@@ -14,10 +21,18 @@ ServerEvents.recipes(event => {
 		'#forge:treated_wood_slab',
 		'#forge:treated_wood'
 	)
+
 	event.replaceInput(
 		{ input: '#minecraft:fences' },
 		'#minecraft:fences',
 		'#forge:rods/wooden'
+	)
+
+	// Blanket wood replacement
+	event.replaceInput(
+		{ input: '#minecraft:wooden_slabs' },
+		'#minecraft:wooden_slabs',
+		'kubejs:wooden_panel'
 	)
 
 	stoneSlabSwap('minecraft:stone_slab')
@@ -40,13 +55,6 @@ ServerEvents.recipes(event => {
 	stoneSlabSwap('create:polished_cut_ochrum_stairs')
 	stoneSlabSwap('create:polished_cut_veridium_stairs')
 	stoneSlabSwap('create:polished_cut_asurine_stairs')
-
-	// Blanket wood replacement
-	event.replaceInput(
-		{ input: '#minecraft:wooden_slabs' },
-		'#minecraft:wooden_slabs',
-		'kubejs:wooden_panel'
-	)
 
 	//Once we've adjusted any recipes that use slabs that we need, we can just 
 	//blanket remove any that are left
