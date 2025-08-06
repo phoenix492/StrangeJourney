@@ -13,7 +13,7 @@ Extremely overtuned defaults. Makes players extremely allpowerful gods. All othe
 Interesting mods but overwhelming. Terralith in particular is being considered for a separate dimension. 
 
 #### Ad Astra
-Ultimately, disappoints me that I feel the need to choose to do this. I love space mods as a logistical challenge (making breathable bases, transport, etc) and as a natural goal, but Ad Astra 1) simplified the space program process so much it’s no longer really a challenge to get there and 2) does not have anything to justify this simplification, as its planets and moons are barren and uninteresting. The point of a space mod is that logistical challenge, and Ad Astra is basically a space themed empty dimension mod.
+Ultimately, disappoints me that I feel the need to choose to do this. I love space mods as a logistical challenge (making breathable bases, transport, etc) and as a natural goal, but Ad Astra 1) simplified the space program process so much it’s no longer really a challenge to get there and 2) does not have anything to justify this simplification, as its planets and moons are barren and uninteresting. The point of a space mod is that of a logistical challenge, and Ad Astra is basically a space themed empty dimension mod.
 
 #### Shoulder Surfing Reloaded
 This made me weirdly motion sick. Also most people are used to vanilla behavior and deviating too far is disruptive.
