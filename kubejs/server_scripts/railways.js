@@ -19,7 +19,8 @@ let plankTracks = [
     ['twilightforest', 'twilight_oak'],
     ['quark', 'blossom'],
     ['quark', 'ancient'],
-    ['quark', 'azalea']
+    ['quark', 'azalea'],
+    ['hexcasting', 'edified']
 ]
 ServerEvents.recipes( event => {
 
