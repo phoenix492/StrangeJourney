@@ -30,6 +30,9 @@ Considered for rewards tied to Slice of Life. Rejected due to the fact that it j
 #### Biomes O Plenty
 Too much for the overworld. Under consideration for inclusion in alternate dimension.
 
+#### Inventory Profiles Next
+A little janky and FAR too much effort to configure. If someone else does it I could be persuaded.
+
 ## Non-Negotiable
 
 #### MCreator Mods
