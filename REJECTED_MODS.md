@@ -30,6 +30,9 @@ Considered for rewards tied to Slice of Life. Rejected due to the fact that it j
 #### Biomes O Plenty
 Too much for the overworld. Under consideration for inclusion in alternate dimension.
 
+#### Inventory Profiles Next
+A little janky and FAR too much effort to configure. If someone else does it I could be persuaded.
+
 ## Non-Negotiable
 
 #### MCreator Mods
@@ -45,7 +48,7 @@ Same reasons as Mystical Agriculture but gets a special mention to say fuck Lobs
 Free, instant, cheap to produce, and simple to set up teleportation makes worlds feel smaller and both exploring and transportation infrastructure less rewarding.
 
 #### Extreme Reactors
-Over-tuned, “be all end all” power production method. Obsoletes other power generation methods.
+Over-tuned, “be all end all” power production method. Obviates other power generation methods.
 
 #### Refined Storage
 Too easy to set up, too simple to expand. AE2 and even other quirky storage systems are often ignored in favor of agressively scaling RS systems upwards.
