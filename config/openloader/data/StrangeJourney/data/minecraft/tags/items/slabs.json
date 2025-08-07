@@ -155,6 +155,9 @@
     "alexscaves:gingerbread_slab",
     "alexscaves:frosted_gingerbread_slab",
     "alexscaves:gingerbread_brick_slab",
-    "alexscaves:frosted_gingerbread_brick_slab"
+    "alexscaves:frosted_gingerbread_brick_slab",
+    "aether_redux:polished_sentrite_slab",
+    "upgrade_aquatic:luminous_prismarine_slab",
+    "cataclysm:stone_tile_slab"
   ]
 }

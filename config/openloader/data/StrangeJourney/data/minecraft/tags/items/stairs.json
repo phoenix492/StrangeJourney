@@ -163,6 +163,11 @@
 		"alexscaves:gingerbread_stairs",
 		"alexscaves:frosted_gingerbread_stairs",
 		"alexscaves:gingerbread_brick_stairs",
-		"alexscaves:frosted_gingerbread_brick_stairs"
+		"alexscaves:frosted_gingerbread_brick_stairs",
+		"upgrade_aquatic:luminous_prismarine_stairs",
+		"caverns_and_chasms:fortified_sanguine_tile_stairs",
+		"aether_redux:polished_sentrite_stairs",
+		"bloodmagic:dungeon_brick_stairs",
+		"bloodmagic:dungeon_polished_stairs"
   ]
 }
