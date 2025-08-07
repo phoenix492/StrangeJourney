@@ -85,3 +85,6 @@ emi.json
 
 # This is just a library needed by OC2r
 /liboc2rnet.so
+
+# This is the binary for pakku, which I use because I'm on arch
+/pakku.jar
