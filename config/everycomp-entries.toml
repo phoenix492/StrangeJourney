@@ -21,19 +21,6 @@
 			maple = true
 			comet = true
 
-		[types.leaves_type.twilightforest]
-			beanstalk = true
-			thorn = true
-			twilight_oak = true
-			canopy = true
-			mangrove = true
-			dark = true
-			rainbow_oak = true
-			time = true
-			transformation = true
-			mining = true
-			sorting = true
-
 		[types.leaves_type.chipped]
 			apple_acacia = true
 			cherry_acacia = true
@@ -104,9 +91,6 @@
 
 		[types.leaves_type.occultism]
 			otherworld = true
-
-		[types.leaves_type.twilightdelight]
-			ironwood = true
 
 		[types.leaves_type.undergarden]
 			smogstem = true
@@ -231,6 +215,57 @@
 			soulwood = true
 			budding_soulwood = true
 
+		[types.leaves_type.autumnity]
+			maple = true
+			yellow_maple = true
+			orange_maple = true
+			red_maple = true
+
+		[types.leaves_type.environmental]
+			hibiscus = true
+			willow = true
+			pine = true
+			plum = true
+			cheerful_plum = true
+			moody_plum = true
+			wisteria = true
+			pink_wisteria = true
+			blue_wisteria = true
+			purple_wisteria = true
+			white_wisteria = true
+
+		[types.leaves_type.upgrade_aquatic]
+			river = true
+
+		[types.leaves_type.atmospheric]
+			rosewood = true
+			morado = true
+			flowering_morado = true
+			yucca = true
+			aspen = true
+			green_aspen = true
+			laurel = true
+			dry_laurel = true
+			kousa = true
+			currant = true
+			grimwood = true
+
+		[types.leaves_type.twilightdelight]
+			ironwood = true
+
+		[types.leaves_type.twilightforest]
+			thorn = true
+			beanstalk = true
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			rainbow_oak = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
+
 	[types.wood_type]
 
 		[types.wood_type.mynethersdelight]
@@ -311,16 +346,6 @@
 			crystal = true
 			glacia = true
 
-		[types.wood_type.twilightforest]
-			twilight_oak = true
-			canopy = true
-			mangrove = true
-			dark = true
-			time = true
-			transformation = true
-			mining = true
-			sorting = true
-
 		[types.wood_type.witherstormmod]
 			tainted = true
 
@@ -371,6 +396,44 @@
 		[types.wood_type.malum]
 			runewood = true
 			soulwood = true
+
+		[types.wood_type.caverns_and_chasms]
+			azalea = true
+
+		[types.wood_type.endergetic]
+			poise = true
+
+		[types.wood_type.autumnity]
+			maple = true
+
+		[types.wood_type.environmental]
+			willow = true
+			pine = true
+			plum = true
+			wisteria = true
+
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
+
+		[types.wood_type.atmospheric]
+			rosewood = true
+			morado = true
+			yucca = true
+			aspen = true
+			laurel = true
+			kousa = true
+			grimwood = true
+
+		[types.wood_type.twilightforest]
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
 
 	[types.cut_block_type]
 
@@ -888,16 +951,6 @@
 			glacia = true
 			polished_sentrite = true
 
-		[types.cut_block_type.twilightforest]
-			twilight_oak = true
-			canopy = true
-			mangrove = true
-			dark = true
-			time = true
-			transformation = true
-			mining = true
-			sorting = true
-
 		[types.cut_block_type.collectorsreap]
 			urchin_test_brick = true
 			urchin_test_tile = true
@@ -1277,11 +1330,168 @@
 			soulwood_tiles = true
 			rustic_soulwood_tiles = true
 
-	[types.stone_type]
+		[types.cut_block_type.savage_and_ravage]
+			gloomy_tile = true
 
-		[types.stone_type.twilightforest]
-			mazestone = true
-			deadrock = true
+		[types.cut_block_type.clayworks]
+			terracotta = true
+			white_terracotta = true
+			orange_terracotta = true
+			magenta_terracotta = true
+			light_blue_terracotta = true
+			yellow_terracotta = true
+			lime_terracotta = true
+			pink_terracotta = true
+			gray_terracotta = true
+			light_gray_terracotta = true
+			cyan_terracotta = true
+			purple_terracotta = true
+			blue_terracotta = true
+			brown_terracotta = true
+			green_terracotta = true
+			red_terracotta = true
+			black_terracotta = true
+			terracotta_brick = true
+			white_terracotta_brick = true
+			orange_terracotta_brick = true
+			magenta_terracotta_brick = true
+			light_blue_terracotta_brick = true
+			yellow_terracotta_brick = true
+			lime_terracotta_brick = true
+			pink_terracotta_brick = true
+			gray_terracotta_brick = true
+			light_gray_terracotta_brick = true
+			cyan_terracotta_brick = true
+			purple_terracotta_brick = true
+			blue_terracotta_brick = true
+			brown_terracotta_brick = true
+			green_terracotta_brick = true
+			red_terracotta_brick = true
+			black_terracotta_brick = true
+
+		[types.cut_block_type.endergetic]
+			poise = true
+			eumus_brick = true
+
+		[types.cut_block_type.autumnity]
+			snail_shell_brick = true
+			snail_shell_tile = true
+			maple = true
+
+		[types.cut_block_type.environmental]
+			dirt_brick = true
+			dirt_tile = true
+			smooth_mud = true
+			grass_thatch = true
+			cattail_thatch = true
+			duckweed_thatch = true
+			willow = true
+			pine = true
+			plum = true
+			wisteria = true
+
+		[types.cut_block_type.upgrade_aquatic]
+			beachgrass_thatch = true
+			luminous_prismarine = true
+			tooth_brick = true
+			scute_shingle = true
+			scute_pavement = true
+			coralstone = true
+			bubble_coralstone = true
+			horn_coralstone = true
+			tube_coralstone = true
+			brain_coralstone = true
+			fire_coralstone = true
+			acan_coralstone = true
+			finger_coralstone = true
+			star_coralstone = true
+			moss_coralstone = true
+			petal_coralstone = true
+			branch_coralstone = true
+			rock_coralstone = true
+			pillow_coralstone = true
+			silk_coralstone = true
+			chrome_coralstone = true
+			prismarine_coralstone = true
+			elder_prismarine_coralstone = true
+			dead_coralstone = true
+			kelpy_cobblestone = true
+			kelpy_stone_brick = true
+			kelpy_cobblestone_brick = true
+			kelpy_cobblestone_tile = true
+			driftwood = true
+			river = true
+
+		[types.cut_block_type.neapolitan]
+			chocolate_brick = true
+			chocolate_tile = true
+			frond_thatch = true
+
+		[types.cut_block_type.caverns_and_chasms]
+			sanguine_tile = true
+			fortified_sanguine_tile = true
+			spinel_brick = true
+			lapis_brick = true
+			cobblestone_brick = true
+			mossy_cobblestone_brick = true
+			cobblestone_tile = true
+			mossy_cobblestone_tile = true
+			cobbled_deepslate_brick = true
+			cobbled_deepslate_tile = true
+			calcite = true
+			polished_calcite = true
+			tuff = true
+			polished_tuff = true
+			sugilite = true
+			polished_sugilite = true
+			dripstone_shingle = true
+			cut_amethyst_brick = true
+			azalea = true
+
+		[types.cut_block_type.buzzier_bees]
+			honeycomb_brick = true
+			honeycomb_tile = true
+
+		[types.cut_block_type.atmospheric]
+			rosewood = true
+			morado = true
+			ivory_travertine = true
+			peach_travertine = true
+			persimmon_travertine = true
+			saffron_travertine = true
+			dolerite = true
+			polished_dolerite = true
+			arid_sandstone = true
+			smooth_arid_sandstone = true
+			cut_arid_sandstone = true
+			red_arid_sandstone = true
+			smooth_red_arid_sandstone = true
+			cut_red_arid_sandstone = true
+			yucca = true
+			aspen = true
+			laurel = true
+			kousa = true
+			grimwood = true
+			carmine_shingle = true
+			carmine_pavement = true
+
+		[types.cut_block_type.lunarnether]
+			lunar_stone = true
+			polished_lunar_stone = true
+			cut_polished_lunar_stone = true
+			cut_titanium = true
+
+		[types.cut_block_type.twilightforest]
+			twilight_oak = true
+			canopy = true
+			mangrove = true
+			dark = true
+			time = true
+			transformation = true
+			mining = true
+			sorting = true
+
+	[types.stone_type]
 
 		[types.stone_type.galosphere]
 			pink_salt = true
@@ -1390,6 +1600,26 @@
 
 		[types.stone_type.forbidden_arcanus]
 			darkstone = true
+
+		[types.stone_type.atmospheric]
+			dolerite = true
+			ivory_travertine = true
+			peach_travertine = true
+			persimmon_travertine = true
+			saffron_travertine = true
+
+		[types.stone_type.caverns_and_chasms]
+			sugilite = true
+
+		[types.stone_type.upgrade_aquatic]
+			coralstone = true
+
+		[types.stone_type.twilightforest]
+			mazestone = true
+			deadrock = true
+
+		[types.stone_type.lunarnether]
+			lunar_stone = true
 
 	[types.mud_type]
 
@@ -1564,12 +1794,6 @@
 			stripped_post = true
 			vertical_slab = true
 
-		[entries.wood_type.twilightforest]
-			banister = true
-			hollow_log_climbable = true
-			hollow_log_horizontal = true
-			hollow_log_vertical = true
-
 		[entries.wood_type.farmersdelight]
 			cabinet = true
 
@@ -1582,6 +1806,16 @@
 
 		[entries.wood_type.tropicraft]
 			boardwalk = true
+
+		[entries.wood_type.boatload]
+			large_boat = true
+			furnace_boat = true
+
+		[entries.wood_type.twilightforest]
+			banister = true
+			hollow_log_climbable = true
+			hollow_log_horizontal = true
+			hollow_log_vertical = true
 
 	[entries.stone_type]
 

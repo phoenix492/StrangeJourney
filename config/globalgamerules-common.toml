@@ -102,10 +102,10 @@
 		#The maximum number of snow layers that can be accumulated on each block.
 		#Range: > 0
 		snow_accumulation_height = 1
-		#Non Vanilla gamerule: 'tfEnforcedProgression'
-		tf_enforced_progression = true
 		#Whether new sources of water are allowed to form.
 		water_source_conversion = true
+		#Non Vanilla gamerule: 'tfEnforcedProgression'
+		tf_enforced_progression = true
 
 	[gamerules.spawning]
 		#Whether phantoms can spawn in the nighttime.
