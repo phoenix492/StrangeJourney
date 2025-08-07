@@ -3,7 +3,7 @@
 	#
 	# If enabled, vanilla mobs and items will recieve dynamic lighting. If disabled, only objects specified by external mods or configs will recieve dynamic lighting.
 	# Default: true
-	vanillaDynamicLighting = true
+	vanillaDynamicLighting = false
 	#
 	# If enabled, torches and other vanilla fire-based items will not emit light underwater.
 	# Default: false
@@ -150,13 +150,13 @@
 		#
 		# Enables the plugin for Blue Skies.
 		# Default: true
-		blue_skies = true
+		blue_skies = false
 		#
 		# Enables the plugin for Create.
 		# Default: true
-		create = true
+		create = false
 		#
 		# Enables the plugin for Quark.
 		# Default: true
-		quark = true
+		quark = false
 
