@@ -266,6 +266,9 @@
 			mining = true
 			sorting = true
 
+		[types.leaves_type.totemic]
+			cedar = true
+
 	[types.wood_type]
 
 		[types.wood_type.mynethersdelight]
@@ -434,6 +437,15 @@
 			transformation = true
 			mining = true
 			sorting = true
+
+		[types.wood_type.netherexp]
+			claret = true
+
+		[types.wood_type.totemic]
+			cedar = true
+
+		[types.wood_type.sullysmod]
+			petrified = true
 
 	[types.cut_block_type]
 
@@ -1491,6 +1503,38 @@
 			mining = true
 			sorting = true
 
+		[types.cut_block_type.totemic]
+			cedar = true
+
+		[types.cut_block_type.netherexp]
+			soul_slate = true
+			soul_slate_brick = true
+			soul_slate_tile = true
+			smooth_netherrack = true
+			netherrack_brick = true
+			basalt = true
+			polished_basalt = true
+			polished_basalt_brick = true
+			claret = true
+			smokestalk = true
+			silica_sandstone = true
+			cut_silica_sandstone = true
+			smooth_silica_sandstone = true
+			blue_nether_brick = true
+			stacked_bone = true
+			stacked_wither_bone = true
+			yellow_nether_brick = true
+
+		[types.cut_block_type.sullysmod]
+			rough_jade_brick = true
+			jade_brick = true
+			amber_brick = true
+			petrified = true
+
+		[types.cut_block_type.scguns]
+			phosphorite_brick = true
+			asgharian_brick = true
+
 	[types.stone_type]
 
 		[types.stone_type.galosphere]
@@ -1620,6 +1664,9 @@
 
 		[types.stone_type.lunarnether]
 			lunar_stone = true
+
+		[types.stone_type.scguns]
+			phosphorite = true
 
 	[types.mud_type]
 
