@@ -88,3 +88,7 @@ emi.json
 
 # This is the binary for pakku, which I use because I'm on arch
 /pakku.jar
+
+# Immersive paintings stuff is storage
+/immersive_paintings/
+/immersive_paintings_cache/
