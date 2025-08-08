@@ -1,7 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"create_new_age_thorium"
+		"create_new_age:thorium"
 	],
 	"remove": []
 }
