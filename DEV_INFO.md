@@ -19,5 +19,6 @@ What makes a good loot item to populate shops and loot tables is that it's 1) a 
 - Cobblemon: CobGyms keys, Relic Coins, XP Candy
 - Gacha Rolls for Collectibles: Plushies, Hats, IE Shader Grab-Bags, Trading Card Booster Packs
 - Emeralds (Vanilla MC's own "Currency," you're directly incentivizd to horde it and doing so feels pretty good)
+- Explorer Maps to various structures w/o another way of locating them
 ## Loot Addendum: Paraglider Heart Containers and Stamina
 Paraglider's player upgrades are special in that they directly violate 1 by being turned into NOT a commodity. In essence, though they're all technically the same item, each Heart Container is given once for a specific event (the first time killing a boss). Stamina vessels are unimplemented but they'll likely be given out for visitng important structures, biomes, and dimensions (an exploration reward).
