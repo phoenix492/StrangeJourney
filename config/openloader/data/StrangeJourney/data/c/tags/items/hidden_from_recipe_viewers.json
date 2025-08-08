@@ -6,6 +6,7 @@
 		"#strangejourney:variant_crafting_disabled",
 		"jumbofurnace:jumbo_furnace",
 		"#strangejourney:chipped_blocks",
-		"#strangejourney:sequenced_assembly_intermediaries"
+		"#strangejourney:sequenced_assembly_intermediaries",
+		"mekanism:creative_fluid_tank"
 	]
 }
