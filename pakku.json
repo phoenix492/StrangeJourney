@@ -1,0 +1,12 @@
+{
+    "name": "Strange Journey",
+    "version": "DEVELOPMENT",
+    "description": "Modpack focused on large mod count, low chaos, and unique yet non-disruptive shakeups",
+    "author": "Phoenix492",
+    "paths": {
+        "mods": "mods",
+        "resource_packs": "resourcepacks",
+        "worlds": "saves",
+        "shader_packs": "shaderpacks"
+    }
+}
