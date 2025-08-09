@@ -5,18 +5,18 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "As a blessing and a gift from me to you, grass now only drops wheat seeds instead of an assortment of seeds from various mods, and most 'wild' crops in the world that drop seeds have been disabled. This should prevent your inventory being completely full to the brim with seeds."
+            "text": "As a blessing and a gift from me to you, grass now only drops wheat seeds instead of an assortment of seeds from various mods, most 'wild' crops in the world that drop seeds have been disabled, and scattered trees have been prevented from spawning. This should prevent your inventory being completely full to the brim with seeds."
         },
         {
             "type": "patchouli:crafting",
             "recipe": "farmingforblockheads:market",
-            "text": "To acquire seeds, you can instead use the Farming for Blockheads market to trade for them for a rate of 1 Wheat Seed per 1 any other seed."
+            "text": "To acquire seeds, you can instead use the Farming for Blockheads market to trade for them for a rate of 1 Wheat Seed per 1 any other seed. Likewise, saplings for various trees that would ordinarily spawn randomly are also found here in exchange for 1 Oak Sapling."
         },
         {
             "type": "patchouli:spotlight",
             "title": "Exception: Foods",
             "item": "minecraft:carrot,minecraft:potato,farmersdelight:rice",
-            "text": "Carrots, potatoes, and rice are each their own food item and seed, and as such have a cost of one emerald."
+            "text": "Items that are both a food item and their own seed instead each have a cost of one emerald to prevent just buying infinite food immeaditely from the farmers market."
         },
         {
             "type": "patchouli:spotlight",

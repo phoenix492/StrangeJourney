@@ -12,7 +12,8 @@
             "entries": [
                 "patchouli:strangeguide/gameplaychanges/portals",
                 "patchouli:strangeguide/gameplaychanges/combatnouveau",
-                "patchouli:strangeguide/gameplaychanges/variantremoval"
+                "patchouli:strangeguide/gameplaychanges/variantremoval",
+                "patchouli:strangeguide/gameplaychanges/seedproblem"
             ],
             "title": "Quick Start"
         }
