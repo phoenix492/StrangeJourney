@@ -30,6 +30,12 @@
             "title": "Shield Mechs & Parrying" ,
             "item": "minecraft:shield",
             "text": "Rather than blocking all damage when right clicked and differing only in durability, shields now block a percentage of damage when equipped and an additional large percentage of damage when used. Precise timing also allows you to parry projectiles!"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Your Last Chance",
+            "item": "paraglider:heart_container",
+            "text": "In the interest of some amount fairness to people playing with mods they know nothing of, you actually have one-shot protection. If a hit that would ordinarily kill you happens when you have over 8 hearts, you'll instead be left on one heart and a sound will play to let you know you've been given another shot."
         }
     ]
 }
