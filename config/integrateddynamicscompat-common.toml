@@ -13,5 +13,4 @@
 
 	[biome.general]
 		#The weight of spawning in the overworld, 0 disables spawning.
-		meneglinBiomeSpawnWeight = 2
-
+		meneglinBiomeSpawnWeight = 0
