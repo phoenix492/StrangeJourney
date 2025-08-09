@@ -215,40 +215,8 @@
 			soulwood = true
 			budding_soulwood = true
 
-		[types.leaves_type.autumnity]
-			maple = true
-			yellow_maple = true
-			orange_maple = true
-			red_maple = true
-
-		[types.leaves_type.environmental]
-			hibiscus = true
-			willow = true
-			pine = true
-			plum = true
-			cheerful_plum = true
-			moody_plum = true
-			wisteria = true
-			pink_wisteria = true
-			blue_wisteria = true
-			purple_wisteria = true
-			white_wisteria = true
-
 		[types.leaves_type.upgrade_aquatic]
 			river = true
-
-		[types.leaves_type.atmospheric]
-			rosewood = true
-			morado = true
-			flowering_morado = true
-			yucca = true
-			aspen = true
-			green_aspen = true
-			laurel = true
-			dry_laurel = true
-			kousa = true
-			currant = true
-			grimwood = true
 
 		[types.leaves_type.twilightdelight]
 			ironwood = true
@@ -406,27 +374,9 @@
 		[types.wood_type.endergetic]
 			poise = true
 
-		[types.wood_type.autumnity]
-			maple = true
-
-		[types.wood_type.environmental]
-			willow = true
-			pine = true
-			plum = true
-			wisteria = true
-
 		[types.wood_type.upgrade_aquatic]
 			driftwood = true
 			river = true
-
-		[types.wood_type.atmospheric]
-			rosewood = true
-			morado = true
-			yucca = true
-			aspen = true
-			laurel = true
-			kousa = true
-			grimwood = true
 
 		[types.wood_type.twilightforest]
 			twilight_oak = true
@@ -1385,23 +1335,6 @@
 			poise = true
 			eumus_brick = true
 
-		[types.cut_block_type.autumnity]
-			snail_shell_brick = true
-			snail_shell_tile = true
-			maple = true
-
-		[types.cut_block_type.environmental]
-			dirt_brick = true
-			dirt_tile = true
-			smooth_mud = true
-			grass_thatch = true
-			cattail_thatch = true
-			duckweed_thatch = true
-			willow = true
-			pine = true
-			plum = true
-			wisteria = true
-
 		[types.cut_block_type.upgrade_aquatic]
 			beachgrass_thatch = true
 			luminous_prismarine = true
@@ -1463,29 +1396,6 @@
 		[types.cut_block_type.buzzier_bees]
 			honeycomb_brick = true
 			honeycomb_tile = true
-
-		[types.cut_block_type.atmospheric]
-			rosewood = true
-			morado = true
-			ivory_travertine = true
-			peach_travertine = true
-			persimmon_travertine = true
-			saffron_travertine = true
-			dolerite = true
-			polished_dolerite = true
-			arid_sandstone = true
-			smooth_arid_sandstone = true
-			cut_arid_sandstone = true
-			red_arid_sandstone = true
-			smooth_red_arid_sandstone = true
-			cut_red_arid_sandstone = true
-			yucca = true
-			aspen = true
-			laurel = true
-			kousa = true
-			grimwood = true
-			carmine_shingle = true
-			carmine_pavement = true
 
 		[types.cut_block_type.lunarnether]
 			lunar_stone = true
@@ -1644,13 +1554,6 @@
 
 		[types.stone_type.forbidden_arcanus]
 			darkstone = true
-
-		[types.stone_type.atmospheric]
-			dolerite = true
-			ivory_travertine = true
-			peach_travertine = true
-			persimmon_travertine = true
-			saffron_travertine = true
 
 		[types.stone_type.caverns_and_chasms]
 			sugilite = true
