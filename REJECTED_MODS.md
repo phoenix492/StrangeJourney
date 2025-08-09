@@ -33,6 +33,9 @@ Too much for the overworld. Under consideration for inclusion in alternate dimen
 #### Inventory Profiles Next
 A little janky and FAR too much effort to configure. If someone else does it I could be persuaded.
 
+#### Evilcraft
+Intial look seemed rather developer-texturey and also I forgot this is the mod that adds a "fart" button.
+
 ## Non-Negotiable
 
 #### MCreator Mods
