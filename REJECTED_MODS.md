@@ -91,3 +91,6 @@ Just misses quality standards.
 
 #### Create Dreams & Desires
 Doesn't work on 1.20.1 w/ Create 6. Was unfinshed and lacking in features on this version anyway due to ongoing rewrite.
+
+#### Distraction Free Recipes
+VERY bad practice mod, Jar-In-Jars the entirety of Sinytra Connector and Forgified Fabric API. What the fuck?
