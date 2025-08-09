@@ -1,5 +1,5 @@
 
 [logbegone]
 	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "GL_INVALID_OPERATION in glBlitFramebuffer(depth attachment format mismatch)"]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "OpenGL debug message: id=2, source=API, type=ERROR, severity=HIGH, message='GL_INVALID_OPERATION in glBlitFramebuffer(depth attachment format mismatch)'", "recipes loaded with the same id: ", "java.lang.ClassCastException: class net.minecraft.world.phys.EntityHitResult cannot be cast to class net.minecraft.world.phys.BlockHitResult (net.minecraft.world.phys.EntityHitResult and net.minecraft.world.phys.BlockHitResult are in module minecraft@1.20.1 of loader 'TRANSFORMER' @5a0b550a)"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "OpenGL debug message: id=2, source=API, type=ERROR, severity=HIGH, message='GL_INVALID_OPERATION in glBlitFramebuffer(depth attachment format mismatch)'", "recipes loaded with the same id: "]
 
