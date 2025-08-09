@@ -37,6 +37,7 @@ otyacraftengine/
 /config/jei/recipe-category-sort-order.ini
 /config/structurify/
 paragliderSettings.nbt
+/DatapackStorage/
 
 # We don't distribute options.txt, we use default options!
 options.txt
