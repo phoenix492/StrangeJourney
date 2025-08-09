@@ -26,6 +26,9 @@
 		},
 		"Tropicraft Saplings": {
 			"enabled": false
+		},
+		"Malum Saplings": {
+			"enabled": false
 		}
 	}
 }

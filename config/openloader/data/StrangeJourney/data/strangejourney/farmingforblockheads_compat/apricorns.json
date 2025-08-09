@@ -1,0 +1,34 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Apricorn Exchange",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:oak_sapling"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "cobblemon:red_apricorn_seed"
+    },
+    {
+      "output": "cobblemon:yellow_apricorn_seed"
+    },
+    {
+      "output": "cobblemon:green_apricorn_seed"
+    },
+    {
+      "output": "cobblemon:blue_apricorn_seed"
+    },
+    {
+      "output": "cobblemon:pink_apricorn_seed"
+    },
+    {
+      "output": "cobblemon:black_apricorn_seed"
+    },
+    {
+      "output": "cobblemon:white_apricorn_seed"
+    }
+  ]
+}
