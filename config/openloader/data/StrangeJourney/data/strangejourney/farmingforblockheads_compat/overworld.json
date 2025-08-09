@@ -10,6 +10,13 @@
   },
   "customEntries": [
     {
+      "output": "minecraft:wheat_seeds",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
       "output": "minecraft:pumpkin_seeds"
     },
     {
