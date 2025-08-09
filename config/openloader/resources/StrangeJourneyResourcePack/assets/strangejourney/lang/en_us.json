@@ -1,0 +1,13 @@
+{
+	"tag.item.strangejourney.variant_crafting_disabled": "Uncraftable Variant Blocks",
+	"tag.item.strangejourney.variant_crafting_enabled": "Craftable Variant Blocks",
+	"tag.item.strangejourney.chipped_blocks": "Chipped Blocks",
+	"tag.item.strangejourney.chipped_table": "Chipped Crafting Tables",
+	"tag.item.strangejourney.chutes": "Chutes",
+	"tag.item.strangejourney.foliage_carpets": "Foliage Carpets",
+	"tag.item.strangejourney.mod_overlap": "Disabled Due to Feature Overlap",
+	"tag.item.strangejourney.sequenced_assembly_intermediaries": "Unfinished Create Assembly Items",
+	"tag.item.strangejourney.sophisticatedstorage_balance_disabled": "Items Disabled For Balance",
+	"tag.item.strangejourney.sophisticatedstorage_upgrade": "Sophisticated Storage Upgrades",
+	"tag.item.strangejourney.sophisticatedstorage_wood_dye": "Color Dependent On Wood Type and Dye"
+}
