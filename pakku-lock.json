@@ -9583,7 +9583,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "NuclearCraft-1.20.1-1.2.6-beta.6.jar",
+                    "file_name": "NuclearCraft-1.20.1-1.2.6-beta.7.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -9592,16 +9592,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6857/187/NuclearCraft-1.20.1-1.2.6-beta.6.jar",
-                    "id": "6857187",
+                    "url": "https://edge.forgecdn.net/files/6866/567/NuclearCraft-1.20.1-1.2.6-beta.7.jar",
+                    "id": "6866567",
                     "parent_id": "840010",
                     "hashes": {
-                        "sha1": "8e461f037c4eb5edc1e4d05830cc1f3fad88a017",
-                        "md5": "1617fb4d17396ace1b57997fef3cc99e"
+                        "sha1": "3111d187201814d5c83b08f7ee43d4af7672ca38",
+                        "md5": "72763df2a640569efebced47065bc93e"
                     },
                     "required_dependencies": [],
-                    "size": 14128095,
-                    "date_published": "2025-08-06T21:51:57.287Z"
+                    "size": 14128408,
+                    "date_published": "2025-08-09T08:15:07.773Z"
                 }
             ]
         },
@@ -11728,42 +11728,6 @@
                     ],
                     "size": 2754568,
                     "date_published": "2025-01-25T04:14:18.503Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "ggcBpT1pb1aKinx3",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "spice-of-life-apple-pie-edition"
-            },
-            "name": {
-                "curseforge": "Spice of Life: Apple Pie Edition"
-            },
-            "id": {
-                "curseforge": "704584"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "solapplepie-1.20.1-2.3.0.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4596/285/solapplepie-1.20.1-2.3.0.jar",
-                    "id": "4596285",
-                    "parent_id": "704584",
-                    "hashes": {
-                        "sha1": "db306008033065fc4ca97f66d38183206a55d458",
-                        "md5": "6d3b3f31a75b147f35756fd385ef4e9f"
-                    },
-                    "required_dependencies": [],
-                    "size": 189826,
-                    "date_published": "2023-06-19T05:38:11.530Z"
                 }
             ]
         },
