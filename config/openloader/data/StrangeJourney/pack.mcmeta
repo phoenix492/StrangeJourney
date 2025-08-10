@@ -2,17 +2,5 @@
 	"pack": {
 		"pack_format": 15,
 		"description": "Strange Journey customizations"
-	},
-	"filter": {
-		"block": [
-			{
-				"namespace": "tropicraft",
-				"path": "forge/biome_modifier/overworld_palm_trees.json"
-			},
-			{
-				"namespace": "dimdoors",
-				"path": "worldgen/structure_set/gateways.json"
-			}
-		]
 	}
 }
