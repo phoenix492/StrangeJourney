@@ -69,7 +69,7 @@ def transform_everycomp_log_fences(variant_id):
 def transform_everycomp_log_walls(variant_id):
     variant_id = variant_id.strip()
     _, modid, block = variant_id.removeprefix("everycomp:").split('/')
-    block = block.removeprefix("wall_stripped_").removeprefix("wall_")
+    block = block.removeprefix("wall_stripped_").removeprefix("wall_").removesuffix("_log")
     return f"wall,{modid}:{block}_log,{variant_id}"
 
 def transform_everycomp_plank_walls(variant_id):
