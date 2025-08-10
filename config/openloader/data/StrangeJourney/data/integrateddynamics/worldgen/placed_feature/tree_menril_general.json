@@ -1,0 +1,9 @@
+{
+  "feature": "integrateddynamics:tree_menril",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}
