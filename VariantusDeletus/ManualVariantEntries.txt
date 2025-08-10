@@ -11,6 +11,7 @@ fence,minecraft:quartz_block,absentbydesign:fence_quartz
 fence,minecraft:red_netherbrick,absentbydesign:fence_red_netherbrick
 fence,minecraft:spruce_log,absentbydesign:fence_log_spruce
 fence,minecraft:warped_stem,absentbydesign:fence_warped
+slab,upgrade_aquatic:tooth_tiles,upgrade_aquatic:tooth_slab
 slab,bloodmagic:dungeon_brick1,bloodmagic:dungeon_brick_slab
 slab,botania:dreamwood_planks,botania:dreamwood_planks_slab
 slab,botania:livingwood_planks,botania:livingwood_planks_slab
@@ -134,6 +135,7 @@ slab,minecraft:yellow_concrete,absentbydesign:slab_concrete_yellow
 slab,minecraft:yellow_stained_glass,absentbydesign:slab_glass_yellow
 slab,minecraft:yellow_terracotta,absentbydesign:slab_terracotta_yellow
 slab,minecraft:yellow_wool,absentbydesign:slab_wool_yellow
+stairs,upgrade_aquatic:tooth_tiles,upgrade_aquatic:tooth_stairs
 stairs,bloodmagic:dunegon_brick1,bloodmagic:dungeon_brick_stairs
 stairs,botania:dreamwood_planks,botania:dreamwood_planks_stairs
 stairs,botania:livingwood_planks,botania:livingwood_planks_stairs
@@ -282,6 +284,7 @@ unique,minecraft:red_sandstone,absentbydesign:gate_red_sandstone
 unique,minecraft:sandstone,absentbydesign:gate_sandstone
 unique,minecraft:stone,absentbydesign:gate_stone
 unique,minecraft:stone_bricks,absentbydesign:gate_stone_bricks
+wall,upgrade_aquatic:tooth_tiles,upgrade_aquatic:tooth_wall
 wall,bloodmagic:dungeon_brick1,bloodmagic:dungeon_brick_wall
 wall,minecraft:acacia_log,absentbydesign:wall_acacia_log
 wall,minecraft:acacia_planks,absentbydesign:wall_acacia_planks
