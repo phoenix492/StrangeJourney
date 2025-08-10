@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_nether",
+  "biomes": "#strangejourney:has_nether_cache",
   "features": "strangejourney:nether_address_cache",
   "step": "top_layer_modification"
 }

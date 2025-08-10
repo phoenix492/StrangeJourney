@@ -8,6 +8,9 @@
 		{
 			"type": "rarity_filter",
 			"chance": 200
+		},
+		{
+			"type": "minecraft:biome"
 		}
 	]
 }
