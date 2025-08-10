@@ -20,6 +20,15 @@
 		"twilightforest:hollow_warped_stem",
 		"twilightforest:hollow_vangrove_log",
 		"twilightforest:hollow_cherry_log",
-		"quark:backpack"
+		"quark:backpack",
+		"supplementaries:quark/sign_post_azalea",
+		"everycomp:fd/quark/azalea_cabinet",
+		"everycomp:faf/quark/azalea_beehive",
+		"everycomp:abnbl/quark/large_azalea_boat",
+		"everycomp:abnbl/quark/azalea_furnace_boat",
+		"everycomp:c/quark/azalea_window",
+		"railways:track_quark_azalea",
+		"railways:track_quark_azalea_wide",
+		"railways:track_quark_azalea_narrow"
 	]
 }
