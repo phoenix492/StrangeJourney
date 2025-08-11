@@ -1,0 +1,9 @@
+{
+  "feature": "scguns:patch_sulfur_vent",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}
