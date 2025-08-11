@@ -81,6 +81,12 @@
     },
     {
       "output": "forbidden_arcanus:aurum_sapling"
+    },
+    {
+      "output": "thermal:rubberwood_sapling"
+    },
+    {
+      "output": "eidolon:illwood_sapling"
     }
   ]
 }
