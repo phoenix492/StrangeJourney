@@ -1,0 +1,9 @@
+{
+  "feature": "thermal:mega_rubberwood_tree",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}
