@@ -7,6 +7,8 @@
 		"jumbofurnace:jumbo_furnace",
 		"#strangejourney:chipped_blocks",
 		"#strangejourney:sequenced_assembly_intermediaries",
-		"mekanism:creative_fluid_tank"
+		"mekanism:creative_fluid_tank",
+		"caverns_and_chasms:oxidized_copper_golem",
+		"caverns_and_chasms:waxed_oxidized_copper_golem"
 	]
 }

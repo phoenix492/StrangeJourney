@@ -51,5 +51,8 @@ EntityEvents.spawned(event => {
 		}
 	}
 
-})
+	if (event.entity.entityType.tags.anyMatch(tag => tag.location() == "strangejourney:disabled")) {
+		event.cancel()
+	}
 
+})
