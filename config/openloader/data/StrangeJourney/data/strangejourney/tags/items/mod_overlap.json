@@ -97,7 +97,9 @@
 		"railways:track_quark_azalea",
 		"railways:track_quark_azalea_wide",
 		"railways:track_quark_azalea_narrow",
+		"caverns_and_chasms:polished_tuff",
 		"quark:cobblestone_bricks",
-		"quark:mossy_cobblestone_bricks"
+		"quark:mossy_cobblestone_bricks",
+		"quark:gold_bars"
 	]
 }

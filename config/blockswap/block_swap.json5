@@ -92,7 +92,8 @@ to make editing this file much easier.
 		"aether:aether_portal": "minecraft:air",
 		"undergarden:undergarden_portal": "minecraft:air",
 		"blue_skies:everdawn_portal": "minecraft:air",
-		"blue_skies:everbright_portal": "minecraft:air"
+		"blue_skies:everbright_portal": "minecraft:air",
+		"quark:gold_bars": "caverns_and_chasms:golden_bars"
 
 	}
 }
