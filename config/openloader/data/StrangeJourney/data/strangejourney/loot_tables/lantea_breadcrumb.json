@@ -1,0 +1,60 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:map",
+					"functions": [
+						{
+							"function": "minecraft:exploration_map",
+							"destination": "strangejourney:lantea_outpost",
+							"decoration": "target_point",
+							"zoom": 0,
+							"skip_existing_chunks": false,
+							"max_search_radius": 100
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Stargate Outpost AT-1",
+								"italic": false,
+								"color": "dark_aqua"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 3,
+				"max": 7
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh"
+				}	
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				}
+			]
+		}
+	]
+}
