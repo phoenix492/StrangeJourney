@@ -1,0 +1,9 @@
+{
+  "feature": "neapolitan:mint_pond",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}
