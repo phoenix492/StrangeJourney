@@ -136,7 +136,7 @@ slab,minecraft:yellow_stained_glass,absentbydesign:slab_glass_yellow
 slab,minecraft:yellow_terracotta,absentbydesign:slab_terracotta_yellow
 slab,minecraft:yellow_wool,absentbydesign:slab_wool_yellow
 stairs,upgrade_aquatic:tooth_tiles,upgrade_aquatic:tooth_stairs
-stairs,bloodmagic:dunegon_brick1,bloodmagic:dungeon_brick_stairs
+stairs,bloodmagic:dungeon_brick1,bloodmagic:dungeon_brick_stairs
 stairs,botania:dreamwood_planks,botania:dreamwood_planks_stairs
 stairs,botania:livingwood_planks,botania:livingwood_planks_stairs
 stairs,iceandfire:dread_stone_bricks,iceandfire:dread_stone_stairs
