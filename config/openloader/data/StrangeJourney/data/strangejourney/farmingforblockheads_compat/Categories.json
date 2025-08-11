@@ -1,0 +1,16 @@
+{
+  "customCategories": {
+    "strangejourney:sapling_exchange": {
+      "name": "Sapling Exchange",
+      "icon": {
+        "item": "minecraft:oak_sapling"
+      }
+    },
+    "strangejourney:seed_exchange": {
+      "name": "Seed Exchange",
+      "icon": {
+        "item": "minecraft:wheat_seeds" 
+      }
+    }
+  }
+}

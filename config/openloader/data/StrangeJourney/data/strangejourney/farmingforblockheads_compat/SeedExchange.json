@@ -1,0 +1,118 @@
+{
+  "group": {
+    "name": "Vanilla Seed",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "defaultCategory": "strangejourney:seed_exchange"
+  },
+  "customEntries": [
+    {
+      "output": "occultism:datura_seeds"
+    },
+    {
+      "output": "immersiveengineering:seed"
+    },
+    {
+      "output": "hexerei:sage_seed"
+    },
+    {
+      "output": "supplementaries:flax_seeds"
+    },
+    {
+      "output": "neapolitan:strawberry_pips"
+    },
+    {
+      "output": "neapolitan:banana_frond"
+    },
+    {
+      "output": "neapolitan:mint_sprout"
+    },
+    {
+      "output": "neapolitan:adzuki_beans",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
+      "output": "neapolitan:vanilla_pods",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
+      "output": "actuallyadditions:canola_seeds"
+    },
+    {
+      "output": "actuallyadditions:flax_seeds"
+    },
+    {
+      "output": "actuallyadditions:coffee_beans",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
+      "output": "farmersdelight:rice",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
+      "output": "farmersdelight:cabbage_seeds"
+    },
+    {
+      "output": "farmersdelight:tomato_seeds"
+    },
+    {
+      "output": "delightful:salmonberry_pips"
+    },
+    {
+      "output": "delightful:cantaloupe_seeds"
+    },
+    {
+      "output": "collectorsreap:lime_seeds"
+    },
+    {
+      "output": "corn_delight:corn_seeds"
+    },
+    {
+      "output": "farmersrespite:tea_seeds"
+    },
+    {
+      "output": "minecraft:wheat_seeds",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
+      "output": "minecraft:pumpkin_seeds"
+    },
+    {
+      "output": "minecraft:melon_seeds"
+    },
+    {
+      "output": "minecraft:beetroot_seeds"
+    },
+    {
+      "output": "minecraft:potato",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    },
+    {
+      "output": "minecraft:carrot",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 1
+      }
+    }
+  ]
+}
