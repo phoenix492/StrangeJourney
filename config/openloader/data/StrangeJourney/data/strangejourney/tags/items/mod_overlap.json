@@ -96,6 +96,8 @@
 		"everycomp:c/quark/azalea_window",
 		"railways:track_quark_azalea",
 		"railways:track_quark_azalea_wide",
-		"railways:track_quark_azalea_narrow"
+		"railways:track_quark_azalea_narrow",
+		"quark:cobblestone_bricks",
+		"quark:mossy_cobblestone_bricks"
 	]
 }
