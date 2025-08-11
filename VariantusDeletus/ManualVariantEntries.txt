@@ -264,7 +264,7 @@ unique,aether:carved_stone,aether:sentry_stone
 unique,aether:hellfire_stone,aether:light_hellfire_stone
 unique,aether_redux:fungal_growth,aether_redux:fungal_carpet
 unique,alexsmobs:bison_fur_block,alexsmobs:bison_carpet
-unique,bloodmagic:dungeon_brick1,bloodmagic:dungeon_brick2
+unique1,bloodmagic:dungeon_brick1,bloodmagic:dungeon_brick_gate
 unique,botania:bifrost_perm,botania:bifrost_pane
 unique,hexerei:infused_fabric_block_ornate,hexerei:infused_fabric_carpet_ornate
 unique,hexerei:waxed_infused_fabric_block_ornate,hexerei:waxed_infused_fabric_carpet_ornate
