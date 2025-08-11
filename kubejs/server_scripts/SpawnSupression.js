@@ -17,9 +17,7 @@ EntityEvents.spawned(event => {
 	// Cobblemon contingent upon a nearby playing wearing a Silph Scope.
 	// Second check only surpresses Wild pokemon spawns, leaving Pasture Blocks
 	// and player pokemon in-tact.
-	if(
-			(event.entity.type == "cobblemon:pokemon" && event.entity.getNbt().Pokemon.PokemonOriginalTrainerType == "NONE")
-		) {
+	if (event.entity.type == "cobblemon:pokemon" && event.entity.getNbt().Pokemon.PokemonOriginalTrainerType == "NONE") {
 		let area = event.entity.getBoundingBox().inflate(64)
 		let spawnPokemon = false
 		let players = event.level.getNearbyPlayers($PlayerCondition, null, area);
@@ -46,7 +44,7 @@ EntityEvents.spawned(event => {
 		}
 	}
 
-	//Species mobs tend to overwhelm and dilute Alexs Caves
+	// Species mobs tend to overwhelm and dilute Alexs Caves
 	if (event.entity.type.split(':')[0] == "species") {
 		if (event.entity.block.biomeId.namespace == "alexscaves") {
 			event.cancel()
