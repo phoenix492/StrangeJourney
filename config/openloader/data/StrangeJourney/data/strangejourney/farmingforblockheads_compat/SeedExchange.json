@@ -113,6 +113,9 @@
         "item": "minecraft:emerald",
         "count": 1
       }
+    },
+    {
+      "output": "enchanted:belladonna_seeds"
     }
   ]
 }

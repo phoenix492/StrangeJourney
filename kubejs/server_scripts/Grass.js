@@ -5,7 +5,8 @@ let removedSeeds = [
     "actuallyadditions:rice_seeds",
     "actuallyadditions:canola_seeds",
     "actuallyadditions:flax_seeds",
-    "actuallyadditions:coffee_beans"
+    "actuallyadditions:coffee_beans",
+    "enchanted:belladonna_seeds"
 ]
 LootJS.modifiers(event => {
     removedSeeds.forEach(seed => {
