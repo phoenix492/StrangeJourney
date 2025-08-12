@@ -1,0 +1,35 @@
+{
+    "name": "Vanilla",
+    "icon": "minecraft:grass_block",
+    "category": "patchouli:strangeguide/modchanges",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Not even vanilla escaped my grubby little paws touching and balancing passing on nearly everything. Despite the impression that mods would entirely powercreep vanilla, that's not always true. I also just like to tweak and change things."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Aileron", 
+            "item": "minecraft:elytra",
+            "text": "Rockets no longer give you a boost when flying with the elytra. Instead, the mod Aileron allows you to pick up vertical boosts from the smoke from campfires (even launching from a grounded state by crouching on them), and also makes mutliple campfires in the same location create a larger plume of smoke."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Mending: Recrafted",
+            "item": "minecraft:enchanted_book",
+            "text": "Quark's Mending nerf/rework has been enabled. Mending is no longer an enchantment that can be applied to equipment, and instead mending books will completely reset the anvil working cost of an item to its base level."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "Villager Trading",
+            "item": "minecraft:cartography_table,minecraft:brewing_stand,minecraft:composter,minecraft:barrel,minecraft:fletching_table,minecraft:cauldron,minecraft:stonecutter,minecraft:lectern,minecraft:blast_furnace,minecraft:smoker,minecraft:loom,minecraft:smithing_table,minecraft:grindstone",
+            "text": "Repeated discounts from zomibfying and unzombifying villagers have been tamped down. Villager's initial trades are also no longer able to be re-rolled by breaking and replacing their workstation."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "title": "DeDuper" ,
+            "item": "minecraft:sand,minecraft:gravel,minecraft:tnt",
+            "text": "Vanilla dupes are patched courtesy of Quark. These aren't that powerful compared to modded behavior, but patching dupes is good actually."
+        }
+    ]
+}
