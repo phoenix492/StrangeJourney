@@ -1,5 +1,7 @@
 const $CuriosApi = Java.loadClass('top.theillusivec4.curios.api.CuriosApi');
 const $TargetingConditions = Java.loadClass('net.minecraft.world.entity.ai.targeting.TargetingConditions')
+const $TagKey = Java.loadClass('net.minecraft.tags.TagKey')
+const DISABLED_MOB = $TagKey.create(Utils.getRegistry('minecraft:entity_type').key, 'strangejourney:disabled')
 /*
 Targeting condition that always returns true. We only care that there's a 
 player nearby, which is handled by calling getNearbyPlayers, we couldn't
@@ -51,7 +53,7 @@ EntityEvents.spawned(event => {
 		}
 	}
 
-	if (event.entity.entityType.tags.anyMatch(tag => tag.location() == "strangejourney:disabled")) {
+	if (event.entity.entityType.is(DISABLED_MOB)) {
 		event.cancel()
 	}
 
