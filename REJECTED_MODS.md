@@ -36,6 +36,9 @@ A little janky and FAR too much effort to configure. If someone else does it I c
 #### Evilcraft
 Intial look seemed rather developer-texturey and also I forgot this is the mod that adds a "fart" button.
 
+#### Cyberspace
+I actually really like this mod but the current release has a lot of unfinished features on the main branch and is currently a little lacking. Unfortunately it appears the developer is moving to neoforge and presumably off of 1.20.1. Thus if this proves incorrect I'll add it.
+
 ## Non-Negotiable
 
 #### MCreator Mods
@@ -94,3 +97,12 @@ Doesn't work on 1.20.1 w/ Create 6. Was unfinshed and lacking in features on thi
 
 #### Distraction Free Recipes
 VERY bad practice mod, Jar-In-Jars the entirety of Sinytra Connector and Forgified Fabric API. What the fuck?
+
+#### Particle Rain
+I actually really like this mod. Unfortunately I do *not* like its effect on framerate.
+
+#### Particular*Reforged
+Unsavory developer.
+
+#### Untamed Wilds
+Known to have TPS issues.
