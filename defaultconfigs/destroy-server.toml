@@ -314,7 +314,7 @@ extendedInventorySafeMode = true
 		#The proportion by which mining speed is "boosted" for every level of Baby Blue Withdrawal
 		#For example, -0.3 gives -30% per level
 		#Range: 1.401298464324817E-45 ~ 3.4028234663852886E38
-		babyBlueMiningSpeedBonus = -0.30000001192092896
+		babyBlueMiningSpeedBonus = 1.401298464324817E-45
 		#.
 		#Conserve the level of Baby Blue Addiction a player has when they die
 		#[This will be overriden as true if the Game Rule keepInventory is true]

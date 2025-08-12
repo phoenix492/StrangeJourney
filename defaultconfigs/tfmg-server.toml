@@ -52,17 +52,3 @@
 			simple_large_engine = 40.0
 			turbine_engine = 10.0
 
-[resistivityValues]
-
-	#.
-	#Fine tune the resistivity stats of individual cable types
-	[resistivityValues.v2]
-
-		#.
-		#.
-		#Configure the individual resistivity of cable types.
-		[resistivityValues.v2.resistivity]
-			copper = 0.001879999996162951
-			constantan = 1.0
-			aluminum = 0.0027000000700354576
-
