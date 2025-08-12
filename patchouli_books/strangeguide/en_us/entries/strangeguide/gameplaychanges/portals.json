@@ -9,7 +9,7 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe":"minecraft:kjs/sgjourney_archeology_table",
+            "recipe":"sgjourney:archeology_table",
             "text": "Instead, you'll need to make use of the Stargate Journey mod to hop between dimensions. To get started, use the Archeology Table as a workstation for a villager and level them up to level 5, and they'll trade you a map to a buried Stargate."
         },
         {

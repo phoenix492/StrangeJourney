@@ -9,12 +9,12 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "minecraft:kjs/wooden_panel",
+            "recipe": "strangejourney:wooden_panel",
             "text": "Wide, sweeping changes have been made to fix recipes in light of this change. Recipes where wood type matters now use their base block, fences are now sticks, and all others use these wooden panels."
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "minecraft:kjs/stone_panel",
+            "recipe": "strangejourney:stone_panel",
             "text": "Similar to wood variants, those that use stone have been changed to either use their base block or these stone panels."
         }
     ]

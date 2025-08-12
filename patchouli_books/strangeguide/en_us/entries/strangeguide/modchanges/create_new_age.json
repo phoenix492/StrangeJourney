@@ -5,11 +5,11 @@
     "pages": [
         {
             "type": "patchouli:text",
-            "text": "Being that not many people particularly appriciate stock New Age's textures, this modpack includes the Create: New Age - Refrubished! (sic) resource pack that swaps out some of the textures."
+            "text": "Being that not many people particularly appriciate stock New Age's textures, this modpack includes the Create: New Age - Refrubished! (sic) resource pack that swaps out a majority of them."
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "minecraft:kjs/create_new_age_magnetite_block",
+            "recipe": "strangejourney:magnetite_block",
             "text": "Owing to its new mechanical appearance, I've removed magnetite from generation (it was clutterish and not very useful anyway) and made it avaliable via crafting."
         }
     ]

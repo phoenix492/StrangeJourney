@@ -9,7 +9,7 @@
         },
         {
             "type": "patchouli:crafting",
-            "recipe": "minecraft:kjs/blue_skies_blue_journal",
+            "recipe": "strangejourney:blue_journal",
             "text": "The Blue Journal can now be obtained via crafting 4 pieces of Blue Skies cobblestone surrounding a book."
         }
     ]
