@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "group": "securitycraft:universal_block_reinforcer",
+    "key": {
+        "D": {
+            "tag": "forge:gems/diamond"
+        },
+        "G": {
+            "tag": "forge:glass"
+        },
+        "L": {
+            "item": "securitycraft:laser_block"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "pattern": [
+        " DG",
+        "RLD",
+        "SR "
+    ],
+    "result": {
+        "item": "securitycraft:universal_block_reinforcer_lvl3"
+    }
+}

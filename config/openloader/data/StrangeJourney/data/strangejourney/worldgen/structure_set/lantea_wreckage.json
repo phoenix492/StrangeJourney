@@ -1,0 +1,14 @@
+{
+    "structures":[
+        {
+         "structure": "strangejourney:lantea_wreckage",
+         "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 81571423,
+        "type": "minecraft:random_spread",
+        "spacing": 12,
+        "separation": 6
+    }
+}

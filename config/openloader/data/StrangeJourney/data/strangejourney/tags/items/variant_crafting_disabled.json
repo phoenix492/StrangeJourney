@@ -20,7 +20,9 @@
 		"#minecraft:wool_carpets",
 		"alexscaves:hollow_bone",
 		"snuffles:snuffle_fluff_carpet",
-		"snuffles:frosty_fluff_carpet"
+		"snuffles:frosty_fluff_carpet",
+		"#securitycraft:reinforced/glass_panes",
+		"securitycraft:reinforced_moss_carpet"
 	],
 	"remove": [
 		"#mekanism:colorable/carpets"

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "MIM",
+        "IMI",
+        "MIM"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "M": {
+            "item": "spelunkery:raw_magnetite_nugget"
+        }
+    },
+    "result": {
+      "item": "create_new_age:magnetite_block"
+    }
+}
