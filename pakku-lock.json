@@ -916,48 +916,6 @@
             ]
         },
         {
-            "pakku_id": "nqGajjAQkRfySvNR",
-            "pakku_links": [
-                "ftncRLLM5EDDRrLU"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "apothic-attributes"
-            },
-            "name": {
-                "curseforge": "Apothic Attributes"
-            },
-            "id": {
-                "curseforge": "898963"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ApothicAttributes-1.20.1-1.3.7.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5634/71/ApothicAttributes-1.20.1-1.3.7.jar",
-                    "id": "5634071",
-                    "parent_id": "898963",
-                    "hashes": {
-                        "sha1": "1dc0744d17f0861fe6b067798d39abce9d8e0e86",
-                        "md5": "d4f8d1945416d5150cd67d27469b5ce9"
-                    },
-                    "required_dependencies": [
-                        "283644"
-                    ],
-                    "size": 227511,
-                    "date_published": "2024-08-16T06:08:35.217Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "uIOKaOUqITSEl7l9",
             "type": "MOD",
             "slug": {
@@ -2711,6 +2669,48 @@
             ]
         },
         {
+            "pakku_id": "cHErL4vtpz8oklWj",
+            "pakku_links": [
+                "ljRXKh4mYBaopEt5"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "chunkpregenerator"
+            },
+            "name": {
+                "curseforge": "Chunk-Pregenerator"
+            },
+            "id": {
+                "curseforge": "267193"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Chunk-Pregenerator-1.20-4.4.4.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5518/264/Chunk-Pregenerator-1.20-4.4.4.jar",
+                    "id": "5518264",
+                    "parent_id": "267193",
+                    "hashes": {
+                        "sha1": "a3232637a242ee0e26dafaa99307dded859ecfbe",
+                        "md5": "3202aec6cf286418c2f88654a5575d2f"
+                    },
+                    "required_dependencies": [
+                        "898104"
+                    ],
+                    "size": 694278,
+                    "date_published": "2024-07-09T22:15:38.507Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "aj0gyx9wPirRFazE",
             "type": "MOD",
             "slug": {
@@ -4316,6 +4316,45 @@
             ]
         },
         {
+            "pakku_id": "mBpgt1rpfvqtHdBM",
+            "pakku_links": [
+                "cNazHl3NCD4WWb6p"
+            ],
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "create-new-age-refrubished"
+            },
+            "name": {
+                "curseforge": "Create: New Age - Refrubished!"
+            },
+            "id": {
+                "curseforge": "1004413"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cna-refrubished-0.2.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5575/997/cna-refrubished-0.2.zip",
+                    "id": "5575997",
+                    "parent_id": "1004413",
+                    "hashes": {
+                        "sha1": "f4ebca3f6fded6f869b6abd28e7ec01f19a1c945",
+                        "md5": "60abdfaa9178080dd42e4d825b9d7df8"
+                    },
+                    "required_dependencies": [
+                        "905861"
+                    ],
+                    "size": 505350,
+                    "date_published": "2024-07-28T23:20:32.987Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "2YyxGo93j5cl9JsL",
             "type": "MOD",
             "slug": {
@@ -4892,45 +4931,6 @@
                     "required_dependencies": [],
                     "size": 17844266,
                     "date_published": "2024-11-15T19:53:35.520Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "6CeWNHmNDMsPhXTX",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "default-options"
-            },
-            "name": {
-                "curseforge": "Default Options"
-            },
-            "id": {
-                "curseforge": "232131"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "defaultoptions-forge-1.20.1-18.0.3.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6804/680/defaultoptions-forge-1.20.1-18.0.3.jar",
-                    "id": "6804680",
-                    "parent_id": "232131",
-                    "hashes": {
-                        "sha1": "a7bffd6bd5cff19793cede8c1b8bb0450eb25059",
-                        "md5": "10d4a6afe004f72a965d0263583576db"
-                    },
-                    "required_dependencies": [
-                        "531761"
-                    ],
-                    "size": 94649,
-                    "date_published": "2025-07-23T21:49:30.653Z"
                 }
             ]
         },
@@ -5705,45 +5705,6 @@
                     "required_dependencies": [],
                     "size": 2008843,
                     "date_published": "2025-06-15T10:54:10.020Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "fuq4FUTsmBnL9LbQ",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "stone-zone"
-            },
-            "name": {
-                "curseforge": "Every Compat (Stone Zone)"
-            },
-            "id": {
-                "curseforge": "1154622"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "stonezone-1.20-2.8.15.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6827/729/stonezone-1.20-2.8.15.jar",
-                    "id": "6827729",
-                    "parent_id": "1154622",
-                    "hashes": {
-                        "sha1": "6fe240f071ac1c11dee694a9a2d21401c6141de9",
-                        "md5": "6ed43297f81ef7531e4ed44fbe3cdfb7"
-                    },
-                    "required_dependencies": [
-                        "499980",
-                        "628539"
-                    ],
-                    "size": 973363,
-                    "date_published": "2025-07-30T05:07:02.457Z"
                 }
             ]
         },
@@ -10154,44 +10115,6 @@
                     "required_dependencies": [],
                     "size": 1315260,
                     "date_published": "2025-08-07T09:06:08.267Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "QjDn7Y9oabBg8AEl",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "oc2r"
-            },
-            "name": {
-                "curseforge": "OpenComputers II: Reimagined"
-            },
-            "id": {
-                "curseforge": "1037738"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "oc2r-1.20.1-forge-2.2.0-all.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6876/826/oc2r-1.20.1-forge-2.2.0-all.jar",
-                    "id": "6876826",
-                    "parent_id": "1037738",
-                    "hashes": {
-                        "sha1": "d78e9c577c5b4a27c35a3522dbb25efdeb3344c7",
-                        "md5": "d1f6871ba8e7e7989f21106421c8cd5a"
-                    },
-                    "required_dependencies": [
-                        "502485"
-                    ],
-                    "size": 26114489,
-                    "date_published": "2025-08-12T00:26:28.563Z"
                 }
             ]
         },

@@ -241,6 +241,11 @@
 			hawthorn = true
 			rowan = true
 
+		[types.leaves_type.midnight]
+			shadowroot = true
+			dark_willow = true
+			manglewood = true
+
 	[types.wood_type]
 
 		[types.wood_type.mynethersdelight]
@@ -398,6 +403,17 @@
 
 		[types.wood_type.endergetic]
 			poise = true
+
+		[types.wood_type.midnight]
+			shadowroot = true
+			dark_willow = true
+			decayed = true
+			manglewood = true
+			nightshroom = true
+			dewshroom = true
+			viridshroom = true
+			moonshroom = true
+			bogshroom = true
 
 	[types.cut_block_type]
 
@@ -1436,6 +1452,28 @@
 		[types.cut_block_type.endergetic]
 			poise = true
 			eumus_brick = true
+
+		[types.cut_block_type.midnight]
+			nightstone = true
+			polished_nightstone = true
+			nightstone_brick = true
+			nightstone_tile = true
+			trenchstone = true
+			trenchstone_brick = true
+			shadowroot = true
+			dark_willow = true
+			decayed_wood = true
+			manglewood = true
+			nightshroom = true
+			dewshroom = true
+			viridshroom = true
+			moonshroom = true
+			bogshroom = true
+			rockshroom_brick = true
+			polished_rouxe = true
+			rouxe_brick = true
+			polished_bloomcrystal = true
+			bloomcrystal_brick = true
 
 #Disables specific entries
 [entries]

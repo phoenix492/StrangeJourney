@@ -1,0 +1,12 @@
+{
+    "feature": {
+        "type": "minecraft:fill_layer",
+        "config": {
+            "state": {
+                "Name": "spelunkery:portal_fluid"
+            },
+            "height": 18
+        }
+    },
+    "placement": []
+}
