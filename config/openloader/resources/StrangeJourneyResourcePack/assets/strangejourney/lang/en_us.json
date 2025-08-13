@@ -9,5 +9,20 @@
 	"tag.item.strangejourney.sequenced_assembly_intermediaries": "Unfinished Create Assembly Items",
 	"tag.item.strangejourney.sophisticatedstorage_balance_disabled": "Items Disabled For Balance",
 	"tag.item.strangejourney.sophisticatedstorage_upgrade": "Sophisticated Storage Upgrades",
-	"tag.item.strangejourney.sophisticatedstorage_wood_dye": "Color Dependent On Wood Type and Dye"
+	"tag.item.strangejourney.sophisticatedstorage_wood_dye": "Color Dependent On Wood Type and Dye",
+	"galaxy.strangejourney.lepogearian": "Lepogearian",
+	"item.kubejs.wooden_panel": "Wooden Panel",
+	"item.kubejs.stone_panel": "Stone Panel",
+	"item.kubejs.silph_scope": "Silph Scope",
+	"entity.minecraft.villager.stargazer": "Stargazer",
+	"entity.minecraft.villager.wrangler": "Wrangler",
+	"entity.minecraft.villager.shoveler": "Shoveler",
+	"entity.minecraft.villager.summoner": "Summoner",
+	"entity.minecraft.villager.alchemist": "Alchemist",
+	"entity.minecraft.villager.archeologist": "Archeologist",
+	"entity.minecraft.villager.animal_tamer": "Animal Tamer",
+	"entity.minecraft.villager.nightwatcher": "Nightwatcher",
+	"entity.minecraft.villager.fluix_researcher": "Fluix Researcher",
+	"entity.minecraft.villager.innkeeper": "Innkeeper",
+	"entity.minecraft.villager.mechanic": "Mechanic"
 }

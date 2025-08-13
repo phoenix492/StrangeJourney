@@ -1,16 +1,4 @@
 {
-	"galaxy.strangejourney.lepogearian": "Lepogearian",
-	"item.kubejs.wooden_panel": "Wooden Panel",
-	"item.kubejs.stone_panel": "Stone Panel",
-	"item.kubejs.silph_scope": "Silph Scope",
-	"entity.minecraft.villager.stargazer": "Stargazer",
-	"entity.minecraft.villager.wrangler": "Wrangler",
-	"entity.minecraft.villager.shoveler": "Shoveler",
-	"entity.minecraft.villager.summoner": "Summoner",
-	"entity.minecraft.villager.alchemist": "Alchemist",
-	"entity.minecraft.villager.archeologist": "Archeologist",
-	"entity.minecraft.villager.animal_tamer": "Animal Tamer",
-	"entity.minecraft.villager.nightwatcher": "Nightwatcher",
 	"block.sophisticatedstorage.barrel": "Barrel",
 	"block.sophisticatedstorage.copper_barrel": "Copper Barrel",
 	"block.sophisticatedstorage.iron_barrel": "Iron Barrel",
@@ -46,15 +34,5 @@
 	"block.sophisticatedstorage.iron_chest": "Iron Chest",
 	"block.sophisticatedstorage.gold_chest": "Gold Chest",
 	"block.sophisticatedstorage.diamond_chest": "Diamond Chest",
-	"block.sophisticatedstorage.netherite_chest": "Netherite Chest",
-	"entity.minecraft.villager.fluix_researcher": "Fluix Researcher",
-	"entity.minecraft.villager.innkeeper": "Innkeeper",
-	"entity.minecraft.villager.mechanic": "Mechanic",
-	"block.alexscaves.radrock_uranium_ore": "Radium Chloride Ore",
-	"block.alexscaves.uranium_rod": "Radioactive Fuel Rod",
-	"block.alexscaves.block_of_uranium": "Block of Radium Chloride",
-	"item.alexscaves.uranium": "Radium Chloride",
-	"item.alexscaves.uranium_shard": "Radium Chloride Shard",
-	"advancements.alexscaves.uranium.desc": "Mine Radium Chloride Ore",
-	"advancements.alexscaves.uranium_rod.desc": "Craft a Radioactive Fuel Rod"
+	"block.sophisticatedstorage.netherite_chest": "Netherite Chest"
 }
