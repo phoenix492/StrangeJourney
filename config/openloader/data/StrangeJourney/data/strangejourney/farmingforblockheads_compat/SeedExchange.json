@@ -116,6 +116,12 @@
     },
     {
       "output": "enchanted:belladonna_seeds"
+    },
+    {
+      "output": "berry_good:glow_berry_pips"
+    },
+    {
+      "output": "berry_good:sweet_berry_pips"
     }
   ]
 }
