@@ -126,6 +126,12 @@
     "milk_jar": true,
     "toaster": true
   },
+  "securitycraft": {
+    "showowner": true,
+    "showmodules": true,
+    "info": true,
+    "showcustomname": true
+  },
   "framedblocks": {
     "framed_item_frame": true
   },

@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-08-10_20-44-27",
+  "config_datetime": "2025-08-11_13-52-16",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -195,6 +195,14 @@
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 1,
       "separation": 0
+    },
+    {
+      "name": "strangejourney:lantea_wreckage",
+      "salt": 81571423,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 12,
+      "separation": 6
     },
     {
       "name": "strangejourney:stargate_pedestal",

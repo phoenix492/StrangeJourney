@@ -81,6 +81,7 @@
     "signalum",
     "silver",
     "steel",
+    "stainless_steel",
     "sulfur",
     "tin",
     "tungsten",
@@ -95,11 +96,7 @@
   "itemTagInheritance": {},
   "blockTagInheritanceMode": "ALLOW",
   "blockTagInheritance": {},
-  "ignoredTags": [
-    "forge:ingots/stainless_steel",
-    "forge:rods/stainless_steel",
-    "forge:plates/stainless_steel"
-  ],
+  "ignoredTags": [],
   "ignoredItems": [
     "alexscaves:uranium",
     "alexscaves:block_of_uranium",
