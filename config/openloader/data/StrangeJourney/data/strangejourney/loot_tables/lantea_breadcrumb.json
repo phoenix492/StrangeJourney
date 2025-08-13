@@ -14,7 +14,7 @@
 							"decoration": "target_point",
 							"zoom": 0,
 							"skip_existing_chunks": false,
-							"max_search_radius": 100
+							"max_search_radius": 1000
 						},
 						{
 							"function": "minecraft:set_name",
@@ -53,6 +53,37 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:emerald"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "upgrade_aquatic:driftwood_furnace_boat",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Your Noble Chariot to Freedom",
+								"color": "gold",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 4,
+				"max": 5
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:charcoal"
 				}
 			]
 		}
