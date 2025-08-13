@@ -8,7 +8,7 @@
 	min_height = -60
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = []
 
 [platinum]
 	#Ore generation settings for platinum
@@ -19,7 +19,7 @@
 	min_height = -60
 	#Range: -64 ~ 255
 	max_height = 0
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = []
 
 [thorium]
 	#Ore generation settings for thorium
@@ -30,7 +30,7 @@
 	min_height = -60
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = []
 
 [tin]
 	#Ore generation settings for tin
@@ -41,7 +41,7 @@
 	min_height = 4
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = []
 
 [magnesium]
 	#Ore generation settings for magnesium
@@ -52,7 +52,7 @@
 	min_height = -60
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = ["minecraft:overworld"]
 
 [silver]
 	#Ore generation settings for silver
@@ -63,7 +63,7 @@
 	min_height = -60
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = []
 
 [cobalt]
 	#Ore generation settings for cobalt
@@ -74,7 +74,7 @@
 	min_height = -60
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = ["minecraft:overworld"]
 
 [uranium]
 	#Ore generation settings for uranium
@@ -85,7 +85,7 @@
 	min_height = -60
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = []
 
 [zinc]
 	#Ore generation settings for zinc
@@ -96,7 +96,7 @@
 	min_height = 4
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = []
 
 [boron]
 	#Ore generation settings for boron
@@ -107,7 +107,7 @@
 	min_height = -60
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = ["minecraft:overworld"]
 
 [lead]
 	#Ore generation settings for lead
@@ -118,5 +118,5 @@
 	min_height = 4
 	#Range: -64 ~ 255
 	max_height = 60
-	gen_dimensions = ["minecraft:overworld", "nuclearcraft:wasteland"]
+	gen_dimensions = []
 
