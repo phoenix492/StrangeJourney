@@ -3,11 +3,12 @@
 	"values": [
 		"#strangejourney:mod_overlap",
 		"#strangejourney:variant_crafting_disabled",
-		"jumbofurnace:jumbo_furnace",
 		"#strangejourney:chipped_blocks",
 		"#strangejourney:sequenced_assembly_intermediaries",
 		"#strangejourney:scholar_colored_books",
+		"#twilightforest:nyi",
 		"mekanism:creative_fluid_tank",
+		"jumbofurnace:jumbo_furnace",
 		"ae2:facade",
 		"caverns_and_chasms:oxidized_copper_golem",
 		"caverns_and_chasms:waxed_oxidized_copper_golem",
