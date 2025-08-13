@@ -131,7 +131,7 @@
 	#DISABLED - Turns off the nether fog 
 	# 
 	#Allowed Values: VANILLA, MEDIUM, FAR, DISABLED
-	nether_fog_distance = "MEDIUM"
+	nether_fog_distance = "disabled"
 	#Increases the size of all nether biomes, great for experiencing the new biome overhauls 
 	#WARNING: this setting has to be enabled before you generate a new world 
 	#once enabled in a world it cannot be disabled without deleting DIM-1 in the world folder
