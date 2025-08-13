@@ -25,6 +25,7 @@
 		"securitycraft:reinforced_moss_carpet"
 	],
 	"remove": [
-		"#mekanism:colorable/carpets"
+		"#mekanism:colorable/carpets",
+		"#strangejourney:framedblocks_items"
 	]
 }
