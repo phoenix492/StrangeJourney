@@ -5,9 +5,10 @@ const DISABLED_MOB = $TagKey.create(Utils.getRegistry('minecraft:entity_type').k
 /*
 Targeting condition that always returns true. We only care that there's a 
 player nearby, which is handled by calling getNearbyPlayers, we couldn't
-care less if they're in creative or invulnerable or the game is in peaceful.
+care less if they're in creative or invulnerable or the game is in peaceful,
+which most readily accessible selectors fail against.
 */
-const $PlayerCondition = $TargetingConditions.forNonCombat().selector(entity => {return true})
+const PLAYER_CONDITION = $TargetingConditions.forNonCombat().selector(entity => {return true})
 
 function hasCurios(entity, itemStack) {
     let curiosInventory = $CuriosApi.getCuriosInventory(entity).resolve().get();
@@ -22,7 +23,7 @@ EntityEvents.spawned(event => {
 	if (event.entity.type == "cobblemon:pokemon" && event.entity.getNbt().Pokemon.PokemonOriginalTrainerType == "NONE") {
 		let area = event.entity.getBoundingBox().inflate(64)
 		let spawnPokemon = false
-		let players = event.level.getNearbyPlayers($PlayerCondition, null, area);
+		let players = event.level.getNearbyPlayers(PLAYER_CONDITION, null, area);
 		players.forEach(p => {
 			if (hasCurios(p, Item.of("kubejs:silph_scope"))) {
 				spawnPokemon = true
