@@ -1,9 +1,0 @@
-{
-  "feature": "caverns_and_chasms:ore_gold_buried_with_silver",
-  "placement": [
-    {
-      "type": "minecraft:count",
-      "count": 0
-    }
-  ]
-}

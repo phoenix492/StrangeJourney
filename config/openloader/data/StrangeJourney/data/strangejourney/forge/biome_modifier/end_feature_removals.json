@@ -1,0 +1,7 @@
+{
+  "type": "forge:remove_features", 
+  "biomes": "#minecraft:is_end", 
+  "features": [
+    "destroy:end_fluorite_ore"
+  ]
+}

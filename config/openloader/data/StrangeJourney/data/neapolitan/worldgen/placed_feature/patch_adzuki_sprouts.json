@@ -1,9 +1,0 @@
-{
-  "feature": "neapolitan:patch_adzuki_sprouts",
-  "placement": [
-    {
-      "type": "minecraft:count",
-      "count": 0
-    }
-  ]
-}
