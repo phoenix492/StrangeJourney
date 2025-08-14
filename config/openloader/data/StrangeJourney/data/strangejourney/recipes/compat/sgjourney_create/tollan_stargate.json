@@ -1,0 +1,36 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " CRCRC ",
+        "RRNNNRR",
+        "CNQQQNC",
+        "RNQXQNR",
+        "RNQQQNR",
+        "CRNNNRC",
+        " RCBCR "
+    ],
+    "key": {
+        "C": {
+            "item": "sgjourney:classic_stargate_chevron_block"
+        },
+        "R": {
+            "item": "sgjourney:classic_stargate_ring_block"
+        },
+        "B": {
+            "item": "sgjourney:classic_stargate_base_block"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        },
+        "N": {
+            "item": "minecraft:iron_ingot" 
+        },
+        "X": {
+            "item": "sgjourney:crystal_base"
+        }
+        
+    },
+    "result": {
+        "item": "sgjourney:tollan_stargate"
+    }
+}

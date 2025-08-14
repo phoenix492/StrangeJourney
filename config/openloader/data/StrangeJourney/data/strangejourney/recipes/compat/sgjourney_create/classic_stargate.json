@@ -1,0 +1,26 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " CRCRC ",
+        "RR   RR",
+        "C     C",
+        "R     R",
+        "R     R",
+        "CR   RC",
+        " RCBCR "
+    ],
+    "key": {
+        "C": {
+            "item": "sgjourney:classic_stargate_chevron_block"
+        },
+        "R": {
+            "item": "sgjourney:classic_stargate_ring_block"
+        },
+        "B": {
+            "item": "sgjourney:classic_stargate_base_block"
+        }
+    },
+    "result": {
+        "item": "sgjourney:classic_stargate"
+    }
+}
