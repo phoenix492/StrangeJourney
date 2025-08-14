@@ -2,7 +2,7 @@
   "type": "forge:remove_features", 
   "biomes": "#minecraft:is_nether", 
   "features": [
-    "scguns:nether_sulfur_ore",
+    "scguns:nether_sulfur_ore_placed",
     "scguns:patch_sulfur_vent"
   ]
 }
