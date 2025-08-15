@@ -1,12 +1,12 @@
 {
 	"replace": false,
 	"values": [
-		"strangejourney:stargate/pegasus/pedestal/stargate_pedestal_aether",
-		"strangejourney:stargate/pegasus/pedestal/stargate_pedestal_undergarden",
-		"strangejourney:stargate/milky_way/pedestal/stargate_pedestal_bumblezone",
-		"strangejourney:stargate/pegasus/pedestal/stargate_pedestal_otherside",
-		"strangejourney:stargate/milky_way/pedestal/stargate_pedestal_tropics",
-		"strangejourney:stargate/milky_way/pedestal/stargate_pedestal_midnight",
-		"strangejourney:stargate/milky_way/pedestal/stargate_pedestal_void"
+		"strangejourney:stargate/aether",
+		"strangejourney:stargate/undergarden",
+		"strangejourney:stargate/bumblezone",
+		"strangejourney:stargate/otherside",
+		"strangejourney:stargate/tropics",
+		"strangejourney:stargate/midnight",
+		"strangejourney:stargate/void"
 	]
 }

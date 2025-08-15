@@ -1,5 +1,5 @@
 {
-	"name": "solar_system.sgjourney.the_void",
+	"name": "solar_system.strangejourney.the_void",
 	"symbols": "sgjourney:terra",
 	"symbol_prefix": 1,
 	"extragalactic_address": {"address": [1, 1, 1, 1, 1, 1, 1], "randomizable": true},

@@ -1,5 +1,5 @@
 {
-	"name": "solar_system.sgjourney.tropics",
+	"name": "solar_system.strangejourney.tropics",
 	"symbols": "sgjourney:galaxy_milky_way",
 	"symbol_prefix": 1,
 	"extragalactic_address": {"address": [1, 1, 1, 1, 1, 1, 1], "randomizable": true},

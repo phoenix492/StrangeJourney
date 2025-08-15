@@ -1,0 +1,17 @@
+{
+    "structures":[
+        { "structure": "strangejourney:stargate/aether", "weight": 1 },
+        { "structure": "strangejourney:stargate/undergarden", "weight": 1 },
+        { "structure": "strangejourney:stargate/bumblezone", "weight": 1 },
+        { "structure": "strangejourney:stargate/otherside", "weight": 1 },
+        { "structure": "strangejourney:stargate/tropics", "weight": 1 },
+        { "structure": "strangejourney:stargate/midnight", "weight": 1 },
+        { "structure": "strangejourney:stargate/void", "weight": 1 }
+    ],
+    "placement": {
+        "salt": 125671238,
+        "spacing": 1,
+        "separation": 0,
+        "type": "minecraft:random_spread"
+    }
+}

@@ -1,5 +1,5 @@
 {
-	"name": "solar_system.sgjourney.darkside",
+	"name": "solar_system.strangejourney.darkside",
 	"symbols": "sgjourney:terra",
 	"symbol_prefix": 1,
 	"extragalactic_address": {"address": [1, 1, 1, 1, 1, 1, 1], "randomizable": true},

@@ -1,5 +1,4 @@
 {
-	"name": "strange_journey:stargate/pegasus/pedestal/stargate_pedestal_undergarden",
 	"fallback": "minecraft:empty",
 	"elements":
 	[
@@ -7,7 +6,7 @@
 			"weight": 1,
 			"element":
 			{
-				"location": "strangejourney:stargate/pegasus/pedestal/pegasus_stargate_pedestal_undergarden_1",
+				"location": "strangejourney:stargate/bumblezone_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:single_pool_element"

@@ -1,5 +1,5 @@
 {
-	"name": "strange_journey:stargate/milky_way/pedestal/stargate_pedestal_tropics",
+	"name": "strange_journey:stargate/pegasus/pedestal/stargate_pedestal_otherside",
 	"fallback": "minecraft:empty",
 	"elements":
 	[
@@ -7,7 +7,7 @@
 			"weight": 1,
 			"element":
 			{
-				"location": "strangejourney:stargate/milky_way/pedestal/stargate_pedestal_tropics_1",
+				"location": "strangejourney:stargate/otherside_1",
 				"processors": "minecraft:empty",
 				"projection": "rigid",
 				"element_type": "minecraft:single_pool_element"
