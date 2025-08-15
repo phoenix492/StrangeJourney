@@ -37,7 +37,7 @@
 	#When true, tents have decorations when upgraded
 	tent_decor_upgrade = false
 	#When true, the tent item will not be destroyed if it is burned
-	tent_fireproof = false
+	tent_fireproof = true
 	#Percentage chance that a plain tepee block will randomly have a design
 	#Range: 0 ~ 100
 	tepee_design_chance = 35
