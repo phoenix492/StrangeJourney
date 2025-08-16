@@ -6,7 +6,10 @@
         { "structure": "strangejourney:stargate/otherside", "weight": 1 },
         { "structure": "strangejourney:stargate/tropics", "weight": 1 },
         { "structure": "strangejourney:stargate/midnight", "weight": 1 },
-        { "structure": "strangejourney:stargate/void", "weight": 1 }
+        { "structure": "strangejourney:stargate/void", "weight": 1 },
+        { "structure": "strangejourney:stargate/end", "weight": 1 },
+        { "structure": "strangejourney:stargate/nether", "weight": 1 },
+        { "structure": "strangejourney:stargate/lantea", "weight": 1 }
     ],
     "placement": {
         "salt": 125671238,

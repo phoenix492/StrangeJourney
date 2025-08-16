@@ -1,6 +1,6 @@
 {
   "config_version": "1.0.21",
-  "config_datetime": "2025-08-11_13-52-16",
+  "config_datetime": "2025-08-16_06-34-05",
   "general": {
     "min_structure_distance_from_world_center": 0,
     "disable_all_structures": false,
@@ -169,9 +169,68 @@
       "blacklisted_biomes": [
         "lunarnether:outrocks"
       ]
+    },
+    {
+      "name": "sgjourney:stargate/milky_way/temple/stargate_temple_nether",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "sgjourney:stargate/pegasus/outpost/lantean_outpost_ocean",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
+    },
+    {
+      "name": "sgjourney:stargate/universe/pedestal/universe_stargate_pedestal_island_end",
+      "is_disabled": true,
+      "enable_flatness_check": false,
+      "flatness_check_distance": 0,
+      "flatness_check_threshold": 10,
+      "enable_biome_check": false,
+      "biome_check_distance": 0,
+      "biome_check_mode": "BLACKLIST",
+      "biome_check_blacklisted_biomes": [
+        "#is_river",
+        "#is_ocean",
+        "#is_beach"
+      ],
+      "whitelisted_biomes": [],
+      "blacklisted_biomes": []
     }
   ],
   "structure_sets": [
+    {
+      "name": "sgjourney:buried_stargate",
+      "salt": 81893075,
+      "frequency": 1.0,
+      "override_global_spacing_and_separation_modifier": true,
+      "spacing": 1,
+      "separation": 0
+    },
     {
       "name": "sgjourney:stargate_outpost",
       "salt": 32146754,
@@ -205,8 +264,8 @@
       "separation": 6
     },
     {
-      "name": "strangejourney:stargate_pedestal",
-      "salt": 254981673,
+      "name": "strangejourney:stargate",
+      "salt": 173456891,
       "frequency": 1.0,
       "override_global_spacing_and_separation_modifier": true,
       "spacing": 1,
