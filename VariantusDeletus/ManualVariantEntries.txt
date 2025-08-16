@@ -450,3 +450,4 @@ wall,minecraft:yellow_concrete,absentbydesign:wall_concrete_yellow
 wall,minecraft:yellow_stained_glass,absentbydesign:wall_glass_yellow
 wall,minecraft:yellow_terracotta,absentbydesign:wall_terracotta_yellow
 wall,minecraft:yellow_wool,absentbydesign:wall_wool_yellow
+wall,tfmg:fireproof_bricks,tfmg:fireproof_brick_reinforcement
