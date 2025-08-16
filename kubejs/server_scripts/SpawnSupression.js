@@ -35,11 +35,6 @@ EntityEvents.spawned(event => {
 		}
 	}
 	
-	// Midnight rifts are disabled, stargates only.
-	if(event.entity.type == "midnight:rift") {
-		event.cancel()
-	}
-
 	// Midnight enderman things shouldn't spawn in the overworld
 	if (event.entity.type == "midnight:nightshade") {
 		if (event.entity.level.isOverworld()) {
