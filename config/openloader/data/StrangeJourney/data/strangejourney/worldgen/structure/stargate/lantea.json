@@ -1,7 +1,7 @@
 {
 	"type": "sgjourney:stargate_outpost",
 
-	"start_pool": "strangejourney:stargate/nether",
+	"start_pool": "strangejourney:stargate/lantea",
 
 	"size": 3,
 
