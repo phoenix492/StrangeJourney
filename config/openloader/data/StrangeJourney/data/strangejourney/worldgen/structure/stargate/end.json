@@ -12,8 +12,10 @@
 	"step": "strongholds",
 	
 	"start_height": {
-		"absolute": 28
+		"absolute": 0
 	},
+	
+	"project_start_to_heightmap": "WORLD_SURFACE_WG",	
 	
 	"use_expansion_hack": false,
 	
