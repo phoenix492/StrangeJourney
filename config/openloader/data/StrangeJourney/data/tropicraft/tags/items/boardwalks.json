@@ -79,6 +79,18 @@
     "everycomp:tc/quark/blossom_boardwalk",
     "everycomp:tc/malum/runewood_boardwalk",
     "everycomp:tc/malum/soulwood_boardwalk",
-    "everycomp:tc/betterarcheology/rotten_boardwalk"
+    "everycomp:tc/betterarcheology/rotten_boardwalk",
+    "everycomp:tc/caverns_and_chasms/azalea_boardwalk'",
+    "everycomp:tc/netherexp/claret_boardwalk'",
+    "everycomp:tc/hexalia/cottonwood_boardwalk'",
+    "everycomp:tc/hexalia/willow_boardwalk'",
+    "everycomp:tc/totemic/cedar_boardwalk'",
+    "everycomp:tc/sullysmod/petrified_boardwalk'",
+    "everycomp:tc/enchanted/alder_boardwalk'",
+    "everycomp:tc/enchanted/hawthorn_boardwalk'",
+    "everycomp:tc/enchanted/rowan_boardwalk'",
+    "everycomp:tc/endergetic/poise_boardwalk'",
+    "everycomp:tc/upgrade_aquatic/driftwood_boardwalk'",
+    "everycomp:tc/upgrade_aquatic/river_boardwalk'"
   ]
 }
