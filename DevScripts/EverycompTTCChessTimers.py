@@ -27,7 +27,7 @@ with open("MiscItemLists/EverycompChestTimers.txt", 'r') as chessTimersFile:
                     "item": f"{plank}"
                 },
                 "G": {
-                    "item": "minecraft:glass_block"
+                    "item": "minecraft:glass"
                 },
                 "C": {
                     "item": "minecraft:clock"
