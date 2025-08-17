@@ -1,0 +1,11 @@
+{
+    "name": "Tropicraft Textures",
+    "icon": "tropicraft:pineapple",
+    "category": "patchouli:strangeguide/credits",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The glorious retextures you see that modernize Tropicraft's graphics have been backported from 1.21 versions of the mod with permission from the artist, Hexablu. Thank you!!!"
+        }
+    ]
+}
