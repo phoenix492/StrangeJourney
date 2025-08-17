@@ -46,5 +46,5 @@ with open("MiscItemLists/EverycompChestTimers.txt", 'r') as chessTimersFile:
         }
         recipe_file = Path(f"{datapackEverycompDir}/recipes/ttc/{modid}/{woodtype}_chess_timer.json")
         recipe_file.parent.mkdir(exist_ok=True, parents=True) 
-        with recipe_file.open('x') as f:
+        with recipe_file.open('w') as f:
             f.write(json.dumps(recipe, indent=4))
