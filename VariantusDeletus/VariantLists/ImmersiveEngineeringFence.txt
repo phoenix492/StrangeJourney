@@ -1,3 +1,0 @@
-immersiveengineering:steel_fence
-immersiveengineering:alu_fence
-immersiveengineering:treated_fence

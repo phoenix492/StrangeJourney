@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir ../MiscItemLists
+
+grep '^everycomp:ttc.\+_chess_timer$' $1 > ../MiscItemLists/EverycompChestTimers.txt
