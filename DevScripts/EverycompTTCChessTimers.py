@@ -1,43 +1,50 @@
 import json
 import sys
+from pathlib import Path
 
-colors = [ 
-    "white",
-    "light_gray",
-    "gray",
-    "black",
-    "brown",
-    "red",
-    "orange",
-    "yellow",
-    "lime",
-    "green",
-    "cyan",
-    "light_blue",
-    "blue",
-    "purple",
-    "magenta",
-    "pink"
-]
+datapackEverycompDir = sys.argv[1]
 
-datapackMinecraftDir = sys.argv[1]
+def get_planks(clock_id):
+    clock_id = clock_id.strip()
+    _, modid, block = clock_id.split('/')
+    block = block.removesuffix("_chess_timer")
+    return f"{modid}:{block}_planks"
 
-for color in colors:
-    recipe = {
-        "type": "minecraft:crafting_shaped",
-        "pattern": ["WW"],
-        "key": {
-            "W": {
-                "item": f"minecraft:{color}_wool"
-            }
-        },
-        "result": {
-            "item": f"minecraft:{color}_carpet",
-            "count": 2
+with open("MiscItemLists/EverycompChestTimers.txt", 'r') as chessTimersFile:
+    lines = chessTimersFile.readlines()
+    planks = [get_planks(line) for line in lines]
+    for plank in planks:
+        modid,block = plank.split(':')
+        woodtype = block.removesuffix('_planks')
+        recipe = {
+            "type": "minecraft:crafting_shaped",
+            "pattern": ["BPB","GCI","RPR"],
+            "key": {
+                "B": {
+                    "tag": "minecraft:buttons"
+                },
+                "P": {
+                    "item": f"{plank}"
+                },
+                "G": {
+                    "item": "minecraft:glass_block"
+                },
+                "C": {
+                    "item": "minecraft:clock"
+                },
+                "I": {
+                    "item": "minecraft:iron_ingot"
+                },
+                "R": {
+                    "item": "minecraft:comparator"
+                }
+            },
+            "result": {
+                "item": f"everycomp:ttc/{modid}/{woodtype}_chess_timer",
+                "count": 1
+            } 
         }
-    }
-    with open(f"{datapackMinecraftDir}/recipes/{color}_carpet.json", 'w') as file:
-        file.write(json.dumps(recipe, indent=4)) 
-    with open(f"{datapackMinecraftDir}/recipes/dye_{color}_carpet.json", 'w') as file:
-        file.write("{}")
-
+        recipe_file = Path(f"{datapackEverycompDir}/recipes/ttc/{modid}/{woodtype}_chess_timer.json")
+        recipe_file.parent.mkdir(exist_ok=True, parents=True) 
+        with recipe_file.open('x') as f:
+            f.write(json.dumps(recipe, indent=4))

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BPB",
+        "GCI",
+        "RPR"
+    ],
+    "key": {
+        "B": {
+            "tag": "minecraft:buttons"
+        },
+        "P": {
+            "item": "totemic:cedar_planks"
+        },
+        "G": {
+            "item": "minecraft:glass_block"
+        },
+        "C": {
+            "item": "minecraft:clock"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "R": {
+            "item": "minecraft:comparator"
+        }
+    },
+    "result": {
+        "item": "everycomp:ttc/totemic/cedar_chess_timer",
+        "count": 1
+    }
+}
