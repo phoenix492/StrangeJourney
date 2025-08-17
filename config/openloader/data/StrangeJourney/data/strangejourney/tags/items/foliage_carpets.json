@@ -187,6 +187,13 @@
 		"everycomp:q/midnight/shadowroot_leaf_carpet",
 		"everycomp:q/aether_redux/fieldsproot_leaf_carpet",
 		"everycomp:q/hexcasting/aventurine_edified_leaf_carpet",
-		"everycomp:q/midnight/manglewood_leaf_carpet"
+		"everycomp:q/midnight/manglewood_leaf_carpet",
+		"everycomp:q/hexalia/cottonwood_leaf_carpet",
+		"everycomp:q/hexalia/willow_leaf_carpet",
+		"everycomp:q/totemic/cedar_leaf_carpet",
+		"everycomp:q/enchanted/alder_leaf_carpet",
+		"everycomp:q/enchanted/hawthorn_leaf_carpet",
+		"everycomp:q/enchanted/rowan_leaf_carpet",
+		"everycomp:q/upgrade_aquatic/river_leaf_carpet"
 	]
 }
