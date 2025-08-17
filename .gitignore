@@ -7,9 +7,6 @@
 rhino.local.properties
 /shaderpacks/
 /texturepacks/
-/resourcepacks/
-/Xaero*/
-/xaero/
 /saves/
 /screenshots/
 usercache.json
@@ -35,6 +32,7 @@ otyacraftengine/
 /config/structurify/
 paragliderSettings.nbt
 /DatapackStorage/
+/map_atlases/
 
 # We don't distribute options.txt, we use default options!
 options.txt
@@ -73,6 +71,7 @@ icon.png
 # We don't distribute mods directly, we use manifest files
 /coremods/
 /mods/
+/resourcepacks/
 
 # Config files for mods that won't be included in finished packs
 config/worldedit
