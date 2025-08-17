@@ -312,6 +312,10 @@
     "tfmg:purple_rebar_concrete_slab",
     "tfmg:orange_rebar_concrete_slab",
     "tfmg:black_rebar_concrete_slab",
-    "tfmg:asphalt_slab"
+    "tfmg:asphalt_slab",
+    "sullysmod:amber_brick_slab",
+    "scguns:phosphorite_brick_slab",
+    "scguns:asgharian_brick_slab",
+    "tetra:forged_platform_slab"
   ]
 }
