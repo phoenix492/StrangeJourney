@@ -161,7 +161,7 @@
 #Game tweaks
 [tweaks]
 	#Allow to right click with a clock to display current time in numerical form
-	clock_right_click = true
+	clock_right_click = false
 	#Allow to right click with a compass to display current coordinates in numerical form
 	compass_right_click = false
 	#Renders an enchantment glint on placeable enchanted booksNote that turning this on will make book piles use tile renderer instead of baked models making them slower to render
@@ -183,6 +183,8 @@
 	send_chat_on_death = true
 	#Adds an overlay to projectile weapons in gui displaying currently selected ammo
 	projectile_weapon_overlay = true
+	#Makes enderman heads use vanilla texture. Enable for texture pack support
+	enderman_head_texture_pack_support = true
 
 	[tweaks.colored_maps]
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
