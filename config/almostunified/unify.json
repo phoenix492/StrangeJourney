@@ -7,6 +7,7 @@
     "create",
     "rubinated_nether",
     "destroy",
+    "spelunkery",
     "immersiveengineering",
     "thermal",
     "mekanism",
@@ -36,6 +37,8 @@
     "forge:crops/rice"
   ],
   "materials": [
+    "saltpeter",
+    "salt",
     "slag",
     "plastic",
     "aeternium",
@@ -96,8 +99,14 @@
   "itemTagInheritance": {},
   "blockTagInheritanceMode": "ALLOW",
   "blockTagInheritance": {},
-  "ignoredTags": [],
+  "ignoredTags": [
+    "forge:dusts/salt"
+  ],
   "ignoredItems": [
+    "destroy:stainless_steel_ingot",
+    "destroy:stainless_steel_rod",
+    "destroy:stainless_steel_block",
+    "destroy:stainless_steel_sheet",
     "alexscaves:uranium",
     "alexscaves:block_of_uranium",
     "alexscaves:uranium_shard"
