@@ -63,3 +63,31 @@ modules_right = []
 		time = false
 		gpu = false
 
+[[modules_left]]
+	empty_lines = 1
+	name = "empty"
+	enabled = true
+
+	[modules_left.lines]
+		nothing = true
+
+[[modules_left]]
+	name = "location"
+	name_color = 43520
+	value_color = 5636095
+	enabled = true
+
+	[modules_left.lines]
+		light = true
+		biome = true
+		rotation = true
+		facing = true
+		slime_chunk = true
+		local_difficulty = true
+		day_ticks = true
+		days_played = true
+		dimension = true
+		highest_block = true
+		highest_block_server = true
+		light_server = true
+
