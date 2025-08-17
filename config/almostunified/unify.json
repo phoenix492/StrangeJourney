@@ -11,7 +11,8 @@
     "immersiveengineering",
     "thermal",
     "mekanism",
-    "farmersdelight"
+    "farmersdelight",
+    "deep_aether"
   ],
   "stoneStrata": [
     "stone",
@@ -34,7 +35,8 @@
     "forge:storage_blocks/{material}",
     "forge:storage_blocks/raw_{material}",
     "forge:{material}",
-    "forge:crops/rice"
+    "forge:crops/rice",
+    "strangejourney:gravitite_unification"
   ],
   "materials": [
     "saltpeter",
