@@ -1,78 +1,88 @@
 ServerEvents.recipes(event => {
-	function stoneSlabSwap(stone_slab) {
-		event.replaceInput(
-			{input: stone_slab},
-			stone_slab,
-			'kubejs:stone_panel'
-		)
-	}
 
-	// Glass PAAAAANES
+	// Glass Panes -> Glass Blocks
 	event.replaceInput(
 		{ input: '#forge:glass_panes' },
 		'#forge:glass_panes',
 		'#forge:glass'
 	)
 
-	// IE gets special treatment before the blanket wood replacement
-	// for balance preservation
+	/* Immersive Engineering gets special treatment swapping its treated wood 
+	 * variants with treated wood planks instead of just panels, since treated 
+	 * wood is restricted behind a coke oven.
+	*/ 
 	event.replaceInput(
 		{ input: '#forge:treated_wood_slab' },
 		'#forge:treated_wood_slab',
 		'#forge:treated_wood'
 	)
-
+	event.replaceInput(
+		{ input: 'immersiveengineering:treated_fence' },
+		'immersiveengineering:treated_fence',
+		'immersiveengineering:stick_treated'
+	)
+	
+	// Fences -> Sticks
 	event.replaceInput(
 		{ input: '#minecraft:fences' },
 		'#minecraft:fences',
 		'#forge:rods/wooden'
 	)
 
-	// Blanket wood replacement
+	//	Remaining Variants -> Wooden Panels 
 	event.replaceInput(
 		{ input: '#minecraft:wooden_slabs' },
 		'#minecraft:wooden_slabs',
 		'kubejs:wooden_panel'
 	)
-
-	stoneSlabSwap('minecraft:stone_slab')
-	stoneSlabSwap('minecraft:smooth_stone_slab')
-	stoneSlabSwap('minecraft:polished_andesite_stairs')
-	stoneSlabSwap('create:polished_cut_andesite_stairs')
-	stoneSlabSwap('minecraft:polished_granite_stairs')
-	stoneSlabSwap('create:polished_cut_granite_stairs')
-	stoneSlabSwap('minecraft:polished_diorite_stairs')
-	stoneSlabSwap('create:polished_cut_diorite_stairs')
-	stoneSlabSwap('minecraft:polished_deepslate_stairs')
-	stoneSlabSwap('create:polished_cut_deepslate_stairs')
-	stoneSlabSwap('create:polished_cut_dripstone_stairs')
-	stoneSlabSwap('create:polished_cut_tuff_stairs')
-	stoneSlabSwap('create:polished_cut_calcite_stairs')
-	stoneSlabSwap('create:polished_cut_limestone_stairs')
-	stoneSlabSwap('create:polished_cut_scoria_stairs')
-	stoneSlabSwap('create:polished_cut_scorchia_stairs')
-	stoneSlabSwap('create:polished_cut_crimsite_stairs')
-	stoneSlabSwap('create:polished_cut_ochrum_stairs')
-	stoneSlabSwap('create:polished_cut_veridium_stairs')
-	stoneSlabSwap('create:polished_cut_asurine_stairs')
-
-	//Once we've adjusted any recipes that use slabs that we need, we can just 
-	//blanket remove any that are left
-	event.remove({ input: '#minecraft:slabs' })
-
-	// Leftover "slab combo" recipes
-	event.remove({ id: 'mowziesmobs:painted_acacia_block_from_slab' })
-	event.remove({ id: 'minecraft:bamboo_mosaic' })
-	event.shaped(
-		Item.of('minecraft:bamboo_mosaic', 4),
-		[
-			' P ',
-			'P P',
-			' P '
-		],
-		{
-			P: 'minecraft:bamboo_planks'
-		}
+	event.replaceInput(
+		{ input: '#minecraft:wooden_stairs' },
+		'#minecraft:wooden_stairs',
+		'kubejs:wooden_panel'
 	)
+	// This tag technically also includes non-wooden items, but all of them are
+	// from compat/completeness mods so there should be none in recipes.
+	// The only recipe I've seen use these are Dark Utilites filters actually.
+	event.replaceInput(
+		{ input: '#minecraft:fence_gates' },
+		'#minecraft:fence_gates',
+		'kubejs:wooden_panel'
+	)
+	
+	/* Most stone slab recipes are of the variety 2 slabs -> orante block, 
+	 * or similar things you can just get with a stonecutter. Any slabs that have
+	 * special recipes are swapped out here before the blanket removal
+	 * taking care of the former
+	 */
+	function stoneSwap(stone_slab) {
+		event.replaceInput(
+			{ input: stone_slab },
+			stone_slab,
+			'kubejs:stone_panel'
+		)
+	}
+	stoneSwap('minecraft:stone_slab')
+	stoneSwap('minecraft:smooth_stone_slab')
+	stoneSwap('minecraft:polished_andesite_stairs')
+	stoneSwap('create:polished_cut_andesite_stairs')
+	stoneSwap('minecraft:polished_granite_stairs')
+	stoneSwap('create:polished_cut_granite_stairs')
+	stoneSwap('minecraft:polished_diorite_stairs')
+	stoneSwap('create:polished_cut_diorite_stairs')
+	stoneSwap('minecraft:polished_deepslate_stairs')
+	stoneSwap('create:polished_cut_deepslate_stairs')
+	stoneSwap('create:polished_cut_dripstone_stairs')
+	stoneSwap('create:polished_cut_tuff_stairs')
+	stoneSwap('create:polished_cut_calcite_stairs')
+	stoneSwap('create:polished_cut_limestone_stairs')
+	stoneSwap('create:polished_cut_scoria_stairs')
+	stoneSwap('create:polished_cut_scorchia_stairs')
+	stoneSwap('create:polished_cut_crimsite_stairs')
+	stoneSwap('create:polished_cut_ochrum_stairs')
+	stoneSwap('create:polished_cut_veridium_stairs')
+	stoneSwap('create:polished_cut_asurine_stairs')
+
+	// This is the final blanket removal that just nukes anything unworthy of saving.
+	event.remove({ input: Ingredient.of( '#strangejourney:variant_crafting_disabled' ) })
 })
 
