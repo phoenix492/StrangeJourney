@@ -40,6 +40,15 @@
 		"sophisticatedstorage:filter_upgrade",
 		"sophisticatedstorage:advanced_filter_upgrade",
 		"sophisticatedstorage:magnet_upgrade",
-		"sophisticatedstorage:advanced_magnet_upgrade"
+		"sophisticatedstorage:advanced_magnet_upgrade",
+		"sophisticatedstorage:stack_downgrade_tier_1",
+		"sophisticatedstorage:stack_downgrade_tier_2",
+		"sophisticatedstorage:stack_downgrade_tier_3",
+		"sophisticatedstorage:stack_upgrade_omega_tier",
+		"sophisticatedstorage:advanced_jukebox_upgrade",
+		"sophisticatedstorage:infinity_upgrade",
+		"sophisticatedstorage:survival_infinity_upgrade",
+		"sophisticatedstorage:alchemy_upgrade",
+		"sophisticatedstorage:advanced_alchemy_upgrade"
 	]
 }

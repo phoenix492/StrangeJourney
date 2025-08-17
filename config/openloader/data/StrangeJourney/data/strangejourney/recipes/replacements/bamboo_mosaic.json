@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " P ",
+        "P P",
+        " P "
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:bamboo_planks"
+        }
+    },
+    "result": {
+      "item": "minecraft:bamboo_mosaic",
+      "count": 4
+    }
+}
