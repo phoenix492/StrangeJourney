@@ -1,11 +1,16 @@
 {
-    "name": "Vanilla",
+    "name": "Vanilla Changes",
     "icon": "minecraft:grass_block",
     "category": "patchouli:strangeguide/modchanges",
     "pages": [
         {
             "type": "patchouli:text",
             "text": "Not even vanilla escaped my grubby little paws touching and balancing passing on nearly everything. Despite the impression that mods would entirely powercreep vanilla, that's not always true. I also just like to tweak and change things."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Spelunkery",
+            "text": "Spelunkery is a mod that overhauls the basic ore processing of Minecraft, particularly when it comes to gems. Checking out EMI for items you get should handle it for you, but the short version is Deepslate ores give extra nuggets and to get gemstones and dusts into a usuable form you'll need to grind them on a grindstone with a right click or use one of the many ore processing mods avaliable."
         },
         {
             "type": "patchouli:spotlight",

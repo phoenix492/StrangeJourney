@@ -10,6 +10,7 @@
         {
             "type": "patchouli:relations",
             "entries": [
+                "patchouli:strangeguide/modchanges/vanilla",
                 "patchouli:strangeguide/gameplaychanges/portals",
                 "patchouli:strangeguide/gameplaychanges/combatnouveau",
                 "patchouli:strangeguide/gameplaychanges/variantremoval",
