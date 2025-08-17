@@ -1,6 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"tfmg:slag"
+		"tfmg:slag",
+		"destroy:slag"
 	]
 }
