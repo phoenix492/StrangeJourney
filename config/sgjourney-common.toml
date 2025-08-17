@@ -67,7 +67,7 @@
 			#If true, allow the disintegration of Items by Kawooshes
 			kawoosh_disintegrates_items = false
 			#Decides if 8-chevron addresses can be used for dialing within the same galaxy
-			allow_interstellar_8_chevron_addresses = true
+			allow_interstellar_8_chevron_addresses = false
 			#Decides if two Stargates from the same Solar System should be able to connect
 			allow_system_wide_connections = true
 			#Enables the use of redstone for manual Stargate dialing
@@ -89,19 +89,19 @@
 			universe_fast_rotation = true
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
-			universe_chevron_lock_speed = "SLOW"
+			universe_chevron_lock_speed = "FAST"
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
-			milky_way_chevron_lock_speed = "SLOW"
+			milky_way_chevron_lock_speed = "FAST"
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
-			pegasus_chevron_lock_speed = "MEDIUM"
+			pegasus_chevron_lock_speed = "FAST"
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
-			classic_chevron_lock_speed = "SLOW"
+			classic_chevron_lock_speed = "FAST"
 			#FAST - Incoming Chevrons take 4 Ticks to lock; MEDIUM - Incoming Chevrons take 8 Ticks to lock; SLOW - Incoming Chevrons take 12 Ticks to lock
 			#Allowed Values: SLOW, MEDIUM, FAST
-			tollan_chevron_lock_speed = "MEDIUM"
+			tollan_chevron_lock_speed = "FAST"
 			#The maximum connection time can be extended by increasing the energy input
 			enable_energy_bypass = false
 			#If true, the wormhole will draw power from both connected Stargates

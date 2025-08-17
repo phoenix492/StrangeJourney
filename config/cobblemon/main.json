@@ -48,7 +48,7 @@
   "faintAwakenHealthPercent": 0.2,
   "healPercent": 0.05,
   "healTimer": 60,
-  "baseApricornTreeGenerationChance": 0,
+  "baseApricornTreeGenerationChance": 0.0,
   "ninjaskCreatesShedinja": true,
   "displayEntityLevelLabel": true,
   "shinyRate": 8192.0,

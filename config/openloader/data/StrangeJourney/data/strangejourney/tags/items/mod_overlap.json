@@ -121,6 +121,7 @@
 		"caverns_and_chasms:polished_tuff",
 		"quark:cobblestone_bricks",
 		"quark:mossy_cobblestone_bricks",
-		"quark:gold_bars"
+		"quark:gold_bars",
+		"mekanism:block_salt"
 	]
 }

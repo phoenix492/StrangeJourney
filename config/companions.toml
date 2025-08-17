@@ -50,7 +50,9 @@
 	#Default: 13
 	#Range: 0 ~ 100
 	DINAMO_MAX_CONNECTION_DISTANCE = 13
-	#Max life of the Dinamo Default: 65.0
+	#Max life of the Dinamo
+	#
+	#Default: 65.0
 	#Range: 0.0 ~ 5000.0
 	DINAMO_MAX_LIFE = 65.0
 	#Electricity damage from both Dinamo and tesla network blocks.
