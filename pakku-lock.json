@@ -5752,49 +5752,6 @@
             ]
         },
         {
-            "pakku_id": "172g3sCg1Ech42eU",
-            "pakku_links": [
-                "xeJctMDMkhqyjf8m",
-                "0wdZqtgPFe2cLDVw"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "stone-zone"
-            },
-            "name": {
-                "curseforge": "Every Compat (Stone Zone)"
-            },
-            "id": {
-                "curseforge": "1154622"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "stonezone-1.20-2.8.16.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6881/497/stonezone-1.20-2.8.16.jar",
-                    "id": "6881497",
-                    "parent_id": "1154622",
-                    "hashes": {
-                        "sha1": "5b93b89edba124759b9bf486f133bb965a1fa680",
-                        "md5": "86b05c39537e3e2e39ae52be3aeb058b"
-                    },
-                    "required_dependencies": [
-                        "628539",
-                        "499980"
-                    ],
-                    "size": 979930,
-                    "date_published": "2025-08-13T09:04:01.243Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "xeJctMDMkhqyjf8m",
             "pakku_links": [
                 "0wdZqtgPFe2cLDVw"

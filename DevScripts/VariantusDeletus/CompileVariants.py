@@ -109,7 +109,7 @@ if __name__ == "__main__":
     variants += process("VariantLists/EverycompPlankWalls.txt", transform_everycomp_plank_walls)
     variants += process("ManualVariantEntries.txt", transform_noop)
     
-    quark_config = TOMLFile("../config/quark-common.toml")
+    quark_config = TOMLFile("../../config/quark-common.toml")
     quark_config_read = quark_config.read()
     quark_config_read["experimental"]["variant_selector"]["variants"]["Manual Variants"] = variants
     quark_config.write(quark_config_read)
