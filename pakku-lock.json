@@ -299,7 +299,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedLootInfo-forge-1.20.1-1.2.4.jar",
+                    "file_name": "AdvancedLootInfo-forge-1.20.1-1.2.5.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -308,16 +308,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6883/324/AdvancedLootInfo-forge-1.20.1-1.2.4.jar",
-                    "id": "6883324",
+                    "url": "https://edge.forgecdn.net/files/6895/734/AdvancedLootInfo-forge-1.20.1-1.2.5.jar",
+                    "id": "6895734",
                     "parent_id": "1205426",
                     "hashes": {
-                        "sha1": "7091591e07854cdb82d8b2301c79bd22ea9348d4",
-                        "md5": "097a115b281d19884a883f65f9d710c9"
+                        "sha1": "ab326518cbd007e71826ccd7b5fc670cbc218ecf",
+                        "md5": "750860b84ddf0e9edabeaa123051daea"
                     },
                     "required_dependencies": [],
-                    "size": 394369,
-                    "date_published": "2025-08-13T18:55:13.563Z"
+                    "size": 394389,
+                    "date_published": "2025-08-17T09:05:12.163Z"
                 }
             ]
         },
@@ -6680,7 +6680,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "st_gsoc-1.20.1-2.3.jar",
+                    "file_name": "st_gsoc-1.20.1-2.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6688,16 +6688,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6600/922/st_gsoc-1.20.1-2.3.jar",
-                    "id": "6600922",
+                    "url": "https://edge.forgecdn.net/files/6895/947/st_gsoc-1.20.1-2.4.jar",
+                    "id": "6895947",
                     "parent_id": "1144022",
                     "hashes": {
-                        "sha1": "816579618342eb13373be28b2f7070388c1ae4e9",
-                        "md5": "714dbfa730e0ba44045746bf18eb6e17"
+                        "sha1": "eb9229c584677094b794ad875692015cef305622",
+                        "md5": "0d7904f7cdf8e54819880194a04e76ec"
                     },
-                    "required_dependencies": [],
-                    "size": 197028,
-                    "date_published": "2025-05-31T12:17:45.320Z"
+                    "required_dependencies": [
+                        "790530",
+                        "631098",
+                        "769203"
+                    ],
+                    "size": 185377,
+                    "date_published": "2025-08-17T10:24:11.437Z"
                 }
             ]
         },
@@ -7567,49 +7571,6 @@
                     ],
                     "size": 621629,
                     "date_published": "2025-07-30T14:52:47.807Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "oc84191N26fdqsCh",
-            "pakku_links": [
-                "GX8pfYCmkK9RJd8H"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "integrated-villages"
-            },
-            "name": {
-                "curseforge": "Integrated Villages"
-            },
-            "id": {
-                "curseforge": "661376"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "integrated_villages-1.3.0+1.20.1-forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6701/488/integrated_villages-1.3.0+1.20.1-forge.jar",
-                    "id": "6701488",
-                    "parent_id": "661376",
-                    "hashes": {
-                        "sha1": "69843dfb42bf9420ff94586cdb4cf4b488efd08f",
-                        "md5": "07c3597117db3748ccbbb2290a5a493f"
-                    },
-                    "required_dependencies": [
-                        "412082",
-                        "817709"
-                    ],
-                    "size": 4664420,
-                    "date_published": "2025-06-27T14:57:30.563Z"
                 }
             ]
         },
@@ -10075,7 +10036,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "NuclearCraft-1.20.1-1.2.6-rc.2.jar",
+                    "file_name": "NuclearCraft-1.20.1-1.2.6-rc.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -10084,16 +10045,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6892/652/NuclearCraft-1.20.1-1.2.6-rc.2.jar",
-                    "id": "6892652",
+                    "url": "https://edge.forgecdn.net/files/6899/485/NuclearCraft-1.20.1-1.2.6-rc.4.jar",
+                    "id": "6899485",
                     "parent_id": "840010",
                     "hashes": {
-                        "sha1": "241424aacae753195f6958b7eebb4255f78b3847",
-                        "md5": "459a616d5461e025c6d622532dd27b63"
+                        "sha1": "6c55fcf399ccd15598db881d33d587b69fd93192",
+                        "md5": "56d1e00bc5ca62e01d1386efcfc9250e"
                     },
                     "required_dependencies": [],
-                    "size": 14267079,
-                    "date_published": "2025-08-16T11:19:34.593Z"
+                    "size": 14268937,
+                    "date_published": "2025-08-18T09:17:22.270Z"
                 }
             ]
         },
@@ -12155,7 +12116,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedbackpacks-1.20.1-3.23.24.1302.jar",
+                    "file_name": "sophisticatedbackpacks-1.20.1-3.23.25.1307.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12164,18 +12125,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6881/782/sophisticatedbackpacks-1.20.1-3.23.24.1302.jar",
-                    "id": "6881782",
+                    "url": "https://edge.forgecdn.net/files/6896/734/sophisticatedbackpacks-1.20.1-3.23.25.1307.jar",
+                    "id": "6896734",
                     "parent_id": "422301",
                     "hashes": {
-                        "sha1": "72ccdb19b2b6d90915ddaf1541b1c2657c2a571d",
-                        "md5": "0c747a80bbc90a678063bc7e2f39beaf"
+                        "sha1": "416b12e52191c651d170a397dc840727c4fdf361",
+                        "md5": "52b18ddfeaf82a9426f6f758ed74c802"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 935036,
-                    "date_published": "2025-08-13T10:48:56.533Z"
+                    "size": 935659,
+                    "date_published": "2025-08-17T14:47:12.160Z"
                 }
             ]
         },
@@ -12194,7 +12155,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedcore-1.20.1-1.2.80.1073.jar",
+                    "file_name": "sophisticatedcore-1.20.1-1.2.81.1091.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12203,16 +12164,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6859/221/sophisticatedcore-1.20.1-1.2.80.1073.jar",
-                    "id": "6859221",
+                    "url": "https://edge.forgecdn.net/files/6896/721/sophisticatedcore-1.20.1-1.2.81.1091.jar",
+                    "id": "6896721",
                     "parent_id": "618298",
                     "hashes": {
-                        "sha1": "fdaef9b68060e6fac7b2858dda22a1aa011868ce",
-                        "md5": "443f9ea65e806cec09d4b4fe96b0eefd"
+                        "sha1": "86baecc9b4b4354889143f4a207ee67a30cf84d0",
+                        "md5": "a46123b545562222da182049a1ce64d5"
                     },
                     "required_dependencies": [],
-                    "size": 1338206,
-                    "date_published": "2025-08-07T12:27:03.543Z"
+                    "size": 1340139,
+                    "date_published": "2025-08-17T14:40:39.577Z"
                 }
             ]
         },
@@ -12231,7 +12192,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedstorage-1.20.1-1.3.59.1224.jar",
+                    "file_name": "sophisticatedstorage-1.20.1-1.3.60.1226.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12240,18 +12201,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6869/26/sophisticatedstorage-1.20.1-1.3.59.1224.jar",
-                    "id": "6869026",
+                    "url": "https://edge.forgecdn.net/files/6898/110/sophisticatedstorage-1.20.1-1.3.60.1226.jar",
+                    "id": "6898110",
                     "parent_id": "619320",
                     "hashes": {
-                        "sha1": "226d87e15c6ea6f1b0e8151ef725780a04e90028",
-                        "md5": "3ab249f1c38f91a9939a198ccc340e56"
+                        "sha1": "f439deee4e5396bc8a67e17a3aeed1998659e48c",
+                        "md5": "b9caa41761a6630e271f78b8b9b3430e"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1618266,
-                    "date_published": "2025-08-09T21:19:45.637Z"
+                    "size": 1618282,
+                    "date_published": "2025-08-17T21:37:03.137Z"
                 }
             ]
         },
