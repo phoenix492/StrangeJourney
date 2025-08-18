@@ -47,13 +47,6 @@ options.txt
 /VariantusDeletus/ItemMasterlist.txt
 
 # These are updated too often to include in VCS
-config/oculus.properties
-config/jeiintegration-client.toml
-config/attributefix.json
-config/xaerominimap_entities.json
-config/fabric/
-fabricloader.log
-config/everycomp-hazardous.properties 
 config/crash_assistant/modlist.json
 
 # Spark Stuff
