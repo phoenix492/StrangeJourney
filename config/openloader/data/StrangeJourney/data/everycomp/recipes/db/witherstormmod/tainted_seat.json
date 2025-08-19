@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "witherstormmod:tainted_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/witherstormmod/tainted_seat",
+        "count": 1
+    }
+}

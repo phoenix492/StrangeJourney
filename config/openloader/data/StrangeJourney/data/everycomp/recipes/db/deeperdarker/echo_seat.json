@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "deeperdarker:echo_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/deeperdarker/echo_seat",
+        "count": 1
+    }
+}

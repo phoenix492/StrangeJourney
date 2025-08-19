@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "betterarcheology:rotten_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/betterarcheology/rotten_seat",
+        "count": 1
+    }
+}

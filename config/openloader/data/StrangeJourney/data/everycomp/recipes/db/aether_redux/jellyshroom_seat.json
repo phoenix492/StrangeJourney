@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "aether_redux:jellyshroom_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/aether_redux/jellyshroom_seat",
+        "count": 1
+    }
+}

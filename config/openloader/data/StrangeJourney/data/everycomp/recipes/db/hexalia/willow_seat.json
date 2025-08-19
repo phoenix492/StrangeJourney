@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "hexalia:willow_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/hexalia/willow_seat",
+        "count": 1
+    }
+}

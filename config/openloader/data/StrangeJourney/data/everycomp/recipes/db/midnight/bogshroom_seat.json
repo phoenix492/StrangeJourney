@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "midnight:bogshroom_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/midnight/bogshroom_seat",
+        "count": 1
+    }
+}

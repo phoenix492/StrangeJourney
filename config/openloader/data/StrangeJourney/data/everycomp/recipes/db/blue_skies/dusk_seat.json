@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "blue_skies:dusk_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/blue_skies/dusk_seat",
+        "count": 1
+    }
+}

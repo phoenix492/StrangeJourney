@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "hexerei:witch_hazel_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/hexerei/witch_hazel_seat",
+        "count": 1
+    }
+}

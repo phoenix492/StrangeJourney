@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "tropicraft:mahogany_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/tropicraft/mahogany_seat",
+        "count": 1
+    }
+}

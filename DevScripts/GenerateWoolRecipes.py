@@ -1,28 +1,10 @@
 import json
 import sys
-
-colors = [ 
-    "white",
-    "light_gray",
-    "gray",
-    "black",
-    "brown",
-    "red",
-    "orange",
-    "yellow",
-    "lime",
-    "green",
-    "cyan",
-    "light_blue",
-    "blue",
-    "purple",
-    "magenta",
-    "pink"
-]
+import Typelist
 
 datapackMinecraftDir = sys.argv[1]
 
-for color in colors:
+for color in Typelist.colors:
     recipe = {
         "type": "minecraft:crafting_shaped",
         "pattern": ["WW"],

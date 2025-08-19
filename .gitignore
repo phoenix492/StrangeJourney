@@ -33,6 +33,8 @@ otyacraftengine/
 paragliderSettings.nbt
 /DatapackStorage/
 /map_atlases/
+/DevScripts/VariantusDeletus/__pycache__
+/DevScripts/__pycache__
 
 # We don't distribute options.txt, we use default options!
 options.txt

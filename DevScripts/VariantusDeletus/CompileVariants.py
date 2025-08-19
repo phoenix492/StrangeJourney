@@ -1,16 +1,11 @@
 from tomlkit.toml_file import TOMLFile
+import Typelists
 
-def transform_quark_mc_carpets(variant_id):
-    variant_id = variant_id.strip()
-    _,item = variant_id.split(':')
-    woodtype = item.removesuffix("_leaf_carpet")
-    return f"unique,minecraft:{woodtype}_leaves,{variant_id}"
-
-def transform_quark_mc_hedges(variant_id):
-    variant_id = variant_id.strip()
-    _,item = variant_id.split(':')
-    woodtype = item.removesuffix("_hedge")
-    return f"unique2,minecraft:{woodtype}_leaves,{variant_id}"
+def injectVanillaWoods(templateString):
+    outputArray = []
+    for woodtype in Typelists.vanilla_woods:
+        outputArray.append(templateString.format(wood = woodtype))
+    return outputArray
 
 def transform_quark_carpets(variant_id):
     variant_id = variant_id.strip()
@@ -78,6 +73,24 @@ def transform_everycomp_plank_walls(variant_id):
     block = block.removeprefix("wall_") 
     return f"wall,{modid}:{block},{variant_id}"
 
+def transform_everycomp_supports(variant_id):
+    variant_id = variant_id.strip()
+    _, modid, block = variant_id.removeprefix("everycomp:").split('/')
+    block = block.removesuffix("_support")
+    return f"unique4,{modid}:{block}_planks,{variant_id}"
+
+def transform_everycomp_beams(variant_id):
+    variant_id = variant_id.strip()
+    _, modid, block = variant_id.removeprefix("everycomp:").split('/')
+    block = block.removesuffix("_beam")
+    return f"unique2,{modid}:stripped_{block}_log,{variant_id}"
+
+def transform_everycomp_palisades(variant_id):
+    variant_id = variant_id.strip()
+    _, modid, block = variant_id.removeprefix("everycomp:").split('/')
+    block = block.removesuffix("_palisade")
+    return f"unique3,{modid}:{block}_log,{variant_id}"
+
 def transform_noop(variant_id):
     variant_id = variant_id.strip()
     return variant_id
@@ -94,8 +107,6 @@ def process(filepath, transformation_function):
 
 if __name__ == "__main__":
     variants = []
-    variants += process("VariantLists/QuarkCarpetsMC.txt", transform_quark_mc_carpets)
-    variants += process("VariantLists/QuarkHedgesMC.txt", transform_quark_mc_hedges)
     variants += process("VariantLists/QuarkHedges.txt", transform_quark_hedges)
     variants += process("VariantLists/QuarkCarpets.txt", transform_quark_carpets)
     variants += process("VariantLists/EverycompCarpets.txt", transform_everycomp_carpets)
@@ -107,6 +118,18 @@ if __name__ == "__main__":
     variants += process("VariantLists/EverycompLogFences.txt", transform_everycomp_log_fences)
     variants += process("VariantLists/EverycompLogWalls.txt", transform_everycomp_log_walls)
     variants += process("VariantLists/EverycompPlankWalls.txt", transform_everycomp_plank_walls)
+    variants += process("VariantLists/EverycompBeams.txt", transform_everycomp_beams)
+    variants += process("VariantLists/EverycompSupports.txt", transform_everycomp_supports)
+    variants += process("VariantLists/EverycompPalisades.txt", transform_everycomp_palisades)
+    variants += injectVanillaWoods("unique,minecraft:{wood}_leaves,quark:{wood}_leaf_carpet")
+    variants += injectVanillaWoods("unique,minecraft:{wood}_log,quark:{wood}_post")
+    variants += injectVanillaWoods("unique,minecraft:stripped_{wood}_log,quark:stripped_{wood}_post")
+    variants += injectVanillaWoods("unique2,minecraft:{wood}_log,quark:hollow_{wood}_log")
+    variants += injectVanillaWoods("unique2,minecraft:{wood}_leaves,quark:{wood}_hedge")
+    variants += injectVanillaWoods("unique2,minecraft:stripped_{wood}_log,decorative_blocks:{wood}_beam")
+    variants += injectVanillaWoods("unique2,minecraft:{wood}_planks,twilightforest:{wood}_banister")
+    variants += injectVanillaWoods("unique3,minecraft:{wood}_log,decorative_blocks:{wood}_palisade")
+    variants += injectVanillaWoods("unique4,minecraft:{wood}_planks,decorative_blocks:{wood}_support")
     variants += process("ManualVariantEntries.txt", transform_noop)
     
     quark_config = TOMLFile("../../config/quark-common.toml")

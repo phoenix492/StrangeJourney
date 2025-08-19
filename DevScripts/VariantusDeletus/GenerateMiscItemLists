@@ -2,3 +2,4 @@
 mkdir ../MiscItemLists
 
 grep '^everycomp:ttc.\+_chess_timer$' $1 > ../MiscItemLists/EverycompChestTimers.txt
+grep '^everycomp:db.\+_seat$' $1 > ../MiscItemLists/EverycompSeats.txt

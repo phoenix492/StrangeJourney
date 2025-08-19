@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "deep_aether:sunroot_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/deep_aether/sunroot_seat",
+        "count": 1
+    }
+}

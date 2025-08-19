@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "aether_redux:crystal_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/aether_redux/crystal_seat",
+        "count": 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "undergarden:smogstem_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/undergarden/smogstem_seat",
+        "count": 1
+    }
+}

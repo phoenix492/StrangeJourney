@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "S S"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "P": {
+            "item": "ancient_aether:highsproot_planks"
+        }
+    },
+    "result": {
+        "item": "everycomp:db/ancient_aether/highsproot_seat",
+        "count": 1
+    }
+}
