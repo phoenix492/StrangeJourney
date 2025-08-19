@@ -1,8 +1,9 @@
 # Developer Notes
 ## Unique Variant Slots
 - Unique: Carpets, Glass Panes, Fence Gates, Sheets, Posts, Chutes, Concrete Sheet, Thatch Roof
-- Unique2: Banisters, Concrete Quarter, Hedge, Hollow Logs
+- Unique2: Banisters, Concrete Quarter, Hedge, Hollow Logs, decorative_blocks:stone_pillar, (Stripped)Beams
 - Unique3: Boardwalks, Concrete Chunk
+- Unique4: Supports
 ## Mod Overlap Protocol
 - Make sure this isn't a usecase for Almost Unified
 - Choose a mod/block to take priority
