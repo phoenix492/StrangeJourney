@@ -91,3 +91,17 @@ modules_right = []
 		highest_block_server = true
 		light_server = true
 
+[[modules_left]]
+	color_x = 16733525
+	color_y = 5635925
+	color_z = 5636095
+	name = "coords"
+	name_color = 16733525
+	enabled = true
+
+	[modules_left.lines]
+		chunk_coords = true
+		player_coords = true
+		block_coords = true
+		chunk_relative_coords = true
+

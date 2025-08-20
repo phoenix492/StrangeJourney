@@ -132,6 +132,17 @@
         "value": 2048
       }
     },
+    "solarcraft:magic_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "minecraft:generic.luck": {
       "enabled": true,
       "min": {
@@ -944,6 +955,17 @@
       "max": {
         "default": 32,
         "value": 32
+      }
+    },
+    "solarcraft:health_no_limit": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 2147483647,
+        "value": 2147483647
       }
     },
     "wizards_reborn:wissen_discount": {

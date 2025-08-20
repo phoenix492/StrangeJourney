@@ -3484,6 +3484,48 @@
             ]
         },
         {
+            "pakku_id": "TYqPGY8E6YgnkNkX",
+            "pakku_links": [
+                "mOkgLZmKutW96xi1"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cosmopolitan"
+            },
+            "name": {
+                "curseforge": "Cosmopolitan"
+            },
+            "id": {
+                "curseforge": "1259209"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cosmopolitan-1.20.1-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6757/596/cosmopolitan-1.20.1-1.1.0.jar",
+                    "id": "6757596",
+                    "parent_id": "1259209",
+                    "hashes": {
+                        "sha1": "66fe05ae1e167f32f5c2943694f94a0758ed2fbc",
+                        "md5": "6da70ecc30b999aab6941570514b13d3"
+                    },
+                    "required_dependencies": [
+                        "382216"
+                    ],
+                    "size": 1487173,
+                    "date_published": "2025-07-11T21:12:54.663Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "jdgHqLLTu3O8ZbJ2",
             "type": "MOD",
             "slug": {
@@ -7227,6 +7269,49 @@
                     "required_dependencies": [],
                     "size": 482946,
                     "date_published": "2025-01-28T15:27:04.890Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2w3w97JUJZRzzZ9c",
+            "pakku_links": [
+                "ghKablllDy7kXFpj",
+                "F3baCObjsbgKsMoi"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "industrial-foregoing"
+            },
+            "name": {
+                "curseforge": "Industrial Foregoing"
+            },
+            "id": {
+                "curseforge": "266515"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "industrial-foregoing-1.20.1-3.5.20.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6626/653/industrial-foregoing-1.20.1-3.5.20.jar",
+                    "id": "6626653",
+                    "parent_id": "266515",
+                    "hashes": {
+                        "sha1": "09f14a60d5d945a8de428fa3766f788d3c333a5e",
+                        "md5": "3e743d26ee9182db0ac22514a3d3e91e"
+                    },
+                    "required_dependencies": [
+                        "287342",
+                        "306770"
+                    ],
+                    "size": 4528434,
+                    "date_published": "2025-06-07T18:03:29.540Z"
                 }
             ]
         },
@@ -11842,6 +11927,48 @@
             ]
         },
         {
+            "pakku_id": "CvrHXkJoiq8o5FoA",
+            "pakku_links": [
+                "kJ6W6HALB56ESpie"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "scannable"
+            },
+            "name": {
+                "curseforge": "Scannable"
+            },
+            "id": {
+                "curseforge": "266784"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "scannable-MC1.20.1-forge-1.7.12+18ccb75.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4763/70/scannable-MC1.20.1-forge-1.7.12+18ccb75.jar",
+                    "id": "4763070",
+                    "parent_id": "266784",
+                    "hashes": {
+                        "sha1": "f9a3bfe620e6e9062833a9b98011df8dc39e75c8",
+                        "md5": "e57d955d7a5f1c5c7c66ac9c6451a250"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 399467,
+                    "date_published": "2023-09-22T08:20:23.577Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wsHL1vBRwNlQGA95",
             "type": "MOD",
             "slug": {
@@ -12132,6 +12259,43 @@
                     "required_dependencies": [],
                     "size": 219393,
                     "date_published": "2023-06-11T05:14:19.783Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GM8KuUO4ugiPK2DJ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "solar-forge"
+            },
+            "name": {
+                "curseforge": "Solar Craft"
+            },
+            "id": {
+                "curseforge": "479100"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "solarcraft-1.20.1-3.3.1.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5255/888/solarcraft-1.20.1-3.3.1.1.jar",
+                    "id": "5255888",
+                    "parent_id": "479100",
+                    "hashes": {
+                        "sha1": "151477c5c6509728d6f2892e3a7bc261a757090e",
+                        "md5": "5f5f689c9113daf85fc2f067bdbd1dea"
+                    },
+                    "required_dependencies": [],
+                    "size": 9293473,
+                    "date_published": "2024-04-12T09:50:54.510Z"
                 }
             ]
         },
@@ -12715,6 +12879,49 @@
                     ],
                     "size": 13647512,
                     "date_published": "2025-08-15T10:18:50.317Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "w62zRm2yiAaH5sLY",
+            "pakku_links": [
+                "F3baCObjsbgKsMoi",
+                "ghKablllDy7kXFpj"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sushigocrafting"
+            },
+            "name": {
+                "curseforge": "Sushi Go Crafting"
+            },
+            "id": {
+                "curseforge": "452500"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sushigocrafting-1.20.1-0.5.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5638/169/sushigocrafting-1.20.1-0.5.3.jar",
+                    "id": "5638169",
+                    "parent_id": "452500",
+                    "hashes": {
+                        "sha1": "abd15442389827d9196c2dc703a62cbe0a2f1090",
+                        "md5": "13335fd10d53b0b247dccd5edcad1090"
+                    },
+                    "required_dependencies": [
+                        "306770",
+                        "287342"
+                    ],
+                    "size": 707425,
+                    "date_published": "2024-08-17T17:53:27.553Z"
                 }
             ]
         },
@@ -13528,6 +13735,42 @@
                     ],
                     "size": 235698,
                     "date_published": "2024-05-26T06:06:20.800Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ghKablllDy7kXFpj",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "titanium"
+            },
+            "name": {
+                "curseforge": "Titanium"
+            },
+            "id": {
+                "curseforge": "287342"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "titanium-1.20.1-3.8.32.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5468/426/titanium-1.20.1-3.8.32.jar",
+                    "id": "5468426",
+                    "parent_id": "287342",
+                    "hashes": {
+                        "sha1": "4672c64a8019e81a4a6c8239f20661d5edbd5da1",
+                        "md5": "75baf7f67163a1da0fbb6a8bc98fa012"
+                    },
+                    "required_dependencies": [],
+                    "size": 622068,
+                    "date_published": "2024-06-24T17:03:52.457Z"
                 }
             ]
         },
